@@ -1,0 +1,9 @@
+#header {
+    height: 70px; !important;
+}
+
+#placardContainer {
+    left: 0px !important;
+    width: 100% !important;
+    bottom: -5px !important;
+}
