@@ -189,7 +189,7 @@
 		</Placemark>
 		<Placemark>
 			<name>Narrow ridges</name>
-			<description><![CDATA[<a href=""><iframe src="https://www.google.com/maps/embed?pb=!4v1514480153728!6m8!1m7!1seRB2VNngX6YRCn7pi5tByQ!2m2!1d44.32551247222758!2d-78.22054218597313!3f274.25280717929496!4f-7.742427250773872!5f0.7820865974627469" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></a>These narrow ridges are the tails of a large ‘comet-like’ drumlin.]]></description>
+			<description><![CDATA[<a href=""><iframe src="https://www.google.com/maps/embed?pb=!4v1514480153728!6m8!1m7!1seRB2VNngX6YRCn7pi5tByQ!2m2!1d44.32551247222758!2d-78.22054218597313!3f274.25280717929496!4f-7.742427250773872!5f0.7820865974627469" width="100%" height="auto" frameborder="0" style="border:0" allowfullscreen></iframe></a>These narrow ridges are the tails of a large ‘comet-like’ drumlin.]]></description>
 			<styleUrl>#msn_503-wht-blank_maps0</styleUrl>
 			<Point>
 				<coordinates>-78.2210255,44.3257208,0</coordinates>
