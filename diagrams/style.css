@@ -1,3 +1,7 @@
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .tooltipster-sidetip.tooltipster-punk
 .tooltipster-box{
   border-bottom:3px solid #50E3C2;  /*colored line at popup bottom*/
@@ -20,7 +24,7 @@
 .tooltipster-sidetip.tooltipster-punk
 .tooltipster-content{color:#000;padding:8px 16px; font-family:'Arial';}
 
-img {
+#expandfull {
 	width:5%;
   	height: auto;
   	position: absolute;
@@ -28,7 +32,7 @@ img {
   	opacity: 0.5;
   	filter: alpha(opacity=50);  /* For IE8 and earlier */
 }
-img:hover {
+#expandfull:hover {
 	opacity: 1;
 	filter: alpha(opacity=100);  /* For IE8 and earlier */
 }
