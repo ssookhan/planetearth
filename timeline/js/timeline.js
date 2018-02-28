@@ -5545,12 +5545,6 @@ TL.BigYear = TL.Class.extend({
 (function(cls){
     // human scales
     cls.SCALES = [ // ( name, units_per_tick, flooring function )
-        ['millisecond',1, function(d) { }],
-        ['second',1000, function(d) { d.setMilliseconds(0);}],
-        ['minute',1000 * 60, function(d) { d.setSeconds(0);}],
-        ['hour',1000 * 60 * 60, function(d) { d.setMinutes(0);}],
-        ['day',1000 * 60 * 60 * 24, function(d) { d.setHours(0);}],
-        ['month',1000 * 60 * 60 * 24 * 30, function(d) { d.setDate(1);}],
         ['year',1000 * 60 * 60 * 24 * 365, function(d) { d.setMonth(0);}],
         ['decade',1000 * 60 * 60 * 24 * 365 * 10, function(d) {
             var real_year = d.getFullYear();
@@ -5744,10 +5738,6 @@ TL.BigDate = TL.Date.extend({
 
     // cosmological scales
     cls.SCALES = [ // ( name, units_per_tick, flooring function )
-				['year',1, new Floorer(1)],
-				['decade',10, new Floorer(10)],
-				['century',100, new Floorer(100)],
-				['millennium',1000, new Floorer(1000)],
         ['age',AGE, new Floorer(AGE)],          // 1M years
         ['epoch',EPOCH, new Floorer(EPOCH)],    // 10M years
         ['era',ERA, new Floorer(ERA)],          // 100M years
