@@ -1,0 +1,526 @@
+{
+	"storymap":{
+		"slides": [
+			{
+				"type": 					"overview",
+				"text": {
+					"headline": 			"The Urbanization of Southern Ontario",
+					"text": 				""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				44.138698,
+					"lon": 				-81.132912,
+					"name": 				"Walkerton: Why We Need to Protect Groundwater",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Walkerton: Why We Need to Protect Groundwater",
+					"text": 			"The year 2000 was not only the end of the last century but the beginning of a new era in understanding Ontario's geology. That was the year when there were numerous cases of gastrointestinal illness in the small community of Walkerton (population 5000) some 180 kilometres northwest of Toronto. Seven people died. The town's water supply from a series of pumped wells using groundwater had become badly contaminated. Henceforth, groundwater  in Ontario could not be taken for granted but needed protecting. This triggered many studies of the geology of aquifers  and lead to a better understanding of the province's shallow geology consisting of complex glacial sediments left by ice sheets. Walkerton is home to the Clean Water Center which advises towns and municipalities on how they can protect their drinking water supplies."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/W36a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				44.527291,
+					"lon": 				-80.354869,
+					"name": 				"Tourism at Blue Mountain",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Tourism at Blue Mountain",
+					"text": 			"Prior to the construction of the Blue Mountain Ski Resort, this area was primarily agricultural and looked much like any other area on the Niagara Escarpment, with deep gullies scarring the slope. Today, it is the most popular ski hill in Ontario. The slope has undergone extensive remolding and engineering to improve the skiing experience including filling in of the gullies and smoothing of the base to make slopes longer. What was once isolated farmland is now a thriving tourism industry. "
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A9/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.286508,
+					"lon": 				-79.93004,
+					"name": 				"Restoration of Cootes Paradise ",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Restoration of Cootes Paradise ",
+					"text": 			"This is a large wetland and lagoon lying to the west of the old glacial Lake Iroquois Spit now occupied by Highway 403. The Desjardins Canal was dug through Burlington Heights into Cootes Paradise in 1837 to connect the town of Dundas with Lake Ontario, but fell into disuse by the 1900's. Loss of wetland caused by industrial and agricultural pollutants and invasive carp entering the paradise from Hamilton Harbour is clearly visible around the Desjardins Canal. Restoration efforts have substantially regrown the wetland, and much of the surrounding farmland and creek corridors have been reforrested."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A11/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.317045,
+					"lon": 				-79.905658,
+					"name": 				"Infilling of Hamilton Harbour",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Infilling of Hamilton Harbour",
+					"text": 			"Connecting railways with shipping routes, and near to sources of cheap hydroelectric power, the Hamilton Harbour is the busiest of all Canadian Great Lakes ports. Heavy industrialization since the mid 19th century has taken a toll. Some 30% of the natural embayment has been filled in to create land. Some of the landfills, including Bayfront Park and Pier 4 Park, were highly contaminated and only remediated for recreational use in the 1990's. Many of the Eastern Inlets that were still present in the 1950's have been entirely obscured by the growth of the industrial sector. The Windermere Basin on the east side of the bay was subjected to substantial artificial infilling between the 1950's and 1990's and today is infilling naturally as marshland. The sandspit (Hamilton and Burlington Beach) has been widened by over 100 m to accomodate the QEW highway. "
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A6/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.348826,
+					"lon": 				-79.859973,
+					"name": 				"Kerncliff Park",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Kerncliff Park",
+					"text": 			"Kerncliff Park is a rehabilitated quarry right that some 30 years ago worked the Silurian Dolostone cap rock on the edge of the Niagara Escarpment overlooking Burlington.  It has an interesting wetland and boardwalk on the floor of the quarry and is ideal for a half day out; it is also a good way to access the Bruce Trail which keeps to the edge of the Escarpment."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S122a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.645485,
+					"lon": 				-79.464752,
+					"name": 				"Reforestation of High Park",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Reforestation of High Park",
+					"text": 			"The natural, undeveloped beauty of High Park has attracted many visitors since it's establishment in 1873. The central Grenadier Pond may seem like an artificial lake given its urban setting, but it is actually a lagoon similar to Frenchman's Bay cut off from Lake Ontario by a spit. That spit was substantially widened and heightened during the construction of the railway corridor and the Queen Elizabeth Highway, which cut off a natural outlet for Granadier Pond, while urbanization of the surrounding area lead to increased silt and wastewater entering the pond. Park development projects in response to increasing popularity in the 1950's and 1960's resulted in improved access and facilities, and greater landscaping, but were at the cost of removal of much of the natural vegation and introduction of non-native vegation. These efforts harmed the ability of the natural old growth Black Oak forest, with many trees approaching 200 years old, to regenerate. The comparison air photographs show the success of restoration work, including reforestation throughout what was once grassland, and the build up of marshland in the northern end of Grenadier Pond which filters water entering through Endigo Creek. "
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A2/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.873973,
+					"lon": 				-79.428027,
+					"name": 				"Sprawling north on Highway 404",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Sprawling north on Highway 404",
+					"text": 			"The cities of Markham and Richmond Hill are centred on the highway 404 and highway 407 interchange. Both experienced a boom in the 1970's during an explosive era of urban sprawl from Toronto and many businesses were attracted to the large industrial parks built upon fairly inexpensive land within driving distance to Toronto, particularly with the construction of highway 404 in 1977. The industrial parks are particularly visible on the newer image because of the extensive tracts of lands paved for parking. Paving large tracts of land results in \"watershed hardening\" which impacts the natural drainage systems that control water runoff. "
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A14/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.185997,
+					"lon": 				-79.392829,
+					"name": 				"Niagara Wines",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Niagara Wines",
+					"text": 			"The Niagara Escarpment in the Niagara Peninsula resembles a giant staircase. Prominent steps or \"benches\" mark the outcrop  of harder sandstones  and limestones  within softer shales  lying below the thick Lockport Dolostone cap rock. The benches can be readily appreciated by driving (or cycling!) any of the roads that climb the Escarpment, such as Highway 24 south from Vineland (Exit 57 on the Queen Elizabeth Highway). These flat benches are ideal for growing vines and produce world-class wines because of the special Climate of the area and well drained soils. The 43 degree latitude is exactly the same as the red wine areas of Chianti in Italy, Rioja in Spain and Provence in France and the area is the world's largest producer of ice wines."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S52a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.622,
+					"lon": 				-79.378,
+					"name": 				"Toronto Islands",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Toronto Islands",
+					"text": 			"The Toronto Islands formed a giant spit  across the mouth of the Toronto Harbour and the Don River which was fed sediment by westward movement, longshore transport, from the eroding Scarborough Bluffs. Now man made structures like the Leslie Street Spit  and marina at Bluffers Park, as well as anti-Erosion measures at the bluffs, have starved the islands of sediment."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S13a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.7315,
+					"lon": 				-79.374176,
+					"name": 				"Urbanization of the forks of the Don",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Urbanization of the forks of the Don",
+					"text": 			"Farmland persisted in between the tributaries of the Don River until it was developed in the 1960's into a number of \"planned\" neighbourhoods including Flemingdon Park, Thorncliffe Park, and Don Mills in order to accomodate the influx of immigrants to Toronto. Each Neighbourhood was visualized as self-contained communities where people could live and work and featured a variety of high and low density residential buildings, commercial centres, and light industrial lots. The tributaries of the Don River served as greenbelts for these communities and today form an extensive network of natural parks. Clearly visible in these images is the change of the landscape covering from farmland to concrete which makes the land less abel to absorb water. This is known as hardening of the watershed and leads to increased run off of rain water into the surrounding river valleys."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A5/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.684667,
+					"lon": 				-79.36528,
+					"name": 				"Rerouting of the Don River at the Brickworks",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Rerouting of the Don River at the Brickworks",
+					"text": 			"The Brickworks has long played a vital role in the development of Toronto. Clays and shale from the quarry were used to create bricks for the foundation of Victorian Toronto including the University of Toronto's Convocation Hall, Hart House,Trinity College and the Toronto General Hospital. The older photo shows the quarry during the peak of it's activity while Toronto was undergoing a post-war construction boom. After closing it's doors in 1984, the site has been completely revitalized with a thriving market and restaurant and is now known as the Evergreen Brickworks site and has a geologic interpretation center. Flood control measures put in place after flooding of the Don River during Hurricane Hazel in 1954 led to approval for the construction of the Don Valley Parkway in 1959. This required drastic reshaping of the Don River away from it's natural course visible in the 1954 image. "
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A4/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.65070278,
+					"lon": 				-79.34705,
+					"name": 				"Bending the Don",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Bending the Don",
+					"text": 			"At the foot of the Don Valley Parkway immediately south of Gardiner Expressway is the infamous 'bend in the Don River.' In 1912 engineers diverted the Don River westwards to enter Toronto Harbour; previously it flowed south into Ashbridge's Bay and large wetland and important stopover for migrating birds. The Bay was then heavily polluted with human and animal wastes and was filled in to create the Port Industrial District for new industrial development.  Today the Port Industrial District is heavily contaminated and various plans are in place to clean it up. The right angle bed in the Don essentially dams the river allowing debris and contaminated sediment to accumulate in the bend which has to be dredged to keep it clear. It is an abject lesson in how not to deal with urban rivers."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S95a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.61733086,
+					"lon": 				-79.33883198,
+					"name": 				"Creation of the Leslie Street Spit",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Creation of the Leslie Street Spit",
+					"text": 			"The Leslie Street Spit is a man-made landform that began as a landfill in the 1950's recieving excavation and construction waste from large downtown bulding projects, including the construction of the subways. Although it was originally conceptualized as an extention of the Toronto Harbour that would ease shipping traffic, it now serves largely as a recreation area. The inner embayments continue to be filled with silt dredged from the Inner Harbour and from Keating Channel and have an estimated 50 years capacity remaining. Also note the thinning of sandy beaches on the south and west edge of Toronto Island. The construction of the Leslie Street Spit has effectively starved sand from migrating along shore westwards from Scarborough Bluffs to the Toronto Islands, which were once a natural sand spit."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A1/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.647721,
+					"lon": 				-79.32921,
+					"name": 				"Ashbridge's Bay",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Ashbridge's Bay",
+					"text": 			"Ashbridge's Bay was once a large lagoon at the mouth of the Don River. By 1912, it was grossly polluted by human and animal wastes and the bay was completely filled in to create new land for industrial development. The mouth of the Don River was moved westwards. Alas, the Depression killed off the dream of manufacturing and the area was used for bulk storage of chemicals, coal and oil. It now presents a fascinating but nightmarish mix of old docks, laid up ships, abandoned land and recycling plants. Its location close to downtown makes it very desirable to developers but the cost of cleaning the area of its chemical legacy is excessive. "
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S11a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				44.056841,
+					"lon": 				-79.285504,
+					"name": 				"Goodwood aggregate",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Goodwood aggregate",
+					"text": 			"Goodwood Ontario sits atop the Oak Ridges Moraine, an important geological feature laid down between two ice lobes during the last glaciation. The Oak Ridges Moraine is made out of sand and gravel and is thus an important source of aggregate, used primarily in construction. The Goodwood Ontario has undergone substantial quarrying over the past 50 years, resulting in substantial rerouting of natural waterways and changes in land usage. After the lifespan of the quarry, many are repurposed as golf courses or waste disposal sites, both of which are visible in the modern image. "
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A10/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.824254,
+					"lon": 				-79.258953,
+					"name": 				"Scarborough",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Scarborough",
+					"text": 			"The rate of development of Scarborough was truly astonishing. In 1954, Highway 401 was still in construction and most of the population of Scarborough lived in the vicinity of Kingston Road. This urban sprawl was encouraged by the cheap price of water taken from Lake Ontario. Particularly evident in these images is the problem of watershed hardening. Covering the ground with asphalt and concrete reduces the amount of rainwater that can be absorbed into the soil and thus increases the amount of water that travels on the surface of the land (overland flow) directly into rivers and lakes. Previously large rainfall events were buffered by absorption into the ground, but with watershed hardening, streams often experince intense floods resulting in erosion and destruction of natural habitat."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A8/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				42.901276,
+					"lon": 				-79.246274,
+					"name": 				"Welland Canal: Ships in Motion over the Niagara Escarpment",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Welland Canal: Ships in Motion over the Niagara Escarpment",
+					"text": 			"The Niagara Escarpment has always been a major transportation obstacle within the Great Lakes region. And settlers have for centuries tried to get around it as quickly and easily as possible. In fact, there were 3 circuitous canals that predated today's 43.5 kilometre long masterpiece that connects Lakes Erie and Ontario as part of the St. Lawrence Seaway. A series of 7 locks lift ships above the escarpment on its north (Lake Ontario) side. An 8th lock controls the entrance to the canal at Port Colborne on Lake Erie. Lock 8 is almost 100 metres above Lock 2 at Port Weller on Lake Ontario."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S41a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.702,
+					"lon": 				-79.242,
+					"name": 				"Development of Scarborough Bluffs",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Development of Scarborough Bluffs",
+					"text": 			"The 90 metre tall cliff of sand, silt, and clay at Scarborough Bluff is made of sediment deposited during the last ice age. Until the 1960's, the area remained fairly undeveloped and the bluffs experienced regular erosion by waves undercutting cliffside. Long-shore currents in Lake Ontario carried this sand westwards to beaches in the Beaches area and Toronto Islands. Urban development in the 1960's, including the bulding of the Bluffer's Park Marina, led to efforts to stabilize the cliffs through berms which protect both the marina and the cliffs from strong currents. Sand is now collecting eastwards of the berm, while the Beaches and Toronto Islands are becoming increasingly starved of sand. The western side of Bluffer's Park is now a geoengineered wetland designed to reduce pollutants entering lake Ontario. "
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A3/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.781246,
+					"lon": 				-79.185937,
+					"name": 				"Highland Creek",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Highland Creek",
+					"text": 			"Highland Creek is a typical 'misfit' (A relatively small stream flowing within a deep valley) river. The valley owes its depth due to incision following the drainage of Glacial Lake Iroquois 12,000 years ago. There are many hiking trails on the floor of the valley. The flow of highland creek has been severely impacted by the 'hardening' of the local urban Watershed  and the creek is subjected to repeated flooding and Erosion of its banks. Similar ravines are found all over the Greater Toronto Area."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S100a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.8333232,
+					"lon": 				-79.182281,
+					"name": 				"Beare Road Landfill",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Beare Road Landfill",
+					"text": 			"Beare Road Landfill is just one of dozens of landfills located along the Iroqous shoreline. This site was once a gravel pit that was repurposed as a landfill from 1969 to 1985, recieving 180 million litres of liquid waste during that period. Like many of the landfills from this era, it now stands as a lonely barren hill above the natural landscape. It is just one of 1,200 abandoned waste dumps in Ontario, however, it is set apart from all the others by virtue of having a wonderful panoramic view from its top. Note the building at its base which produces hydro from the methane generated by bacteria living within the waste."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A13/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.828237,
+					"lon": 				-79.103837,
+					"name": 				"Frenchman's Bay",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Frenchman's Bay",
+					"text": 			"Frenchman's Bay in Pickering is a good example of a lagoon that formed 4,000 years ago when precipitation increased the lake level by 2 metres and caused the flooding, and clogging in this case, of river mouths draining into the lake.  The lagoon was later opened to the lake to allow the transport of grain by steamships from inside the lagoon. Now the bay demonstrates the impact of urban systems on lagoons, from salty runoff during the winter to increased warming leading to low oxygen in the summer. Despite being designated as an environmentally significant area by the government, the area of wetland continues to decrease via erosion because of 'hardening' of the surrounding watershed by urbanization."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A12/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.096371,
+					"lon": 				-79.08233,
+					"name": 				"Repurposing of Niagara Falls",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Repurposing of Niagara Falls",
+					"text": 			"Although the Niagara Falls are arguably the greatest geological wonder in Ontario, the historic and economic importance of the Niagara Gorge lies not in geotourism, but within the generation of hydroelectic power. Generating stations supply one quarter of all power used in New York State and Ontario and take advantage of the almost 100 m drop of the Niagara River between Lake Erie and Lake Ontario including the drop at Niagara Falls where the river goes over the Niagara Escarpment. About 50% of the flow of Niagara River is diverted away from the falls during the day, increasing to about 75% at night. The diversion of water going over the falls has slowed the rate of retreat from about 1 m/year to less than 30 cm/year. However, the gorge is still prone to large rockfalls. In the older image, the Schoellkopf Power Station just north of Rainbow Bridge is visibly active. In the spring of 1956, just two years after this image was taken, an estimated 120,000 tonnes of dolostone cap rock fell onto the Schoellkopf Power Station causing an estimated $100 million dollars in damage."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod10/A7/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.066331,
+					"lon": 				-79.0531,
+					"name": 				"Going Deep: The New Niagara Tunnel",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Going Deep: The New Niagara Tunnel",
+					"text": 			"Harnessing the enormous power of Niagara Falls has always been a dream. The largest hydroelectric scheme in Ontario was completed in 1922 with Sir Adam Beck I generating station at Queenston; then the largest in the world.  Water was diverted northwards by canal from the Welland River. Sir Adam Beck II was added in 1954 and this is fed by tunnels and a canal that take off water from the Niagara River above Niagara Falls. New efficiencies at the power stations mean they can now use more water to create even more power. To deliver the extra water to Adam Beck (at a rate of some 500 cubic metres every second) a new tunnel is being constructed deep below the old supply tunnels. At its deepest point below the city of Niagara Falls it is 140 metres underground and follows the route of Stanley Avenue. It will allow the generation of new additional power sufficient to supply a city of 400,000 people, opening a new chapter in harnessing the Niagara River."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S49a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.1,
+					"lon": 				-78.99333333,
+					"name": 				"Hyde Park Landfill",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Hyde Park Landfill",
+					"text": 			"Mention Hyde Park and most people think of one of the largest parks in central London, England. That park was constructed in the 19th century using waste materials (fill) to bury an old river valley. Ironically, its namesake in New York State close to Niagara Falls is one of the largest chemical waste sites in the world; some 4 times larger than the notorious Love Canal dumpsite. Hyde Park dumpsite is the large green hill seen from I-190 (and the outlet malls in the area), but it is no place to take a walk as it contains some 80 000 tonnes of chemical wastes ."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S45a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.0805,
+					"lon": 				-78.949,
+					"name": 				"Love Canal: Birthplace of the Environmental Movement",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Love Canal: Birthplace of the Environmental Movement",
+					"text": 			"Tucked away almost out of sight, on the north side of the Niagara River where it arcs lazily around Grand Island, is one of the most notorious sites in North America: Love Canal. Driving through its pleasant residential neighborhoods and parks it is difficult to see what all the fuss was about in the late 1970's when health concerns in the surrounding community helped force a state of emergency and the relocation of 800 families, an event that  spawned the modern environmental movement. This occurred after the Love Canal, initially built to for hydroelectric power, became obsolete and turned into a waste site that did not contain its potent contents."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/S34a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				44.0945,
+					"lon": 				-78.57366667,
+					"name": 				"Ganaraska: The Dustbowl of Ontario",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Ganaraska: The Dustbowl of Ontario",
+					"text": 			"In the 1930's much of the Oak Ridges Moraine had been cleared, the result of unbridled deforestation for creation of farmland. Being composed largely of Sand and Gravel, the Moraine became badly eroded by water and wind. The result was a picture of devastation. Public concern prompted theFormation of the Ontario Conservation Authorities and reforestation of the region. Today, the Ganaraska Watershed has been revitalized into a popular recreation area, a forest reborn for cross-country skiing, hiking, mountain biking, and off-roading."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/C29a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				44.78893,
+					"lon": 				-75.381526,
+					"name": 				"Creeping Clays at Galop Canal",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Creeping Clays at Galop Canal",
+					"text": 			"The Galop Canal was built between 1844 to 1846 to avoid bypass rapids along the St. Lawrence near the present-day community of Cardinal on Highway 2, about 3 kilometres south of Highway 401. The canal was dug into soft clays left by the Champlain Sea that flooded the St. Lawrence valley at the end of the last glaciation some 11,000 years ago. Since then the sidewalls of the now disused canal have slid down slope serving as a graphic example of the kind of slope failure typical in these problematic clay deposits."
+				},
+				"media": {
+					"url": 				"https://planetearth.utsc.utoronto.ca/sitePictures/E20a.jpg",
+					"credit":				"",
+					"caption":			""
+				}
+			}
+		]
+	}
+}
