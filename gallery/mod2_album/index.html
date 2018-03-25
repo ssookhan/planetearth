@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="google" content="notranslate">
+<meta http-equiv="Content-Language" content="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=0.5,user-scalable=no">
+        <title>Module 2</title>
+
+        <!-- load jQuery -->
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+
+        <!-- load Galleria -->
+        <!-- <script src="/galleria-1.5.7.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
+        <style>
+        body{background:#000;}
+        </style>
+
+    </head>
+<body>
+    <div class="galleria">
+        <a href="Pics/GPS.jpg">
+            <img 
+                src="Pics/GPS.jpg",
+                data-big="Pics/GPS.jpg"
+                data-title="Geodesy"
+                data-description="Geodesy is concerned with creating precise measurements of the Earth. The shape of the Earth is approximately ellipsoidal as a result of its rotation, which causes the Equator to bulge outwards. Plate vectors and other changes in the surface of the Earth can be quantified by tracking points using the Global Positioning System (GPS) and other satellite-based techniques. GPS receivers calculate their position from the time it takes for a signal to be transmitted from three satellites of known position to the receiver."
+            >
+        </a>
+        <a href="Pics/Pyroxenite.jpg">
+            <img 
+                src="Pics/Pyroxenite.jpg",
+                data-big="Pics/Pyroxenite.jpg"
+                data-title="Geology"
+                data-description="Geology is primarily concerned with studying rocks exposed at surface or sampled through drilling programs. By examining the mineralogy and geochemistry of natural samples, geologists can model the condition under which rocks form and are brought to the surface. Experimental petrologists can also recreate the conditions that exist in the mantle in the laboratory. This is useful because even the deepest drilling project on Earth, the Kola Superdeep Borehole, only extended 12.3 km into the crust."
+            >
+        </a>
+        <a href="Pics/SeismicWaves.jpg">
+            <img 
+                src="Pics/SeismicWaves.jpg",
+                data-big="Pics/SeismicWaves.jpg"
+                data-title="Seismology"
+                data-description="Seismology is the study of earthquakes and seismic waves. Seismographs record vibrations from waves that travel along Earth’s surface (surface waves) and cause most of the damage associated with earthquakes, and waves that travel through the Earth’s (body waves). Two types of body waves tell us about the structure of Earth’s interior: P waves (primary waves) and S waves (secondary waves). Particles in P vibrate in the same direction as wave is propagating while particles in an S wave vibrate in a direction perpendicular to the direction of propagation. P waves travel faster than S waves, and can travel through liquids and solids while S waves can only move through solid rock."
+            >
+        </a>
+        <a href="Pics/Earth_heat_flow.jpg">
+            <img 
+                src="Pics/Earth_heat_flow.jpg",
+                data-big="Pics/Earth_heat_flow.jpg"
+                data-title="Heat Flow"
+                data-description="Heat flow is the energy lost from one medium to another. The temperature gradient with depth, or ‘geotherm’, can be measured directly near the Earth’s surface in deep mines or boreholes. The normal geothermal gradient is about 25 degrees Celsius per kilometer near the surface. Heat flow measured above continental and oceanic crust is approximately the same because continents are heated by radioactive minerals while oceanic crust is heated from the mantle below. The heat flow from Earth’s interior to the surface through young oceanic crust ultimately drives many deep Earth processes (see figure, Davies and Davies, 2010)."
+            >
+        </a>
+        <a href="Pics/Geoids_sm.jpg">
+            <img 
+                src="Pics/Geoids_sm.jpg",
+                data-big="Pics/Geoids_sm.jpg"
+                data-title="Gravimetry"
+                data-description="Gravimetry is the measurement of the strength of the gravitational field and uses an instrument called a gravimeter. The strength of the gravitational field varies by about +/- 0.5% due to heterogeneity in the way mass is distrubuted below Earth's surface. We can generalize the heterogeneity of the gravitational field by describing the shape of a surface on which the graviational field strength is equal, called the 'geoid' (see figure). The geoid can be thought of as the true shape of the Earth. Most gravimeters are effectively a weight on a spring, and they can be mounted on vehicles, aircrafts, and ships. Gravitational anomalies can be used to determine if a region is in isostatic equilibrium, to indicate unusually dense or light regions underground, and to quantify atmospheric mass variations, tides, groundwater level variations, and soil moisture variations. Image credit: NASA Gravity Recovery and Climate Experiment"
+            >
+        </a>
+        <a href="Pics/Geodynamo.gif">
+            <img 
+                src="Pics/Geodynamo.gif",
+                data-big="Pics/Geodynamo.gif"
+                data-title="Geomagnetics"
+                data-description="Geomagnetism is the study of Earth's magnetic field and uses a magnetometer to assess the strength and direction of anomalies in the magnetic field. There are two main sources of magnetism: the 'geodynamo' which is the internal magnetic field of the entire Earth, and local pockets of magnetic rock close to the the Earth's surface. The geodynamo is generated by convection of molten iron and nickel in the fluid outer core (see figure, source: Gary A. Glatzmaier). Grains of magnetite in lava flows on Earth's surface often align with the magnetic field before solidifying, locking in the record of changes in the strength, directionality and polarity of the magnetic field. This property can be used to determine how continents have shifted over time. "
+            >
+        </a>
+    </div>
+    <script>
+    $(function() {
+        // Load the Fullscreen theme
+        Galleria.loadTheme('galleria.fullscreen.js');
+
+        // Initialize Galleria
+        Galleria.run('.galleria');
+    });
+    Galleria.configure({
+        debug: false // debug is now off for deployment
+    });
+    </script>
+    </body>
+</html>
