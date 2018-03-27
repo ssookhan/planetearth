@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Age-of-Earth-Crust.kmz</name>
+	<open>1</open>
+	<Style id="sn_ylw-pushpin">
+		<IconStyle>
+			<scale>3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/wht-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>3.54545</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>3</scale>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>Questionsites</name>
+		<Placemark>
+			<name>Point C</name>
+			<LookAt>
+				<longitude>-41.8799361741682</longitude>
+				<latitude>52.11906231777478</latitude>
+				<altitude>0</altitude>
+				<heading>12.90065380553648</heading>
+				<tilt>0</tilt>
+				<range>2872444.510279201</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-35.55794319496975,52.72682709962228,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point B</name>
+			<LookAt>
+				<longitude>-41.8799361741682</longitude>
+				<latitude>52.11906231777478</latitude>
+				<altitude>0</altitude>
+				<heading>12.90065380553648</heading>
+				<tilt>0</tilt>
+				<range>2872444.510279201</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-43.78924862074725,56.81800048367598,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point A</name>
+			<LookAt>
+				<longitude>-23.1648871970999</longitude>
+				<latitude>65.4232560488047</latitude>
+				<altitude>0</altitude>
+				<heading>16.22651924437617</heading>
+				<tilt>0</tilt>
+				<range>1782693.189666186</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-26.56875320022951,62.03336166685465,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Point D</name>
+			<LookAt>
+				<longitude>-40.6891519580368</longitude>
+				<latitude>28.07319553909019</latitude>
+				<altitude>0</altitude>
+				<heading>6.539721407192705</heading>
+				<tilt>0</tilt>
+				<range>3231893.684359569</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-46.22942328299546,19.88068280722254,0</coordinates>
+			</Point>
+		</Placemark>
+</Document>
+</kml>
