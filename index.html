@@ -1,375 +1,355 @@
+<!DOCTYPE html>
+<html>
+<title>Planet Earth Online</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <!--
-    Modified from the Debian original for Ubuntu
-    Last updated: 2014-03-19
-    See: https://launchpad.net/bugs/1288690
-  -->
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Apache2 Ubuntu Default Page: It works</title>
-    <style type="text/css" media="screen">
-  * {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-  body, html {
-    padding: 3px 3px 3px 3px;
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/sitePictures/N36a.jpg');
+    min-height: 100%;
+}
 
-    background-color: #D8DBE2;
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/sitePictures/E45a.jpg");
+    min-height: 400px;
+}
 
-    font-family: Verdana, sans-serif;
-    font-size: 11pt;
-    text-align: center;
-  }
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/sitePictures/N20a.jpg");
+    min-height: 400px;
+}
 
-  div.main_page {
-    position: relative;
-    display: table;
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
 
-    width: 800px;
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
 
-    margin-bottom: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 0px 0px 0px;
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="#modules" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> MODULES</a>
+    <a href="#team" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> THE TEAM</a>
+  </div>
 
-    border-width: 2px;
-    border-color: #212738;
-    border-style: solid;
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#modules" class="w3-bar-item w3-button" onclick="toggleFunction()">MODULES</a>
+    <a href="#team" class="w3-bar-item w3-button" onclick="toggleFunction()">THE TEAM</a>
+  </div>
+</div>
 
-    background-color: #FFFFFF;
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PLANET EARTH <span class="w3-hide-small">ONLINE</span></span>
+  </div>
+    <div class="w3-display-topright w3-padding-16 w3-container w3-hide-small" style= "opacity: 0.8;">
+      <a href="http://www.utsc.utoronto.ca" title = "UTSC Home" target="_blank"> 
+        <img src= "UTSC_rev_optimized.svg" alt= "UTSC Homepage">
+      </a> 
+    </div>
+    <div class="w3-display-topright w3-padding-32 w3-container w3-hide-large w3-hide-medium" style= "opacity: 0.8;">
+      <br>
+      <a href="http://www.utsc.utoronto.ca" title = "UTSC Home" target="_blank"> 
+        <img src= "UTSC_rev_optimized.svg" alt= "UTSC Homepage">
+      </a> 
+    </div>
+</div>
 
-    text-align: center;
-  }
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT THE PROJECT</h3>
+   <div class="w3-row-padding">
+      <div class="w3-half">
+    <p>In 10 fully online modules, students review the history and workings of the planet, the geological and environmental history of Ontario, and show how the economic and social development of the province reflects its broader environmental setting and history. Each module features the following content enrichment strategies:</p>
+    <ul style="list-style-type:disc">
+      <li>Illustration of key foundation concepts, processes and phenomena through an assortment of instructional videos, interactive diagrams, and animations</li>
+      <li>Exercises involving the hands-on use of spatial and temporal technologies, data analysis, and virtual field trips (VFT’s)</li>
+      <li>Case studies and examples from across Ontario</li>
+      <li>Animations and documentary film footage</li>
+      <li>Media components based on rock and mineral collections</li>
+    </ul>
+    </div>
+    <div class="w3-half">
+      <div class="slideshow-container">
+<br>
+<div class="mySlides fade">
+  <img src="/sitePictures/C4a.jpg" style="width:100%" >
+</div>
 
-  div.page_header {
-    height: 99px;
-    width: 100%;
+<div class="mySlides fade">
+  <img src="/sitePictures/N43a.jpg" style="width:100%" >
+</div>
 
-    background-color: #F5F6F7;
-  }
+<div class="mySlides fade">
+  <img src="/sitePictures/C58b.jpg" style="width:100%" >
+</div>
 
-  div.page_header span {
-    margin: 15px 0px 0px 50px;
+<div class="mySlides fade">
+  <img src="/sitePictures/N120d.jpg" style="width:100%" >
+</div>
 
-    font-size: 180%;
-    font-weight: bold;
-  }
+<div class="mySlides fade">
+  <img src="/sitePictures/S135b.jpg" style="width:100%" >
+</div>
 
-  div.page_header img {
-    margin: 3px 0px 0px 40px;
+</div>
+<br>
 
-    border: 0px 0px 0px;
-  }
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
 
-  div.table_of_contents {
-    clear: left;
-
-    min-width: 200px;
-
-    margin: 3px 3px 3px 3px;
-
-    background-color: #FFFFFF;
-
-    text-align: left;
-  }
-
-  div.table_of_contents_item {
-    clear: left;
-
-    width: 100%;
-
-    margin: 4px 0px 0px 0px;
-
-    background-color: #FFFFFF;
-
-    color: #000000;
-    text-align: left;
-  }
-
-  div.table_of_contents_item a {
-    margin: 6px 0px 0px 6px;
-  }
-
-  div.content_section {
-    margin: 3px 3px 3px 3px;
-
-    background-color: #FFFFFF;
-
-    text-align: left;
-  }
-
-  div.content_section_text {
-    padding: 4px 8px 4px 8px;
-
-    color: #000000;
-    font-size: 100%;
-  }
-
-  div.content_section_text pre {
-    margin: 8px 0px 8px 0px;
-    padding: 8px 8px 8px 8px;
-
-    border-width: 1px;
-    border-style: dotted;
-    border-color: #000000;
-
-    background-color: #F5F6F7;
-
-    font-style: italic;
-  }
-
-  div.content_section_text p {
-    margin-bottom: 6px;
-  }
-
-  div.content_section_text ul, div.content_section_text li {
-    padding: 4px 8px 4px 16px;
-  }
-
-  div.section_header {
-    padding: 3px 6px 3px 6px;
-
-    background-color: #8E9CB2;
-
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 112%;
-    text-align: center;
-  }
-
-  div.section_header_red {
-    background-color: #CD214F;
-  }
-
-  div.section_header_grey {
-    background-color: #9F9386;
-  }
-
-  .floating_element {
-    position: relative;
-    float: left;
-  }
-
-  div.table_of_contents_item a,
-  div.content_section_text a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  div.table_of_contents_item a:link,
-  div.table_of_contents_item a:visited,
-  div.table_of_contents_item a:active {
-    color: #000000;
-  }
-
-  div.table_of_contents_item a:hover {
-    background-color: #000000;
-
-    color: #FFFFFF;
-  }
-
-  div.content_section_text a:link,
-  div.content_section_text a:visited,
-   div.content_section_text a:active {
-    background-color: #DCDFE6;
-
-    color: #000000;
-  }
-
-  div.content_section_text a:hover {
-    background-color: #000000;
-
-    color: #DCDFE6;
-  }
-
-  div.validator {
-  }
-    </style>
-  </head>
-  <body>
-    <div class="main_page">
-      <div class="page_header floating_element">
-        <img src="/icons/ubuntu-logo.png" alt="Ubuntu Logo" class="floating_element"/>
-        <span class="floating_element">
-          Apache2 Ubuntu Default Page
-        </span>
+  </div>
       </div>
-<!--      <div class="table_of_contents floating_element">
-        <div class="section_header section_header_grey">
-          TABLE OF CONTENTS
+      <p>This project was funded by eCampusOntario. eCampusOntario is a not-for-profit centre of excellence and global leader in the evolution of teaching and learning through technology.</p>
+  <p class="w3-large w3-center w3-padding-16">Copyright:</p>
+    <div class= "w3-center">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+      <br /><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>
+    </div>
+    </div>
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">MODULES</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="modules">
+  <h3 class="w3-center">LEARNING MODULES</h3>
+  <p>Each <code>Learning Module</code> consists of a number of interactive activities and multiple choice-based assessments. Modules are distributed as SCORM files that can be imported into your Learning Management System of choice. Instructor guides are available which outline the topics covered and installation procedure. Select from the ten available modules below:</p> 
+<ul id="rig">
+    <li>
+        <a class="rig-cell" href="mod1.html">
+            <img class="rig-img" src="siteThumbs/N21a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 1 - Plate Tectonic Paradigm</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod2.html">
+            <img class="rig-img" src="siteThumbs/E54a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 2 - How Earth Works</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod3.html">
+            <img class="rig-img" src="siteThumbs/N130a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 3 - Atlantic</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod4.html">
+            <img class="rig-img" src="siteThumbs/mtranier.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 4 - Pacific Rim</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod5.html">
+            <img class="rig-img" src="siteThumbs/W10b.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 5 - Earth Materials</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod6.html">
+            <img class="rig-img" src="siteThumbs/C73b.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 6 - Deep Time</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod7.html">
+            <img class="rig-img" src="siteThumbs/N43a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 7 - Canadian Shield</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod8.html">
+            <img class="rig-img" src="siteThumbs/N47b.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 8 - Paleozoic</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod9.html">
+            <img class="rig-img" src="siteThumbs/S46a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 9 - Glacial</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod10.html">
+            <img class="rig-img" src="siteThumbs/S64b.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 10 - Anthropocene</span>
+        </a>
+    </li>
+</ul>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">THE TEAM</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="team">
+  <h3 class="w3-center">ABOUT US</h3>
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h4>Dr. Nick Eyles</h4>
+          <p class="w3-opacity">Project Lead</p>
+          <p>A prolific university researcher able to draw on many decades of geological work around the globe, and an award-winning author of popular science books. He was the host of CBC's The Nature of Things documentary series Geologic Journey parts I and II.</p>
         </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#about">About</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#changes">Changes</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#scope">Scope</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#files">Config files</a>
-        </div>
-      </div>
--->
-      <div class="content_section floating_element">
-
-
-        <div class="section_header section_header_red">
-          <div id="about"></div>
-          It works!
-        </div>
-        <div class="content_section_text">
-          <p>
-                This is the default welcome page used to test the correct 
-                operation of the Apache2 server after installation on Ubuntu systems.
-                It is based on the equivalent page on Debian, from which the Ubuntu Apache
-                packaging is derived.
-                If you can read this page, it means that the Apache HTTP server installed at
-                this site is working properly. You should <b>replace this file</b> (located at
-                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
-          </p>
-
-
-          <p>
-                If you are a normal user of this web site and don't know what this page is
-                about, this probably means that the site is currently unavailable due to
-                maintenance.
-                If the problem persists, please contact the site's administrator.
-          </p>
-
-        </div>
-        <div class="section_header">
-          <div id="changes"></div>
-                Configuration Overview
-        </div>
-        <div class="content_section_text">
-          <p>
-                Ubuntu's Apache2 default configuration is different from the
-                upstream default configuration, and split into several files optimized for
-                interaction with Ubuntu tools. The configuration system is
-                <b>fully documented in
-                /usr/share/doc/apache2/README.Debian.gz</b>. Refer to this for the full
-                documentation. Documentation for the web server itself can be
-                found by accessing the <a href="/manual">manual</a> if the <tt>apache2-doc</tt>
-                package was installed on this server.
-
-          </p>
-          <p>
-                The configuration layout for an Apache2 web server installation on Ubuntu systems is as follows:
-          </p>
-          <pre>
-/etc/apache2/
-|-- apache2.conf
-|       `--  ports.conf
-|-- mods-enabled
-|       |-- *.load
-|       `-- *.conf
-|-- conf-enabled
-|       `-- *.conf
-|-- sites-enabled
-|       `-- *.conf
-          </pre>
-          <ul>
-                        <li>
-                           <tt>apache2.conf</tt> is the main configuration
-                           file. It puts the pieces together by including all remaining configuration
-                           files when starting up the web server.
-                        </li>
-
-                        <li>
-                           <tt>ports.conf</tt> is always included from the
-                           main configuration file. It is used to determine the listening ports for
-                           incoming connections, and this file can be customized anytime.
-                        </li>
-
-                        <li>
-                           Configuration files in the <tt>mods-enabled/</tt>,
-                           <tt>conf-enabled/</tt> and <tt>sites-enabled/</tt> directories contain
-                           particular configuration snippets which manage modules, global configuration
-                           fragments, or virtual host configurations, respectively.
-                        </li>
-
-                        <li>
-                           They are activated by symlinking available
-                           configuration files from their respective
-                           *-available/ counterparts. These should be managed
-                           by using our helpers
-                           <tt>
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2enmod">a2enmod</a>,
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2dismod">a2dismod</a>,
-                           </tt>
-                           <tt>
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2ensite">a2ensite</a>,
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2dissite">a2dissite</a>,
-                            </tt>
-                                and
-                           <tt>
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2enconf">a2enconf</a>,
-                                <a href="http://manpages.debian.org/cgi-bin/man.cgi?query=a2disconf">a2disconf</a>
-                           </tt>. See their respective man pages for detailed information.
-                        </li>
-
-                        <li>
-                           The binary is called apache2. Due to the use of
-                           environment variables, in the default configuration, apache2 needs to be
-                           started/stopped with <tt>/etc/init.d/apache2</tt> or <tt>apache2ctl</tt>.
-                           <b>Calling <tt>/usr/bin/apache2</tt> directly will not work</b> with the
-                           default configuration.
-                        </li>
-          </ul>
-        </div>
-
-        <div class="section_header">
-            <div id="docroot"></div>
-                Document Roots
-        </div>
-
-        <div class="content_section_text">
-            <p>
-                By default, Ubuntu does not allow access through the web browser to
-                <em>any</em> file apart of those located in <tt>/var/www</tt>,
-                <a href="http://httpd.apache.org/docs/2.4/mod/mod_userdir.html">public_html</a>
-                directories (when enabled) and <tt>/usr/share</tt> (for web
-                applications). If your site is using a web document root
-                located elsewhere (such as in <tt>/srv</tt>) you may need to whitelist your
-                document root directory in <tt>/etc/apache2/apache2.conf</tt>.
-            </p>
-            <p>
-                The default Ubuntu document root is <tt>/var/www/html</tt>. You
-                can make your own virtual hosts under /var/www. This is different
-                to previous releases which provides better security out of the box.
-            </p>
-        </div>
-
-        <div class="section_header">
-          <div id="bugs"></div>
-                Reporting Problems
-        </div>
-        <div class="content_section_text">
-          <p>
-                Please use the <tt>ubuntu-bug</tt> tool to report bugs in the
-                Apache2 package with Ubuntu. However, check <a
-                href="https://bugs.launchpad.net/ubuntu/+source/apache2">existing
-                bug reports</a> before reporting a new bug.
-          </p>
-          <p>
-                Please report bugs specific to modules (such as PHP and others)
-                to respective packages, not to the web server itself.
-          </p>
-        </div>
-
-
-
-
       </div>
     </div>
-    <div class="validator">
+    <div class="w3-col l3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h4>Dr. Kirsten Kennedy</h4>
+          <p class="w3-opacity">Subject Matter Expert</p>
+          <p>A researcher at the University of Toronto with experience both
+in the classroom and in environmental fieldwork. She has assisted on numerous environmental science courses, including field camps in Ontario, Nova Scotia, the American Southwest, and Iceland.</p>
+        </div>
+      </div>
     </div>
-  </body>
+    <div class="w3-col l3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h4>Shane Sookhan</h4>
+          <p class="w3-opacity">Software Developer</p>
+          <p>A researcher at the University of Toronto where he is developing a variety of spatial
+analytical techniques and animations to depict environmental changes across various timescales in Ontario. He is a co-founder of the <a href="https://planetrocks.utsc.utoronto.ca/" target="_blank">Planet Rocks</a> website and <a href="https://play.google.com/store/apps/details?id=lets.rock.ontario&hl=en" target="_blank">Android app</a> with Dr. Nick Eyles.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h4>Dr. James MacLellan</h4>
+          <p class="w3-opacity">Team Coordinator</p>
+          <p>Lecturer and Program Director for the Environmental Studies Program
+at UTSC. He has more than two decades of experience as a decision analyst in environmental management; he also founded the New Brunswick Climate Change Research
+Collaborative.</p>
+        </div>
+      </div>
+    </div>
+    <p>The project team has also received extensive support from the University of Toronto's Director of Online Learning Strategies, <a href="http://onlinelearning.utoronto.ca/laurie-harrison/">Laurie Harrison</a>, and Online Learning Coordinator, <a href="http://teaching.utoronto.ca/about-ctsi/contact/online-learning-coordinator/">Will Heikoop</a>.</p>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+//slideshow
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
 </html>
-
