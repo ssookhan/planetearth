@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Use correct character set. -->
+  <meta charset="utf-8">
+  <!-- Tell IE to use the latest, best version. -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Make the application on mobile take up the full browser screen and disable user scaling. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+  <title>Volcanoes</title>
+  <script src=".../../Cesium/Cesium.js"></script>
+  <style>
+      @import url(.../../Cesium/Widgets/widgets.css);
+      html, body, #cesiumContainer {
+          width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
+      }
+  </style>
+</head>
+<body>
+  <div id="cesiumContainer"></div>
+  <script>
+    var viewer = new Cesium.Viewer('cesiumContainer', {
+      animation: false,
+      geocoder: false,
+      sceneModePicker: false,
+      timeline: false,
+      imageryProvider : new Cesium.ArcGisMapServerImageryProvider({
+        url : 'https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer'
+      }),
+      baseLayerPicker : false
+    });
+    var options = {
+      camera : viewer.scene.camera,
+      canvas : viewer.scene.canvas,
+      clampToGround : true
+    };
+    var source = new Cesium.KmlDataSource();
+    source.load('.../../kmls/Mod4_vols.kml', options).then(function(){
+
+    });
+    viewer.dataSources.add(source);
+    </script>
+</body>
+</html>
