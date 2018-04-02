@@ -1,0 +1,85 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="https://planetearth.utsc.utoronto.ca/diagrams/tooltipster.bundle.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://planetearth.utsc.utoronto.ca/diagrams/tooltipster-follower.min.css"/>
+  <link rel="stylesheet" type="text/css" href="https://planetearth.utsc.utoronto.ca/diagrams/style.css?v=1.1"/>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+  <script type="text/javascript" src="https://planetearth.utsc.utoronto.ca/diagrams/tooltipster.bundle.min.js"></script>
+  <script type="text/javascript" src="https://planetearth.utsc.utoronto.ca/diagrams/tooltipster-follower.min.js"></script>
+  <script>
+  $(document).ready(function() {
+      $('.tooltip').tooltipster({
+      plugins: ['follower'],
+      contentAsHTML: true,
+      trigger: 'custom', // add custom trigger
+       triggerOpen: { // open tooltip when element is clicked, tapped (mobile) or hovered
+           click: true,
+           tap: true,
+           mouseenter: true
+           },
+          triggerClose: { // close tooltip when element is clicked again, tapped or when the mouse leaves it
+           click: true,
+           scroll: false, // ensuring that scrolling mobile is not tapping!
+           tap: true,
+           mouseleave: true
+           }
+     
+  });
+  });
+</script>
+
+</head>
+
+<body>
+  <a href="full.html" target="_blank">
+    <img src="https://planetearth.utsc.utoronto.ca/diagrams/media-fullscreen.png" alt="Expand image" id="expandfull">
+  </a>
+<div class="container">
+<svg id="InteractiveFigure" height="100%" width="100%" viewBox="0 0 20000 15000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-label="Interactive diagram of the rock cycle" aria-describedby="map-desc" role="group">
+    <desc id="map-desc">Interactive diagram of the rock cycle</desc>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g>
+   <path class="tooltip" title="<strong>lithification</strong><br>the process through which sediments harden into rock" xlink:href="#lithification" role="img" aria-label="lithification.the process through which sediments harden into rock" tabindex="1"  id="lithification" fill="#373435" fill-rule="nonzero" d="M13941 12683l-72 -43 -19 -470 100 -4 19 470 -72 -43 44 90zm0 0l-69 34 -3 -77 72 43zm400 -254l22 44 -422 210 -44 -90 421 -209 23 45zm1600 -3110l-1939 3277 -86 -50 1939 -3278 86 51z"/>
+  </g>
+  <g>
+   <path class="tooltip" title="<strong>metamorphism</strong><br>change to the chemical or physical nature of a rock by heat or pressure or fluid migration" xlink:href="#metamorphism2" role="img" aria-label="metamorphism.change to the chemical or physical nature of a rock by heat or pressure or fluid migration" tabindex="2"  id="metamorphism2" fill="#373435" fill-rule="nonzero" d="M6318 9343l72 -43 421 210 -44 89 -422 -209 73 -43 -100 -4zm0 0l3 -77 69 34 -72 43zm30 472l-50 -2 20 -470 100 4 -20 470 -50 -2zm1725 2510l-1709 -2888 86 -51 1709 2888 -86 51z"/>
+  </g>
+  <g>
+   <path class="tooltip" title="<strong>metamorphism</strong><br>change to the chemical or physical nature of a rock by heat or pressure or fluid migration" xlink:href="#metamorphism1" role="img" aria-label="metamorphism.change to the chemical or physical nature of a rock by heat or pressure or fluid migration" tabindex="3"  id="metamorphism1" fill="#373435" fill-rule="nonzero" d="M9565 6411l-70 -46 0 -470 100 0 0 470 -71 -46 41 92zm0 0l-71 31 1 -77 70 46zm409 -237l21 46 -430 191 -41 -92 430 -191 20 46zm2006 -3459l-2351 3612 -84 -54 2351 -3613 84 55z"/>
+  </g>
+  <g>
+   <path class="tooltip" title="<strong>melting</strong><br>phase change from solid to liquid" xlink:href="#melting2" role="img" aria-label="melting.phase change from solid to liquid" tabindex="4"  id="melting2" fill="#373435" fill-rule="nonzero" d="M3493 2247l73 -43 421 210 -45 89 -421 -209 72 -43 -100 -4zm0 0l3 -77 70 34 -73 43zm31 472l-50 -2 19 -470 100 4 -19 470 -50 -2zm2153 3234l-2137 -3611 86 -51 2137 3611 -86 51z"/>
+  </g>
+  <g>
+   <path class="tooltip" title="<strong>erosion</strong><br>gradual process of disintegration and redistribution of material" xlink:href="#erosion" role="img" aria-label="erosion.gradual process of disintegration and redistribution of material" tabindex="5"  id="erosion" fill="#373435" fill-rule="nonzero" d="M16645 9300l72 43 19 470 -100 4 -19 -470 73 43 -45 -90zm0 0l69 -34 3 77 -72 -43zm-399 254l-22 -44 421 -210 45 90 -422 209 -22 -45zm-1601 3109l1940 -3277 86 51 -1940 3277 -86 -51z"/>
+  </g>
+  <g>
+   <path class="tooltip" title="<strong>erosion</strong><br>gradual process of disintegration and redistribution of material" xlink:href="#erosion2" role="img" aria-label="erosion.gradual process of disintegration and redistribution of material" tabindex="6"  id="erosion2" fill="#373435" fill-rule="nonzero" d="M15156 7764l0 84 -395 255 -54 -84 394 -255 0 84 55 -84zm0 0l65 42 -65 42 0 -84zm-422 -214l27 -42 395 256 -55 84 -394 -256 27 -42zm-5332 206l5649 0 0 100 -5649 0 0 -100z"/>
+  </g>
+  <g>
+   <path class="tooltip" title="<strong>erosion</strong><br>gradual process of disintegration and redistribution of material" xlink:href="#erosion1" role="img" aria-label="erosion.gradual process of disintegration and redistribution of material" tabindex="7"  id="erosion1" fill="#373435" fill-rule="nonzero" d="M15770 6366l-72 42 -421 -208 44 -90 421 209 -72 43 100 4zm0 0l-3 77 -69 -35 72 -42zm-31 -472l50 2 -19 470 -100 -4 19 -470 50 2zm-2157 -3232l2141 3609 -86 51 -2141 -3609 86 -51z"/>
+  </g>
+  <g>
+   <path class="tooltip" title="<strong>crystallization</strong><br>phase change from liquid to solid by cooling" xlink:href="#solidification" role="img" aria-label="" tabindex="8"  id="solidification" fill="#373435" fill-rule="nonzero" d="M10829 1674l0 84 -394 255 -55 -84 395 -255 0 84 54 -84zm0 0l65 42 -65 42 0 -84zm-422 -214l28 -42 394 256 -54 84 -395 -256 27 -42zm-5331 206l5648 0 0 100 -5648 0 0 -100z"/>
+  </g>
+  <g>
+   <path class="tooltip" title="<strong>melting</strong><br>phase change from solid to liquid" xlink:href="#melting1" role="img" aria-label="melting.phase change from solid to liquid" tabindex="9"  id="melting1" fill="#373435" fill-rule="nonzero" d="M5108 664l0 -84 395 -255 54 83 -395 256 0 -84 -54 84zm0 0l-65 -42 65 -42 0 84zm422 214l-27 42 -395 -256 54 -84 395 256 -27 42zm5331 -206l-5648 0 0 -100 5648 0 0 100z"/>
+  </g>
+  <polygon id="igneousrocks" fill="#E6E7E8" stroke="#373435" stroke-width="20" points="11301,209 14830,209 14830,2273 11301,2273 "/>
+  <polygon id="metamorphicrocks" fill="#E6E7E8" stroke="#373435" stroke-width="20" points="4016,6739 9402,6739 9402,8803 4016,8803 "/>
+  <polygon id="sedimentaryrocks" fill="#E6E7E8" stroke="#373435" stroke-width="20" points="8299,12618 13686,12618 13686,14682 8299,14682 "/>
+  <text x="11370" y="994" id="igneousrocks1" fill="#373435" stroke="#373435" stroke-width="7.62" font-weight="bold" font-size="846.67px" font-family="Arial">Igneous </text>
+  <text x="11722" y="1940" id="igneousrocks1" fill="#373435" stroke="#373435" stroke-width="7.62" font-weight="bold" font-size="846.67px" font-family="Arial">Rocks</text>
+  <text class="tooltip" title="<strong>magma</strong><br>hot fluid formed by melted rock" xlink:href="#magma1" role="img" aria-label="magma.hot fluid formed by melted rock" tabindex="10" x="1991" y="1383" id="magma1" fill="#373435" font-weight="normal" font-size="846.67px" font-family="Arial">magma</text>
+  <text class="tooltip" title="<strong>sediment</strong><br>particulate debris derived from the erosion of solids" xlink:href="#sediment1" role="img" aria-label="sediment.particulate debris derived from the erosion of solids" tabindex="11" x="15416" y="8109" id="sediment1" fill="#373435" font-weight="normal" font-size="846.67px" font-family="Arial">sediment</text>
+  <text x="8463" y="13505" id="sedimentaryrocks1" fill="#373435" stroke="#373435" stroke-width="7.62" font-weight="bold" font-size="846.67px" font-family="Arial">Sedimentary</text>
+  <text x="9734" y="14451" id="sedimentaryrocks1" fill="#373435" stroke="#373435" stroke-width="7.62" font-weight="bold" font-size="846.67px" font-family="Arial">Rocks</text>
+  <text x="4111" y="7631" id="metamorphicrocks1" fill="#373435" stroke="#373435" stroke-width="7.62" font-weight="bold" font-size="846.67px" font-family="Arial">Metamorphic</text>
+  <text x="5475" y="8577" id="metamorphicrocks1" fill="#373435" stroke="#373435" stroke-width="7.62" font-weight="bold" font-size="846.67px" font-family="Arial">Rocks</text>
+ </g>
+</svg>
+
+</div>
+</body>
+</html>
