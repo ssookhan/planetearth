@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
@@ -19,8 +20,8 @@ body {
   border-radius: 50%;
   cursor: none;
   /*Set the size of the magnifier glass:*/
-  width: 200px;
-  height: 200px;
+  width: 10%;
+  padding-top: 10%;
 }
 </style>
 <script>
@@ -89,7 +90,7 @@ function magnify(imgID, zoom) {
 <script>
 /* Initiate Magnify Function
 with the id of the image, and the strength of the magnifier glass:*/
-$('#myimage').ready(function(){
+$(window).bind("load", function() {
     magnify("myimage", 3);
 });
 
