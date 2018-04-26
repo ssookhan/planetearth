@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+#rcycDIV {
+    position: fixed;
+    margin-left:25%; 
+    height:100%;
+    width:75%;
+
+}
+#ignDIV {
+    position: fixed;
+    margin-left:25%; 
+    height:100%;
+    width:75%;
+}
+#sedDIV {
+    position: fixed;
+    margin-left:25%; 
+    height:100%;
+    width:75%;
+}
+#metaDIV {
+    position: fixed;
+    margin-left:25%; 
+    height:100%;
+    width:75%;
+}
+</style>
+</head>
+<body>
+
+<div class="w3-sidebar w3-bar-block" style="width:25%"> 
+  <button class="w3-bar-item w3-button w3-border-bottom" onclick="rcycFunction()">Rock Cycle</button>
+  <button class="w3-bar-item w3-button w3-border-bottom" onclick="ignFunction()">Igneous Rocks</button>
+  <button class="w3-bar-item w3-button w3-border-bottom" onclick="sedFunction()">Sedimentary Rocks</button>
+  <button class="w3-bar-item w3-button w3-border-bottom" onclick="metaFunction()">Metamorphic Rocks</button>
+</div>
+
+<div id="rcycDIV">
+<iframe scrolling= "no" width= "100%" height= "100%" src="https://planetearth.utsc.utoronto.ca/diagrams/mod_5/rockcycle/"></iframe>
+</div>
+
+<div id="ignDIV">
+<iframe scrolling= "no" width= "100%" height= "100%" src="https://planetearth.utsc.utoronto.ca/diagrams/mod_5/igneous/"></iframe>
+</div>
+
+<div id="sedDIV">
+<iframe scrolling= "no" width= "100%" height= "100%" src="https://planetearth.utsc.utoronto.ca/diagrams/mod_5/sedimentary/"></iframe>
+</div>
+
+<div id="metaDIV">
+<iframe scrolling= "no" width= "100%" height= "100%" src="https://planetearth.utsc.utoronto.ca/diagrams/mod_5/metamorphic/"></iframe>
+</div>
+
+<script>
+var ign = document.getElementById("ignDIV");
+ign.style.display = "none";
+var sed = document.getElementById("sedDIV");
+sed.style.display = "none";
+var meta = document.getElementById("metaDIV");
+meta.style.display = "none";
+
+function rcycFunction() {
+    var rcyc = document.getElementById("rcycDIV");
+    var ign = document.getElementById("ignDIV");
+    var sed = document.getElementById("sedDIV");
+    var meta = document.getElementById("metaDIV");
+    if (rcyc.style.display === "none") {
+        rcyc.style.display = "block";
+        ign.style.display = "none";
+        sed.style.display = "none";
+        meta.style.display = "none";
+    }
+}
+
+function ignFunction() {
+    var rcyc = document.getElementById("rcycDIV");
+    var ign = document.getElementById("ignDIV");
+    var sed = document.getElementById("sedDIV");
+    var meta = document.getElementById("metaDIV");
+    if (ign.style.display === "none") {
+        ign.style.display = "block";
+        rcyc.style.display = "none";
+        sed.style.display = "none";
+        meta.style.display = "none";
+    }
+}
+
+function sedFunction() {
+    var rcyc = document.getElementById("rcycDIV");
+    var ign = document.getElementById("ignDIV");
+    var sed = document.getElementById("sedDIV");
+    var meta = document.getElementById("metaDIV");
+    if (sed.style.display === "none") {
+        sed.style.display = "block";
+        ign.style.display = "none";
+        rcyc.style.display = "none";
+        meta.style.display = "none";
+    }
+}
+
+function metaFunction() {
+    var rcyc = document.getElementById("rcycDIV");
+    var ign = document.getElementById("ignDIV");
+    var sed = document.getElementById("sedDIV");
+    var meta = document.getElementById("metaDIV");
+    if (meta.style.display === "none") {
+        meta.style.display = "block";
+        ign.style.display = "none";
+        sed.style.display = "none";
+        rcyc.style.display = "none";
+    }
+}
+</script>
+
+</body>
+</html>
+
