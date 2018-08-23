@@ -1,0 +1,71 @@
+<!DOCTYPE html >
+<html>
+<head>
+    <script src="../libraries/RGraph.common.core.js" ></script>
+    <script src="../libraries/RGraph.common.dynamic.js" ></script>
+    <script src="../libraries/RGraph.line.js" ></script>
+    <script src="../libraries/RGraph.gantt.js" ></script>
+    
+     
+    <meta name="robots" content="noindex" />
+
+</head>
+<body>
+
+
+    <canvas id="cvs" width="600" height="250">[No canvas support]</canvas><br />
+    <canvas id="cvs2" width="600" height="350">[No canvas support]</canvas>
+
+    <script>
+        line = new RGraph.Line({
+            id:'cvs',
+            data: [0,1,4,9,16,25,36,49,64,81],
+            options: {
+                gutterBottom: 35,
+                linewidth: 2,
+                shadow: true,
+                adjustable: true,
+                title: 'Adjustable utility',
+                titleVpos: 0.5,
+                spline: true,
+                tickmarks: 'circle',
+                outofboundsClip: true,
+                ticksize: 2
+            }
+        }).draw();
+
+        var data2 = [
+            [0, 1, null, 'Ticket 1','black'],
+            [1, 1, null, 'Ticket 2','black'],
+            [2, 1, null, 'Ticket 3','black'],
+            [3, 1, null, 'Ticket 4','black'],
+            [4, 1, null, 'Ticket 5', 'black'],
+            [5, 1, null, 'Ticket 6', 'black'],
+            [6, 1, null, 'Ticket 7', 'black'],
+            [7, 1, null, 'Ticket 8', 'black'],
+            [8, 1, null, 'Ticket 9','black'], 
+            [9, 1, null, 'Ticket 10','black']
+        ];
+
+        var gantt = new RGraph.Gantt({
+            id: 'cvs2',
+            data: data2,
+            options: {
+                borders: false,
+                labels: [
+                    'P1','P2','P3','P4','P5','P6','P7',
+                    'P8','P9','P10'
+                ],
+                xmax: 10,
+                title: 'Ticket trading',
+                titleVpos: 0.5,
+                adjustable: true
+            }
+        }).draw();
+    </script>
+
+
+
+</body>
+</html>
+
