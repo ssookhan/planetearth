@@ -1,0 +1,194 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toronto Waterfront 1</title>
+    <link rel="stylesheet" href="pannellum/pannellum.css"/>
+    <script type="text/javascript" src="pannellum/pannellum.js"></script>
+    <script type="text/javascript" src="pannellum/libpannellum.js"></script>
+    <style>
+    #panorama {
+        width: 600px;
+        height: 400px;
+    }
+    </style>
+</head>
+<body>
+
+<div id="panorama"></div>
+<script>
+pannellum.viewer('panorama', {   
+    "default": {
+        "firstScene": "torwat_1",
+        "autoLoad": true,
+        "sceneFadeDuration": 1000
+    },
+
+    "scenes": {
+        "torwat_1": {
+            "title": "1",
+            "type": "equirectangular",
+            "panorama": "/pans/torwat_1.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "To 2",
+                    "sceneId": "torwat_2"
+                }
+            ]
+        },
+
+        "torwat_2": {
+            "title": "2",
+            "type": "equirectangular",
+            "panorama": "/pans/torwat_2.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "To 3",
+                    "sceneId": "torwat_3"
+                },
+                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "To 1",
+                    "sceneId": "torwat_1"
+                }
+            ]
+        },
+
+        "torwat_3": {
+            "title": "3",
+            "type": "equirectangular",
+            "panorama": "/pans/torwat_3.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "To 4",
+                    "sceneId": "torwat_4"
+                },
+                                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "To 2",
+                    "sceneId": "torwat_2"
+                }
+            ]
+        },
+
+        "torwat_4": {
+            "title": "4",
+            "type": "equirectangular",
+            "panorama": "/pans/torwat_4.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "To 5",
+                    "sceneId": "torwat_5"
+                },
+                                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "To 3",
+                    "sceneId": "torwat_3"
+                }
+            ]
+        },
+
+        "torwat_5": {
+            "title": "5",
+            "type": "equirectangular",
+            "panorama": "/pans/torwat_5.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "To 6",
+                    "sceneId": "torwat_6"
+                },
+                                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "To 4",
+                    "sceneId": "torwat_4"
+                }
+            ]
+        },
+        "torwat_6": {
+            "title": "6",
+            "type": "equirectangular",
+            "panorama": "/pans/torwat_6.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "To 7",
+                    "sceneId": "torwat_7"
+                },
+                                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "To 5",
+                    "sceneId": "torwat_5"
+                }
+            ]
+        },
+        "torwat_7": {
+            "title": "7",
+            "type": "equirectangular",
+            "panorama": "/pans/torwat_7.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -0.6,
+                    "yaw": 37.1,
+                    "type": "scene",
+                    "text": "To 8",
+                    "sceneId": "torwat_8"
+                },
+                                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "To 6",
+                    "sceneId": "torwat_6"
+                }
+            ]
+        },
+        "torwat_8": {
+            "title": "8",
+            "type": "equirectangular",
+            "panorama": "/pans/torwat_8.jpg",
+            "hotSpots": [
+                                {
+                    "pitch": -2.1,
+                    "yaw": 132.9,
+                    "type": "scene",
+                    "text": "To 7",
+                    "sceneId": "torwat_7"
+                }
+            ]
+        },
+
+    },
+
+});
+</script>
+
+</body>
+</html>
