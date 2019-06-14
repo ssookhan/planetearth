@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toronto Waterfront 1</title>
+    <link rel="stylesheet" href="pannellum/pannellum.css"/>
+    <script type="text/javascript" src="pannellum/pannellum.js"></script>
+    <script type="text/javascript" src="pannellum/libpannellum.js"></script>
+    <style>
+    #panorama {
+        width: 600px;
+        height: 400px;
+    }
+    </style>
+</head>
+<body>
+
+<div id="panorama"></div>
+<script>
+pannellum.viewer('panorama', {
+    "type": "equirectangular",
+    "panorama": "pans/R0010003.jpg",
+    "autoLoad": true,
+    // "hotSpotDebug": true,
+    "hotSpots": [
+        {
+            "pitch": 3.947373306194386,
+            "yaw": -9.42372988124877,
+            "type": "info",
+            "text": "Some text with link",
+            "URL": "https://planetrocks.utsc.utoronto.ca"
+        },
+        {
+            "pitch": 35.63870622762242,
+            "yaw": 0.19044093384287653,
+            "type": "info",
+            "text": "This is the sky"
+        },
+        {
+            "pitch": 9.905244322049658,
+            "yaw": -150.26826223738385,
+            "type": "info",
+            "text": "Test"
+        }
+    ]
+});
+</script>
+
+</body>
+</html>
