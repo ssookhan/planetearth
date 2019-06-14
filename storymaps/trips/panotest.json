@@ -1,0 +1,165 @@
+{
+	"storymap":{
+		"slides": [
+			{
+				"type": 					"overview",
+				"text": {
+					"headline": 			"Panorama Tests",
+					"text": 				""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.6369926,
+					"lon": 				-79.343947,
+					"name": 				"Test 1",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Test 1",
+					"text": 			"This is text."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/torwat_1.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.6377429,
+					"lon": 				-79.345080,
+					"name": 				"Test 2",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Test 2",
+					"text": 			"This is text."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/torwat_2.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.6412713,
+					"lon": 				-79.349053,
+					"name": 				"Test 3",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Test 3",
+					"text": 			"This is text."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/torwat_3.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.641015,
+					"lon": 				-79.35531,
+					"name": 				"Test 4",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Test 4",
+					"text": 			"This is text."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/torwat_4.html\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.6443621,
+					"lon": 				-79.351796,
+					"name": 				"Test 5",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Test 5",
+					"text": 			"This is text"
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/torwat_5.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.6476132,
+					"lon": 				-79.354344,
+					"name": 				"Test 6",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Test 6",
+					"text": 			"This is text."
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/torwat_6.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.6505782,
+					"lon": 				-79.348001,
+					"name": 				"Test 7",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Test 7",
+					"text": 			"This is text"
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/torwat_7.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			},
+			{
+				"uniqueid": 				"",
+				"location": {
+					"lat": 				43.6540184,
+					"lon": 				-79.349614,
+					"name": 				"Test 8",
+					"zoom": 				13,
+					"line": 				true
+				},
+				"text": {
+					"headline": 			"Test 8",
+					"text": 			"This is text"
+				},
+				"media": {
+					"url": 				"<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/torwat_8.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+					"credit":				"",
+					"caption":			""
+				}
+			}
+		]
+	}
+}
