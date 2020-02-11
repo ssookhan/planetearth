@@ -5,60 +5,102 @@
 <html>
 <head>
   <title>Loading the map...</title>
-
+  <!-- Slick-->
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
   <!-- jQuery-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="scripts/jquery.min.js"></script>
 
   <!-- Leaflet (CSS and JS) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
+  <link rel="stylesheet" href="scripts/leaflet.css" />
+  <script src="scripts/leaflet.js"></script>
+  <script src="scripts/leaflet-search.js"></script>
 
   <!-- leaflet-providers -->
   <script src="scripts/leaflet-providers/leaflet-providers.js"></script>
 
   <!-- Tabletop -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.js"></script>
+  <script src="scripts/tabletop.js"></script>
 
   <!-- Font Awesome -->
-  <script src="https://use.fontawesome.com/77cd9dd4f5.js"></script>
+  <script src="scripts/77cd9dd4f5.js"></script>
 
   <!-- Leaflet.awesome-markers -->
   <link rel="stylesheet" type="text/css" href="scripts/Leaflet.awesome-markers/dist/leaflet.awesome-markers.css">
-  <script type="text/javascript" src="scripts/Leaflet.awesome-markers/dist/leaflet.awesome-markers.min.js"></script>
+  <script type="text/javascript" src="scripts/Leaflet.awesome-markers/dist/leaflet.awesome-markers.js"></script>
 
   <!-- Markercluster -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.4/dist/MarkerCluster.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.0.4/dist/MarkerCluster.Default.css">
-  <script type="text/javascript" src="https://unpkg.com/leaflet.markercluster@1.0.4/dist/leaflet.markercluster.js"></script>
+  <link rel="stylesheet" href="scripts/MarkerCluster.css">
+  <link rel="stylesheet" href="scripts/MarkerCluster.Default.css">
+  <script type="text/javascript" src="scripts/leaflet.markercluster.js"></script>
 
   <!-- Mapzen Search
   <link rel="stylesheet" href="scripts/leaflet-geocoder/leaflet-geocoder-mapzen.css">
   <script src="scripts/leaflet-geocoder/leaflet-geocoder-mapzen.js"></script>
    -->
 
-  <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
-  <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+  <link rel="stylesheet" href="scripts/Control.Geocoder.css" />
+  <script src="scripts/Control.Geocoder.js"></script>
 
   <!-- Locate Control -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.60.0/L.Control.Locate.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.60.0/L.Control.Locate.min.js"></script>
+  <link rel="stylesheet" href="scripts/L.Control.Locate.min.css" />
+  <script src="scripts/L.Control.Locate.min.js"></script>
 
   <!-- jQuery-CSV -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+  <script src="scripts/jquery.csv-0.71.min.js"></script>
 
   <!-- Custom style sheet -->
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <!-- Layer Support for Marker Cluster -->
-  <script src="https://unpkg.com/leaflet.markercluster.layersupport@1.0.3/dist/leaflet.markercluster.layersupport.js"></script>
+  <script src="scripts/leaflet.markercluster.layersupport.js"></script>
 
   <!-- DataTables -->
-  <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
-  <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" />
+  <script src="scripts/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" href="scripts/jquery.dataTables.min.css" />
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="scripts/leaflet-search.css" />
 
 </head>
 
 <body>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="grid-container">
+    <div class="map">
+      <img id= "maptyper" src="sview.png" width="20" height="20"></img>
+      <iframe
+        id= "mapframe"
+        width="100%"
+        height="100%"
+        frameborder="0" style="border:0"
+        src="" allowfullscreen>
+      </iframe>
+    </div>
+    <div class="desc">
+      <span class="close">&times;</span>
+      <p id="moddesc">Some text in the Modal..</p>
+    </div>
+    <div class="titleH">
+      <h1 id="modtitle">Some text in the Modal..</h1>
+      <h2 id="modsubtitle">Some text in the Modal..</h2>
+    </div>
+    <div class="imggallery">
+      <div id="slick-demo">
+
+      </div>
+    </div>
+  </div> 
+
+</div>
+
+
 
   <div class="loader">Loading...</div>
   <div id="map"></div>
@@ -70,11 +112,8 @@
       zoomControl: false,
       scrollWheelZoom: true
     }).setView([41.76,-72.69], 11); // default center is overridden by Google Sheet options and points
-    var imageUrl = 'ice_streams.svg',
-    imageBounds = [[30.8650, -102.2094], [65.8650, 1.2094]];
 
-    L.imageOverlay(imageUrl, imageBounds).addTo(map);
-    L.imageOverlay(imageUrl, imageBounds).bringToFront();
+
   </script>
 
   <script type="text/javascript" src="google-doc-url.js"></script>
@@ -82,7 +121,24 @@
   <script type="text/javascript" src="scripts/palette.js"></script>
   <script type="text/javascript" src="scripts/polylabel.js"></script>
   <script type="text/javascript" src="scripts/procsv.js"></script>
-  <script type="text/javascript" src="scripts/map.js"></script>
+  <script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  <script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
 
+  <script type="text/javascript" src="scripts/map.js"></script>
+  <script>
+            $('#slick-demo').slick({ 
+            dots: true,
+            arrows: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          });
+          $('#slick-demo').slickLightbox({
+            src: 'src',
+            itemSelector: '.item img'
+          });
+
+</script>
 </body>
 </html>

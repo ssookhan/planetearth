@@ -123,18 +123,135 @@ $(window).on('load', function() {
           point['Marker Color'].toLowerCase(),
           point['Icon Color']
         );
-
       if (point.Latitude !== '' && point.Longitude !== '') {
-        var marker = L.marker([point.Latitude, point.Longitude], {icon: icon})
-          .bindPopup("<b>" + point['Name'] + '</b><br>' +
-          (point['Image'] ? ('<img src="' + point['Image'] + '"><br>') : '') +
-          point['Description']);
-
+        var marker = L.marker([point.Latitude, point.Longitude], {icon: icon, id:point['Found'], title:point['Name'], modaltitle:point['Name'],modallon:point['Longitude'],modallat:point['Latitude'], modalimgn:point['ImageN'], modalsubtitle:point['SubTitle'], modaldesc:point['Description'], modalsview:point['Sview'], modalsvlon:point['Sviewlong'], modalsvlat:point['Sviewlat'], mapzoom:point['mapzoom']})
+          .bindPopup('<button id="myBtn">'+ point['Name'] + '</button>');
         if (layers !== undefined && layers.length !== 1) {
           marker.addTo(layers[point.Group]);
         }
 
         markerArray.push(marker);
+
+        marker.on('click',markerOnClick);
+        function markerOnClick(e) {
+          var modal = document.getElementById("myModal");
+          var btn = document.getElementById("myBtn");
+          var imagen = this.options.modalimgn;
+          var mapzoom = String(this.options.mapzoom);
+          if (this.options.modalsview == 'n'){
+            $('#maptyper').hide();
+          }
+          document.getElementById("modtitle").innerHTML = this.options.modaltitle;
+          document.getElementById("modsubtitle").innerHTML = this.options.modalsubtitle;
+          document.getElementById("moddesc").innerHTML = this.options.modaldesc;
+          var imageweb = "Photos/allsmall/" + this.options.id
+          $('#slick-demo').slick('unslick');
+          document.getElementById("slick-demo").innerHTML = "";
+          var modallon = String(this.options.modallon);
+          var modallat = String(this.options.modallat);
+          var modalsvlat = String(this.options.modalsvlat);
+          var modalsvlon = String(this.options.modalsvlon);
+
+          btn.id = this.options.modaltitle;
+          var span = document.getElementsByClassName("close")[0];
+          btn.onclick = function() {
+            modal.style.display = "block";
+            if (imagen > 0) {
+              document.getElementById("slick-demo").innerHTML += '<div class="item"><img src="'+imageweb+'a.jpg" alt=""></div>'
+            } if (imagen > 1) {
+              document.getElementById("slick-demo").innerHTML += '<div class="item"><img src="'+imageweb+'b.jpg" alt=""></div>'
+            } if (imagen > 2) {
+              document.getElementById("slick-demo").innerHTML += '<div class="item"><img src="'+imageweb+'c.jpg" alt=""></div>'
+            } if (imagen > 3) {
+              document.getElementById("slick-demo").innerHTML += '<div class="item"><img src="'+imageweb+'d.jpg" alt=""></div>'
+            } if (imagen > 4) {
+              document.getElementById("slick-demo").innerHTML += '<div class="item"><img src="'+imageweb+'e.jpg" alt=""></div>'
+            }
+
+            $('#slick-demo').slick({ 
+              dots: true,
+              arrows: false,
+              infinite: false,
+              speed: 300,
+              slidesToShow: 1,
+              slidesToScroll: 1
+            });
+            var newUrl = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyDDomQNzG_Hnnyt2BGoXguPAlED6A_vr30&q='+modallat+','+modallon+'&zoom='+mapzoom+'&maptype=satellite';
+            var iFrame = $('#mapframe');
+            var iFrameParent = iFrame.parent();
+            //document.getElementById("mapframe").src ='https://www.google.com/maps/embed/v1/place?key=AIzaSyDDomQNzG_Hnnyt2BGoXguPAlED6A_vr30&q='+modallat+','+modallon+'&zoom='+mapzoom+'&maptype=satellite';
+            iFrame.remove();
+            iFrame.attr('src', newUrl);
+            iFrameParent.append(iFrame);
+          }
+          span.onclick = function() {
+            document.getElementById("mapframe").src ='';
+            imgState = 0;
+            document.getElementById("maptyper").src = "sview.png";
+            $('#maptyper').show();
+            modal.style.display = "none";
+
+          }
+
+          window.onclick = function(event) {
+            if (event.target == modal) {
+              document.getElementById("mapframe").src ='';
+              imgState = 0;
+              document.getElementById("maptyper").src = "sview.png";
+              $('#maptyper').show();
+              modal.style.display = "none";
+            }
+          }
+          /*$(document).keydown(function(event) { 
+            if (event.keyCode == 27) { 
+              document.getElementById("mapframe").src ='';
+              imgState = 0;
+              document.getElementById("maptyper").src = "sview.png";
+              $('#maptyper').show();
+              modal.style.display = "none";
+            }
+          });*/
+          var images = ["sview.png", "mview.png"]
+
+          var imgState = 0;
+
+          var imgTag = document.getElementById("maptyper");
+
+          imgTag.addEventListener("click", function (event) {
+            if (imgState==0){
+              if(modalsvlat == "NA"){
+                var newUrl = 'https://www.google.com/maps/embed/v1/streetview?key=AIzaSyDDomQNzG_Hnnyt2BGoXguPAlED6A_vr30&location='+modallat+','+modallon;
+                //document.getElementById("mapframe").src ='https://www.google.com/maps/embed/v1/streetview?key=AIzaSyDDomQNzG_Hnnyt2BGoXguPAlED6A_vr30&location='+modallat+','+modallon;
+                var iFrame = $('#mapframe');
+                var iFrameParent = iFrame.parent();
+                iFrame.remove();
+                iFrame.attr('src', newUrl);
+                iFrameParent.append(iFrame);
+              } else{
+                var newUrl = 'https://www.google.com/maps/embed/v1/streetview?key=AIzaSyDDomQNzG_Hnnyt2BGoXguPAlED6A_vr30&location='+modallat+','+modallon;
+                //document.getElementById("mapframe").src ='https://www.google.com/maps/embed/v1/streetview?key=AIzaSyDDomQNzG_Hnnyt2BGoXguPAlED6A_vr30&location='+modallat+','+modallon;
+                var iFrame = $('#mapframe');
+                var iFrameParent = iFrame.parent();
+                iFrame.remove();
+                iFrame.attr('src', newUrl);
+                iFrameParent.append(iFrame);              }
+              
+            }else if (imgState==1){
+            var newUrl = 'https://www.google.com/maps/embed/v1/place?key=AIzaSyDDomQNzG_Hnnyt2BGoXguPAlED6A_vr30&q='+modallat+','+modallon+'&zoom='+mapzoom+'&maptype=satellite';
+            var iFrame = $('#mapframe');
+            var iFrameParent = iFrame.parent();
+            //document.getElementById("mapframe").src ='https://www.google.com/maps/embed/v1/place?key=AIzaSyDDomQNzG_Hnnyt2BGoXguPAlED6A_vr30&q='+modallat+','+modallon+'&zoom='+mapzoom+'&maptype=satellite';
+            iFrame.remove();
+            iFrame.attr('src', newUrl);
+            iFrameParent.append(iFrame);
+            }
+            imgState = (++imgState % images.length);
+            event.target.src = images[imgState];
+          });
+
+
+        }
+
       }
     }
 
@@ -625,7 +742,7 @@ $(window).on('load', function() {
     } else {
       completePoints = true;
     }
-
+    
     centerAndZoomMap(group);
 
     // Add polylines
@@ -643,36 +760,28 @@ $(window).on('load', function() {
       completePolygons = true;
     }
 
-    // Add Nominatim Search control
-    if (getSetting('_mapSearch') !== 'off') {
-      var geocoder = L.Control.geocoder({
-        expand: 'click',
-        position: getSetting('_mapSearch'),
-        geocoder: new L.Control.Geocoder.Nominatim({
-          geocodingQueryParams: {
-            viewbox: [],  // by default, viewbox is empty
-            bounded: 0,
-          }
-        }),
-      }).addTo(map);
+  var searchControl = new L.Control.Search({layer: group,position: getSetting('_mapSearch'),propertyName: 'modaltitle',
+    marker: false
+    })
+  searchControl.on('search:locationfound', function(e) {
+    
+    //console.log('search:locationfound', );
 
-      function updateGeocoderBounds() {
-        var bounds = map.getBounds();
-        var mapBounds = [
-          bounds._southWest.lat, bounds._northEast.lat,
-          bounds._southWest.lng, bounds._northEast.lng,
-        ];
-        geocoder.options.geocoder.options.geocodingQueryParams.viewbox = mapBounds;
-      }
+    //map.removeLayer(this._markerSearch)
+    if(e.layer._popup)
+      e.layer.fire('click');
 
-      // Update search viewbox coordinates every time the map moves
-      map.on('moveend', updateGeocoderBounds);
-    }
+  });
+
+
+  map.addControl(searchControl);
+
+
 
     // Add location control
     if (getSetting('_mapMyLocation') !== 'off') {
       var locationControl = L.control.locate({
-        keepCurrentZoomLevel: true,
+        keepCurrentZoomLevel: false,
         returnToPrevBounds: true,
         position: getSetting('_mapMyLocation')
       }).addTo(map);
@@ -894,7 +1003,7 @@ $(window).on('load', function() {
    */
   function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-    var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
+    var credit = 'Data';
     var name = getSetting('_authorName');
     var url = getSetting('_authorURL');
 
@@ -1022,3 +1131,4 @@ $(window).on('load', function() {
   }
 
 });
+

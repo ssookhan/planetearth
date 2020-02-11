@@ -1,3 +1,188 @@
+.leaflet-popup-content button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+* {font-family: "Lato", sans-serif;}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+p {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+#slick-demo {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+#slick-demo img {
+     display: block;
+  height: 100%;
+  width: auto;
+    margin-left: auto;
+  margin-right: auto;
+}
+.slick-slide{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.slick-track{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.slick-list{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.slick-dots{
+position: absolute;
+bottom: 20px;
+display: block;
+width: 100%;
+padding: 10;
+margin: 0;
+list-style: none;
+text-align: center;
+}
+.slick-dots li button:before {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 0px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container * { 
+ border: 1px;
+ position: relative;
+}
+
+.grid-container *:after { 
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.grid-container {
+  display: grid;
+  background-color: rgba(255,255,255,0.8); /* Black w/ opacity */
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  grid-template-areas: "titleH desc" "map desc" "map imggallery";
+}
+
+.map { grid-area: map; 
+  margin: 25px;
+  margin-top: 0px;
+  padding: 10px;
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(255,255,255,0.2); /* Black w/ opacity */
+
+}
+
+.imggallery { 
+  grid-area: imggallery;
+  overflow: hidden;
+  min-height: 40px;
+  margin: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 10px;
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(255,255,255,0.2); /* Black w/ opacity */
+}
+
+.titleH { 
+  grid-area: titleH; 
+  margin: 25px;
+  padding: 10px;
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(255,255,255,0.2); /* Black w/ opacity */
+}
+
+.desc { 
+  grid-area: desc;
+  overflow-y: scroll; 
+  margin: 25px;
+  margin-left: 0px;
+  padding: 10px;
+  background-color: rgb(255,255,255); /* Fallback color */
+  background-color: rgba(255,255,255,0.2); /* Black w/ opacity */
+
+}
+
+#maptyper {
+  position:absolute;
+  margin: 0;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+/* The Close Button */
+.close {
+  position:fixed;
+  color: #aaaaaa;
+  margin: 0;
+  top: 0px;
+  right: 5px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 html,
 body {
   padding: 0;
@@ -46,7 +231,7 @@ h6 {
 }
 
 .leaflet-control-geocoder {
-  z-index: 9999;
+  z-index: 9998;
 }
 
 form {
@@ -287,3 +472,6 @@ span.legend-icon {
 .ladder form, .ladder div {
   display: block;
 }
+
+
+
