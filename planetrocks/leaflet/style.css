@@ -1,0 +1,542 @@
+/* The Modal (background) */
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 99999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.leaflet-popup-content button {
+  background-color: #f1f1f1; /* Green */
+  border: none;
+  color: black;
+  font-size: 16px;
+  text-decoration: bold;
+  text-decoration: underline;
+  padding: 15px 15px;
+  text-align: center;
+  display: center;
+}
+
+* {font-family: "Lato", sans-serif;}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+p {
+  margin: 0;
+}
+h1 {
+  margin: 0;
+}
+h2 {
+  margin: 0;
+}
+#slick-demo {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+#slick-demo img {
+     display: block;
+  height: 100%;
+  width: auto;
+    margin-left: auto;
+  margin-right: auto;
+}
+.slick-slide{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.slick-track{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.slick-list{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.slick-dots{
+position: absolute;
+bottom: 20px;
+display: block;
+width: 100%;
+padding: 10;
+margin: 0;
+list-style: none;
+text-align: center;
+}
+.slick-dots li button:before {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 0px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgba(241, 241, 241); /* Fallback color */
+  background-color: rgba(241, 241, 241, 0.4); /* Black w/ opacity */
+}
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container * { 
+ border: 1px;
+ position: relative;
+}
+
+.grid-container *:after { 
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.grid-container {
+  display: grid;
+  background-color: rgba(241, 241, 241,0.8); /* Black w/ opacity */
+  grid-template-columns: 1fr 0.5fr;
+  grid-template-rows: 0.5fr 1fr 1fr;
+  grid-template-areas: "titleH desc" "map desc" "map imggallery";
+}
+
+
+
+
+.map { grid-area: map; 
+  margin: 25px;
+  margin-top: 0px;
+  padding: 10px;
+  background-color: rgba(241, 241, 241); /* Fallback color */
+  background-color: rgba(241, 241, 241,0.4); /* Black w/ opacity */
+
+}
+
+
+
+.imggallery { 
+  grid-area: imggallery;
+  overflow: hidden;
+  min-height: 40px;
+  margin: 25px;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 10px;
+  background-color: rgba(241, 241, 241); /* Fallback color */
+  background-color: rgba(241, 241, 241,0.4); /* Black w/ opacity */
+}
+
+.titleH { 
+  grid-area: titleH; 
+  margin: 15px;
+  padding: 0px;
+  background-color: rgba(241, 241, 241); /* Fallback color */
+  background-color: rgba(241, 241, 241,0.4); /* Black w/ opacity */
+}
+
+.desc { 
+  grid-area: desc;
+  overflow-y: scroll; 
+  margin: 25px;
+  margin-left: 0px;
+  padding: 10px;
+  background-color: rgba(241, 241, 241); /* Fallback color */
+  background-color: rgba(241, 241, 241,0.4); /* Black w/ opacity */
+
+}
+h1{
+  line-height: 1;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.3fr 0.7fr;
+    grid-template-rows: 0.5fr 1.5fr 1fr;
+    grid-template-areas: "titleH titleH" "map map" "desc imggallery";
+  }
+  #modsubtitle {
+    display:none;
+  }
+  .desc {
+    margin-top: 0px;
+  }
+
+}
+
+#maptyper {
+  position:absolute;
+  margin: 0;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+}
+/* The Close Button */
+.close {
+  position:fixed;
+  z-index: 99999;
+  color: #aaaaaa;
+  margin: 0;
+  top: 0px;
+  right: 5px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+
+#map {
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+h5 {
+  margin: 0;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+h6 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.intro-popup .leaflet-popup-tip-container {
+  width: 0;
+  height: 0;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.leaflet-control-custom {
+  padding: 6px 8px;
+  background: white;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.4);
+  color: #333;
+  border-radius: 5px;
+}
+
+.leaflet-control-geocoder {
+  z-index: 9998;
+}
+
+form {
+  margin-top: 2px;
+}
+
+.polygons-legend-scale {
+  margin-top: 4px;
+  padding-top: 7px;
+  border-top: dotted 3px #eee;
+}
+
+.polygons-legend-scale i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+}
+
+.leaflet-popup-content {
+  min-width: 150px;
+}
+
+.leaflet-popup-content img {
+  width: 100%;
+  margin: 5px 0 5px 0;
+}
+
+.geojson-point-marker {
+  radius: 3;
+}
+
+.loader,
+.loader:before,
+.loader:after {
+  background: #000;
+  -webkit-animation: load1 1s infinite ease-in-out;
+  animation: load1 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader:before,
+.loader:after {
+  position: absolute;
+  top: 0;
+  content: '';
+}
+.loader:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader {
+  color: #000;
+  text-indent: -9999em;
+  position: absolute;
+  left: 50vw;
+  top: 45vh;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+@keyframes load1 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em;
+    height: 5em;
+  }
+}
+
+/* Technically there are two map titles, on the left and on the right,
+ * at all times. On a big screen, map title in the right column is not
+ * displayed. On a mobile device, title in the right column is shown with 0
+ * opacity, so that search, locate, and zoom buttons do not overlay the title,
+ * creating an effect as if the title is located on top, and not the left column.
+ */
+.leaflet-right .map-title { display: none; }
+
+@media only screen and (max-width: 760px) {
+  .leaflet-right .map-title {
+    display: block;
+    opacity: 0;
+  }
+
+  .leaflet-left .map-title {
+    width: 98%;
+  }
+}
+
+#mobile-intro-popup {
+  position: absolute;
+  bottom: 5vh;
+  left: 10vw;
+  width: 70vw;
+  z-index: 1000;
+  background: white;
+  padding: 1vh 5vw;
+  opacity: 0.9;
+  border: 5px #ddd solid;
+  border-radius: 5px;
+  font-family: "Helvetica Neue", Arial;
+}
+
+#mobile-intro-popup p {
+  margin: 10px 0 10px 0;
+  max-height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#mobile-intro-popup-close {
+  position: absolute;
+  top: 3px;
+  right: 3px;
+  width: 30px;
+  background: #bbb;
+  color: white;
+  font-size: 1.4em;
+  text-align: center;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+#polygonSelect {
+  width: 100%;
+}
+
+.polygon-label {
+  position: absolute;
+  left: -15px;
+  color: #444;
+  font-weight: bold;
+  opacity: 0.9;
+  pointer-events: none !important;
+}
+
+.color-line {
+  display: inline-block;
+  vertical-align: middle;
+  height: 3px;
+  width: 20px;
+}
+
+.markers-legend-icon {
+  height: 12px;
+  vertical-align: middle;
+}
+
+.map-title {
+  margin-top: 0 !important;
+  margin-bottom: 10px;
+  max-width: 450px;
+}
+
+.leaflet-top.leaflet-left {
+  padding-top: 10px;
+}
+
+/* Map Table */
+div.dataTables_scrollBody {
+  border: 0 !important;
+}
+
+div.dataTables_scrollHead {
+  color: #eee !important;
+}
+
+.dataTable * {
+  font-family: "Helvetica Neue", Arial;
+  border: 0 !important;
+}
+
+div.dataTables_scrollHead table.display {
+  background-color: #444;
+  color: #eee;
+}
+
+select {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.div-center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+span.legend-arrow {
+  color: rgb(238, 238, 238);
+  position: absolute;
+  right: 8px;
+  top: 5px;
+}
+
+span.legend-icon {
+  color: #bbb;
+  margin-right: 5px;
+}
+
+.ladder {
+  width: 180px;
+  margin-top: 0 !important;
+  overflow: hidden;
+}
+
+.ladder h6.minimize ~ div,
+.ladder h6.minimize ~ form {
+  display: none !important;
+}
+
+.ladder form, .ladder div {
+  display: block;
+}
+
+
+

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, user-scalable=yes">
+
+<html>
+<head>
+  <title>Loading the map...</title>
+
+
+    <!-- Slick-->
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+  <!-- jQuery-->
+  <script src="scripts/jquery.min.js"></script>
+
+  <!-- Leaflet (CSS and JS) -->
+  <link rel="stylesheet" href="scripts/leaflet.css" />
+  <script src="scripts/leaflet.js"></script>
+  <script src="scripts/leaflet-search.js"></script>
+
+  <!-- leaflet-providers -->
+  <script src="scripts/leaflet-providers/leaflet-providers.js"></script>
+
+  <!-- Tabletop -->
+  <script src="scripts/tabletop.js"></script>
+
+  <!-- Font Awesome -->
+  <script src="scripts/77cd9dd4f5.js"></script>
+
+  <!-- Leaflet.awesome-markers -->
+  <link rel="stylesheet" type="text/css" href="scripts/Leaflet.awesome-markers/dist/leaflet.awesome-markers.css">
+  <script type="text/javascript" src="scripts/Leaflet.awesome-markers/dist/leaflet.awesome-markers.js"></script>
+
+  <!-- Markercluster -->
+  <link rel="stylesheet" href="scripts/MarkerCluster.css">
+  <link rel="stylesheet" href="scripts/MarkerCluster.Default.css">
+  <script type="text/javascript" src="scripts/leaflet.markercluster.js"></script>
+
+  <!-- Locate Control -->
+  <link rel="stylesheet" href="scripts/L.Control.Locate.min.css" />
+  <script src="scripts/L.Control.Locate.min.js"></script>
+
+  <!-- jQuery-CSV -->
+  <script src="scripts/jquery.csv-0.71.min.js"></script>
+
+  <!-- Custom style sheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- Layer Support for Marker Cluster -->
+  <script src="scripts/leaflet.markercluster.layersupport.js"></script>
+
+  <!-- DataTables -->
+  <script src="scripts/jquery.dataTables.min.js"></script>
+  <link rel="stylesheet" href="scripts/jquery.dataTables.min.css" />
+
+  <!-- Material Icons -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="scripts/leaflet-search.css" />
+  <link rel="stylesheet" type="text/css" href="../w3.css"> 
+  <link rel="stylesheet" href="../assets/css/fontawesome-all.min.css">
+
+
+</head>
+<style>
+  * {box-sizing: border-box;}
+  body,h2,h4,h5,h6 {font-family: "Lato", sans-serif;}
+  body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    scroll-behavior: smooth;
+  }
+  body,p,h1,h3 {color: black;}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .w3-wide {letter-spacing: 10px;}
+  .w3-hover-opacity {cursor: pointer;}
+  .w3-bar-item
+  {
+      font-family: Verdana, sans-serif; margin:0
+  }
+</style>
+
+
+<body>
+  <!-- The Modal -->
+<div id="myModal2" class="modal2">
+  <!-- Modal content -->
+  <div class="modal-content2">
+    <span class="close2">&times;</span>
+    <h1 id="deftitle">Some text in the Modal..</h1>
+    <p id="deftext">Some text in the Modal..</p>
+  </div>
+
+</div>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="grid-container">
+    <div class="map">
+      <img id= "maptyper" src="sview.png" width="20" height="20"></img>
+      <iframe
+        id= "mapframe"
+        width="100%"
+        height="100%"
+        frameborder="0" style="border:0"
+        src="" allowfullscreen>
+      </iframe>
+    </div>
+    <div class="desc">
+      <span class="close">&times;</span>
+      <p id="moddesc">Some text in the Modal..</p>
+    </div>
+    <div class="titleH">
+      <h1 id="modtitle">Some text in the Modal..</h1>
+      <h5 id="modsubtitle">Some text in the Modal..</h2>
+    </div>
+    <div class="imggallery">
+      <div id="slick-demo">
+
+      </div>
+    </div>
+  </div> 
+
+  </div>
+
+
+  <div id="menu" class="header" class="w3-top">
+      <div class="w3-bar w3-white" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+          <i class="fa fa-bars"></i>
+        </a>
+        <a href="/index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+        <a href="/index.html#section02" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+        <a href="/leaflet/index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> MAP</a>
+        <a href="/definitions.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> DEFINITIONS</a>
+        <!--<a href="/sitelist.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-list"></i> LOCATIONS</a>-->
+        <a href="https://www.instagram.com/planet_rocks_utsc/" class="w3-bar-item w3-button  w3-right"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+        <a href="https://play.google.com/store/apps/details?id=lets.rock.ontario&hl=en" class="w3-bar-item w3-button w3-right"><i class="fab fa-google-play w3-hover-opacity"></i></a>
+      </div>
+
+      <!-- Navbar on small screens -->
+      <div id="navDemo" style="position: fixed; z-index: 999999" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a href="/index.html#section02" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-user"></i> ABOUT</a>
+        <a href="/leaflet/index.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-globe"></i> MAP</a>
+        <a href="/definitions.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-th"></i> DEFINITIONS</a>
+        <!--<a href="/sitelist.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-list"></i> SITE LIST</a>-->
+      </div>
+  </div>
+
+  <div class="loader">Loading...</div>
+  <div id="map" class="w3-display-container"></div>
+  <table id="maptable" class="display"></table>
+
+  <script type="text/javascript">
+    var map = L.map('map', {
+      attributionControl: false,
+      zoomControl: false,
+      scrollWheelZoom: true
+    }).setView([41.76,-72.69], 11); // default center is overridden by Google Sheet options and points
+
+
+  </script>
+
+  <script type="text/javascript" src="google-doc-url.js"></script>
+  <script type="text/javascript" src="scripts/constants.js"></script>
+  <script type="text/javascript" src="scripts/palette.js"></script>
+  <script type="text/javascript" src="scripts/polylabel.js"></script>
+  <script type="text/javascript" src="scripts/procsv.js"></script>
+  <script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  <script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+
+  <script type="text/javascript" src="scripts/map.js"></script>
+  <script>
+            $('#slick-demo').slick({ 
+            dots: true,
+            arrows: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1
+          });
+          $('#slick-demo').slickLightbox({
+            src: 'src',
+            itemSelector: '.item img'
+          });
+
+</script>
+<script type="application/javascript">
+  var resizeCover = function () {
+    var homeCover = document.getElementById('map');
+    var newHeight = document.documentElement.clientHeight -
+      document.getElementById('menu').clientHeight;
+    homeCover.style.height = newHeight + "px";
+    homeCover.style.minHeight = newHeight + "px";
+  }
+
+  $(document).ready(resizeCover);
+  window.onresize = resizeCover;
+</script>
+<script type="application/javascript">
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+} 
+</script>
+
+</body>
+</html>

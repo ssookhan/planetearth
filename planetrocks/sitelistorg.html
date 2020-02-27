@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<title>Let's Rock</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3.css">
+<link rel="stylesheet" href="/latocss.css">
+<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="/js/mdb.min.js"></script>
+<script type="text/javascript" src="/sitelistjs.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="isotope.pkgd.min.js"></script>
+
+
+
+<!-- SAJ EDITS -->
+
+
+<!-- END SAJ EDITS -->
+
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+body,p,h1,h3 {color: black;}
+
+* {
+  box-sizing: border-box;
+}
+
+.grid-item {
+  width: 33%;
+  padding: 30px;
+  margin: 2px;
+  color: white;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .grid-item {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.earthhistory {
+  background: #f1f1f1;
+}
+.fossils {
+  background: #f1f1f1;
+}
+.historic {
+  background: #f1f1f1;
+}
+
+.nature {
+  background: #f1f1f1;
+}
+
+.rocksandminerals {
+  background: #f1f1f1;
+}
+
+
+
+
+
+
+
+</style>
+
+
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<section id="top">
+
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+    <a href="/index.html/#section02" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="/leaflet/index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> MAP</a>
+    <a href="/definitions.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> DEFINITIONS</a>
+    <a href="/sitelist.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-list"></i> SITE LIST</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="/index.html/#section02" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="/leaflet/index.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-globe"></i> MAP</a>
+    <a href="/definitions.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-th"></i> DEFINITIONS</a>
+    <a href="/sitelist.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-list"></i> SITE LIST</a>
+  </div>
+</div>
+
+</section>
+
+<br>
+<br>
+<br>
+
+<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">SITE LIST</span>
+
+<br>
+<br>
+<br>
+
+<div class="filter">
+  <h3>Filter</h3>
+  <button data-name='*' class="w3-button w3-padding-large w3-light-grey">All</button>
+  <button data-name=".earthhistory" class="w3-button w3-padding-large w3-light-grey">Earth History</button>
+  <button data-name=".rocksandminerals" class="w3-button w3-padding-large w3-light-grey">Rocks and Minerals</button>
+  <button data-name=".fossils" class="w3-button w3-padding-large w3-light-grey">Fossils</button>
+  <button data-name=".nature" class="w3-button w3-padding-large w3-light-grey">Nature</button>
+  <button data-name=".historic" class="w3-button w3-padding-large w3-light-grey">Historic</button>
+</div>
+
+<br>
+<br>
+<br>
+
+
+<div class="grid" id="demo">
+  <div class= 'grid-item rocksandminerals'>
+    <h3 id ="grid-item"></h3>
+    <p>The loss of ice from a glacier or ice sheet by melting.</p>
+  </div>
+  <div class= "grid-item rocksandminerals"><h3 id ="grid-item"></h3><p>The loss of ice fro</p></div>
+</div>
+
+
+
+
+
+<br>
+<br>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="isotope.pkgd.min.js"></script> -->
+
+
+
+
+
+
+<script>
+
+
+
+  // Modal Image Gallery
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+    var captionText = document.getElementById("caption");
+    captionText.innerHTML = element.alt;
+  }
+
+  // Change style of navbar on scroll
+  window.onscroll = function() {myFunction()};
+  function myFunction() {
+      var navbar = document.getElementById("myNavbar");
+      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+          navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+      } else {
+          navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+      }
+  }
+
+</script>
+
+
+<!-- <script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript" src="/js/popper.min.js"></script>
+
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="/js/mdb.min.js"></script> -->
+
+
+
+<!-- <script type="text/javascript">
+  $.getJSON("https://spreadsheets.google.com/feeds/list/1s2mhl-GZkMC9L-pnrKrMnDJ3J6VoZ5SfFpNxajukK80/1/public/values?alt=json", function(data) {
+
+    var sheetData = data.feed.entry;
+
+    var i;
+    for (i = 0; i < sheetData.length; i++) {
+
+      var name = data.feed.entry[i]['gsx$_cn6ca']['$t'];
+      var id = data.feed.entry[i]['gsx$_cokwr']['$t'];
+      var category = data.feed.entry[i]['gsx$_cpzh4']['$t'];
+      if (category == 1) {
+        category = "earthhistory";
+      } else if (category == 2) {
+        category = "fossils";
+      } else if (category == 3) {
+        category = "historic";
+      } else if (category == 4) {
+        category = "nature";
+      } else if (category == 5) {
+        category = "rocksandminerals";
+      }
+
+      console.log('<div class= "grid-item '+ category + '"><h3 id ="grid-item"></h3><p>'+id+ ': '+name+'</p></div>')
+      document.getElementById('demo').innerHTML += '<div class= "grid-item '+ category + '"><h3 id ="grid-item"></h3><p>'+id+ ': '+name+'</p></div>'
+      // document.getElementById('demo').innerHTML += ('<tr>' + '<td>' + name + '</td>' + '<td>' + age + '</td>' + '<td>' + email + '</td>' + '</tr>');
+
+    }
+  });
+</script> -->
+
+
+</body>
+
+</html>

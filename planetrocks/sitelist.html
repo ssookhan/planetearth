@@ -1,0 +1,4177 @@
+<!DOCTYPE html>
+<html>
+<title>Let's Rock</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3.css">
+<link rel="stylesheet" href="/latocss.css">
+<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+
+
+
+
+
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+body,h2,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+body,p,h1,h3 {color: black;}
+body {font-family: Verdana, sans-serif; margin:0}
+
+
+.grid-item {
+  width: 33%;
+  padding: 30px;
+  margin: 2px;
+  color: white;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .grid-item {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.rocksandminerals {
+  background: #f1f1f1;
+}
+.bg1 {
+  background: url(/images/pic08.jpg)no-repeat center;
+  background-size: cover;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+</style>
+
+
+
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<section id="top">
+
+<div class="w3-top">
+    <div class="w3-bar w3-white" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a href="/index.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i> HOME</a>
+      <a href="/index.html#section02" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="/leaflet/index.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> MAP</a>
+      <a href="/definitions.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> DEFINITIONS</a>
+      <a href="/sitelist.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-list"></i> LOCATIONS</a>
+      <a href="https://www.instagram.com/planet_rocks_utsc/" class="w3-bar-item w3-button w3-hide-medium w3-right"><i class="fab fa-instagram w3-hover-opacity"></i></a>
+      <a href="https://play.google.com/store/apps/details?id=lets.rock.ontario&hl=en" class="w3-bar-item w3-button w3-hide-medium w3-right"><i class="fab fa-google-play w3-hover-opacity"></i></a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="/index.html#section02" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="/leaflet/index.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-globe"></i> MAP</a>
+      <a href="/definitions.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-th"></i> DEFINITIONS</a>
+      <a href="/sitelist.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-list"></i> SITE LIST</a>
+    </div>
+  </div>
+
+</section>
+
+<div class="bg1">
+<br>
+<br>
+<br>
+
+<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">SITE LIST</span>
+
+<br>
+<br>
+<br>
+</div>
+
+
+
+
+<div class="filter">
+  <h3>Filter</h3>
+
+  <button data-name='*' class="w3-button w3-padding-large w3-light-grey">All</button>
+  <button data-name=".1" class="w3-button w3-padding-large w3-light-grey">Earth History</button>
+  <button data-name=".5" class="w3-button w3-padding-large w3-light-grey">Rocks and Minerals</button>
+  <button data-name=".2" class="w3-button w3-padding-large w3-light-grey">Fossils</button>
+  <button data-name=".4" class="w3-button w3-padding-large w3-light-grey">Nature</button>
+  <button data-name=".3" class="w3-button w3-padding-large w3-light-grey">Historic</button>
+
+</div>
+
+<br>
+<br>
+<br>
+
+<div class="grid">
+
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N142</h3>
+    <p>Fire and Ice</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C117</h3>
+    <p>The Naming of Bancroft</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N86</h3>
+    <p>Laurentian Escarpment</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E56</h3>
+    <p>Fort Wellington</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W53</h3>
+    <p>St. Clair River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S2</h3>
+    <p>Beare Road Dump</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C92</h3>
+    <p>Sans Souci Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N159</h3>
+    <p>McIntyre Mine #11 Headframe</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N40</h3>
+    <p>Whalebacks at Whitefish</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N237</h3>
+    <p>Steep Rock Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N79</h3>
+    <p>Microkarst</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S63</h3>
+    <p>Devonian Square</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N154</h3>
+    <p>Gogama Gneiss</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N209</h3>
+    <p>Thunder Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E37</h3>
+    <p>Volcanic Explosion at Expo 67</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N298</h3>
+    <p>Nippissing 96 Mine Site</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S151</h3>
+    <p>Inspired by rock: Robertson Davies at the Don Valley Brickyard</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E29</h3>
+    <p>The Mystery of the Great Shelf Seas at Ottawa</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N105</h3>
+    <p>Two Harbors Taconite Docks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C16</h3>
+    <p>The Sacred Grandfather Rock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E33</h3>
+    <p>Oka</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C32</h3>
+    <p>Bleasdell Boulder</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N46</h3>
+    <p>Bruce Mines</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S156</h3>
+    <p>Don Valley Jail</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S116</h3>
+    <p>Toronto Botanical Gardens</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S43</h3>
+    <p>Canadian Drilling Rig Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N133</h3>
+    <p>Red Lake mining district</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C165</h3>
+    <p>Killbear Provincial Park and Geological Interpretation Centre</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C152</h3>
+    <p>Seiches</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N296</h3>
+    <p>St. Joseph Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S102</h3>
+    <p>War of 1812 Memorial</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N90</h3>
+    <p>Slate Islands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>W25</h3>
+    <p>Rockford Bioherms</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S157</h3>
+    <p>Mylonite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S59</h3>
+    <p>Earthquake!</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E15</h3>
+    <p>Geologic Columns</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S84</h3>
+    <p>Spanish Quartzite at Queen's Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S52</h3>
+    <p>Niagara Wines</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N199</h3>
+    <p>Trinity United Church</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W32</h3>
+    <p>Flower Pot Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N122</h3>
+    <p>Paleozoic Limestones on the Winisk River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E30</h3>
+    <p>Lemieux Quick Clay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C42</h3>
+    <p>Serpent Mounds</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S21</h3>
+    <p>Sixteen Mile Creek Canyon</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S1</h3>
+    <p>Frenchman's Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C66</h3>
+    <p>Wenonah II</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N83</h3>
+    <p>Loring-Restoule Deer Yard</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S89</h3>
+    <p>W.A. Parks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C6</h3>
+    <p>30,000 Islands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N31</h3>
+    <p>Wanapitei Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N303</h3>
+    <p>Esker Mining near Rabbit Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E75</h3>
+    <p>Rock drumlin on limestone, on Highway 37 north of Roslin at Moira Road</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N141</h3>
+    <p>Sherman Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S32</h3>
+    <p>Queenston Heights</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W37</h3>
+    <p>Ground Shaking at Guelph</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N326</h3>
+    <p>Nipissing 81 Site</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E34</h3>
+    <p>Ste. Dorothee Sills</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W61</h3>
+    <p>Fathom Five Islands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S28</h3>
+    <p>Albion Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E65</h3>
+    <p>Crossing striations and ‘flow switching’ of the Ontario Lobe</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N65</h3>
+    <p>Kakabeka Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S65</h3>
+    <p>Royal Ontario Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C26</h3>
+    <p>Sandhills Kame</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S18</h3>
+    <p>Mono Cliffs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N283</h3>
+    <p>Chippewa Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N167</h3>
+    <p>Esker Aggregate</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S37</h3>
+    <p>Niagara Falls and Gorge</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E20</h3>
+    <p>Creeping Clays at Galop Canal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E4</h3>
+    <p>Trans-Canada Highway Marble</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S3</h3>
+    <p>Rouge Valley Faults</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E43</h3>
+    <p>Marble Cave at Portland</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N235</h3>
+    <p>Seine River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>C27</h3>
+    <p>Zion</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S124</h3>
+    <p>Crothers Woods</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N260</h3>
+    <p>Penn Lake Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C22</h3>
+    <p>Rohallion Hill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S85</h3>
+    <p>The Griffin</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N124</h3>
+    <p>An uplifting experience: glacio-isostatic rebound in northern Ontario</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C21</h3>
+    <p>Dartmoor</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W36</h3>
+    <p>Walkerton</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C61</h3>
+    <p>Prince Edward Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N227</h3>
+    <p>Fort Frances Federal Building</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N305</h3>
+    <p>Fairy Point Pictographs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N203</h3>
+    <p>Ignace Viewpoint</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E50</h3>
+    <p>Megagrooved limestone plains</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N187</h3>
+    <p>Intrusive Breccia at Lake Helen</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N212</h3>
+    <p>Granitic Dikes through Folded Metasediments</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S92</h3>
+    <p>Battle of Stoney Creek</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S8</h3>
+    <p>Cathedral Bluffs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C5</h3>
+    <p>Ontario's Anorthosites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N211</h3>
+    <p>Eagle Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C51</h3>
+    <p>Bancroft Chamber of Commerce</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C131</h3>
+    <p>Chattering Glaciers</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C52</h3>
+    <p>The Princess Sodalite Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C34</h3>
+    <p>Deloro Granite on Highway 7</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S129</h3>
+    <p>Taber Hill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W5</h3>
+    <p>Oil Springs Oil Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N320</h3>
+    <p>Stonecliff</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E10</h3>
+    <p>Highway 7 Unconformity</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N153</h3>
+    <p>Cart Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E69</h3>
+    <p>Francis Pit: Highway 38 Spring Brook Road</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N92</h3>
+    <p>Hole in the Wall</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S133</h3>
+    <p>Rocking the Moon</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N42</h3>
+    <p>McLean's Mountain View</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C58</h3>
+    <p>Huckleberry Rock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S53</h3>
+    <p>Robert Moses Power Station</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S146</h3>
+    <p>Pegmatite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N205</h3>
+    <p>Raleigh Lake Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W49</h3>
+    <p>Baden Hills Waterloo Moraine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N18</h3>
+    <p>Green pebbles in Conglomerates</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S91</h3>
+    <p>The Ravines of Toronto</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N193</h3>
+    <p>Ancient Microbialites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W38</h3>
+    <p>Skinners Bluff</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C95</h3>
+    <p>CFB Borden</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N185</h3>
+    <p>Rockslide!</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N214</h3>
+    <p>Last Spike on the Thunder Bay-Red River Route</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N302</h3>
+    <p>Tip Top Copper Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S33</h3>
+    <p>Lockport and Erie Canal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N206</h3>
+    <p>Beach Sands of Glacial Lake Agassiz</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S153</h3>
+    <p>Protecting the Niagara Escarpment</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S26</h3>
+    <p>Webster's Falls / Spencer Gorge</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N114</h3>
+    <p>Mine View, Virginia</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C97</h3>
+    <p>H. N. Crossley Nature Reserve</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E55</h3>
+    <p>Fort Henry</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N309</h3>
+    <p>Blueberry Boulder Field</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N287</h3>
+    <p>Old Post Office</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N184</h3>
+    <p>Rock Talus Viewpoint at Gorge Creek Road Turn Off</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S40</h3>
+    <p>Ridgeway</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E60</h3>
+    <p>Shoal Tower</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N131</h3>
+    <p>Collins Inlet</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C93</h3>
+    <p>Altberg Wildlife Sanctuary</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N126</h3>
+    <p>Victor diamond mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E52</h3>
+    <p>Miller Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N273</h3>
+    <p>Michipicoten Mission</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N43</h3>
+    <p>Cup and Saucer Trail</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E80</h3>
+    <p>Montreal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N198</h3>
+    <p>Sleeping Giant Provincial Park Nature Trails</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N57</h3>
+    <p>Wawa Pillow Basalts</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C139</h3>
+    <p>Bisected drumlin</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S29</h3>
+    <p>Decew Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N315</h3>
+    <p>Algoma Steel Loading Docks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C24</h3>
+    <p>Carden Alvars</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C74</h3>
+    <p>Samuel Champlain</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S74</h3>
+    <p>The Light of Ages</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C120</h3>
+    <p>Discovery of Uranium</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N299</h3>
+    <p>Val Cote Rock Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N88</h3>
+    <p>Algonquin Radio Observatory</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S99</h3>
+    <p>Peter Russell Rock Garden</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C39</h3>
+    <p>Volcanic Ash Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N76</h3>
+    <p>La Vase Portages</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N29</h3>
+    <p>Sudbury Breccia</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C70</h3>
+    <p>Road of Broken Dreams</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N8</h3>
+    <p>The Gowganda Formation At Elliot Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C156</h3>
+    <p>Boom and bust: Ontario’s most famous ghost town</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N71</h3>
+    <p>MS Chi-Cheemaun</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>W23</h3>
+    <p>Craigleith Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C102</h3>
+    <p>Sauble Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C38</h3>
+    <p>Big Knob Unconformity</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N194</h3>
+    <p>Aqua-Plano Indians of the Great Lakes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N254</h3>
+    <p>Rainbow Falls Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S25</h3>
+    <p>Burlington Heights</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C153</h3>
+    <p>Legacy of the ice age: why Ontario is being tilted down to the south</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S142</h3>
+    <p>Ice-age Erratic</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S150</h3>
+    <p>Marauder Plaza, McMaster University campus, Hamilton</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N297</h3>
+    <p>Little Nipissing Silver Mine site</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C28</h3>
+    <p>Omemee Esker</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N181</h3>
+    <p>Megascale Glacial Lineations</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N145</h3>
+    <p>Cobalt Lake and the Nipissing 81 Mine Site</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N301</h3>
+    <p>Eva Lake Erratics</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N223</h3>
+    <p>Lake of the Woods</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N3</h3>
+    <p>Cobalt</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N253</h3>
+    <p>Rossport Crystal Currents</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C94</h3>
+    <p>Nancy Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W11</h3>
+    <p>Elora Gorge</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S105</h3>
+    <p>Christie Erratic Boulder</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S76</h3>
+    <p>Re-inventing the Canadian Shield</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C2</h3>
+    <p>Pancake Islands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S46</h3>
+    <p>Devil's Hole</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N48</h3>
+    <p>Copper Mine Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N229</h3>
+    <p>Schisty Sheen</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C146</h3>
+    <p>Rock drumlinized limestone plains</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N295</h3>
+    <p>Shelburne Post Office</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W60</h3>
+    <p>The Grotto</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N38</h3>
+    <p>Sheguiandah's Ice Age Peoples</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N277</h3>
+    <p>Pinguisibi</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N263</h3>
+    <p>Pukaskwa National Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C35</h3>
+    <p>Marmoraton Iron Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S93</h3>
+    <p>The David Dunlap Observatory</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N20</h3>
+    <p>French River and the Voyageurs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E59</h3>
+    <p>Glengarry Cairn</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E26</h3>
+    <p>Geological Survey Of Canada</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C23</h3>
+    <p>Kirkfield Lift Lock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S58</h3>
+    <p>Art Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N316</h3>
+    <p>Abandoned Cobble Beaches</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N261</h3>
+    <p>Marathon</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N219</h3>
+    <p>Sioux Narrows Bridge</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C144</h3>
+    <p>Drumlin with stony till</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W51</h3>
+    <p>Lake Erie</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C143</h3>
+    <p>Till of drumlin crest southwest of Warkworth on Hiway 29</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E51</h3>
+    <p>Lake on the Mountain at Picton</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E6</h3>
+    <p>Gull River Formation</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C72</h3>
+    <p>Kitchikewana</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E79</h3>
+    <p>Historic Varty Mill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E63</h3>
+    <p>Cross-valley moraines of the Cataraqui Valley</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N22</h3>
+    <p>The Grenville Front Tectonic Zone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S98</h3>
+    <p>Mt. Nemo</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N67</h3>
+    <p>Pigeon River (High Falls)</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N166</h3>
+    <p>Redstone Mine Komatiite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C163</h3>
+    <p>Roche Moutonnées</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>W17</h3>
+    <p>Duncan Crevice Caves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C121</h3>
+    <p>Gooderham</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N149</h3>
+    <p>Nippising Diabase</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N89</h3>
+    <p>Mattawa</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N56</h3>
+    <p>Terraces</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S36</h3>
+    <p>The Niagara Escarpment</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N129</h3>
+    <p>Ontario’s big northern rivers</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N213</h3>
+    <p>Building Stone Granites from Vermillion Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N132</h3>
+    <p>Killarney</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S75</h3>
+    <p>Gooderham and Worts Distillery</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S125</h3>
+    <p>Kortright Centre</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E24</h3>
+    <p>Nepean Point and Samuel de Champlain</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E73</h3>
+    <p>Drumlinized escarpments along Rutledge Road</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C77</h3>
+    <p>Algonquin Information Center</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C45</h3>
+    <p>Adam and Eve Glacial Erratics</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N267</h3>
+    <p>Scenic High Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N274</h3>
+    <p>Michipicoten River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C3</h3>
+    <p>Depot Harbor</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E3</h3>
+    <p>Bonnechere Caves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>W10</h3>
+    <p>Goderich</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E42</h3>
+    <p>Highway 401 Unconformity at Kingston</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W47</h3>
+    <p>Pelee Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>E18</h3>
+    <p>Charleston Lake Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S119</h3>
+    <p>South African War Memorial</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C47</h3>
+    <p>Petroglyphs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C98</h3>
+    <p>Little Norway</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N265</h3>
+    <p>Migmatized gneiss</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N14</h3>
+    <p>Oakes's House</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S108</h3>
+    <p>Union Station</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C33</h3>
+    <p>Ontario's first Gold Rush</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C17</h3>
+    <p>Dorset Fire Tower</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N266</h3>
+    <p>Metatuff</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N192</h3>
+    <p>Strandlines of Lake Superior</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N11</h3>
+    <p>Fault Scarp at New Liskeard</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W15</h3>
+    <p>Old Baldy</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N155</h3>
+    <p>Cross-cutting Intrusions</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N66</h3>
+    <p>Mount Mckay Mesa</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E35</h3>
+    <p>Lachine Canal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S95</h3>
+    <p>Bending the Don'</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N170</h3>
+    <p>Kapuskasing</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N220</h3>
+    <p>Metavolcanics</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E47</h3>
+    <p>Marlbank</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S10</h3>
+    <p>Bluffer's Park Marina</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S34</h3>
+    <p>Love Canal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C115</h3>
+    <p>Marvelous Marble</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N94</h3>
+    <p>Conglomerate at Cartier</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S118</h3>
+    <p>The 48th Highlanders Monument</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E1</h3>
+    <p>Barron Canyon,Algonquin Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S77</h3>
+    <p>Hamilton Museum of Steam and Technology</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C130</h3>
+    <p>The Painted Rocks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N4</h3>
+    <p>Lake Timiskaming</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N151</h3>
+    <p>Scenic Viewpoint over the Temiskaming Graben</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N60</h3>
+    <p>Pijitawabik Palisades</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N202</h3>
+    <p>Sir Sandford Fleming and the Savanne Portage</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>S42</h3>
+    <p>Port Colborne Quarry</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N107</h3>
+    <p>The Mid-Continent Rift Exposed</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>E62</h3>
+    <p>Wolfe Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N310</h3>
+    <p>Kerr Lake Pillow Basalts</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S35</h3>
+    <p>The Whirlpool Basin</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C96</h3>
+    <p>Camp X</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N17</h3>
+    <p>Turbidites of the Abitibi Greenstone Belt</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N59</h3>
+    <p>Kama Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N322</h3>
+    <p>Bruce Mines Trail</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S69</h3>
+    <p>Bancroft Marble at the Guild Inn</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S14</h3>
+    <p>Casa Loma</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N13</h3>
+    <p>Toburn Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E72</h3>
+    <p>Drumlinized escarpments along Petworth Road</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S62</h3>
+    <p>Convocation Hall</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N250</h3>
+    <p>Highway between Nipigon and Thunder Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N144</h3>
+    <p>Jake Koza Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N58</h3>
+    <p>Potholes Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W30</h3>
+    <p>Lion's Head</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N119</h3>
+    <p>Taconite at Babbitt</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S106</h3>
+    <p>Mountain building in Toronto</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S24</h3>
+    <p>Bronte Creek</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S19</h3>
+    <p>Cheltenham Badlands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S66</h3>
+    <p>Department of Earth Sciences Rock Walk</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C113</h3>
+    <p>Tecto-lube</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S45</h3>
+    <p>Hyde Park Landfill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N196</h3>
+    <p>Silver Islet</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N328</h3>
+    <p>Whitefish Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N75</h3>
+    <p>Arctic Watershed</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N100</h3>
+    <p>Science North</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C111</h3>
+    <p>Terrane Boundary!</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N110</h3>
+    <p>Old Babbitt</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E12</h3>
+    <p>Holleford Meteorite Crater</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N272</h3>
+    <p>Sir James Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N325</h3>
+    <p>Nipissing Mill Site Lookout</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E82</h3>
+    <p>Petawawa Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>W7</h3>
+    <p>Arkona Fossils</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E78</h3>
+    <p>Megagrooved Plain</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S51</h3>
+    <p>In the Red</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N104</h3>
+    <p>Duluth, Minnesota</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C59</h3>
+    <p>Canada Talc Mine at Madoc</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N148</h3>
+    <p>Gowganda Turbidites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N232</h3>
+    <p>Rusted Gossans</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>W21</h3>
+    <p>Singhampton Caves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S68</h3>
+    <p>A.P Coleman</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C167</h3>
+    <p>Bracebridge</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S49</h3>
+    <p>Going Deep</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N262</h3>
+    <p>Pic River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N279</h3>
+    <p>The Agawa Bay Scenic Look provides a spectacular view of the Lake Superior shoreline and also provides one with a closer look at some of the white granite upon which this landscape is built. Granites form in a large underground magma chambers called batholiths and and often contain minerals that have known ratios of radioactive elements that decay at a predictable rate over time. Radiometric dating of the outcrop at the Agawa Bay Lookout has determined that these granites are 2.34 billion years old.</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S70</h3>
+    <p>Canadian Imperial Bank of Commerce</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C103</h3>
+    <p>Havelock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>W34</h3>
+    <p>Tobermory Bioherm</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N252</h3>
+    <p>Caver Bay Lookout</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C159</h3>
+    <p>Gravenhurst: The legacy of cold glacial lakes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S104</h3>
+    <p>Campsite Founding</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N238</h3>
+    <p>Little Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N285</h3>
+    <p>Lorrain Quartzite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N319</h3>
+    <p>Ivanhoe Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N10</h3>
+    <p>Gowganda Formation at Kirkland Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C67</h3>
+    <p>SS Keewatin</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N69</h3>
+    <p>Rotten Rocks in North Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S55</h3>
+    <p>Behind Niagara Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N239</h3>
+    <p>Granite Batholith Contact</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E9</h3>
+    <p>Metamorphosed Cobbles at Kaladar</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W55</h3>
+    <p>Detroit River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N44</h3>
+    <p>Glacially Sculpted Rock Flutes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C118</h3>
+    <p>Bancroft Station</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N317</h3>
+    <p>Montreal River Chasm</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C62</h3>
+    <p>The Former MacDonald Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N30</h3>
+    <p>Pitted Outwash and Kettle Holes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S131</h3>
+    <p>Toronto Carrying Place Trail</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N282</h3>
+    <p>Batchawana Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N324</h3>
+    <p>McKinley - Darragh Mill Site</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N207</h3>
+    <p>Quarry in Kenora District</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N102</h3>
+    <p>Glacial Lake Duluth</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C79</h3>
+    <p>Giants Tomb Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W56</h3>
+    <p>Detroit – Windsor Tunnel</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C8</h3>
+    <p>The Great Gneiss Road</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W24</h3>
+    <p>Griersville Cambers</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S56</h3>
+    <p>The Hennepin Plaque</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N134</h3>
+    <p>Kidd Creek Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N183</h3>
+    <p>Basalt Walls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N221</h3>
+    <p>A Slice of the Ocean Floor</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C110</h3>
+    <p>Highway 28 Nepheline Syenite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N68</h3>
+    <p>Manitou Islands in Lake Nipissing</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S23</h3>
+    <p>Crawford Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S137</h3>
+    <p>St. Andrew's Church</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W31</h3>
+    <p>Halfway Log Dump Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C114</h3>
+    <p>Textbook Dyke</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C63</h3>
+    <p>Eagle's Nest Lookout</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S115</h3>
+    <p>Little Norway Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C162</h3>
+    <p>Pointe au Baril Lighthouse</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N289</h3>
+    <p>Precious Blood Cathedral</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N323</h3>
+    <p>Ruins and Disasters</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N215</h3>
+    <p>Magma Conduits</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C136</h3>
+    <p>Rousseau Pegmatite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N2</h3>
+    <p>Split Rocks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N39</h3>
+    <p>Dreamer's Rock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N278</h3>
+    <p>Natural Crevices</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C43</h3>
+    <p>Peterborough Lift Lock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C108</h3>
+    <p>Cross Country Road Cut</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N125</h3>
+    <p>Getting the skinny on the last ice sheet in northern Ontario</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N73</h3>
+    <p>Limestone Plains</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S80</h3>
+    <p>McMaster Hall</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W18</h3>
+    <p>Metcalfe Rock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N191</h3>
+    <p>Black Sturgeon Dam</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E57</h3>
+    <p>Fort Frederick</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S78</h3>
+    <p>Hart House</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N186</h3>
+    <p>Magma Mixing</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N158</h3>
+    <p>Hollinger Open Pit Gold Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S143</h3>
+    <p>Gneiss</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W26</h3>
+    <p>Inglis Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S83</h3>
+    <p>Royal Magnetic and Meteorological Observatory</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C15</h3>
+    <p>Ardtrea</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N190</h3>
+    <p>Red Rock Mountain</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N109</h3>
+    <p>2.8 billion years-old 'Pillow Rocks'</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C49</h3>
+    <p>Bear Lake Diggings</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S159</h3>
+    <p>UTSC landfill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W48</h3>
+    <p>Peter Russell Rock Garden at University of Waterloo</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>E22</h3>
+    <p>Ottawa River Stromatolites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N248</h3>
+    <p>Nipigon Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C56</h3>
+    <p>Burleigh Falls Unconformity</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S27</h3>
+    <p>Jolley Cut</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N176</h3>
+    <p>Greenstone in Greenstone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>E17</h3>
+    <p>Thousand Islands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N9</h3>
+    <p>Gowganda Formation At New Liskeard</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S22</h3>
+    <p>Rattlesnake Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E41</h3>
+    <p>Gull River Limestones and Barriefield</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N160</h3>
+    <p>Timmins Museum: National Exhibition Centre</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S110</h3>
+    <p>Rouge Valley Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S120</h3>
+    <p>Going up at Heber Down</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E45</h3>
+    <p>Nepean Formation at Maple Hill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N245</h3>
+    <p>Pioneer Fur Traders of the Great North West</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C80</h3>
+    <p>Alexander Murray</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E11</h3>
+    <p>Hell Hole Caves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S107</h3>
+    <p>The Chinese Railway Workers' Memorial</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E2</h3>
+    <p>Limerick Dam Marble</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E76</h3>
+    <p>Classic rock drumlin on limestone, Bonney, Road, New York State</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N300</h3>
+    <p>Flett Tunnel</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N162</h3>
+    <p>Porcupine Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E13</h3>
+    <p>Unconformity at Inverary</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S101</h3>
+    <p>University of Toronto at Scarborough</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S48</h3>
+    <p>Rock Fall!</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S81</h3>
+    <p>The New Face of Education</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C68</h3>
+    <p>The Victoria Road</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E8</h3>
+    <p>Pillow Lava</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N244</h3>
+    <p>Agricultural Plains of the Slate River Valley</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S31</h3>
+    <p>Rockway Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W12</h3>
+    <p>Rockwood Potholes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C100</h3>
+    <p>The Founding of Actinolite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N281</h3>
+    <p>Mamainse Point Shoreline</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N255</h3>
+    <p>Schreiber Beach Microbialites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>W41</h3>
+    <p>Stones'N'Bones Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C137</h3>
+    <p>Complex drumlins of the Peterborough Drumlin Field</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C107</h3>
+    <p>Boudins at Wilberforce</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S136</h3>
+    <p>The Canadian Shield</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C69</h3>
+    <p>Ojibway Club</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E58</h3>
+    <p>Murney Martello Tower</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N16</h3>
+    <p>Pearl Lake Porphyry</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S47</h3>
+    <p>Eramosa Karst</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C81</h3>
+    <p>The Oldest Road in Ontario</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N246</h3>
+    <p>Boulevard Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N290</h3>
+    <p>Bushplane Heritage Centre</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N91</h3>
+    <p>The Greening of Sudbury</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C18</h3>
+    <p>CMBBZ Ontario's Most Notorious Fault</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C164</h3>
+    <p>Portage Road sign at the intersection of Roads 48 and 46</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W13</h3>
+    <p>Hogg's Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E48</h3>
+    <p>Potsdam Sandstone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N308</h3>
+    <p>Pillow Basalts</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N80</h3>
+    <p>Sudbury</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N121</h3>
+    <p>Cape Henrietta Maria: A major geological boundary</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E66</h3>
+    <p>Dummer Moraine outcrop on Highway 41, between Grieves Corners and Roblindale Station</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N70</h3>
+    <p>Terry Fox Memorial</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N135</h3>
+    <p>Highway 11 Gneiss</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>W22</h3>
+    <p>Scenic Caves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E77</h3>
+    <p>Classic rock drumlin bisected by Hiway 6 at Petworth and Wagar roads</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S41</h3>
+    <p>Welland Canal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C11</h3>
+    <p>Big Chute Marine Railway</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S158</h3>
+    <p>Philosopher's Walk Through Taddle Creek</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N228</h3>
+    <p>Noden Causeway</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C142</h3>
+    <p>Drumlin exposure south of Burnley: Haldimand Township Pit #1</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S73</h3>
+    <p>Crimean Cannon</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N226</h3>
+    <p>Courthouse</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N294</h3>
+    <p>Aguasabon Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S122</h3>
+    <p>Kerncliff Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N33</h3>
+    <p>Penokean Thrust and Fold Belts</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W40</h3>
+    <p>Rondeau Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>W29</h3>
+    <p>Bioherms in Silurian seas</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N164</h3>
+    <p>Porcupine Miners Memorial</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E28</h3>
+    <p>Riverside Drive</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C88</h3>
+    <p>Matchedash Bay Wildlife Area</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S20</h3>
+    <p>Earthquakes!</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C112</h3>
+    <p>Strained Marble at L'Amable</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>S44</h3>
+    <p>Rock Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W9</h3>
+    <p>Pinery Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S152</h3>
+    <p>Niagara Escarpment overlook at Hamilton</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N6</h3>
+    <p>Dawsons Point Limestones</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C41</h3>
+    <p>Norwood Esker</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N225</h3>
+    <p>Pither's Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N188</h3>
+    <p>Bedrock Knobs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N95</h3>
+    <p>Creighton Fault at Science North</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E54</h3>
+    <p>Highway 41 at Kaladar</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S121</h3>
+    <p>Hockey Hall of Fame</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E27</h3>
+    <p>Hog's Back Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C64</h3>
+    <p>Chippewa III</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E74</h3>
+    <p>Rock drumlin on limestone, Highway 10 south of Collins Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N23</h3>
+    <p>Murray Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C54</h3>
+    <p>Egan Chutes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S155</h3>
+    <p>Plug Hat MSGL</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N313</h3>
+    <p>Hiawatha Landslide</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N152</h3>
+    <p>Voyageurs of the Montreal River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S90</h3>
+    <p>Willowbank</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N240</h3>
+    <p>Granite Conduits and Migmatite Near Aramis Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S13</h3>
+    <p>Toronto Islands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C109</h3>
+    <p>Quirk Lake Veins</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S50</h3>
+    <p>Adam Beck Power Station</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N165</h3>
+    <p>City of Porcupine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N257</h3>
+    <p>Terrace Bay Beach</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C87</h3>
+    <p>Queen Elizabeth II Wildlands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N218</h3>
+    <p>Agriculture in the Rainy River District</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N63</h3>
+    <p>Sleeping Giant</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N247</h3>
+    <p>Mackenzie River Rapids</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N61</h3>
+    <p>Ouimet Canyon</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C37</h3>
+    <p>Cordova Gabbro</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N143</h3>
+    <p>Townsite Shaft 1</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S154</h3>
+    <p>Kelso Conservation Area</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C157</h3>
+    <p>Owen Sound</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N99</h3>
+    <p>Thrusted Mantle Rocks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S117</h3>
+    <p>Allan Gardens Conservatory</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S60</h3>
+    <p>The Air Canada Center</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C133</h3>
+    <p>Sans Souci Dikes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N123</h3>
+    <p>Sutton Hills: Islands in the Muskeg</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C75</h3>
+    <p>Peter's Woods Nature Reserve</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S87</h3>
+    <p>University College</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N204</h3>
+    <p>Ignace and Building Stone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C29</h3>
+    <p>Ganaraska</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C140</h3>
+    <p>Till on silt core of drumlin</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S7</h3>
+    <p>Sylvan Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C124</h3>
+    <p>Straight Gneiss on Highway 60</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W43</h3>
+    <p>Blue Mountain</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N81</h3>
+    <p>Highest Point in Ontario</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E36</h3>
+    <p>Mount Royal Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S15</h3>
+    <p>Don Valley Brickworks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N231</h3>
+    <p>Pink Joints</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W20</h3>
+    <p>Devil's Glen</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N293</h3>
+    <p>Iron Bridge Deer Yard</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C57</h3>
+    <p>Highway 7 Unconformity near Marmora</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N173</h3>
+    <p>Missinaibi River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E39</h3>
+    <p>When Whales Swam in Ontario</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N138</h3>
+    <p>Temagami Station</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N116</h3>
+    <p>Folded BIFs at Soudan Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N72</h3>
+    <p>SS Norisle</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N224</h3>
+    <p>Rainy River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S126</h3>
+    <p>McMichael Art Gallery</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N112</h3>
+    <p>Tower, Minnesota</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W59</h3>
+    <p>Cabot Head</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W16</h3>
+    <p>Eugenia Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C166</h3>
+    <p>St Marys Cement</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N137</h3>
+    <p>Temagami Fire Tower</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C13</h3>
+    <p>Sainte-Marie among the Hurons</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N62</h3>
+    <p>Panorama Amethyst Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C127</h3>
+    <p>The Hastings Highlands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S100</h3>
+    <p>Highland Creek</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N304</h3>
+    <p>Thunderhouse Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N50</h3>
+    <p>Agawa Canyon</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C104</h3>
+    <p>1885 Dynamite Explosion</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C106</h3>
+    <p>Rusty Rock at Apsley</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N103</h3>
+    <p>Flood Bay Agates near Duluth</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N171</h3>
+    <p>Kapuskasing River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N37</h3>
+    <p>Drape Folds on Manitoulin Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S148</h3>
+    <p>Diamictite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N284</h3>
+    <p>The Goulais River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N241</h3>
+    <p>Continental Divide</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N311</h3>
+    <p>Prehistoric Paint</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N321</h3>
+    <p>Wild Blueberry Farm</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N120</h3>
+    <p>The James Bay and Hudson Bay Lowlands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C145</h3>
+    <p>Rock drumlin on 14th Line</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N128</h3>
+    <p>The Ring of Fire in Ontario’s north: burning down to the embers</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E25</h3>
+    <p>Rideau Canal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C83</h3>
+    <p>Taking the Loyalist Parkway</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S86</h3>
+    <p>Toronto Stock Exchange</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C154</h3>
+    <p>Penetanguishene Harbour</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N130</h3>
+    <p>Bustard Islands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C85</h3>
+    <p>Susannah Moodie</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N25</h3>
+    <p>Copper Cliff Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C78</h3>
+    <p>Algonquin Logging Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N327</h3>
+    <p>Right of Way Mine Site</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S114</h3>
+    <p>Elevated Wetlands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>C1</h3>
+    <p>﻿Limestone Islands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S112</h3>
+    <p>Sugar Granddaddy</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N113</h3>
+    <p>Biwabik Iron Formation at Aurora</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E23</h3>
+    <p>Parliament Hill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E67</h3>
+    <p>Dummer Moraine hummocks along Moneymore Road</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C134</h3>
+    <p>Champlain Monument at Sans Souci</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W2</h3>
+    <p>Port Burwell Cliffs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N55</h3>
+    <p>Wawa Drilling Rig</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N291</h3>
+    <p>A Gowganda Jumble</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S88</h3>
+    <p>Victoria College</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W50</h3>
+    <p>Geotime Trail</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S123</h3>
+    <p>Smoky Hollow and Waterdown Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N150</h3>
+    <p>Temiskaming Limestone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N127</h3>
+    <p>Permafrost in Ontario’s north</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N175</h3>
+    <p>Quetico Granites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N156</h3>
+    <p>Kamiskotia Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N161</h3>
+    <p>Gillies Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S144</h3>
+    <p>Granite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N98</h3>
+    <p>Glacially-Megalineated Bedrock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E49</h3>
+    <p>Metcalfe Geoheritage Park,Almonte</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C101</h3>
+    <p>MacGregor Point Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N217</h3>
+    <p>Geomorphology and vegetation</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C19</h3>
+    <p>CMBBZ Moore Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C4</h3>
+    <p>Parry Sound Shear Zone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S30</h3>
+    <p>Balls Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S113</h3>
+    <p>High Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N271</h3>
+    <p>Medicine Cave</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C99</h3>
+    <p>The Eldorado Refinery</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C147</h3>
+    <p>ONROUTE 401 rest stop on prominent rock drumlin</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E81</h3>
+    <p>Eganville</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C30</h3>
+    <p>Sandbanks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W42</h3>
+    <p>Iceberg!</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C149</h3>
+    <p>Tobermory: Tip of the Bruce Peninsula</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C53</h3>
+    <p>Nepheline Syenite at Blue Mountain</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N115</h3>
+    <p>Laurentian Divide and Confusion Hill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N118</h3>
+    <p>Vermilion Lake Gold Rush of 1865</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N258</h3>
+    <p>Valley Overlook</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E5</h3>
+    <p>Graphite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E16</h3>
+    <p>Marble Rock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N49</h3>
+    <p>Agawa Rock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E44</h3>
+    <p>Tectonic Marble</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N117</h3>
+    <p>Pike River Turbidites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N189</h3>
+    <p>Nice Gneiss</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N5</h3>
+    <p>Devil's Rock</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S135</h3>
+    <p>The American Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N286</h3>
+    <p>MS Norgoma</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N179</h3>
+    <p>Discover Geraldton Interpretive Centre</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>C73</h3>
+    <p>Courtice</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C36</h3>
+    <p>Ash Beds at Marmora</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N307</h3>
+    <p>Kashabowie Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>N74</h3>
+    <p>Pigeon Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N270</h3>
+    <p>Government Dock Beach</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N174</h3>
+    <p>Ryland Park Pegmatite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C14</h3>
+    <p>World Class Wasaga Beach</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>N41</h3>
+    <p>M'Chigeeng Road Cut</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S145</h3>
+    <p>Migmatite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N106</h3>
+    <p>Split Rock Lighthouse</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C135</h3>
+    <p>The 'Waubuno'</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W19</h3>
+    <p>Feversham Gorge</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S67</h3>
+    <p>Schoellkopf Geologic Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C122</h3>
+    <p>Ontario's Grasslands</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N35</h3>
+    <p>The Clear Lake Earthquake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C65</h3>
+    <p>Hekkla</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C12</h3>
+    <p>Wye Marsh</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W62</h3>
+    <p>Boulder Beach</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C46</h3>
+    <p>Warsaw Caves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C138</h3>
+    <p>Peterborough Drumlin Field</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E31</h3>
+    <p>Eozoon Canadense</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C90</h3>
+    <p>Butler & Roehl Wetland Reserves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C82</h3>
+    <p>Murray Canal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N47</h3>
+    <p>Desbarats Ripples</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S4</h3>
+    <p>Whitby Shale</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N19</h3>
+    <p>Timmins</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N312</h3>
+    <p>Dome Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N178</h3>
+    <p>Matachewan Dike Swarm</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>N77</h3>
+    <p>Fossil Hill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C105</h3>
+    <p>Highway 28</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C20</h3>
+    <p>Granite Barrens of the Southern Shield</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N275</h3>
+    <p>Old Woman Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C50</h3>
+    <p>Marble Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N84</h3>
+    <p>The Mattawa River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C55</h3>
+    <p>The Beryl Pit</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N1</h3>
+    <p>Brent Meteorite Crater</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N236</h3>
+    <p>The Atikokan River at Legion Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N85</h3>
+    <p>Bonfield</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>W14</h3>
+    <p>Wodehouse Karst</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>C25</h3>
+    <p>Kirkfield Limestone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W45</h3>
+    <p>The Tiger Dunlop Trail</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C161</h3>
+    <p>The French River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S128</h3>
+    <p>Precambrian Erratic</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N36</h3>
+    <p>Killarney Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 2'>
+    <h3>C31</h3>
+    <p>Trenton Limestone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N249</h3>
+    <p>Talus Slopes and Cones</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N101</h3>
+    <p>Duluth's Rice's Point Lookout</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N306</h3>
+    <p>Trowbridge Falls Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N172</h3>
+    <p>Reesor Siding Incident</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S79</h3>
+    <p>The Limestone Hockey Player</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S61</h3>
+    <p>CN Tower</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W35</h3>
+    <p>Giant Glacial Grooves of Kelleys Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S96</h3>
+    <p>East Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N276</h3>
+    <p>Katherine Cove</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C89</h3>
+    <p>Severn River Conservation Reserve</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N28</h3>
+    <p>Onaping Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S132</h3>
+    <p>Dolostone Erratic</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W6</h3>
+    <p>Petrolia</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S64</h3>
+    <p>Whitney Block, Queen's Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S141</h3>
+    <p>Gabbro</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N288</h3>
+    <p>Soo Locks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C141</h3>
+    <p>Keene Drumlin</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N268</h3>
+    <p>Silver Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N78</h3>
+    <p>Little Current Fault</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N53</h3>
+    <p>Manitouwadge</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S127</h3>
+    <p>Devil's Punch Bowl</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N52</h3>
+    <p>Banded Iron Formation</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N177</h3>
+    <p>Longlac Diorite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C10</h3>
+    <p>Seeing Stars</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W3</h3>
+    <p>Lake St. Clair</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N34</h3>
+    <p>Whitefish Dike</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S72</h3>
+    <p>College Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N82</h3>
+    <p>Callander Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E7</h3>
+    <p>Mazinaw Rock and Bon Echo Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E64</h3>
+    <p>Meltwater-cut scours at Wilton Creek</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N163</h3>
+    <p>Timmins Chamber of Commerce</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C86</h3>
+    <p>The Bruce Peninsula Portage</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W27</h3>
+    <p>Big Bay Road Cut</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C71</h3>
+    <p>St. George's Church at Sutton</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N264</h3>
+    <p>Yellow Brick Road</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N197</h3>
+    <p>Calcareous Concretions</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C119</h3>
+    <p>Perthite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N87</h3>
+    <p>North Channel Inshore Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S57</h3>
+    <p>Red Rocks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N233</h3>
+    <p>Mine Centre</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C155</h3>
+    <p>Parry Sound</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N146</h3>
+    <p>Cobalt Boulders</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N96</h3>
+    <p>Slumps and Turbidity Currents</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N208</h3>
+    <p>Jackfish Lake Pillow Basalt</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N21</h3>
+    <p>The Grenville Front Tectonic Zone on Highway 69</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E68</h3>
+    <p>Tilted limestone along the Salmon River Fault on Highway 41</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N7</h3>
+    <p>Rock Walk</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E46</h3>
+    <p>Kingston Mills Glacial Grooves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N51</h3>
+    <p>Lake de Zajac Dike</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S111</h3>
+    <p>Cootes Paradise</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S54</h3>
+    <p>Chippewa-Queenston Power Canal</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E70</h3>
+    <p>Hogs Back Esker and Lime Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N230</h3>
+    <p>Diorite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S16</h3>
+    <p>Father of Plate Tectonics</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S149</h3>
+    <p>Lake effect snowfalls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N318</h3>
+    <p>Pukaskwa Pits</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W52</h3>
+    <p>Thames River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N15</h3>
+    <p>Abitibi Greenstones</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>E53</h3>
+    <p>Listening to the Landscape</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N54</h3>
+    <p>Hemlo Gold</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>E71</h3>
+    <p>Glacially-megagrooved limestone plain</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E40</h3>
+    <p>500 million year old Sand Dunes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S5</h3>
+    <p>Seaton Trail</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N27</h3>
+    <p>Chelmsford Concretions</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N12</h3>
+    <p>Miner's Memorial</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S97</h3>
+    <p>Hilton Falls</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E21</h3>
+    <p>Champlain's Lookout Over the Ottawa Graben</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S94</h3>
+    <p>Slowly Dissolving</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>W58</h3>
+    <p>Immaculate Limestones</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W54</h3>
+    <p>South Kent Wind</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C60</h3>
+    <p>Spillway!</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N24</h3>
+    <p>Dynamic Earth and The Big Nickel</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>W28</h3>
+    <p>Bruce's Caves</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N169</h3>
+    <p>Gneiss on the Groundhog River</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N292</h3>
+    <p>Gowganda Diamictite</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C148</h3>
+    <p>Dummer landscape south of the Marmoraton Iron Mine (site C35)</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>C9</h3>
+    <p>Bala</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N269</h3>
+    <p>Sandy Beach</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C91</h3>
+    <p>Kahshe Barrens Conservation Reserve</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N64</h3>
+    <p>Hillcrest Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N210</h3>
+    <p>Multiphased Faulting</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S11</h3>
+    <p>Ashbridge's Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N200</h3>
+    <p>Silver Falls Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N182</h3>
+    <p>Nipigon Palisades</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>S134</h3>
+    <p>Heavy Minerals on the Beach</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>N216</h3>
+    <p>Rushing River Provincial Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C7</h3>
+    <p>Dikes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W39</h3>
+    <p>Kinghurst</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S147</h3>
+    <p>Limestone</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C126</h3>
+    <p>Dr. James Wilson</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W57</h3>
+    <p>Canada's First Forestry Station</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S109</h3>
+    <p>Witness to History</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N168</h3>
+    <p>Smooth Rock Falls Viewpoint</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S39</h3>
+    <p>Lundy's Lane</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S38</h3>
+    <p>Fort York</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N234</h3>
+    <p>Stretch-Pebble Conglomerate</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N180</h3>
+    <p>McCloud-Cockshutt Headframe</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C160</h3>
+    <p>Manitoulin Island</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W4</h3>
+    <p>Bothwell Oil Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S17</h3>
+    <p>Oak Ridges Moraine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C151</h3>
+    <p>Water that turns over: seasonal effects in Ontario’s lakes</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N251</h3>
+    <p>Glaciofluvial Bluffs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C40</h3>
+    <p>Grenville Turbidites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N242</h3>
+    <p>Kaministiquia River and the Rabbit Mountain Silver Mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C128</h3>
+    <p>Halls Lake Log Chute</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N256</h3>
+    <p>Terrace Bay Overlook</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C129</h3>
+    <p>The Great Depression</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E32</h3>
+    <p>Grenville, Quebec</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C84</h3>
+    <p>Catherine Parr Traill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S82</h3>
+    <p>Queen's Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N93</h3>
+    <p>Sudbury Impact Breccia</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E61</h3>
+    <p>CFS Carp</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E14</h3>
+    <p>Abbey Dawn Unconformity</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>W8</h3>
+    <p>Huron Rocks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>S9</h3>
+    <p>Hi-Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N139</h3>
+    <p>Lakeshore Drive Slate</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C132</h3>
+    <p>Snug Harbour Lighthouse</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C125</h3>
+    <p>The Perth Museum</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N259</h3>
+    <p>Pebble Beach</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>W44</h3>
+    <p>Southwold Earthworks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C76</h3>
+    <p>Parry Sound Fire Tower</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W46</h3>
+    <p>Point Pelee National Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S130</h3>
+    <p>Jokers Hill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S103</h3>
+    <p>Sir Adam Beck</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N280</h3>
+    <p>Radioactive Rocks</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N111</h3>
+    <p>Soudan Underground Iron mine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>E19</h3>
+    <p>Battle of the Windmill</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 5'>
+    <h3>N45</h3>
+    <p>Elliot Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>C150</h3>
+    <p>Water circulation in Georgian Bay</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N32</h3>
+    <p>Espanola Turbidites</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N147</h3>
+    <p>Pro-Cathedral of the Assumption</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N195</h3>
+    <p>Pass Lake Cliffs</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N314</h3>
+    <p>Hollinger Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S71</h3>
+    <p>Canadian Volunteers Monument</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W1</h3>
+    <p>Long Point</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>W33</h3>
+    <p>Fathom Five Marine National Park</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C158</h3>
+    <p>Key Harbour</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C116</h3>
+    <p>Great Canadian Uranium Rush</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N222</h3>
+    <p>Heenan Highway</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>N108</h3>
+    <p>Pioneer Mine at Ely</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>S6</h3>
+    <p>Hooking Stones</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 6'>
+    <h3>S140</h3>
+    <p>Marble</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N140</h3>
+    <p>Temagami Lake</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C48</h3>
+    <p>Dummer Moraine</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>C44</h3>
+    <p>Teetering Rock at Buckhorn</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>E38</h3>
+    <p>Sugar Loaf Mountain</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 3'>
+    <h3>C123</h3>
+    <p>Cardiff</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N26</h3>
+    <p>Shatter Cones</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 4'>
+    <h3>S12</h3>
+    <p>Leslie Street Spit</p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals 1'>
+    <h3>N157</h3>
+    <p>Mount Jamieson</p>
+  </div>
+
+
+</div>
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script src="isotope.pkgd.min.js"></script>
+
+<script>
+var $grid = $('.grid').isotope({
+  itemSelector: '.grid-item',
+  layoutMode: 'masonry',
+  getSortData: {
+    name: function (element) {
+      return $(element).text();
+    }
+  }
+});
+
+
+
+$('.filter button').on("click", function () {
+  var value = $(this).attr('data-name');
+    $grid.isotope({
+      filter: value
+    });
+  $('.filter button').removeClass('active');
+  $(this).addClass('active');
+})
+</script>
+
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+// window.onscroll = function() {myFunction()};
+// function myFunction() {
+//     var navbar = document.getElementById("myNavbar");
+//     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+//         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+//     } else {
+//         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+//     }
+// }
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+} 
+</script>
+
+</body>
+</html>

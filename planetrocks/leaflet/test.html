@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>slick lightbox</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+</head>
+<body>
+<div id="slick-demo">
+  <div class="item"><img src="http://placekitten.com/1000/600" alt="" width="100%" height="100%"></div>
+  <div class="item"><img src="http://placekitten.com/1010/606" alt="" width="100%" height="100%"></div>
+  <div class="item"><img src="http://placekitten.com/1060/636" alt="" width="100%" height="100%"></div>
+</div>
+  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  <script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+<script type="text/javascript">
+  $('#slick-demo').slick({ 
+  dots: true,
+    arrows: false,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1
+});
+  $('#slick-demo').slickLightbox({
+    src: 'src',
+    itemSelector: '.item img'
+  });
+</script>
+</body>
+</html>
