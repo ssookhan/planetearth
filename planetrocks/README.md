@@ -1,3 +1,0 @@
-# planetrocks
-
-ahfoahgoaiehgtoah
