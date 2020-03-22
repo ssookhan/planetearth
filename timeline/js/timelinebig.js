@@ -12280,7 +12280,7 @@ TL.TimeScale = TL.Class.extend({
     getTicks: function() {
         return {
             major: this._axis_helper.getMajorTicks(this),
-            minor: this._axis_helper.getMinorTicks(this) }
+            minor: this._axis_helper.getMajorTicks(this) }
     },
 
     getDateFromTime: function(t) {
