@@ -20,8 +20,14 @@
       	padding: 0px;
       	margin: 0px;
       }
-      .tl-timeline {
-      	
+      .tl-timenav {
+      	display:none;
+      }
+      .tl-menubar{
+        display:none;
+      }
+      .tl-timemarker{
+        display:none;
       }
       
     </style>
@@ -34,12 +40,14 @@
   <body>
     <div id="timeline"></div>
     <!-- JavaScript-->
-    <script src="js/timeline.js?v1.1"></script>
+    <script src="js/timelinebig.js"></script>
     <script>
       var timeline = new TL.Timeline('timeline', 'https://docs.google.com/spreadsheets/d/1RZwnnH0gOu8z5M9fzscgaTX2mRf1OJeeXvP1_xRExKA/edit#gid=0', {
       	theme_color: "#288EC3",
-        timenav_height_min: 100,
-        timenav_height_percentage: 20,
+        timenav_height_min: 0,
+        timenav_height_percentage: 0,
+        marker_height_min: 0,
+
       	ga_property_id: "null"
       });
     </script>
