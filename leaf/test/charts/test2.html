@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Excel Pull Test</title>
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+  <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+  <script type="text/javascript">
+
+  google.charts.load('visualization', '1.0', {'packages':['corechart']});
+   google.charts.load('current', {'packages':['line']});
+  google.charts.setOnLoadCallback(drawSheetName);
+
+   function drawSheetName() {
+      var queryString = encodeURIComponent('SELECT B, D, F, H, J');
+      var range = '1:3034'
+      var query = new google.visualization.Query(
+      'https://docs.google.com/spreadsheets/d/1nm5-xKvNuZ-teLN3CnTqOpOaI3gqbAVfoOiVLc8umCI/gviz/tq?range='+range+'&gid=0&headers=1&tq=' +queryString);
+      query.send(handleSampleDataQueryResponse);
+    }
+
+    function handleSampleDataQueryResponse(response) {
+      if (response.isError()) {
+        alert('Error in query: ' + response.getMessage() + ' ' + response.getDetailedMessage());
+        return;
+      }
+      var options = {
+        hAxis: {
+          title: 'years in ka bp',
+          direction: -1,
+          viewWindowMode:'explicit',
+          viewWindow: {
+            max:20,
+            min:0
+          }
+        },
+        vAxis: {
+          title: 'temperature degrees C, GISP2'
+        },
+        height: 500,
+        legend: {position: 'none'},
+
+      };
+      console.log(response);
+      var data = response.getDataTable();
+      console.log(data);
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+  chart.draw(data, google.charts.Line.convertOptions(options));
+    }
+  </script>
+</head>
+
+<body>
+  <div id="chart_div"></div>
+</body>
+</html>
