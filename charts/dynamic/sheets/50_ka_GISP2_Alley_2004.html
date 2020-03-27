@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <style>
+      html, body, #chart_div {
+          /* Height and width fallback for older browsers. */
+          height: 100%;
+          width: 100%;
+
+          /* Set the height to match that of the viewport. */
+          height: 100vh;
+
+          /* Set the width to match that of the viewport. */
+          width: 100vw;
+
+          /* Remove any browser-default margins. */
+          margin: 0;
+          overflow-y: hidden; /* Hide vertical scrollbar */
+          overflow-x: hidden; /* Hide horizontal scrollbar */
+      }
+      .preloader {
+        height:100%; 
+        background:url(load.gif);
+        background-repeat: no-repeat;
+        background-size: 10%;
+        background-position: center;
+      }  
+    </style>
+    <script type="text/javascript">
+      var public_spreadsheet_url = 'https://docs.google.com/spreadsheets/d/1nm5-xKvNuZ-teLN3CnTqOpOaI3gqbAVfoOiVLc8umCI/edit#gid=0&output=html';
+
+      function init() {
+        Tabletop.init( { key: public_spreadsheet_url,
+                         callback: showInfo,
+                         simpleSheet: true } );
+      }
+
+      window.addEventListener('DOMContentLoaded', init)
+      google.charts.load('visualization', '1.0', {'packages':['corechart']});
+      google.charts.load('current', {'packages':['line']});
+      function showInfo(data) {
+        google.charts.setOnLoadCallback(drawChart(data));
+      }   
+
+      
+      function drawChart(data) {
+        var data3= []
+        for (i = 0; i < data.length; i++) {
+          data3.push([parseFloat(data[i].Age), parseFloat(data[i].temperature), data[i].templabel, parseFloat(data[i].Holocene),data[i].hololabel, parseFloat(data[i].Dryas), data[i].drylabel, parseFloat(data[i].bolling), data[i].Labels])
+        }
+        var data2 = new google.visualization.DataTable();
+        data2.addColumn('number', 'years in ka bp');
+        data2.addColumn('number', 'temperature degrees C, GISP2');
+        data2.addColumn({type:'string', role:'annotation'});
+        data2.addColumn('number', 'Holocene');
+        data2.addColumn({type:'string', role:'annotation'});
+        data2.addColumn('number', 'Dryas');
+        data2.addColumn({type:'string', role:'annotation'});
+        data2.addColumn('number', 'Bolling');
+        data2.addColumn({type:'string', role:'annotation'});
+
+        data2.addRows(data3);
+
+        var options = {
+          hAxis: {
+            title: 'years in ka bp',
+            direction: -1,
+            viewWindowMode:'explicit',
+            viewWindow: {
+              max:50,
+              min:0
+            }
+          },
+                    annotations: {
+             stemColor : 'none'
+          },
+          vAxis: {
+            title: 'temperature degrees C, GISP2',
+            viewWindowMode:'explicit',
+            viewWindow: {
+              max:-25,
+              min:-55
+            }
+          },
+          width: window.innerWidth,
+          height: window.innerHeight,
+          legend: {position: 'none'},
+          chartArea:{
+            left:60,
+            right:20,
+            bottom:60,
+            top:20,
+            width:"100%",
+            height:"100%"
+          },
+          series: { 
+              1: {enableInteractivity: false}, // enable tooltip
+              2: {enableInteractivity: false},
+              3: {enableInteractivity: false}
+          }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+        chart.draw(data2, google.charts.Line.convertOptions(options));
+        window.addEventListener('resize', function() {
+          options.width = window.innerWidth;
+          options.height = window.innerHeight;
+          chart.draw(data2, google.charts.Line.convertOptions(options));
+        }, false);
+      }
+    </script>
+  </head>
+  <body>
+
+
+    
+    <div id="chart_div">
+      <div class="preloader">&nbsp;</div>
+    </div>
+  </body>
+</html>
