@@ -32,7 +32,7 @@
         <script src="js/labels.js"></script>
         <script>
         var map = L.map('map', {
-            zoomControl:true, maxZoom:28, minZoom:1
+            zoomControl:true, maxZoom:7, minZoom:4
         }).fitBounds([[36.25077371431369,-91.13084755082934],[51.04847813686478,-67.85368106717222]]);
         var hash = new L.Hash(map);
         map.attributionControl.setPrefix('<a href="https://github.com/tomchadwin/qgis2web" target="_blank">qgis2web</a> &middot; <a href="https://leafletjs.com" title="A JS library for interactive maps">Leaflet</a> &middot; <a href="https://qgis.org">QGIS</a>');
@@ -42,7 +42,7 @@
         var layer_OpenTopoMap_0 = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
             opacity: 1.0,
             attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community',
-            minZoom: 7,
+            minZoom: 1,
             maxZoom: 28,
             minNativeZoom: 0,
             maxNativeZoom: 17
