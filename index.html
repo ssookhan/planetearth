@@ -57,6 +57,7 @@ body, html {
         background-attachment: scroll;
     }
 }
+
 </style>
 <body>
 
@@ -167,7 +168,11 @@ body, html {
 
 <!-- Container (Portfolio Section) -->
 <div class="w3-content w3-container w3-padding-64" id="modules">
-  <h3 class="w3-center">LEARNING MODULES</h3>
+  <button onclick="accFunction('planetearthmods')" class="w3-button w3-block w3-black w3-left-align">Introduction to Planet Earth</button>
+
+<div id="planetearthmods" class="w3-hide w3-show">
+
+
   <p>Each learning module consists of a number of interactive activities and multiple choice-based assessments. Modules are distributed as SCORM files that can be imported into your Learning Management System of choice. Instructor guides are available which outline the topics covered and installation procedure. Select from the ten available modules below:</p> 
 <ul id="rig">
     <li>
@@ -241,6 +246,57 @@ body, html {
         </a>
     </li>
 </ul>
+</div>
+<br>
+<button onclick="accFunction('glacialmods')" class="w3-button w3-block w3-black w3-left-align">Topics in Glacial Geology</button>
+
+<div id="glacialmods" class="w3-hide">
+<br>
+<ul id="rig">
+    <li>
+        <a class="rig-cell" href="vfs/cascade/INQUA.html" target="_blank">
+            <img class="rig-img" src="modthumbs/INQUAThumbs.JPG">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Subglacial Bedforms in Southern Ontario</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="timeline/holo_t1b.html" target="_blank">
+            <img class="rig-img" src="modthumbs/HOLOThumbs.JPG">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">The Holocene</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="timeline/gsys_t1b.html" target="_blank">
+            <img class="rig-img" src="modthumbs/GSYSThumbs.JPG">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">The Glacial System</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="timeline/oia_t1b.html" target="_blank">
+            <img class="rig-img" src="modthumbs/OIA.JPG">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Origin of the Ice Ages</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="timeline/gl_t1b.html" target="_blank">
+            <img class="rig-img" src="modthumbs/GLThumb.JPG">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Great Lake Water Levels</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="timeline/slis_t1b.html" target="_blank">
+            <img class="rig-img" src="modthumbs/SLISThumbs.JPG">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Structure of the Laurentide Ice Sheet</span>
+        </a>
+    </li>
+</ul>
+</div>
 </div>
 
 <!-- Third Parallax Image with Portfolio Text -->
@@ -354,6 +410,15 @@ function toggleFunction() {
     } else {
         x.className = x.className.replace(" w3-show", "");
     }
+}
+
+function accFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
 }
 </script>
 
