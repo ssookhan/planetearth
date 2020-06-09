@@ -2,52 +2,47 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Test</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/css/prettyPhoto.css'><link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
-<head>
-<meta charset="UTF-8">
+  <title>Mineral Gallery</title>
+  <link rel="stylesheet" href="./reset.min.css">
+  <link rel='stylesheet' href='./prettyPhoto/3.1.6/css/prettyPhoto.css'>
+  <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
 </head>
 
 <body>
+  <div class="loader">Loading...</div>
 	<!-- CONTAINER -->
 <main class="container">
 
 
   <!--ISOTOPE GALLERY -->
   <!-- STEP 3 of 3 ADD THE HTML -->
-
-  <!-- ISOTOPE FILTER -->
-  <div class="portfolioFilter">
-    <a href="#" data-filter="*" class="current">All Categories</a>
-    <a href="#" data-filter=".NativeElements">Native Elements</a>
-    <a href="#" data-filter=".Sulfides">Sulfides</a>
-    <a href="#" data-filter=".Sulfosalts">Sulfosalts</a>
-    <a href="#" data-filter=".Oxides">Oxides</a>
-    <a href="#" data-filter=".Hydroxides">Hydroxides</a>
-    <a href="#" data-filter=".Halides">Halides</a>
-    <a href="#" data-filter=".Carbonates">Carbonates</a>
-    <a href="#" data-filter=".Phosphates">Phosphates</a>
-    <a href="#" data-filter=".Arsenates">Arsenates</a>
-    <a href="#" data-filter=".Vanadates">Vanadates</a>
-    <a href="#" data-filter=".Nitrates">Nitrates</a>
-    <a href="#" data-filter=".Sulfates">Sulfates</a>
-    <a href="#" data-filter=".Chromates">Chromates</a>
-    <a href="#" data-filter=".Tungstates">Tungstates</a>
-    <a href="#" data-filter=".Molybdates">Molybdates</a>
-    <a href="#" data-filter=".Tectosilicates">Tectosilicates</a>
-    <a href="#" data-filter=".Phyllosilicates">Phyllosilicates</a>
-    <a href="#" data-filter=".Single-ChainInosilicates">Single-Chain Inosilicates</a>
-    <a href="#" data-filter=".Double-ChainInosilicates">Double-Chain Inosilicates</a>
-    <a href="#" data-filter=".Cyclosilicates">Cyclosilicates</a>
-    <a href="#" data-filter=".Sorosilicates">Sorosilicates</a>
-    <a href="#" data-filter=".Nesosilicates">Nesosilicates</a>
-  </div>
+  <select class="portfolioFilter">
+    <option value="*" class="current">All Categories</option>
+    <option value=".NativeElements">Native Elements</option>
+    <option value=".Sulfides">Sulfides</option>
+    <option value=".Sulfosalts">Sulfosalts</option>
+    <option value=".Oxides">Oxides</option>
+     <option value=".Hydroxides">Hydroxides</option>
+     <option value=".Halides">Halides</option>
+     <option value=".Carbonates">Carbonates</option>
+     <option value=".Phosphates">Phosphates</option>
+     <option value=".Arsenates">Arsenates</option>
+     <option value=".Vanadates">Vanadates</option>
+     <option value=".Nitrates">Nitrates</option>
+     <option value=".Sulfates">Sulfates</option>
+     <option value=".Chromates">Chromates</option>
+     <option value=".Tungstates">Tungstates</option>
+     <option value=".Molybdates">Molybdates</option>
+     <option value=".Tectosilicates">Tectosilicates</option>
+     <option value=".Phyllosilicates">Phyllosilicates</option>
+     <option value=".Single-ChainInosilicates">Single-Chain Inosilicates</option>
+     <option value=".Double-ChainInosilicates">Double-Chain Inosilicates</option>
+     <option value=".Cyclosilicates">Cyclosilicates</option>
+     <option value=".Sorosilicates">Sorosilicates</option>
+     <option value=".Nesosilicates">Nesosilicates</option>
+  </select>
+  
   
   
   <!-- ISOTOPE IMAGES -->
@@ -305,14 +300,12 @@
 </main>
 <!-- END CONTAINER -->
 
-</body>
-
-</html>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.5/isotope.pkgd.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.0.1/jquery-migrate.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/prettyPhoto/3.1.6/js/jquery.prettyPhoto.js'></script><script  src="./script.js"></script>
+  <script src='./scripts/jquery.min.js'></script>
+<script src='./isotope.pkgd.js'></script>
+<script src='./jquery-migrate.js'></script>
+<script src='./prettyPhoto/3.1.6/js/jquery.prettyPhoto.js'></script>
+<script  src="./script.js"></script>
 
 </body>
 </html>

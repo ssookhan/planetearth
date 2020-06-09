@@ -9,22 +9,16 @@ $(window).load(function(){
             queue: false
         }
     });
- 
-    $('.portfolioFilter a').click(function(){
-        $('.portfolioFilter .current').removeClass('current');
-        $(this).addClass('current');
- 
-        var selector = $(this).attr('data-filter');
-        $container.isotope({
-            filter: selector,
-            animationOptions: {
-                duration: 750,     //TIMING IN MS
-                easing: 'linear',  //EASING
-                queue: false
-            }
-         });
-         return false;
-    }); 
+     // bind filter on select change
+    $('.portfolioFilter').on( 'change', function() {
+      // get filter value from option value
+      var filterValue = this.value;
+      // use filterFn if matches value
+      $container.isotope({ filter: filterValue });
+    });
+
+    $('.loader').hide();
+    $(".container").css('visibility','visible');
 });
 
 
