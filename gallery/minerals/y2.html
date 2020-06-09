@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Sugilite - KNa<sub>2</sub>Fe<sup>3</sup><sup>+</sup><sub>2</sub>(Li<sub>3</sub>Si<sub>1</sub><sub>2</sub>)O<sub>3</sub>0</h1></div>
+			  <div class="FormFam"><h5>Cyclosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/y2.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Light brownish yellow to bright magenta. Crystals, shaped like slender prisms, rare; commonly in interlocking aggregates of subhedral grains, compact to massive. Vitreous luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Found in strata-bound metamorphosed manganese deposits and peralkaline igneous rocks.</p><br><p><b>Etymology: </b>Named for Professor Ken-ichi Sugi (1901-48), the Japanese petrologist who discovered the mineral.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

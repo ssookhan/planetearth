@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Platinum - Pt</h1></div>
+			  <div class="FormFam"><h5>Native Elements</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/e8.png" alt=""></div>
+			  	    	<div class="item"><img src="images/e8b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/e8c.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Whitish steel-gray to dark gray. Rare metal in nature; typically in flakes or grains, very rare in nuggets. Even rarer are its cubic crystals. Opaque; Metallic Luster.</p><br><p><b>Environment: </b>Found in or associated with mafic and ultramafic igneous rocks, also found in quartz veins associated with hematite, chlorite and pyrolusite</p><br><p><b>Etymology: </b>From the Spanish platina, diminutive of plata, silver. It was believed at this time that it was impure ore of silver.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

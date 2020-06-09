@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Fluorapatite - Ca<sub>5</sub>(PO<sub>4</sub>)<sub>3</sub>F</h1></div>
+			  <div class="FormFam"><h5>Phosphates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Sea green, violet, purple, blue, pink, yellow, brown, white or colorless. Prismatic hexagonal crystals; also granular, globular to reniform, nodular or massive. Vitreous to subresinous luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Very common, occurring in all types of igneous rocks, marbles and skarns, especially in calcium-rich regional and contact metamorphic rocks. An essential component of sedimentary phosphorites.</p><br><p><b>Etymology: </b>From the Greek apate, meaning "deceit," referring to its similarity to crystals of other minerals such as aquamarine, amethyst and olivine.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

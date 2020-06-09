@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Pyrrhotite - Fe<sub>7</sub>S<sub>8</sub></h1></div>
+			  <div class="FormFam"><h5>Sulfides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/f5.png" alt=""></div>
+			  	    	<div class="item"><img src="images/f5b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/f5c.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Generally massive or granular habit, but can form pseudohexagonal crystals. Bronze, bronze-yellow to brown tarnishes on exposure to air. Opaque, Metallic Luster.</p><br><p><b>Environment: </b>Mainly in silica-poor igneous rocks, and as an accessory mineral in metamorphic rocks, and in sedimentary rocks. Commonly associated with pentlandite, pyrite, and quartz</p><br><p><b>Etymology: </b>Named from the Greek for redness, in reference to its color. The second most common magnetic mineral.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

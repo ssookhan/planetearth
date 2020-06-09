@@ -1,0 +1,208 @@
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+#slick-demo {
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+#slick-demo img {
+     display: block;
+  height: 100%;
+  width: auto;
+    margin-left: auto;
+  margin-right: auto;
+}
+.slick-slide{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.slick-track{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+.slick-list{
+  display: block;
+  height: 100%;
+  width: auto;
+}
+
+.slick-dots{
+position: absolute;
+bottom: 20px;
+display: block;
+width: 100%;
+padding: 10;
+margin: 0;
+list-style: none;
+text-align: center;
+}
+.slick-dots li button:before {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+}
+body,h2,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+    scroll-behavior: smooth;
+}
+p {
+  margin: 0;
+}
+h1 {
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+}
+h2 {
+  margin: 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 9999; /* Sit on top */
+  padding-top: 0px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: hidden; /* Enable scroll if needed */
+  background-color: rgba(241, 241, 241); /* Fallback color */
+  background-color: rgba(241, 241, 241, 0.4); /* Black w/ opacity */
+}
+
+html, body, .grid-container { height: 100%; margin: 0; }
+
+.grid-container * { 
+ border: 1px;
+ position: relative;
+}
+
+.grid-container *:after { 
+ position: absolute;
+ top: 0;
+ left: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 0.5fr 1.3fr 1.3fr 1.3fr 0.6fr;
+  gap: 1px 1px;
+  grid-template-areas: "Title Title" "FormFam FormFam" "Gallery Habit" "Gallery Enviro" "Gallery Etym" "Fact Fact";
+}
+
+.Title { 
+	grid-area: Title;
+	padding: 10px; 
+	padding-top: 0px
+}
+
+.FormFam { 
+	grid-area: FormFam; 
+	padding: 10px;
+	padding-top: 0px
+}
+
+.Gallery { 
+  grid-area: Gallery; 
+  overflow: hidden;
+  min-height: 40px;
+  padding: 10px;
+}
+
+.Fact { 
+	grid-area: Fact; 
+	overflow-y: scroll; 
+	padding: 10px;
+
+}
+
+.Habit { 
+	grid-area: Habit; 
+	overflow-y: scroll; 
+	padding: 10px;
+}
+
+.Enviro { 
+	grid-area: Enviro;
+	overflow-y: scroll; 
+	padding: 10px;
+}
+
+.Etym { 
+	grid-area: Etym;
+	overflow-y: scroll; 
+	padding: 10px;
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+}
+h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+h5 {
+  margin: 0;
+    position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+h6 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr;
+	  grid-template-rows: 0.6fr 2fr 1fr 1fr 1fr 0.4fr;
+	  gap: 1px 1px;
+	  grid-template-areas: "Title FormFam" "Gallery Gallery" "Habit Habit" "Enviro Enviro" "Etym Etym" "Fact Fact";
+	}
+h1 {
+  margin: 0;
+  font-size: 1.25em;
+}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Muscovite - KAl<sub>2</sub>(Si<sub>3</sub>Al)O<sub>1</sub><sub>0</sub>(OH)<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Phyllosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/v5.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v5b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v5c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v5d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless, gray, brown, green, yellow or rose red. Crystals tabular to columnar with hexagonal or pseudo-hexagonal outline; also lamellar masses and fine-grained aggregates. Vitreous to pearly or silky luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>A common rock-forming mineral found in phyllites, schists and gneisses and in granites, granite pegmatites and aplites. Formed from other minerals under hydrothermal conditions.</p><br><p><b>Etymology: </b>The name, first used in 1850, is derived from the term "Muscovy glass," because it was used for windows in Russia (Moscow, the Russian capital, was formerly called "Muscovy" in Western Europe).</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

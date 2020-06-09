@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Zoisite - Ca<sub>2</sub>Al<sub>3</sub>(SiO<sub>4</sub>)(Si<sub>2</sub>O<sub>7</sub>)O(OH)</h1></div>
+			  <div class="FormFam"><h5>Sorosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/z7.png" alt=""></div>
+			  	    	<div class="item"><img src="images/z7b.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Yellowish green, green, brown, blue (tanzanite); colorless, purple, gray or pink (thulite). Crystals prismatic, vertically striated. Vitreous luster, sometimes pearly on cleavage; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Occurs in regional and contact metamorphic rocks; also in quartz veins, pegmatites and some eclogites.</p><br><p><b>Etymology: </b>Named for Siegmund Zois, Baron von Edelstein (1747-1819), an Austrian natural scientist.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

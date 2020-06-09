@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Perovskite - CaTiO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Oxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/h2.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Crystals cubic, sometimes highly modified, rarely massive granular, or reniform. Iron-black, brown, reddish brown to yellow. Opaque, transparent in thin fragments; Adamantine to Metallic Luster; may be dull as well.</p><br><p><b>Environment: </b>Occurs both as an accessory mineral of the magmatic stage and as a late-stage mineral</p><br><p><b>Etymology: </b>Named after L. A. Perovski (1792-1856), Russian mineralogist, of St. Petersburg.</p><br><p>Perovskite is thought to be a major constituent of the upper mantle of Earth. Often perovskite is enriched in cerium, niobium, thorium, lanthanum, neodymium and other rare earth metals. Rare earth metals are becoming rather attractive due to their growing value to industry. The titanium derived from perovskite is recovered as well.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

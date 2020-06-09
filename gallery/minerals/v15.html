@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Apophyllite Group - (K,Na)Ca<sub>4</sub>Si<sub>8</sub>O<sub>2</sub><sub>0</sub>(OH,F)·8H<sub>2</sub>O</h1></div>
+			  <div class="FormFam"><h5>Phyllosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/v15.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v15b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v15c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v15d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless, white, pink, yellow or green. Crystals tabular to prismatic, commonly pseudo-cubic, with prism zone deeply striated; also granular. Vitreous to pearly luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>A product of low-grade regional and contact metamorphism and a late-stage hydrothermal mineral in some mineral deposits. Also a secondary mineral in amygdules or druses in basalts and in cavities in granite.</p><br><p><b>Etymology: </b>From the Greek words for "away from" and "leaf," in allusion to its manner of exfoliating on heating.</p><br><p>Colorless and green apophyllite-group minerals from India are popular with collectors and are even faceted into gemstones. Apophyllite-group minerals are found in ancient lava and basalt flows. Cavities or other open spaces in the rock allow these blocky crystals to grow unimpeded. Apophyllite-group minerals are also found in voids in limestones, in the contact metamorphic zone that surrounds the intrusive rocks.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

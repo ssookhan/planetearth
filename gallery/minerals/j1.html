@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Halite - NaCl</h1></div>
+			  <div class="FormFam"><h5>Halides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/j1.png" alt=""></div>
+			  	    	<div class="item"><img src="images/j1b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/j1c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/j1d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colourless or white when pure, gray, blue, purple or reddish. Red is due to inclusions of hematite. Cubic crystals, sometimes hopper or skeletal shaped or massive, rarely stalatitic, granular or compact. Transparent to translucent, vitreous Luster.</p><br><p><b>Environment: </b>Typically in sedimentary rocks of evaporite association-- may form thick beds, up to 1 km or thicker. Also as volcanic sublimates and cave deposits, associated with sylvite, carnallite, gypsum, anhydrite and dolomite.</p><br><p><b>Etymology: </b>From the Greek hals for salt.</p><br><p>Better known as common salt. Besides its culinary use, it is a preservative and a source of sodium carbonate (soda ash) used in the manufacture of soap and glass, and also the source of sodium bicarbonate, which is baking soda. It is also used as a source for chlorine, used in hydrochloric acid and other chlorine compounds, particularly PVC.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

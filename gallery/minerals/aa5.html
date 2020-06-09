@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Almandine - Fe<sub>3</sub>Al<sub>2</sub>(SiO<sub>4</sub>)<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Nesosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/aa5.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa5b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa5c.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Deep red, brownish red or red violet; rarely black. Typically well-formed dodecahedra or trapezohedra; also in rounded grains or massive. Vitreous to resinous luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>The most common garnet, found in contact and regional metamorphic rocks. Occurs in both granites and eclogites and sedimentary rocks, as a detrital mineral and rarely as inclusions in diamonds.</p><br><p><b>Etymology: </b>From the ancient city of Alabanda (now Araphisar), Turkey, where garnets were cut and polished for hundreds of years.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

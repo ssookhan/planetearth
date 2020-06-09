@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Talc - Mg<sub>3</sub>Si<sub>4</sub>O<sub>1</sub><sub>0</sub>(OH)<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Phyllosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/v3.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v3b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v3c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v3d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless, white, pale green, bright emerald to dark green, brown or gray. Crystals platy; also fibrous, fine-grained compact or massive. Pearly, greasy, dull luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>A metamorphic mineral that results from metamorphism of magnesian minerals, such as serpentine, pyroxene, amphibole and olivine, in the presence of carbon dioxide and water.</p><br><p><b>Etymology: </b>From the Arabic talq, meaning "pure," probably alluding to the color of its powdered form.</p><br><p>Talc is used in many industries, including pharmaceuticals, cosmetics (talcum powder, baby powder to prevent diaper rash), ceramics (to prevent crazing), paper making (as a filler), plastics, rubber, paint and coatings.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

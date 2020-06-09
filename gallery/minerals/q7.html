@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Gypsum - CaSO<sub>4</sub>·2H<sub>2</sub>O</h1></div>
+			  <div class="FormFam"><h5>Sulfates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/q7.png" alt=""></div>
+			  	    	<div class="item"><img src="images/q7b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/q7c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/q7d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless or white; yellow, tan, blue, pink, brown, reddish brown, gray or black if colored by impurities. Acicular to stubby prismatic or thin to thick tabular crystals, coarsely striated, also lenticular in rosettes and may be curved or bent; may be fibrous, earthy, concretionary, granular or massive. Subvitreous, pearly luster, silky if fibrous; transparent, translucent or opaque. White streak.</p><br><p><b>Environment: </b>As the most prevalent sulfate mineral, a common constituent of sedimentary rocks, occurring in marine evaporites, caves where the air is dry enough to allow it to be deposited and remain, and fumaroles. Also occurs sometimes in oxidized zones of sulfide deposits through evaporation or by later hydration of anhydrite.</p><br><p><b>Etymology: </b>Named in antiquity from the Greek gypsos, meaning "plaster."</p><br><p>Gypsum is used in gypsum board, more commonly known as drywall, and in plaster of Paris, which is used for surgical casts and by artists for modeling. It is also a component in foot creams, shampoos and many other hair products.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

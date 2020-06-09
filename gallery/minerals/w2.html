@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Enstatite - MgSiO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Single-Chain Inosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/w2.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>White, greenish white or gray, yellowish green, olive green or brown. Prismatic to lamellar, fibrous or massive. Vitreous to pearly luster on cleavages; translucent to opaque. Gray streak.</p><br><p><b>Environment: </b>Occurs in pyroxenites, peridotites and dunites, in ultramafic inclusions in alkalic olivine basalts and kimberlite, in mafic volcanics and rarely in felsic volcanics. Also found in granulite metamorphic facies, regionally metamorphosed rocks and metagabbros.</p><br><p><b>Etymology: </b>From the Greek enstates, meaning "opponent," for its ability to retain strength under a blowpipe flame.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

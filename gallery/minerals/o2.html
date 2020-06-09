@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Ulexite - NaCaB<sub>5</sub>O<sub>6</sub>(OH)<sub>6</sub> · 5H<sub>2</sub>O</h1></div>
+			  <div class="FormFam"><h5>Borates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/o2.png" alt=""></div>
+			  	    	<div class="item"><img src="images/o2b.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless, white in aggregates or gray if included in clays. Distinct crystals rare; can be small nodular, rounded or lens-like masses; typically elongated to acicular, forming fibrous cotton-ball-like masses, in compact parallel fibrous veins, or in radiating and compact nodular groups. White streak.</p><br><p><b>Environment: </b>Found in arid regions, particularly salt playas and desiccated saline lakes.</p><br><p><b>Etymology: </b>Named after George Ludwig Ulex (1811-83), a German chemist who first correctly analyzed the species. Ulexite is called "TV rock" or "television stone" because it can transmit images through its fibers.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

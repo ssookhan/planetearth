@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Wollastonite-1A - CaSiO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Single-Chain Inosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/w11.png" alt=""></div>
+			  	    	<div class="item"><img src="images/w11b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/w11c.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>White, gray white, light green, pinkish, brown, red or yellow. Tabular short or long prismatic crystals; also commonly fibrous, compact or massive. Vitreous or pearly luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Occurs in thermally metamorphosed siliceous carbonates, igneous rocks and skarn deposits.</p><br><p><b>Etymology: </b>Named after William Hyde Wollaston (1766-1828), the English chemist and mineralogist who discovered palladium in 1804 and rhodium in 1809.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

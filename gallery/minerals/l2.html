@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Xenotime-(Y) - YPO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Phosphates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Yellowish brown, reddish brown, red, gray, white, pale yellow or greenish. Short to long prismatic crystals, may be pyramidal or equant; also radial or rosette-like aggregates of coarse crystals. Vitreous to resinous luster; translucent to opaque. White streak.</p><br><p><b>Environment: </b>An accessory mineral in alkalic to granitic rocks, well-developed in associated pegmatites. Also a very common detrital mineral in placers.</p><br><p><b>Etymology: </b>From the Greek words for "vain" and "honor," because when it was first described, the yttrium in xenotime was mistakenly believed to be a new element.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

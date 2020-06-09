@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Aegirine - NaFe<sup>3</sup><sup>+</sup>Si<sub>2</sub>O<sub>6</sub></h1></div>
+			  <div class="FormFam"><h5>Single-Chain Inosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/w3.png" alt=""></div>
+			  	    	<div class="item"><img src="images/w3b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/w3c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/w3d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Dark green to greenish black, reddish brown or black. Prismatic crystals with blunt to steep terminations, striated lengthwise, that can be bent or twisted; also sprays of acicular crystals, fibrous or in radial concretions. Vitreous to slightly resinous luster; translucent to opaque. Yellowish gray streak.</p><br><p><b>Environment: </b>Common in alkalic igneous rocks, carbonatites and pegmatites. Also found in regionally metamorphosed schists, gneisses and iron formations, blueschist facies rocks and sodium metasomatism in granulites; an authigenic mineral in some shales and marls.</p><br><p><b>Etymology: </b>From Ægir, the Norse sea god, as the mineral was first described from Norway.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

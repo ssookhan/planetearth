@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Cinnabar - HgS</h1></div>
+			  <div class="FormFam"><h5>Sulfides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/f6.png" alt=""></div>
+			  	    	<div class="item"><img src="images/f6b.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Rhombohedral crystals, thick tabular; stout to slender prismatic. Also as incrustations, granular, and massive Scarlet-red, darkening on exposure to light. Transparent in thin pieces, otherwise opaque. Adamantine Luster, inclining to Metallic when dark; dull in friable material.</p><br><p><b>Environment: </b>Formed from low-temperature Hydrothermal solutions (hot springs) in veins, and in sedimentary, igneous, and metamorphic host rocks associated with pyrite, marcasite and stibnite.</p><br><p><b>Etymology: </b>Name from Medieval Latin cinnabaris, probably derived from Persian zinjifrah and the Arabic zinjafr, meaning dragon's blood, in allusion to the mineral's red color. Cinnabar has been mined for at least 2,000 years at Almadén in Spain, used mostly for inlay for decoration. It is the most abundant mercury mineral</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

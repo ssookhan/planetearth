@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Smithsonite - ZnCO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Carbonates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/k9.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k9b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k9c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k9d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>White, pale to dark gray, pale brown or brown; more rarely pale shades of red, pink, orange, yellow, green, apple green, emerald green, blue or bluish gray. Uncommon as crystals, rhombohedral and scalenohedral; typically botryoidal, reniform, spherulitic, stalactitic, earthy, friable, granular to porous or compact massive. Vitreous luster or may be pearly; transparent to translucent. White streak.</p><br><p><b>Environment: </b>A secondary mineral formed in oxidized zones of zinc-bearing deposits and replacing adjacent carbonate rocks, where it may constitute an ore.</p><br><p><b>Etymology: </b>Named in honor of James Lewis Smithson (1754-1829), the British chemist and mineralogist whose bequest founded the Smithsonian Institution in Washington, DC.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Chalcanthite - CuSO<sub>4</sub>·5H<sub>2</sub>O</h1></div>
+			  <div class="FormFam"><h5>Sulfates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/q5.png" alt=""></div>
+			  	    	<div class="item"><img src="images/q5b.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Dark blue to sky blue or greenish blue. Uncommonly short prismatic to thick tabular crystals; commonly stalactitic to reniform crusts, cross-vein fibrous, massive or granular. Vitreous to resinous luster; translucent. White streak.</p><br><p><b>Environment: </b>A secondary mineral in the oxidized portions of copper sulfide deposits, commonly of post-mining formation; found rarely as a fumarolic deposit.</p><br><p><b>Etymology: </b>From chalcanthum, its old Latin name, which means "flowers of copper."</p><br><p>Chalcanthite is used as an ore of copper.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

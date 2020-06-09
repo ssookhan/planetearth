@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Anhydrite - CaSO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Sulfates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/q2.png" alt=""></div>
+			  	    	<div class="item"><img src="images/q2b.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless to pale blue or violet if transparent; white, mauve, rose, pale brown or gray from included impurities. Crystals tabular or equant with large pinacoidal faces; typically granular, nodular, fibrous or massive. Pearly to vitreous luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Commonly formed by dehydration of gypsum, occurring in sedimentary evaporite deposits and as caprock in salt domes, in igneous rocks, fumarolic deposits and seafloor hydrothermal chimneys. Also found as an alteration product in hydrothermal mineral deposits.</p><br><p><b>Etymology: </b>From the Greek anhydrous, meaning "without water," in contrast to gypsum, which does contain water.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

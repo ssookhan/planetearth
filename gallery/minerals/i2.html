@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Goethite - FeO(OH)</h1></div>
+			  <div class="FormFam"><h5>Hydroxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/i2.png" alt=""></div>
+			  	    	<div class="item"><img src="images/i2b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/i2c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/i2d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Crystals prismatic and striated, also flattened into tablets or scales. Usually massive as reniform, botryoidal, or stalactitic masses with radial-fibrous structure. Opaque, transparent on thin edges, Adamantine to Metallic Luster, sometimes dull, earthy, also silky.</p><br><p><b>Environment: </b>A common weathering product derived from numerous iron-bearing minerals in oxygenated environments; especially siderite, pyrite, magnetite and glauconite. Widespread as a deposit in bogs and springs ("bog iron ore"). Also the principal component of common rust everywhere where iron and steel objects have been subject to corrosion.</p><br><p><b>Etymology: </b>Named for Johann Wolfgang von Goethe (1749-1832), German poet, philosopher, and naturalist.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Vivianite - Fe<sup>2</sup><sup>+</sup><sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>·8H<sub>2</sub>O</h1></div>
+			  <div class="FormFam"><h5>Phosphates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/l3.png" alt=""></div>
+			  	    	<div class="item"><img src="images/l3b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/l3c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/l3d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless or very pale green when freshly exposed; turns dark blue, dark greenish blue, indigo blue, then black with exposure. Prismatic crystals, either flattened or somewhat elongated, may be rounded or corroded; also as incrustations, concretionary, earthy or powdery. Vitreous to pearly luster or dull to earthy; transparent to translucent. Bluish white streak.</p><br><p><b>Environment: </b>A secondary mineral associated with metallic ore deposits and complex granite pegmatites. Also occurs in clays, recent alluvial and glauconitic sediments and other organic sediments such as lignite, peat and bog iron.</p><br><p><b>Etymology: </b>Named in honor of John Henry Vivian (1785-1855), a Welsh-Cornish mineralogist from Truro, England, who discovered the species.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

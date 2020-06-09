@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Gadolinite-(Y) - FeBe<sub>2</sub>Y<sub>2</sub>Si<sub>2</sub>O<sub>1</sub><sub>0</sub></h1></div>
+			  <div class="FormFam"><h5>Nesosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/aa17.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa17b.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Pale green, green or blue green when unaltered and nonmetamict; black or red brown when partly altered and metamict. Generally found in compact masses, but when crystals form, they are prismatic; often metamict or partly so. Vitreous to greasy luster; opaque, but nearly transparent in thin fragments. Greenish gray streak.</p><br><p><b>Environment: </b>Occurs most often in alkalic granitic pegmatites or granites.</p><br><p><b>Etymology: </b>Named for J. Gadolin (1760-1852), a Finnish chemist, who first separated out yttrium in 1794.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

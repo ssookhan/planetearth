@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Aragonite - CaCO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Carbonates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/k2.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k2b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k2c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k2d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless or white; also gray, pale shades of yellow, blue, violet, green or red. Short to long prismatic isolated crystals or acicular, dipyramidal or thick tabular; also as columnar crystal aggregates and crusts, globular, reniform, pisolitic, coralloidal, stalactitic, internally fibrous or banded. Vitreous luster, resinous on fracture surfaces; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Typically forms in low-temperature environments and near the surface; relatively unstable and can alter to calcite. Also occurs as speleothemes in limestone caves, as pisolites, sinters and massive lamellar deposits at geysers and hot springs, and as a replacement mineral in various rock types and ore deposits.</p><br><p><b>Etymology: </b>Named for where it was first described from, Molina de Aragón, Spain. When aragonite occurs as coral-like aggregates in iron ore deposits in association with siderite (its iron carbonate counterpart), it is called flos ferri, meaning "flowers of iron."</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

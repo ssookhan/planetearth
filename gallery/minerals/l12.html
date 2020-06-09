@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Amblygonite - LiAl(PO<sub>4</sub>)(F,OH)</h1></div>
+			  <div class="FormFam"><h5>Phosphates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/l12.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Milk white, pale yellow, beige, salmon pink, pale green, pale blue or gray; may be colorless. Crude crystals, typically equant with complex form development; massive. Vitreous to greasy luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>An uncommon accessory mineral in zoned lithium-bearing granitic pegmatites; associated with spodumene, lithiophilite-triphyllite, apatite-group minerals, lepidolite, petalite, pollucite and tourmaline-group minerals.</p><br><p><b>Etymology: </b>From the Greek words for "blunt" and "angle," for its approximately 90-degree cleavage angle.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

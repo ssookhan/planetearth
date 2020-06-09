@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Willemite - Zn<sub>2</sub>SiO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Nesosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/aa14.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa14b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa14c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa14d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless to white, gray, red brown, dark brown, honey yellow, apple green or blue. Crystals prismatic; coarse to fine granular, disseminated and in fibrous aggregates, botryoidal or massive. Vitreous to resinous luster; translucent to transparent. White streak.</p><br><p><b>Environment: </b>Found in oxidized zones of zinc deposits and in metamorphosed environments such as metamorphosed limestones.</p><br><p><b>Etymology: </b>Named in honor of Willem I (1772-1843), king of the Netherlands from 1813 to 1840.</p><br><p>Willemite is a somewhat rare zinc mineral that is found in great abundance at Franklin, New Jersey, the USA’s "fluorescent mineral capital of the world." Nearly all willemite specimens fluoresce bright yellow green in shortwave ultraviolet light. The mineral is usually associated with calcite, which fluoresces reddish orange, making these samples very striking when viewed under UV lighting.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Kyanite - Al<sub>2</sub>O(SiO<sub>4</sub>)</h1></div>
+			  <div class="FormFam"><h5>Nesosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/aa11.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa11b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa11c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa11d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Blue, green, colorless, gray or, most recently discovered, orange. Commonly bladed, elongated in one direction and flattened in another. Vitreous luster; translucent to transparent. White streak.</p><br><p><b>Environment: </b>Typically occurs in regional metamorphic or pelitic rocks; can be found as a detrital mineral.</p><br><p><b>Etymology: </b>From the Greek kuanos, meaning "dark blue," for its most common color.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

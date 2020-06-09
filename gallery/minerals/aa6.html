@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Grossular - Ca<sub>3</sub>Al<sub>2</sub>(SiO<sub>4</sub>)<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Nesosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/aa6.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa6b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa6c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa6d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless, white, pink, orange, red, honey-colored, green, emerald green (gem quality, called tsavorlite in Europe and tsavorite in North America), reddish brown (hessonite) or brown; rarely black. Commonly in dodecahedra or trapezohedra with striated faces; also granular, compact or massive. Vitreous luster; transparent to opaque. Brownish white streak.</p><br><p><b>Environment: </b>Ordinarily found in both regional and thermal calcium-rich metamorphic rocks; also occurs in association with serpentine and rodingites.</p><br><p><b>Etymology: </b>From the Latin botanical name for gooseberry (Ribes grossularia), because of its greenish color.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Anglesite - PbSO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Sulfates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/q3.png" alt=""></div>
+			  	    	<div class="item"><img src="images/q3b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/q3c.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless to white, commonly tinted gray; also orange, yellow, green, blue or rarely violet. Variable habit, with thin to thick tabular crystals, also equant or pyramidal and often striated; usually massive, granular to compact, often with concentric banding and enclosing an unaltered core of galena; may form epitaxial overgrowths on galena or barite. Adamantine, resinous to vitreous luster; transparent to opaque. White streak.</p><br><p><b>Environment: </b>Common in the oxidized zone of lead deposits, where it may constitute an important ore.</p><br><p><b>Etymology: </b>From its occurrence on the island of Anglesey, in Wales.</p><br><p>Anglesite is a rare lead mineral. The typical high luster associated with lead minerals makes them beautiful gemstones, intensifying their "fire." Anglesite has a very high density but is quite soft and fragile, so it is not a good stone for jewelry. Found in lead deposits where the sulfide mineral galena is oxidized, it is also called lead spar.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

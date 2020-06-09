@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Andalusite - Al<sub>2</sub>OSiO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Nesosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/aa9.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa9b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa9c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa9d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Pale to deep pink or reddish brown, white, gray, violet, yellow, green or blue. Euhedral crystals or columnar aggregates with nearly square cross-sections, commonly elongated; also fibrous, compact or massive. Vitreous luster; transparent to opaque. White streak.</p><br><p><b>Environment: </b>Characteristic of low-grade metamorphism of pelitic sediments (clastic rocks with a grain size of less than</p><br><p><b>Etymology: </b>From the province of Andalusia in Spain.</p><br><p>Andalusite is a strongly pleochroic gemstone, meaning that it displays different colors depending on the direction from which it is viewed — in this case, shades of yellow, olive and reddish brown. Depending on the cut, each stone has two colors that differ in intensity or blend into a mosaic; cutters try to orient the gem to get the most pleasing mix.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

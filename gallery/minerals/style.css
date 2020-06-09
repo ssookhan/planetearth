@@ -1,0 +1,139 @@
+/************************************GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* width */
+::-webkit-scrollbar {
+  height: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(0,0,0,0.1);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(0,0,0,0.2);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(0,0,0,0.1);
+}
+/***************************************ISOTOPE*/
+
+.isotope-item {
+	z-index: 2;
+}
+.isotope-hidden.isotope-item {
+	pointer-events: none;
+	z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+	/* change duration value to whatever you like */
+ 
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+}
+.isotope {
+	-webkit-transition-property: height, width;
+	-moz-transition-property: height, width;
+	transition-property: height, width;
+}
+.isotope .isotope-item {
+	-webkit-transition-property: -webkit-transform, opacity;
+	-moz-transition-property: -moz-transform, opacity;
+	transition-property: transform, opacity;
+}
+	 
+	 
+/*****************BY BEN*/
+.portfolioFilter {
+	margin: 30px 0;
+	white-space:nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.portfolioFilter a {
+	padding: 10px;
+}
+.portfolioFilter a {
+	margin-right: 10px;
+	color: #F00;
+	text-decoration: none;
+	font-size:120%;
+	font-variant: small-caps
+}
+.portfolioFilter a.current {
+	color: rgba(23,158,156,1.00);
+	cursor: default;
+	border-bottom: 3px solid rgba(23,158,156,1.00);
+	outline: none!important;
+}
+.portfolioContainer img {
+	margin: 5px;
+}
+/*****************END BEN*/
+
+
+
+/************************************GLOBAL*/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+#logo {
+	max-width: 100%;
+	height: auto;
+}
+
+
+/**************************************LAYOUT*/
+/*CONTAINER*/
+.container {
+	width: 96%;
+	margin:2% 0 2% 2%;
+}
+.container p {
+	width: 90%;
+	font-size: 120%;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgb(0,0,0,0.5);
+  text-align: center;
+}
+
+/***********************MEDIA QUERIES******/
+
+@media screen and (max-width:480px) {
+/*LAYOUT*/
+.container {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+	.portfolioContainer img, .portfolioContainer div {
+		display:block;
+		width:100%!important;
+		height: auto;
+	}
+	.portfolioContainer {
+	width:90%!important;
+	padding-left:1%;
+}
+	.portfolioFilter a {
+		display: block;
+	}
+
+}

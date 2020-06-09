@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Gedrite - Mg<sub>2</sub>(Mg<sub>3</sub>Al<sub>2</sub>)(Si<sub>6</sub>Al<sub>2</sub>)O<sub>2</sub><sub>2</sub>(OH)<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Double-Chain Inosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/x7.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>White, gray, brown or green. Bladed and prismatic crystals or fibrous. Vitreous luster; transparent to translucent. Gray white streak.</p><br><p><b>Environment: </b>Widespread in medium- to high-grade metamorphic rocks; also occurs in metasomatized contact metamorphic rocks.</p><br><p><b>Etymology: </b>From its occurrence in the Gèdre area of France, which is in the Pyrenees Mountains, very close to Spain.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

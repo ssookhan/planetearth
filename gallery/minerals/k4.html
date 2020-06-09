@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Dolomite - CaMg(CO<sub>3</sub>)<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Carbonates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/k4.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k4b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k4c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k4d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless, white, yellow, brown or pale pink. Crystals tabular and may exhibit curved faces; also columnar, stalatitic, granular or massive. Vitreous to pearly luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>An important sedimentary and metamorphic mineral, the principal mineral in dolostones and metadolostones and an important mineral in limestones and marbles where calcite is the principal mineral present. Also found as a gangue in hydrothermal veins, forming crystals in cavities, and in serpentinites and similar rocks.</p><br><p><b>Etymology: </b>Named after Dieudonné Sylvain Guy Tancrède de Gratet de Dolomieu, usually known as Déodat de Dolomieu (1750- 1801), a French geologist and naturalist who contributed to early descriptions of the species in dolostone.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Cavansite - Ca(V<sup>4</sup><sup>+</sup>O)Si<sub>4</sub>O<sub>1</sub><sub>0</sub>·4H<sub>2</sub>O</h1></div>
+			  <div class="FormFam"><h5>Phyllosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/v14.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v14b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/v14c.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Brilliant sky blue to greenish blue. Prismatic crystals or spherulitic rosettes. Vitreous luster; transparent. Bluish white streak.</p><br><p><b>Environment: </b>Found in basalts in association with zeolites and in tuffs.</p><br><p><b>Etymology: </b>From the elements calcium, vanadium and silicon in its composition.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

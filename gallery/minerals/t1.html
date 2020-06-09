@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Wulfenite - PbMoO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Molybdates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/t1.png" alt=""></div>
+			  	    	<div class="item"><img src="images/t1b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/t1c.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Bright yellow, wax yellow, yellow orange, bright orange, red orange or bright red; also gray, grayish white, rarely white or colorless, green, pale to dark blue, reddish brown, brown or black. Crystals commonly square and flat tabular but may be elongated or pyramidal; can be granular or massive. Subadamantine to greasy luster; transparent to opaque. Yellowish white streak.</p><br><p><b>Environment: </b>A secondary mineral found in the oxidized zone of deposits of lead- and molybdenum-containing minerals.</p><br><p><b>Etymology: </b>Named after Franz Xavier Wulfen (1728-1805), an Austro-Hungarian Jesuit and mineralogist.</p><br><p>The US state of Arizona is a noted locality for wulfenite. At the Red Cloud Mine, in the silver district north of Yuma, wulfenite crystals form bright red chunky blades. Butterscotch-colored bladed crystals come from the Glove Mine, in the Santa Rita Mountains south of Tucson. These prized mineral specimens occur in a district famous for its lead­zinc-silver deposits.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

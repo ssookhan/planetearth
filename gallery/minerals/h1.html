@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Ilmenite - Fe<sup>2</sup><sup>+</sup>TiO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Oxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/h1.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h1b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h1c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h1d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Usually thick tabular iron-black crystals, sometimes thin laminae, compact, massive, or occur as disseminated grains. Opaque with a subMetallic Luster; non- or weakly-magnetic.</p><br><p><b>Environment: </b>Occurs principally as a common accessory mineral in igneous rocks such as gabbros, diorites, kimberlites and anorthosites, as veins and disseminated deposits and high-grade metamorphic rocks; may attain economic concentration in layered mafic intrusions and in "black sand"placer deposits.</p><br><p><b>Etymology: </b>For the early-noted location of the mineral in the Ilmen Mountains, Chelyabinskaya Oblast', Russia</p><br><p>Ilmenite is a major source of titanium. The most important use of titanium is in alloys, which are mixtures of metals. It is commonly added to steel, due to its resistance to corrosion and it is light-weight. These properties make titanium-steel alloys particularly useful in spacecraft and aircraft applications, but also in bicycles, golf clubs, and other sports equipment. Titanium alloys have also become popular in body implants, such as artificial hips and knees, because they are light, strong, long-lasting, and do not react with body tissues and fluids.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

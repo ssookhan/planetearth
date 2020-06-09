@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Diamond - C</h1></div>
+			  <div class="FormFam"><h5>Native Elements</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/e10.png" alt=""></div>
+			  	    	<div class="item"><img src="images/e10b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/e10c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/e10d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Comes in a range of colors from colorless or yellow, brown to black, and rarely pink, green, blue, orange or red. Crystals are octahedral, dodecahedral, cubic and even more complex crystals; massive, fine-grained (carbonado) rare. Adamantine to greasy Luster; transparent to translucent</p><br><p><b>Environment: </b>Product of deep-seated crystallization of ultrabasic igneous magmas, in kimberlite pipes or lamproites. Diamond crystals are also found in alluvial deposits, from the erosion of such kimberlite pipes.</p><br><p><b>Etymology: </b>Most likely derived from the Greek adamas, "invincible", for its extreme hardness.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

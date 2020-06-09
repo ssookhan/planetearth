@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Bastnäsite - CeCO<sub>3</sub>F</h1></div>
+			  <div class="FormFam"><h5>Carbonates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Wax or honey yellow or reddish brown. Commonly tabular to equant crystals, horizontally striated, but may be elongated, or in syntaxic intergrowth with röntgenite-(Ce), synchysite-(Ce), parisite-(Ce) or cordylite-(Ce); also granular or massive. Vitreous to greasy luster, pearly on basal partings; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Typically hydrothermal, though primary igneous occurrences are known. Found in granite and alkali syenites and pegmatites, carbonatites and contact metamorphic deposits; rarely as detrital mineral in placers.</p><br><p><b>Etymology: </b>Named for its first noted occurrence, in the Bastnäs Mine in Sweden.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

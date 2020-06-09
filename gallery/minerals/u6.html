@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Plagioclase Series Feldspars - NaAlSi<sub>3</sub>O<sub>8</sub> to CaAl<sub>2</sub>Si<sub>2</sub>O<sub>8</sub></h1></div>
+			  <div class="FormFam"><h5>Tectosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/u6.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u6b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u6c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u6d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>White to gray, bluish, green or red. Crystals common, can be tabular; also as aggregates, granular or massive. Vitreous luster, pearly on cleavages; transparent to translucent. White streak.</p><br><p><b>Environment: </b>A major constituent of granites and granite pegmatites, alkalic diorites and basalts; also found in hydrothermal and alpine veins. A product of potassium metasomatism, and also occurs in low-temperature and low-pressure metamorphic facies and some schists.</p><br><p><b>Etymology: </b>Albite is from the Latin albus, meaning "white," for its characteristic color. Anorthite comes from the Greek for "not a right angle" or "oblique," in allusion to the oblique triclinic form of its crystals.</p><br><p>The calcic middle-range member of the plagioclase feldspars is called labradorite. It was first described from the region around Nain, in Labrador, Canada, where it forms very large grains in the gabbros and anorthosites. It is most well-known for its blue and green play of colors — known as the Schiller effect — which is a result of light refracting within its lamellar intergrowths. This optical effect is also called labradorescence.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

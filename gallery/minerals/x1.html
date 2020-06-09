@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Hornblende Group - Ca<sub>2</sub>(Fe<sup>2</sup><sup>+</sup><sub>4</sub>Al)(Si<sub>7</sub>Al)O<sub>2</sub><sub>2</sub>(OH)<sub>2</sub> to Ca<sub>2</sub>[Mg<sub>4</sub>(Al,Fe<sup>3</sup><sup>+</sup>)]Si<sub>7</sub>AlO<sub>2</sub><sub>2</sub>(OH)<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Double-Chain Inosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Green, dark green to brownish green to black. Prismatic crystals, but more commonly bladed and unterminated. Vitreous to pearly luster; semitransparent. White streak.</p><br><p><b>Environment: </b>Occurs widely in metamorphic rocks, especially in amphibolites, hornblende schists, gneisses and mafic igneous rocks.</p><br><p><b>Etymology: </b>From Old German words meaning "horn" and "blind" or "to deceive," alluding to the fact that it occurs in ore deposits but does not yield any metal.</p><br><p>Chemical analysis is necessary to distinguish between hornblendes. The two end members of this group are ferrohornblende, which contains iron, and magnesiohornblende, which contains magnesium.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

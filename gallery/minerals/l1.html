@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Monazite Group - (Ce,La,Nd,Th)PO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Phosphates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Yellowish or reddish brown to brown, pale yellow, pink or gray to nearly white. Crystals typically tabular or may be prismatic, equant or wedge-shaped; also granular or massive. Resinous to waxy luster, vitreous to adamantine, or can be dull to earthy; translucent to opaque. Grayish white.</p><br><p><b>Environment: </b>An accessory mineral in granites, syenites and pegmatites and high-grade metamorphic rocks; also occurs in detrital river and beach sands. Associated with zircon, xenotime, titanite, thorite and columbite.</p><br><p><b>Etymology: </b>From the Greek for "solitary," for its apparent rarity in its first known localities.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

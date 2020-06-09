@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Calcite - CaCO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Carbonates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/k1.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k1b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k1c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k1d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless and transparent to white when pure, but occurs in virtually every color, including blue and black. Hundreds of different crystal faces and forms, commonly rhombohedral or scalenohedral prismatic crystals, thin to thick tabular, and a variety of shapes created by twinning; also as fibers, aggregates or earthy (chalk), and nodular and stalactitic forms. Vitreous, sometimes pearly, to iridescent luster; transparent to opaque. White streak.</p><br><p><b>Environment: </b>Found in most geologic settings and as a later-forming replacement mineral in most other environments, commonly in thick and massive sedimentary rocks such as limestones, chalk, marl, oolitic limestone and marbles. Also forms earthy crusts and efflorescences on soil, stalactites in caves or cementing material in sedimentary rocks. Can be regionally or contact-metamorphosed into marbles, rarely forms igneous rocks (carbonatites) and is a common gangue mineral in hydrothermal deposits.</p><br><p><b>Etymology: </b>After a Greek root meaning "to reduce to a powder by heat." The Latin calx, from the same root, means "burnt lime." Iceland spar, a variety of calcite, has the optical property of double refraction: light passing through it is split into two components, creating a double image of any object viewed through it. Limestone is a sedimentary rock composed primarily of calcite; marble is a metamorphic rock that forms when limestone is subjected to heat and pressure. Both limestone and marble have been used as building materials for centuries, including for the pyramids of Egypt.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

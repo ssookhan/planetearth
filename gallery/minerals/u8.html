@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Chabazite Group - chabazite-(Ca): Ca(Si<sub>4</sub>Al<sub>2</sub>)O<sub>1</sub><sub>2</sub>·6H<sub>2</sub>O</h1></div>
+			  <div class="FormFam"><h5>Tectosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/u8.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u8b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u8c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u8d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>White, yellow, pink, red or colorless. Pseudo­rhombohedral crystals, nearly cubic in aspect; tabular, complex to rounded twinned forms; also anhedral, granular or massive. Vitreous luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Occurs in volcanic rocks as basalts and in andesite; more rarely in limestones and schists or as hydrothermal deposits in cavities and joints in ore veins. Also found in bedded tuffs in lake deposits, altered from volcanic glass.</p><br><p><b>Etymology: </b>From the Greek chabazios, an ancient name for a stone. The chabazite group is actually made up of five minerals: chabazite-(Ca), containing calcium; chabazite-(K), with potassium; chabazite-(Mg), with manganese; chabazite-(Na), with sodium; and chabazite-(Sr), with strontium.</p><br><p>The chabazite group is part of a larger group of minerals called zeolites. In zeolites large ions and molecules reside in and actually move around inside the overall crystal structure framework. They readily take up and release water and readily exchange sodium for calcium, and vice versa. This characteristic makes zeolites such as the minerals in the chabazite group useful as drying agents and water softeners.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

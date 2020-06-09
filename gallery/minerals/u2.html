@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Nepheline - (Na,K)AlSiO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Tectosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/u2.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u2b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u2c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/u2d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Typically colorless, white, gray or yellow, but can be many colors. Stout six- or twelve-sided prisms, typically poorly formed; also granular, compact or massive. Vitreous to greasy luster; transparent to nearly opaque, from inclusions or alteration. White streak.</p><br><p><b>Environment: </b>Characteristic of alkalic rocks as nepheline syenites and gneisses and alkalic gabbros. Also occurs in sodium-rich hypabyssal rocks, tuffs and lavas and pegmatites and as a product of sodium metasomatism.</p><br><p><b>Etymology: </b>From the Greek word for "cloud," because it becomes cloudy when treated with strong acid.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

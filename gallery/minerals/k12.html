@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Malachite - Cu<sub>2</sub>CO<sub>3</sub>(OH)<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Carbonates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/k12.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k12b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k12c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k12d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Bright green, with crystals deeper shades of green or very dark to nearly black. Crystals uncommon, usually short or long prismatic or acicular, often in rosettes, sprays or tufts; botryoidal to mammillary aggregates of radiating fibrous crystals more common; also massive, compact or stalactic. Adamantine to vitreous luster, silky if fibrous or dull to earthy if massive; transparent to translucent. Light green streak.</p><br><p><b>Environment: </b>A common secondary mineral formed in the oxidation zone of copper deposits.</p><br><p><b>Etymology: </b>Named in antiquity after the Greek word for mallows, alluding to the similarity of the mineral’s green color to that of mallow leaves.</p><br><p>Malachite is a minor ore of copper but is mainly employed as an ornamental material or cut to make gemstones. It has also been used as a green artist’s pigment and as a cosmetic, from as early as 3000 bce.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

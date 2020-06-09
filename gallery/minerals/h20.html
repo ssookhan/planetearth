@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Cassiterite - SnO<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Oxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/h20.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h20b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h20c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h20d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Black, brown, yellow-gray, colorless or white, rarely red. Transparent when light colored, dark material nearly opaque, Adamantine to Adamantine Metallic, splendent Luster</p><br><p><b>Environment: </b>Characteristic of deep-seated high-temperature veins and of association with highly acid igneous rocks such as Granites, also in Pegmatites. Important placer deposits are derived from the weathering of stockworks of cassiterite-bearing veins in Granite.</p><br><p><b>Etymology: </b>Named from the Greek kassiteros, tin, for its composition.</p><br><p>The principle ore of tin. "Tin cans"are actually made mostly of steel, with a tin-plating, due to its low toxicity. Tin foil was once a common wrapping material for foods and drugs; replaced in the early 20th century by the use of aluminum foil, but it still commonly referred to as 'tin foil’.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

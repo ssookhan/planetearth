@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Topaz - Al<sub>2</sub>SiO<sub>4</sub>(F,OH)<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Nesosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/aa8.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa8b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa8c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa8d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Mostly colorless, shades of blue, or straw to wine yellow, but can also be pink, green or red; rarely other colors. Well-formed crystals common, typically morphologically complex, long to short prismatic, with prism faces commonly vertically striated; also columnar, compact or massive. Vitreous luster; transparent to opaque with inclusions. White streak.</p><br><p><b>Environment: </b>Occurs in veins and cavities in granites and granitic pegmatites and in fluorine-rich vapors in rhyolites and greisens; also found in alluvial deposits.</p><br><p><b>Etymology: </b>From the Greek topazion, meaning "to seek," or possibly from tapaz, the Sanskrit word meaning "fire." The Greek topazion may allude to the Egyptian island of Zabargad (or St. Johns) in the Red Sea. This island was known for olivine (also called peridot or chrysolite), which has been referred to since antiquity as topaz. Most blue topaz on the market is actually irradiated, heat-treated colorless topaz.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

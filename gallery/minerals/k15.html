@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Magnesite - MgCO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Carbonates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/k15.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k15b.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless, white, pale yellow, pale brown, faintly pink or lilac rose. Uncommon as crystals; typically earthy, chalky, porcelaneous, fibrous, coarse to fine granular, compact or massive. Vitreous luster; transparent to translucent. White streak.</p><br><p><b>Environment: </b>A primary mineral in igneous or sedimentary rocks, formed by metamorphism or alteration of serpentine and peridotite. Uncommon in marine evaporites and hydrothermal veins and rare in carbonatites.</p><br><p><b>Etymology: </b>Named for the magnesium in its composition. An ore of magnesium commonly used as a refractory material, magnesite has a very high melting point, making it ideal for lining furnaces. It is also used as a catalyst and filler in the production of synthetic rubber and in the preparation of magnesium chemicals for fertilizers.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

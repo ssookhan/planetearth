@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Zircon - ZrSiO<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Nesosilicates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/aa7.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa7b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa7c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/aa7d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Reddish brown, yellow, green, blue, gray or colorless. Prismatic to dipyramidal crystals. Vitreous to adamantine luster, but greasy when metamict; transparent to opaque. White streak.</p><br><p><b>Environment: </b>An accessory mineral in igneous and metamorphic rocks. Large crystals found in mafic pegmatites and carbonatites; also occurs in sedimentary rocks and alluvial heavy-mineral sands.</p><br><p><b>Etymology: </b>From the Arabic zarqun, which is thought to derive from the Persian zar, for "gold," and gun, meaning "color." Zircon has been mined from the gem gravels of Sri Lanka for more than 2,000 years. It was used as a gemstone in Greece and Italy as far back as the sixth century ce.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

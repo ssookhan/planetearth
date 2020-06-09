@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Gibbsite - Al(OH)<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Hydroxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/i6.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>White, grayish, greenish, reddish-white. Crystals tabular with a hexagonal aspect. As concretions. Massive stalactitic, compact/earthy. Transparent; vitreous to pearly Luster.</p><br><p><b>Environment: </b>Most gibbsite is a secondary product resulting from the weathering, leaching, and alteration of aluminous minerals. Also forms as a low-temperature Hydrothermal mineral in veins or cavities in alkaline or other igneous rocks.</p><br><p><b>Etymology: </b>Named for Colonel George Gibbs (1777-1834), original owner of the Gibbs mineral collection acquired by Yale College early in the nineteenth century.</p><br><p>Gibbsite is one of the principle ores of aluminum. Aluminum is used for a variety of purposes, from aircraft and rockets, to aluminum foil. Aluminum is highly reactive, so it doesn’t form by itself in Nature, but combines with other elements to form over 270 different minerals</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

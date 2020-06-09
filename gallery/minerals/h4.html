@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Magnetite - Fe<sub>3</sub>O<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Oxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/h4.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h4b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h4c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h4d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Iron black, usually octahedral crystals. Very rarely cubic; skeletal, granular, massive. Opaque, translucent in thin flakes, Metallic to subMetallic Luster, may be dull. Highly magnetic.</p><br><p><b>Environment: </b>It is found in diverse geological environments and in some deposits in sufficient abundance to constitute an important iron ore. It is a high-temperature accessory mineral in igneous and metamorphic rocks and in sulphide veins. Also as a product of fumarolic activity and as a detrital mineral.</p><br><p><b>Etymology: </b>Said to be derived from Magnes, a Greek shepherd, who first discovered the mineral on Mount Ida by noting that the iron ferrule on his staff and the nails of his shoes clung to a magnetite-bearing rock.</p><br><p>Magnetite is an ore of iron and is commonly used in the creation of steel. Small crystals of magnetite have been found in some bacteria and in the brains of bees, of termites, some birds and fish. These crystals are thought to be used to sense to the polarity or in the inclinations of the Earth's magnetic field, and to be used for navigation.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

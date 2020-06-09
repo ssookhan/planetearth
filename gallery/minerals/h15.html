@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Samarskite-(Y) - (Y,Ce,U,Fe)<sub>3</sub>(Nb,Ta,Ti)O<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Oxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Crystals usually rough, often massive, found in close association with columbite-group minerals. Black, brownish-black to brown to yellowish brown due to alteration. Opaque, transparent in thin fragments; Vitreous to resinous Luster, but may be subMetallic, splendent.</p><br><p><b>Environment: </b>Found as an accessory mineral in RE-rich granitic Pegmatites; rarely as a detrital mineral</p><br><p><b>Etymology: </b>Named after Colonel Vasilii Evgrafovich von Samarskii-Bykhovets (1803-1870) of the Russian Corps of Mining Engineers</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

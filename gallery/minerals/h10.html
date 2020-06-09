@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Spinel - MgAl<sub>2</sub>O<sub>4</sub></h1></div>
+			  <div class="FormFam"><h5>Oxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/h10.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h10b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/h10c.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Crystals are usually octahedrons, but can be granular or massive too, and range in color from brown, black; red (ruby-spinel), orange, yellow, green, blue, indigo, violet or colorless. Transparent to nearly opaque, Vitreous, splendent to dull Luster.</p><br><p><b>Environment: </b>Formed at high-temperature as an accessory in igneous rocks, in regionally metamorphosed aluminum-rich schists and in regionally and contact metamorphosed limestones. Also is a detrital mineral</p><br><p><b>Etymology: </b>From the Latin spinella, for little thorn, due to the spine-shaped octahedral crystals.</p><br></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

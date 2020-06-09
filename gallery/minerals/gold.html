@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Test</title>
+	  <!-- Slick-->
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Gold - Au</h1></div>
+			  <div class="FormFam"><h5>Native Elements</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/e1a.png" alt=""></div>
+			  	    	<div class="item"><img src="images/e1b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/e1c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/e1d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit:</b> Golden yellow, inclining to silver-yellow with increasing mixture of silver, or orange-red with substitution with copper. As octahedra, dodecahedra, and cubes, typically crude or rounded, can be in reticulated, dendritic, Arborescent, platy, filiform, spongy; massive, and in rounded nuggets; scales and flakes. Metallic Luster; opaque, except when in the thinnest foils.</p>
+			  <br><p><b>Environment:</b> Forms in Hydrothermal quartz veins associated with pyrite, arsenopyrite, and other sulphide minerals and in placers resulting from the weathering of these deposits.</p>
+			  <br><p><b>Etymology:</b> The etymology of the name has been lost, but the name is believed to derive from the Sanksrit jyal and the German geld. Chemical symbol (Au) from the Latin aurum, meaning ‘shining dawn’.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+
+		</script>
+	</body>
+
+</html>

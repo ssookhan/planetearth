@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Uraninite - UO<sub>2</sub></h1></div>
+			  <div class="FormFam"><h5>Oxides</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Black, brownish-black, greyish, greenish; green-gray in thin fragments. Octahedral crystals, less commonly cubes or combinations of the two. The word 'pitchblende’ is commonly used, which is the rather sharply defined colloform variety of uraninite. Opaque, greasy, sub-Metallic to dull Luster.</p><br><p><b>Environment: </b>In Granite and syenite Pegmatites. Colloform crusts in high temperature Hydrothermal veins. In quartz-pebble conglomerates.</p><br><p><b>Etymology: </b>Named for the composition</p><br><p>The principle ore of uranium. Uranium has many uses, most notably generating nuclear power, and the uses in the military sector, such as nuclear weapons and high-density penetrators.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>

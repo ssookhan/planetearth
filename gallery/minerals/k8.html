@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+   <head>
+	  <meta charset="UTF-8">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-theme.css">
+	  <link rel="stylesheet" type="text/css" href="scripts/slick/slick-lightbox.css">
+	  <link rel="stylesheet" href="minstyle.css">
+	  <script src="scripts/jquery.min.js"></script>
+	  <meta charset="UTF-8">
+	</head>
+	<body>
+		<div id="myModal" class="modal">
+			<div class="grid-container">
+			  <div class="Title"><h1>Cerussite - PbCO<sub>3</sub></h1></div>
+			  <div class="FormFam"><h5>Carbonates</h5></div>
+			  <div class="Gallery">
+			  	    <div id="slick-demo">
+			  	    	<div class="item"><img src="images/k8.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k8b.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k8c.png" alt=""></div>
+			  	    	<div class="item"><img src="images/k8d.png" alt=""></div>
+     				</div>
+			  </div>
+			  <div class="Info"><p><b>Habit: </b>Colorless, white, pale yellow, smoky to dark gray or black, with inclusions. Crystal morphology extremely varied: simple crystals often tabular and elongated, also equant or dipyramidal and then pseudo-hexagonal; rarely acicular or very thin tabular. Also massive, granular, dense or compact; stalactitic at times or pulverulent to earthy; fibrous rare. Adamantine luster tending toward vitreous or resinous; transparent to translucent. White streak.</p><br><p><b>Environment: </b>Usually found in oxidized zones of lead ore deposits; a very common weathering product of galena and other lead ore minerals.</p><br><p><b>Etymology: </b>From the Latin cerussa, meaning "white lead."</p><br><p>At just under 900 carats, the "Light of the Desert" is the largest faceted piece of cerussite in the world. This gem was named for its intense light dispersion (also known as fire) and for the deserts where it was found and faceted, in Namibia and Arizona respectively. Cerussite’s dispersion, in which white light is split into its spectral colors, is even greater than that of diamond. Until this specimen was found in the 1960s, no cerussite of more than 200 carats had ever been faceted. The mineral is extremely sensitive to heat and vibration — even the warmth of your hand can damage it — so great care was taken during polishing and grinding that the heat generated didn’t shatter the gemstone.</p></div>
+			</div>
+		</div>
+		<script type="text/javascript" src="scripts/slick/slick.min.js"></script>
+  		<script type="text/javascript" src="scripts/slick/slick-lightbox.js"></script>
+		<script>
+		    $('#slick-demo').slick({ 
+		    dots: true,
+		    arrows: false,
+		    infinite: false,
+		    speed: 300,
+		    slidesToShow: 1,
+		    slidesToScroll: 1
+		  });
+		  $('#slick-demo').slickLightbox({
+		    src: 'src',
+		    itemSelector: '.item img'
+		  });
+		</script>
+	</body>
+</html>
