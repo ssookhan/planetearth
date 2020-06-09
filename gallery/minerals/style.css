@@ -162,24 +162,23 @@ a {
 
 /***********************MEDIA QUERIES******/
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:550px) {
 /*LAYOUT*/
 .container {
-	width: 90%;
+	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
 }
-	.portfolioContainer iframe, .portfolioContainer div {
-		display:block;
-		width:100%!important;
-		height: auto;
-	}
-	.portfolioContainer {
-	width:90%!important;
-	padding-left:1%;
+body > div.pp_pic_holder.pp_default, body > div.pp_pic_holder.pp_default > div.pp_content_container, body > div.pp_pic_holder.pp_default > div.pp_content_container > div > div > div, body > div.pp_pic_holder.pp_default > div.pp_content_container > div > div > div > div.pp_fade > div.pp_hoverContainer, body > div.pp_pic_holder.pp_default > div.pp_content_container > div > div > div > div.pp_fade,#pp_full_res,#pp_full_res > iframe, body > div.pp_pic_holder.pp_default > div.pp_content_container > div > div > div > div.pp_fade > div.pp_details{
+      display:block;
+    width:100%!important;
+    left:0px!important;
 }
-	.portfolioFilter a {
-		display: block;
-	}
+    .portfolioContainer {
+  width:100%!important;
+}
+img {
+  height: 100px;
+  width: 100px;
 
 }
