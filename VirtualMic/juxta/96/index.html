@@ -1,0 +1,80 @@
+<html lang="en"> 
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Slide 96</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" type="text/javascript"></script>
+  <script src="../js/jquery.event.move.js" type="text/javascript"></script>
+  <script src="../js/jquery.twentytwenty.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="../css/twentytwenty.css" type="text/css" media="screen" />
+  <style>
+    body {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    #container {
+      position: relative;
+    }
+    
+    #container .container1 {
+      z-index: 1;
+    }
+
+    #container .btn {
+      position: absolute;
+      width:60px;
+      height:60px;
+      z-index: 9;
+      display: block;
+      padding: 12px 12px;
+      border: 2px;
+      border-radius: 100%;
+      background:url(../micicon.png) no-repeat;
+      background-position: center;
+      background-color: white;
+      opacity: 0.8;
+      cursor:pointer;
+      color: none;
+    }
+    
+    #container .btn:hover {
+      background-color: black;
+      background-image: none;
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+  </style>
+</head>
+<body>
+  <a href="index.html" target="_blank">
+    <img src="https://planetearth.utsc.utoronto.ca/diagrams/media-fullscreen.png" alt="Expand image" id="expandfull"/>
+  </a>
+
+<div id="container">   
+<button class="btn" onclick=" window.open ('../../rotatables/96_1/index.html','_blank')" alt="microscope view" style="top: 60%; left: 65%; " >1</button>
+<button class="btn" onclick=" window.open ('../../rotatables/96_2/index.html','_blank')" alt="microscope view" style="top: 18%; left: 55%; " >2</button>
+<button class="btn" onclick=" window.open ('../../rotatables/96_3/index.html','_blank')" alt="microscope view" style="top: 75%; left: 45%; " >3</button>
+
+
+  <div id="container1" class="twentytwenty-container">
+    <img src="../img/96ppl.jpg" alt="PPL"/>
+    <img src="../img/96xpl.jpg" alt="XPL"/>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(window).on("load", function() {
+    $("#container1").twentytwenty({
+      before_label: "PPL", // Set a custom before label
+      after_label: "XPL", // Set a custom after label
+    });
+    });
+
+
+</script>
+</body>
+</html>
