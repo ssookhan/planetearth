@@ -14,7 +14,7 @@
         .grid-container {
           display: grid;
           grid-template-columns: 0.7fr 1.3fr;
-          grid-template-rows: 1.2fr 0.8fr;
+          grid-template-rows: 1fr 1fr;
           gap: 1px 1px;
           grid-template-areas:
             "bioclim maparea"
@@ -32,30 +32,28 @@
         }
         th {
           width: 33.33% ;
-          height: 40px;
         }
         </style>
         <title></title>
     </head>
     <body>
         <div class="grid-container">
-          <div class="bioclim">
+          <div class="bioclim" style="overflow: hidden;padding:10px;">
             <div class="chart-container" style="height:100%; width:99%">
               <canvas id="bioclimchart"></canvas>
             </div>
           </div>
-          <div class="socioecon">
-            <div class="chart-container" style="height:100%; width:99%">
+          <div class="socioecon" style="overflow: hidden;padding:10px;">
+            <div class="chart-container" style="height:90%; width:99%">
                 <canvas id="sociochart"></canvas>
-                <br>
-                <table style="width:100%">
-                  <tr>
+            </div>
+                <table style="height:10%;width:100%">
+                  <tr style="font-size:1.5vh;">
                     <th id="city" style="color:green"></th>
                     <th id="cnty" style="color:red"></th> 
                     <th id="prvnc" style="color:blue">New Brunswick</th>
                   </tr>
                 </table>
-            </div>
           </div>
           <div class="maparea">
                 <div id="map"></div>
@@ -107,6 +105,7 @@
                     tooltips: { enabled: false },
                     legend: {display:false}, 
                     responsive:true,
+                    maintainAspectRatio:false,
                     scale: {
                         pointLabels: {fontSize: 8},
                         ticks: {
@@ -160,6 +159,7 @@
                     legend: {display:false},
                     stacked: false,
                     responsive:true,
+                    maintainAspectRatio:false,
                     title: {
                         display: true,
                         text: ''
