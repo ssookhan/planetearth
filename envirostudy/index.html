@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <style>
+        html, body, .grid-container, #map, #sociochart, #bioclimchart { height: 100%; width: 100%; margin: 0; }
+
+        .grid-container {
+          display: grid;
+          grid-template-columns: 0.7fr 1.3fr;
+          grid-template-rows: 1.2fr 0.8fr;
+          gap: 1px 1px;
+          grid-template-areas:
+            "bioclim maparea"
+            "socioecon maparea";
+        }
+
+        .bioclim { grid-area: bioclim; }
+
+        .socioecon { grid-area: socioecon; }
+
+        .maparea { grid-area: maparea; }
+        table {
+          table-layout: fixed ;
+          width: 100% ;
+        }
+        th {
+          width: 33.33% ;
+          height: 40px;
+        }
+        </style>
+        <title></title>
+    </head>
+    <body>
+        <div class="grid-container">
+          <div class="bioclim">
+            <div class="chart-container" style="height:100%; width:99%">
+              <canvas id="bioclimchart"></canvas>
+            </div>
+          </div>
+          <div class="socioecon">
+            <div class="chart-container" style="height:100%; width:99%">
+                <canvas id="sociochart"></canvas>
+                <br>
+                <table style="width:100%">
+                  <tr>
+                    <th id="city" style="color:green"></th>
+                    <th id="cnty" style="color:red"></th> 
+                    <th id="prvnc" style="color:blue">New Brunswick</th>
+                  </tr>
+                </table>
+            </div>
+          </div>
+          <div class="maparea">
+                <div id="map"></div>
+          </div>
+        </div>
+        <script src="libs/chart.js/dist/Chart.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script>
+            var socioCanvas = document.getElementById("sociochart");
+            var socioData = {
+              labels: ["Age Dependency", "Unemployment %", "Bottom Income Decile", "Top Income Decile", "Income Ratio", "Population Density"],
+              datasets: [{
+                label: "Community",
+                backgroundColor: "rgba(0,200,0,0.5)",
+                data: [0, 0, 0, 0, 0, 0]
+              },{
+                label: "Community",
+                backgroundColor: "rgba(0,200,0,0.5)",
+                data: [6, 6, 6, 6, 6, 6],
+                pointRadius: 0
+              },{
+                label: "County",
+                backgroundColor: "rgba(200,0,0,0.5)",
+                data: [0, 0, 0, 0, 0, 0]
+              }, {
+                label: "County",
+                backgroundColor: "rgba(200,0,0,0.5)",
+                data: [12, 12, 12, 12, 12, 12],
+                pointRadius: 0
+              },{
+                label: "New Brunswick",
+                backgroundColor: "rgba(0,0,200,0.5)",
+                data: [18, 15, 18, 16, 17, 14]
+              }, {
+                label: "Province",
+                backgroundColor: "rgba(0,0,200,0.5)",
+                data: [18, 18, 18, 18, 18, 18],
+                pointRadius: 0
+              }]
+            };
+
+            var radarChart = new Chart(socioCanvas, {
+                type: 'radar',
+                data: socioData,
+                options: {
+                    tooltips: { enabled: false },
+                    legend: {display:false}, 
+                    responsive:true,
+                    scale: {
+                        pointLabels: {fontSize: 8},
+                        ticks: {
+                            beginAtZero:true,
+                            max:18,
+                            min:0,
+                            stepSize: 6,
+                            display: false
+                        }
+                    }
+                }
+            });
+
+            var bioclimCanvas = document.getElementById("bioclimchart");
+            var bioclimChart = new Chart(bioclimCanvas, {
+                type: 'bar',
+                data: {
+                    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'],
+                    datasets: [{
+                        label: 'Historic Precipitation',
+                        backgroundColor: "rgba(200,0,0,0.5)",
+                        data: [0, 0,0,0,0,0,0,0,0,0,0,0],
+                        yAxisID: "y-axis-1"
+                    },{
+                        label: 'Future Precipitation',
+                        backgroundColor: "rgba(0,0,200,0.5)",
+                        data: [0, 0,0,0,0,0,0,0,0,0,0,0],
+                        yAxisID: "y-axis-1"
+                    }, {
+                        label: 'Historic Temperature',
+                        borderColor:"rgba(0,200,0,1)",
+                        backgroundColor: "rgba(0,200,0,1)",
+                        data: [, ,,,,,,,,,,],
+                        yAxisID: "y-axis-2",
+                        fill: false,
+                        // Changes this dataset to become a line
+                        type: 'line'
+                    }, {
+                        label: 'Future Temperature',
+                        borderColor:"rgba(0,100,100,1)",
+                        backgroundColor: "rgba(0,200,100,1)",
+                        data: [, ,,,,,,,,,,],
+                        yAxisID: "y-axis-2",
+                        fill: false,
+                        // Changes this dataset to become a line
+                        type: 'line'
+                    }]   
+                },
+                options: {
+                    tooltips: { enabled: false },
+                    legend: {display:false},
+                    stacked: false,
+                    responsive:true,
+                    title: {
+                        display: true,
+                        text: ''
+                    },
+                    scales: {
+                        yAxes: [{
+                            type: "linear", // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+                            display: true,
+                            position: "left",
+                            id: "y-axis-1",
+                            ticks: {
+                                beginAtZero: true,
+                                max: 400
+                            },
+                            scaleLabel:{display:true, labelString:"Precipitation(mm)"}
+
+                        }, {
+                            type: "linear", // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+                            display: true,
+                            position: "right",
+                            id: "y-axis-2",
+                            ticks: {
+                                beginAtZero: true,
+                                max: 40,
+                                min:-10
+                            },
+                            // grid line settings
+                            gridLines: {
+                                drawOnChartArea: false, // only want the grid lines for one axis to show up
+                            },
+                            scaleLabel:{display:true, labelString:"Temperature(°C)"}
+                        }],
+                    }
+                }
+            });
+
+
+
+            var map = L.map('map', {
+                zoomControl:true
+            }).fitBounds([[36.25077371431369,-91.13084755082934],[51.04847813686478,-67.85368106717222]]);
+            var hash = new L.Hash(map);
+           
+            var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            });
+            map.addLayer(OpenStreetMap_Mapnik);
+            var blackharbour = L.marker([45.0589, -66.7850]).addTo(map);
+            var campobello = L.marker([44.8900, -66.9195]).addTo(map);
+            var standrewstown = L.marker([45.0738, -67.0531]).addTo(map);
+
+            blackharbour.bindPopup("Black Harbour");
+            blackharbour.on('mouseover', function (e) {
+                this.openPopup();
+                radarChart.data.datasets[0].data =[3, 2, 4, 6, 6, 4];
+                radarChart.update();
+                document.getElementById('city').innerHTML = "Black Harbour";
+            });
+            blackharbour.on('mouseout', function (e) {
+                this.closePopup();
+            });
+
+            campobello.bindPopup("Campobello Island Rural Community");
+            campobello.on('mouseover', function (e) {
+                this.openPopup();
+                radarChart.data.datasets[0].data =[5, 4, 5, 3, 4, 2];
+                radarChart.update();
+                document.getElementById('city').innerHTML = 'Campobello Island Rural Community';
+            });
+            campobello.on('mouseout', function (e) {
+                this.closePopup();
+            });
+
+            standrewstown.bindPopup("St. Andrews Town");
+            standrewstown.on('mouseover', function (e) {
+                this.openPopup();
+                radarChart.data.datasets[0].data =[6, 5, 1, 2, 2, 5];
+                radarChart.update();
+                document.getElementById('city').innerHTML = 'St. Andrews Town';
+            });
+            standrewstown.on('mouseout', function (e) {
+                this.closePopup();
+            });
+            var blackh = L.polygon([
+                [45.134974,-66.895057],
+                [45.097179,-66.728778],
+                [45.021709,-66.737120],
+                [45.043060,-66.915767]
+            ],{color: 'red'}).addTo(map);
+            var campo = L.polygon([
+                [45.115595,-67.110808],
+                [45.131099,-67.015988],
+                [45.045777,-66.994000],
+                [45.053539,-67.080576]
+            ],{color: 'red'}).addTo(map);
+            var andrew = L.polygon([
+                [44.926891,-67.017912],
+                [44.948277,-66.864000],
+                [44.833474,-66.833768],
+                [44.802301,-67.001421]
+            ],{color: 'red'}).addTo(map);
+
+            blackh.on('mouseover', function (e) {
+                radarChart.data.datasets[2].data =[8, 11, 8, 10, 7, 12];
+                radarChart.update();
+                bioclimChart.data.datasets[0].data=[131, 82,94,76,101,111,94,82,103,107,89,104];
+                bioclimChart.data.datasets[1].data=[136, 84,97,86,121,123,98,83,109,108,96,108];
+                bioclimChart.data.datasets[2].data=[-6, -4, 3, 6,11, 14,16,16,13,7,4,-3];
+                bioclimChart.data.datasets[3].data=[-3, -1, 5, 7,12, 15,16,17,14,8,5,-1];
+                bioclimChart.options.title.text = 'County 1';
+                bioclimChart.update();
+                document.getElementById('cnty').innerHTML = 'County 1';
+            });
+
+
+
+
+
+            campo.on('mouseover', function (e) {
+                radarChart.data.datasets[2].data =[12, 10, 8, 7, 7, 7];
+                radarChart.update();
+                bioclimChart.data.datasets[0].data=[126, 87,91,73,102,108,90,85,107,107,84,102];
+                bioclimChart.data.datasets[1].data=[130, 89,94,81,114,120,98,85,109,109,92,104];
+                bioclimChart.data.datasets[2].data=[-5, -3, 7, 6,13, 14,17,16,11,7,5,-3];
+                bioclimChart.data.datasets[3].data=[-2, -1, 9, 7,15, 15,18,18,13,8,5,-1];
+                bioclimChart.options.title.text = 'County 2A';
+                bioclimChart.update();
+                document.getElementById('cnty').innerHTML = 'County 2A';
+            });
+
+            andrew.on('mouseover', function (e) {
+                radarChart.data.datasets[2].data =[12, 10, 8, 7, 7, 7];
+                radarChart.update();
+                bioclimChart.data.datasets[0].data=[126, 87,91,73,102,108,90,85,107,107,84,102];
+                bioclimChart.data.datasets[1].data=[130, 89,94,81,114,120,98,85,109,109,92,104];
+                bioclimChart.data.datasets[2].data=[-5, -3, 7, 6,13, 14,17,16,11,7,5,-3];
+                bioclimChart.data.datasets[3].data=[-2, -1, 9, 7,15, 15,18,18,13,8,5,-1];
+                bioclimChart.options.title.text = 'County 2B';
+                bioclimChart.update();
+                document.getElementById('cnty').innerHTML = 'County 2B';
+            });
+
+        </script>
+    </body>
+</html>
