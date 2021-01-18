@@ -20,7 +20,29 @@
             "bioclim maparea"
             "socioecon maparea";
         }
-
+        @media (max-width: 900px) {
+            .grid-container {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: 1fr 1fr;
+              gap: 1px 1px;
+              grid-template-areas:
+                "maparea maparea"
+                "bioclim socioecon";
+            }
+        }
+        @media (max-width: 600px) {
+            .grid-container {
+              display: grid;
+              grid-template-columns: 1fr;
+              grid-template-rows: 1fr 1fr 1fr;
+              gap: 1px 1px;
+              grid-template-areas:
+                "maparea"
+                "bioclim"
+                "socioecon";
+            }
+        }
         .bioclim { grid-area: bioclim; }
 
         .socioecon { grid-area: socioecon; }
@@ -51,7 +73,12 @@
                   <tr style="font-size:1.5vh;">
                     <th id="city" style="color:green"></th>
                     <th id="cnty" style="color:red"></th> 
-                    <th id="prvnc" style="color:blue">New Brunswick</th>
+                    <th id="prvnc" style="color:blue"></th>
+                  </tr>
+                  <tr style="font-size:1.5vh;">
+                    <th id="citypin" onclick="citypinclear()" style="color:grey"></th>
+                    <th id="cntypin" onclick="cntypinclear()" style="color:grey"></th> 
+                    <th id="prvncpin" onclick="prvncpinclear()" style="color:grey"></th>
                   </tr>
                 </table>
           </div>
@@ -66,16 +93,36 @@
         <script src="js/leaflet-hash.js"></script>
         <script src="data/NBCounties_0.js"></script>
         <script src="data/cgn_nb_shp_eng_0.js"></script>
+        <script src="data/provincesimp_0.js"></script>
         <script>
             var socioCanvas = document.getElementById("sociochart");
             var socioData = {
               labels: ["Age Dependency", "Unemployment %", "Bottom Income Decile", "Top Income Decile", "Income Ratio", "Population Density"],
               datasets: [{
+                label: "CommunityPin",
+                fill: false,
+                borderColor: "rgba(200,200,200,0.5)",
+                pointRadius: 0,
+                data: [0, 0, 0, 0, 0, 0]
+              },{
+                label: "CountyPin",
+                fill: false,
+                borderColor: "rgba(200,200,200,0.5)",
+                pointRadius: 0,
+                data: [0, 0, 0, 0, 0, 0]
+              },{
+                label: "ProvincePin",
+                fill: false,
+                borderColor: "rgba(200,200,200,0.5)",
+                pointRadius: 0,
+                data: [0, 0, 0, 0, 0, 0]
+              },
+              {
                 label: "Community",
                 backgroundColor: "rgba(0,200,0,0.5)",
                 data: [0, 0, 0, 0, 0, 0]
               },{
-                label: "Community",
+                label: "CommunityBG",
                 backgroundColor: "rgba(0,200,0,0.5)",
                 data: [6, 6, 6, 6, 6, 6],
                 pointRadius: 0
@@ -84,16 +131,16 @@
                 backgroundColor: "rgba(200,0,0,0.5)",
                 data: [0, 0, 0, 0, 0, 0]
               }, {
-                label: "County",
+                label: "CountyBG",
                 backgroundColor: "rgba(200,0,0,0.5)",
                 data: [12, 12, 12, 12, 12, 12],
                 pointRadius: 0
               },{
-                label: "New Brunswick",
-                backgroundColor: "rgba(0,0,200,0.5)",
-                data: [18, 15, 18, 16, 17, 14]
-              }, {
                 label: "Province",
+                backgroundColor: "rgba(0,0,200,0.5)",
+                data: [0, 0, 0, 0, 0, 0]
+              }, {
+                label: "ProvinceBG",
                 backgroundColor: "rgba(0,0,200,0.5)",
                 data: [18, 18, 18, 18, 18, 18],
                 pointRadius: 0
@@ -104,7 +151,7 @@
                 type: 'radar',
                 data: socioData,
                 options: {
-                    tooltips: { enabled: false },
+                    tooltips: {enabled:false},
                     legend: {display:false}, 
                     responsive:true,
                     maintainAspectRatio:false,
@@ -157,7 +204,7 @@
                     }]   
                 },
                 options: {
-                    tooltips: { enabled: false },
+                    tooltips: { enabled: true },
                     legend: {display:false},
                     stacked: false,
                     responsive:true,
@@ -174,7 +221,7 @@
                             id: "y-axis-1",
                             ticks: {
                                 beginAtZero: true,
-                                max: 400
+                                max: 250
                             },
                             scaleLabel:{display:true, labelString:"Precipitation(mm)"}
 
@@ -202,7 +249,7 @@
 
             var map = L.map('map', {
                 zoomControl:true
-            }).fitBounds([[36.25077371431369,-91.13084755082934],[51.04847813686478,-67.85368106717222]]);
+            }).fitBounds([[44.783046,-68.960127],[48.304767,-63.459416]]);
             var hash = new L.Hash(map);
 
             var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -233,35 +280,78 @@
                 style: style_NBCounties_0_0,
                 onEachFeature: function (feature, layer) {
                     layer.on('mouseover', function () {
-                        radarChart.data.datasets[2].data =feature.properties.sociodata;
+                        radarChart.data.datasets[5].data =feature.properties.sociodata;
+                        radarChart.data.datasets[7].data =feature.properties.psociodata;
                         radarChart.update();
                         bioclimChart.data.datasets[0].data=feature.properties.bioclimo0;
                         bioclimChart.data.datasets[1].data=feature.properties.bioclimo1;
                         bioclimChart.data.datasets[2].data=feature.properties.bioclimo2;
                         bioclimChart.data.datasets[3].data=feature.properties.bioclimo3;
-                        bioclimChart.options.title.text = feature.properties.ENG_NAME;
+                        bioclimChart.options.title.text = feature.properties.bioclim_name;
                         bioclimChart.update();
                         document.getElementById('cnty').innerHTML = feature.properties.ENG_NAME;
+                        document.getElementById('prvnc').innerHTML = "New Brunswick";
                     });
                     layer.on('mouseout', function () {
 
                     });
                     layer.on('click', function () {
+                        radarChart.data.datasets[1].data =feature.properties.sociodata;
+                        radarChart.data.datasets[2].data =feature.properties.psociodata;
+                        radarChart.update();
+                        document.getElementById('cntypin').innerHTML = "-"+feature.properties.ENG_NAME+"-";
+                        document.getElementById('prvncpin').innerHTML = "-"+"New Brunswick"+"-";
+                    });
+                }
+            });
+            function style_provincesimp_0_0() {
+                return {
+                    opacity: 1,
+                    color: 'rgba(0,0,200,0.15)',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    weight: 1.0, 
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: 'rgba(0,0,200,0.15)',
+                    interactive: true,
+                }
+            }
+            var layer_provincesimp_0 = new L.geoJson(json_provincesimp_0, {
+                attribution: '',
+                interactive: true,
+                dataVar: 'json_provincesimp_0',
+                layerName: 'layer_provincesimp_0',
+                style: style_provincesimp_0_0,
+                onEachFeature: function (feature, layer) {
+                    layer.on('mouseover', function () {
+                        radarChart.data.datasets[7].data =feature.properties.sociodata;
+                        radarChart.update();
+                        document.getElementById('prvnc').innerHTML = feature.properties.PRENAME;
+                    });
+                    layer.on('mouseout', function () {
+
+                    });
+                    layer.on('click', function () {
+                        radarChart.data.datasets[2].data =feature.properties.sociodata;
+                        radarChart.update();
+                        document.getElementById('prvncpin').innerHTML = "-"+feature.properties.PRENAME+"-";
                     });
                 }
             });
             function style_cgn_nb_shp_eng_0_0() {
                 return {
-                    radius: 3.999999999999997,
+                    radius: 4,
                     opacity: 1,
-                    color: 'rgba(61,128,53,1.0)',
+                    color: 'rgba(0,153,0,1.0)',
                     dashArray: '',
                     lineCap: 'butt',
                     lineJoin: 'miter',
                     weight: 2.0,
                     fill: true,
                     fillOpacity: 1,
-                    fillColor: 'rgba(84,176,74,1.0)',
+                    fillColor: 'rgba(0,230,0,1.0)',
                     interactive: true,
                 }
             }
@@ -279,7 +369,7 @@
                 },
                 onEachFeature: function (feature, layer) {
                     layer.on('mouseover', function () {
-                        radarChart.data.datasets[0].data =feature.properties.sociodata;
+                        radarChart.data.datasets[3].data =feature.properties.sociodata;
                         radarChart.update();
                         document.getElementById('city').innerHTML = feature.properties.GEONAME;
                     });
@@ -287,11 +377,30 @@
 
                     });
                     layer.on('click', function () {
+                        radarChart.data.datasets[0].data =feature.properties.sociodata;
+                        radarChart.update();
+                        document.getElementById('citypin').innerHTML = "-"+feature.properties.GEONAME+"-";
                     });
                 }
             });
 
+            function citypinclear() {
+                radarChart.data.datasets[0].data =[0,0,0,0,0,0,0,0,0,0,0,0];
+                radarChart.update();
+                document.getElementById("citypin").innerHTML = "";
+            }
+            function cntypinclear() {
+                radarChart.data.datasets[1].data =[0,0,0,0,0,0,0,0,0,0,0,0];
+                radarChart.update();
+                document.getElementById("cntypin").innerHTML = "";
+            }
+            function prvncpinclear() {
+                radarChart.data.datasets[2].data =[0,0,0,0,0,0,0,0,0,0,0,0];
+                radarChart.update();
+                document.getElementById("prvncpin").innerHTML = "";
+            }
             map.addLayer(layer_NBCounties_0);
+            map.addLayer(layer_provincesimp_0);
             map.addLayer(layer_cgn_nb_shp_eng_0);
 
         </script>
