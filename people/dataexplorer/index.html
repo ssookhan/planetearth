@@ -330,9 +330,14 @@
                         bioclimChart.update();
                         document.getElementById('cnty').innerHTML = feature.properties.ENG_NAME;
                         document.getElementById('prvnc').innerHTML = "New Brunswick";
+                        layer.setStyle({
+                            fillColor: 'rgba(200,0,0,0.25)'
+                        });
                     });
                     layer.on('mouseout', function () {
-
+                        layer.setStyle({
+                            fillColor: 'rgba(200,0,0,0.15)'
+                        });
                     });
                     layer.on('click', function () {
                         radarChart.data.datasets[1].data =feature.properties.sociodata;
@@ -368,9 +373,14 @@
                         radarChart.data.datasets[7].data =feature.properties.sociodata;
                         radarChart.update();
                         document.getElementById('prvnc').innerHTML = feature.properties.PRENAME;
+                        layer.setStyle({
+                            fillColor: 'rgba(0,0,200,0.25)'
+                        });
                     });
                     layer.on('mouseout', function () {
-
+                        layer.setStyle({
+                            fillColor: 'rgba(0,0,200,0.15)'
+                        });
                     });
                     layer.on('click', function () {
                         radarChart.data.datasets[2].data =feature.properties.sociodata;
@@ -394,6 +404,7 @@
                     interactive: true,
                 }
             }
+            
             var layer_cgn_nb_shp_eng_0 = new L.geoJson(json_cgn_nb_shp_eng_0, {
                 attribution: '',
                 interactive: true,
@@ -411,9 +422,16 @@
                         radarChart.data.datasets[3].data =feature.properties.sociodata;
                         radarChart.update();
                         document.getElementById('city').innerHTML = feature.properties.GEONAME;
+                        layer.setStyle({
+                            radius: 8,
+                            weight: 5,
+                        });
                     });
                     layer.on('mouseout', function () {
-
+                        layer.setStyle({
+                            radius: 4,
+                            weight: 2,
+                        });
                     });
                     layer.on('click', function () {
                         radarChart.data.datasets[0].data =feature.properties.sociodata;
