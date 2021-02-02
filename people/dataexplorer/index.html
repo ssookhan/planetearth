@@ -8,7 +8,7 @@
         <meta name="apple-mobile-web-app-capable" content="yes">
           <!-- jQuery-->
         <script src="scripts/jquery.min.js"></script>
-        <title>TEMP TITLE</title>
+        <title>Planet People Online</title>
         <link rel="stylesheet" href="css/leaflet.css">
         <link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -73,7 +73,8 @@
       <i class="fa fa-bars"></i>
     </a>
     <a href="../#home" class="w3-bar-item w3-button">HOME</a>
-    <a href="../#about" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="../#about" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-info"></i> ABOUT</a>
+    <a href="../#videos" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-video-camera"></i> VIDEOS</a>
     <a href="../#team" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-users"></i> THE TEAM</a>
     <a href="../dataexplorer" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-globe"></i> DATA EXPLORER</a>
     <a href="../glossary.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-th"></i> GLOSSARY</a>
@@ -81,7 +82,8 @@
 
   <!-- Navbar on small screens -->
   <div id="navDemo" style="position: fixed; z-index: 999999" class="w3-bar-block w3-white w3-hide w3-hide-large">
-    <a href="../#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="../#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-info"></i> ABOUT</a>
+    <a href="../#videos" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-video-camera"></i> VIDEOS</a>
     <a href="../#team" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-users"></i> THE TEAM</a>
     <a href="../dataexplorer" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-globe"></i> DATA EXPLORER</a>
     <a href="../glossary.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-th"></i> GLOSSARY</a>
@@ -285,9 +287,10 @@
                 zoomControl:true
             }).fitBounds([[44.783046,-68.960127],[48.304767,-63.459416]]);
             var hash = new L.Hash(map);
-            map.attributionControl.addAttribution('&copy; <a href="some_link">Planet Earth Online</a>');
-            map.attributionControl.addAttribution('<a href="some_link">UTSC</a>');
-            map.attributionControl.addAttribution('Data from <a href="some_link">ECW</a>');
+            map.attributionControl.addAttribution('&copy; <a href="../#team">Planet People Online (2021) and Matryoshka Chart (2020)</a>');
+            map.attributionControl.addAttribution('&copy; <a href="https://planetearth.utsc.utoronto.ca/">Planet Earth Online</a>');
+            map.attributionControl.addAttribution('<a href="http://www.utsc.utoronto.ca">UTSC</a>');
+            map.attributionControl.addAttribution('<a href="https://www.ecw.ngo/">ECW</a>');
             var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 maxZoom: 19,
                 attribution: 'Map tiles &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
