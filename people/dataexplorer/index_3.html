@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+          <!-- jQuery-->
+        <script src="scripts/jquery.min.js"></script>
+        <title>Planet People Online</title>
+        <link rel="stylesheet" href="css/leaflet.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../style.css">
+        <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+h6{margin:20px;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('heroback1.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url('herobanner1.jpg');
+    min-height: 400px;
+}
+
+/* Third image (Portfolio) */
+.bgimg-3 {
+    background-image: url('herobanner0.jpg');
+    min-height: 400px;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2{
+        background-attachment: scroll;
+    }
+}
+
+</style>
+    </head>
+    <body>
+        <!-- Navbar (sit on top) -->
+<div id="menu" class="w3-header">
+  <div class="w3-bar w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="../#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="../#about" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-info"></i> ABOUT</a>
+    <a href="../#videos" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-video-camera"></i> VIDEOS</a>
+    <a href="../#team" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-users"></i> THE TEAM</a>
+    <a href="../dataexplorer" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-globe"></i> DATA EXPLORER</a>
+    <a href="../glossary.html" class="w3-bar-item w3-button w3-hide-small w3-hide-medium"><i class="fa fa-th"></i> GLOSSARY</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" style="position: fixed; z-index: 999999" class="w3-bar-block w3-white w3-hide w3-hide-large">
+    <a href="../#about" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-info"></i> ABOUT</a>
+    <a href="../#videos" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-video-camera"></i> VIDEOS</a>
+    <a href="../#team" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-users"></i> THE TEAM</a>
+    <a href="../dataexplorer" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-globe"></i> DATA EXPLORER</a>
+    <a href="../glossary.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-th"></i> GLOSSARY</a>
+  </div>
+</div>
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">DATA <span class="w3-hide-small">EXPLORER</span></span>
+  </div>
+    <div class="w3-display-middle" style="white-space:nowrap;">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <a class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity">Coming Soon...</a>
+  </div>
+
+
+
+</div>
+
+        <script type="application/javascript">
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        } 
+        </script>
+
+
+
+    </body>
+</html>

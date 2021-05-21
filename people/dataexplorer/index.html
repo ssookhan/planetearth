@@ -16,52 +16,54 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="../style.css">
         <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-h6{margin:20px;}
-body, html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
-}
+        html, body, .grid-container, #map, #sociochart, #bioclimchart { height: 100%; width: 100%; margin: 0; }
 
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+        .grid-container {
+          display: grid;
+          grid-template-columns: 0.7fr 1.3fr;
+          grid-template-rows: 1fr 1fr;
+          gap: 1px 1px;
+          grid-template-areas:
+            "bioclim maparea"
+            "socioecon maparea";
+        }
+        @media (max-width: 992px) {
+            .grid-container {
+              display: grid;
+              grid-template-columns: 1fr 1fr;
+              grid-template-rows: 1fr 1fr;
+              gap: 1px 1px;
+              grid-template-areas:
+                "maparea maparea"
+                "bioclim socioecon";
+            }
+        }
+        @media (max-width: 600px) {
+            .grid-container {
+              display: grid;
+              grid-template-columns: 1fr;
+              grid-template-rows: 1fr 1fr 1fr;
+              gap: 1px 1px;
+              grid-template-areas:
+                "maparea"
+                "bioclim"
+                "socioecon";
+            }
+        }
+        .bioclim { grid-area: bioclim; }
 
-/* First image (Logo. Full height) */
-.bgimg-1 {
-    background-image: url('heroback1.jpg');
-    min-height: 100%;
-}
+        .socioecon { grid-area: socioecon; }
 
-/* Second image (Portfolio) */
-.bgimg-2 {
-    background-image: url('herobanner1.jpg');
-    min-height: 400px;
-}
-
-/* Third image (Portfolio) */
-.bgimg-3 {
-    background-image: url('herobanner0.jpg');
-    min-height: 400px;
-}
-
-
-.w3-wide {letter-spacing: 10px;}
-.w3-hover-opacity {cursor: pointer;}
-
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1024px) {
-    .bgimg-1, .bgimg-2{
-        background-attachment: scroll;
-    }
-}
-
-</style>
+        .maparea { grid-area: maparea; }
+        table {
+          table-layout: fixed ;
+          width: 100% ;
+        }
+        th {
+          width: 33.33% ;
+        }
+        </style>
+        <title></title>
     </head>
     <body>
         <!-- Navbar (sit on top) -->
@@ -87,24 +89,389 @@ body, html {
     <a href="../glossary.html" class="w3-bar-item w3-button" onclick="toggleFunction()"><i class="fa fa-th"></i> GLOSSARY</a>
   </div>
 </div>
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-  <div class="w3-display-middle" style="white-space:nowrap;">
-    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">DATA <span class="w3-hide-small">EXPLORER</span></span>
-  </div>
-    <div class="w3-display-middle" style="white-space:nowrap;">
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <a class="w3-center w3-padding-large w3-black w3-large w3-wide w3-animate-opacity">Coming Soon...</a>
-  </div>
+<div id="explorer" style="height:100%; width:100%">
+        <div class="grid-container">
+          <div class="bioclim" style="overflow: hidden;padding:10px;">
+            <div class="chart-container" style="height:100%; width:99%">
+              <canvas id="bioclimchart"></canvas>
+            </div>
+          </div>
+          <div class="socioecon" style="overflow: hidden;padding:10px;">
+            <div class="chart-container" style="height:90%; width:99%">
+                <canvas id="sociochart"></canvas>
+            </div>
+                <table style="height:10%;width:100%">
+                  <tr style="font-size:1vh;">
+                    <th id="city" style="color:green"></th>
+                    <th id="cnty" style="color:red"></th> 
+                    <th id="prvnc" style="color:blue"></th>
+                  </tr>
+                  <tr style="font-size:1vh;">
+                    <th id="citypin" onclick="citypinclear()" style="color:grey"></th>
+                    <th id="cntypin" onclick="cntypinclear()" style="color:grey"></th> 
+                    <th id="prvncpin" onclick="prvncpinclear()" style="color:grey"></th>
+                  </tr>
+                </table>
+          </div>
+          <div class="maparea">
+                <div id="map"></div>
+          </div>
+        </div>
+        </div>
+
+        <script src="libs/chart.js/dist/Chart.js"></script>
+        <script src="js/leaflet.js"></script>
+        <script src="js/leaflet.rotatedMarker.js"></script>
+        <script src="js/leaflet.pattern.js"></script>
+        <script src="js/leaflet-hash.js"></script>
+        <script src="data/NBCounties_0.js"></script>
+        <script src="data/cgn_nb_shp_eng_0.js"></script>
+        <script src="data/provincesimp_0.js"></script>
+        <script>
+            var socioCanvas = document.getElementById("sociochart");
+            var socioData = {
+              labels: ["Age Dependency", "Unemployment %", "Bottom Income Decile", "Top Income Decile", "Income Ratio", "Population Density"],
+              datasets: [{
+                label: "CommunityPin",
+                fill: false,
+                borderColor: "rgba(200,200,200,0.5)",
+                pointRadius: 0,
+                data: [0, 0, 0, 0, 0, 0]
+              },{
+                label: "CountyPin",
+                fill: false,
+                borderColor: "rgba(200,200,200,0.5)",
+                pointRadius: 0,
+                data: [0, 0, 0, 0, 0, 0]
+              },{
+                label: "ProvincePin",
+                fill: false,
+                borderColor: "rgba(200,200,200,0.5)",
+                pointRadius: 0,
+                data: [0, 0, 0, 0, 0, 0]
+              },
+              {
+                label: "Community",
+                backgroundColor: "rgba(0,200,0,0.5)",
+                data: [0, 0, 0, 0, 0, 0]
+              },{
+                label: "CommunityBG",
+                backgroundColor: "rgba(0,200,0,0.5)",
+                borderColor: "rgba(0,100,0,0.7)",
+                data: [6, 6, 6, 6, 6, 6],
+                pointRadius: 0
+              },{
+                label: "County",
+                backgroundColor: "rgba(200,0,0,0.5)",
+                data: [0, 0, 0, 0, 0, 0]
+              }, {
+                label: "CountyBG",
+                backgroundColor: "rgba(200,0,0,0.5)",
+                borderColor: "rgba(100,0,0,0.7)",
+                data: [12, 12, 12, 12, 12, 12],
+                pointRadius: 0
+              },{
+                label: "Province",
+                backgroundColor: "rgba(0,0,200,0.5)",
+                data: [0, 0, 0, 0, 0, 0]
+              }, {
+                label: "ProvinceBG",
+                backgroundColor: "rgba(0,0,200,0.5)",
+                borderColor: "rgba(0,0,100,0.7)",
+                data: [18, 18, 18, 18, 18, 18],
+                pointRadius: 0
+              }]
+            };
+
+            var radarChart = new Chart(socioCanvas, {
+                type: 'radar',
+                data: socioData,
+                options: {
+                    tooltips: {enabled:false},
+                    legend: {display:false}, 
+                    responsive:true,
+                    maintainAspectRatio:false,
+                    scale: {
+                        pointLabels: {fontSize: 8},
+                        ticks: {
+                            beginAtZero:true,
+                            max:18,
+                            min:0,
+                            stepSize: 6,
+                            display: false
+                        }
+                    }
+                }
+            });
+
+            var bioclimCanvas = document.getElementById("bioclimchart");
+            var bioclimChart = new Chart(bioclimCanvas, {
+                type: 'bar',
+                data: {
+                    labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July','August','September','October','November','December'],
+                    datasets: [{
+                        label: 'Historic Precipitation',
+                        backgroundColor: "rgba(200,0,0,0.5)",
+                        data: [0, 0,0,0,0,0,0,0,0,0,0,0],
+                        yAxisID: "y-axis-1"
+                    },{
+                        label: 'Future Precipitation',
+                        backgroundColor: "rgba(0,0,200,0.5)",
+                        data: [0, 0,0,0,0,0,0,0,0,0,0,0],
+                        yAxisID: "y-axis-1"
+                    }, {
+                        label: 'Historic Temperature',
+                        borderColor:"rgba(0,200,0,1)",
+                        backgroundColor: "rgba(0,200,0,1)",
+                        data: [, ,,,,,,,,,,],
+                        yAxisID: "y-axis-2",
+                        fill: false,
+                        // Changes this dataset to become a line
+                        type: 'line'
+                    }, {
+                        label: 'Future Temperature',
+                        borderColor:"rgba(0,100,100,1)",
+                        backgroundColor: "rgba(0,200,100,1)",
+                        data: [, ,,,,,,,,,,],
+                        yAxisID: "y-axis-2",
+                        fill: false,
+                        // Changes this dataset to become a line
+                        type: 'line'
+                    }]   
+                },
+                options: {
+                    tooltips: { enabled: true },
+                    legend: {display:false},
+                    stacked: false,
+                    responsive:true,
+                    maintainAspectRatio:false,
+                    title: {
+                        display: true,
+                        text: ''
+                    },
+                    scales: {
+                        yAxes: [{
+                            type: "linear", // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+                            display: true,
+                            position: "left",
+                            id: "y-axis-1",
+                            ticks: {
+                                beginAtZero: true,
+                                max: 250
+                            },
+                            scaleLabel:{display:true, labelString:"Precipitation(mm)"}
+
+                        }, {
+                            type: "linear", // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+                            display: true,
+                            position: "right",
+                            id: "y-axis-2",
+                            ticks: {
+                                beginAtZero: true,
+                                max: 40,
+                                min:-10
+                            },
+                            // grid line settings
+                            gridLines: {
+                                drawOnChartArea: false, // only want the grid lines for one axis to show up
+                            },
+                            scaleLabel:{display:true, labelString:"Temperature(°C)"}
+                        }],
+                    }
+                }
+            });
 
 
 
-</div>
+            var map = L.map('map', {
+                zoomControl:true
+            }).fitBounds([[44.783046,-68.960127],[48.304767,-63.459416]]);
+            var hash = new L.Hash(map);
+            map.attributionControl.addAttribution('&copy; <a href="../#team">Planet People Online (2021) and Matryoshka Chart (2020)</a>');
+            map.attributionControl.addAttribution('&copy; <a href="https://planetearth.utsc.utoronto.ca/">Planet Earth Online</a>');
+            map.attributionControl.addAttribution('<a href="http://www.utsc.utoronto.ca">UTSC</a>');
+            map.attributionControl.addAttribution('<a href="https://www.ecw.ngo/">ECW</a>');
+            var OpenStreetMap_Mapnik = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: 'Map tiles &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            });
+            map.addLayer(OpenStreetMap_Mapnik);
 
+            function style_NBCounties_0_0() {
+                return {
+                    opacity: 1,
+                    color: 'rgba(200,0,0,0.15)',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    weight: 1.0, 
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: 'rgba(200,0,0,0.15)',
+                    interactive: true,
+                }
+            }
+            var layer_NBCounties_0 = new L.geoJson(json_NBCounties_0, {
+                attribution: '',
+                interactive: true,
+                dataVar: 'json_NBCounties_0',
+                layerName: 'layer_NBCounties_0',
+                style: style_NBCounties_0_0,
+                onEachFeature: function (feature, layer) {
+                    layer.on('mouseover', function () {
+                        radarChart.data.datasets[5].data =feature.properties.sociodata;
+                        radarChart.data.datasets[7].data =feature.properties.psociodata;
+                        radarChart.update();
+                        bioclimChart.data.datasets[0].data=feature.properties.bioclimo0;
+                        bioclimChart.data.datasets[1].data=feature.properties.bioclimo1;
+                        bioclimChart.data.datasets[2].data=feature.properties.bioclimo2;
+                        bioclimChart.data.datasets[3].data=feature.properties.bioclimo3;
+                        bioclimChart.options.title.text = feature.properties.bioclim_name;
+                        bioclimChart.update();
+                        document.getElementById('cnty').innerHTML = feature.properties.ENG_NAME;
+                        document.getElementById('prvnc').innerHTML = "New Brunswick";
+                        layer.setStyle({
+                            fillColor: 'rgba(200,0,0,0.25)'
+                        });
+                    });
+                    layer.on('mouseout', function () {
+                        layer.setStyle({
+                            fillColor: 'rgba(200,0,0,0.15)'
+                        });
+                    });
+                    layer.on('click', function () {
+                        radarChart.data.datasets[1].data =feature.properties.sociodata;
+                        radarChart.data.datasets[2].data =feature.properties.psociodata;
+                        radarChart.update();
+                        document.getElementById('cntypin').innerHTML = "-"+feature.properties.ENG_NAME+"-";
+                        document.getElementById('prvncpin').innerHTML = "-"+"New Brunswick"+"-";
+                    });
+                }
+            });
+            function style_provincesimp_0_0() {
+                return {
+                    opacity: 1,
+                    color: 'rgba(0,0,200,0.15)',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    weight: 1.0, 
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: 'rgba(0,0,200,0.15)',
+                    interactive: true,
+                }
+            }
+            var layer_provincesimp_0 = new L.geoJson(json_provincesimp_0, {
+                attribution: '',
+                interactive: true,
+                dataVar: 'json_provincesimp_0',
+                layerName: 'layer_provincesimp_0',
+                style: style_provincesimp_0_0,
+                onEachFeature: function (feature, layer) {
+                    layer.on('mouseover', function () {
+                        radarChart.data.datasets[7].data =feature.properties.sociodata;
+                        radarChart.update();
+                        document.getElementById('prvnc').innerHTML = feature.properties.PRENAME;
+                        layer.setStyle({
+                            fillColor: 'rgba(0,0,200,0.25)'
+                        });
+                    });
+                    layer.on('mouseout', function () {
+                        layer.setStyle({
+                            fillColor: 'rgba(0,0,200,0.15)'
+                        });
+                    });
+                    layer.on('click', function () {
+                        radarChart.data.datasets[2].data =feature.properties.sociodata;
+                        radarChart.update();
+                        document.getElementById('prvncpin').innerHTML = "-"+feature.properties.PRENAME+"-";
+                    });
+                }
+            });
+            function style_cgn_nb_shp_eng_0_0() {
+                return {
+                    radius: 4,
+                    opacity: 1,
+                    color: 'rgba(0,153,0,1.0)',
+                    dashArray: '',
+                    lineCap: 'butt',
+                    lineJoin: 'miter',
+                    weight: 2.0,
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: 'rgba(0,230,0,1.0)',
+                    interactive: true,
+                }
+            }
+            
+            var layer_cgn_nb_shp_eng_0 = new L.geoJson(json_cgn_nb_shp_eng_0, {
+                attribution: '',
+                interactive: true,
+                dataVar: 'json_cgn_nb_shp_eng_0',
+                layerName: 'layer_cgn_nb_shp_eng_0',
+                pointToLayer: function (feature, latlng) {
+                    var context = {
+                        feature: feature,
+                        variables: {}
+                    };
+                    return L.circleMarker(latlng, style_cgn_nb_shp_eng_0_0(feature));
+                },
+                onEachFeature: function (feature, layer) {
+                    layer.on('mouseover', function () {
+                        radarChart.data.datasets[3].data =feature.properties.sociodata;
+                        radarChart.update();
+                        document.getElementById('city').innerHTML = feature.properties.GEONAME;
+                        layer.setStyle({
+                            radius: 8,
+                            weight: 5,
+                        });
+                    });
+                    layer.on('mouseout', function () {
+                        layer.setStyle({
+                            radius: 4,
+                            weight: 2,
+                        });
+                    });
+                    layer.on('click', function () {
+                        radarChart.data.datasets[0].data =feature.properties.sociodata;
+                        radarChart.update();
+                        document.getElementById('citypin').innerHTML = "-"+feature.properties.GEONAME+"-";
+                    });
+                }
+            });
+
+            function citypinclear() {
+                radarChart.data.datasets[0].data =[0,0,0,0,0,0,0,0,0,0,0,0];
+                radarChart.update();
+                document.getElementById("citypin").innerHTML = "";
+            }
+            function cntypinclear() {
+                radarChart.data.datasets[1].data =[0,0,0,0,0,0,0,0,0,0,0,0];
+                radarChart.update();
+                document.getElementById("cntypin").innerHTML = "";
+            }
+            function prvncpinclear() {
+                radarChart.data.datasets[2].data =[0,0,0,0,0,0,0,0,0,0,0,0];
+                radarChart.update();
+                document.getElementById("prvncpin").innerHTML = "";
+            }
+            map.addLayer(layer_NBCounties_0);
+            map.addLayer(layer_provincesimp_0);
+            map.addLayer(layer_cgn_nb_shp_eng_0);
+        </script>
+        <script type="application/javascript">
+          var resizeCover = function () {
+            var homeCover = document.getElementById('explorer');
+            var newHeight = document.documentElement.clientHeight -
+              document.getElementById('menu').clientHeight;
+            homeCover.style.height = newHeight + "px";
+            homeCover.style.minHeight = newHeight + "px";
+          }
+
+          $(document).ready(resizeCover);
+          window.onresize = resizeCover;
+        </script>
         <script type="application/javascript">
         function toggleFunction() {
             var x = document.getElementById("navDemo");
