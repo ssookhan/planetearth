@@ -1,0 +1,609 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://nasaviz.gsfc.nasa.gov/vis/a010000/a012200/a012278/DiskFormation-540viz-MASTER_high.mp4",
+        "credit": "NASA's Goddard Space Flight Center",
+        "caption": "Planets emerge from the dense disk of gas and dust encircling young stars.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-4567000000",
+        "month": "",
+        "day": "",
+        "display_date": "4.56 Ga"
+      },
+      "text": {
+        "headline": "Formation of the Earth",
+        "text": "All the planets of the solar system formed through the condensation of a hot cloud of cosmic dust and gas about 4.567 billion years ago. Within about 30 million years, the Earth become differentiated into layers based on the density of different materials. Dense metallic material sunk to the centre to become the nickel-iron core while silicate minerals rose to become the mantle. "
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-4497000000",
+        "month": "",
+        "day": "",
+        "display_date": "4.497 Ga"
+      },
+      "text": {
+        "headline": "Moon-forming Impact",
+        "text": "About 70 million years after the formation of the Earth, a giant Mars-sized asteroid collided with the Earth, dispersing a large cloud of debris and dust into space. This dust condensed to become the moon.  "
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-525000000",
+        "month": "",
+        "day": "",
+        "display_date": "525 Ma"
+      },
+      "text": {
+        "headline": "Cambrian Explosion",
+        "text": "The Cambrian Explosion is the rapid diversification of life which occurred at the begining of the Cambrian Era. Hard-bodied organisms suddenly appeared in the warm, shallow Cambrian waters."
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-4375000000",
+        "month": "",
+        "day": "",
+        "display_date": "4.375 Ga"
+      },
+      "text": {
+        "headline": "Continents Emerge",
+        "text": "There is evidence that continental crust was forming as early as 4.375 billion years ago. Continental crust is formed through subduction-related volcanism where the magma erupting on the surface is more 'felsic' (higher in silica) than the melted source rock. The oldest known material on Earth are the Jack Hills Zircons from Australia. These small crystals are 4.375 billion years old. Zircon is a very resistant mineral that is usualyl associated with felsic magma. "
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-3100000000",
+        "month": "",
+        "day": "",
+        "display_date": "3.1 Ga"
+      },
+      "text": {
+        "headline": "Ur: The First Supercontinent",
+        "text": "A supercontinent is a landmass containing most of the worlds continental crust in blocks called cratons. The first supercontinent, Ur, was probably smaller than Australia, and can be found today in the cores of Africa, Antarctica, India, and Australia"
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1800000000",
+        "month": "",
+        "day": "",
+        "display_date": "1.8 Ga"
+      },
+      "text": {
+        "headline": "The Supercontinent NENA",
+        "text": "The second supercontinent, NENA (North-Europe-North Africa)"
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1300000000",
+        "month": "",
+        "day": "",
+        "display_date": "1.3 Ga - 750 Ma"
+      },
+      "text": {
+        "headline": "The Supercontinent Rodinia",
+        "text": "Rodinia formed - grenville Rodinia eventually fragmented into two large fragments: Laurentia and Gondwana, and several smaller cratons like Baltica"
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Map45a LtTr Carnian_220.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-350000000",
+        "month": "",
+        "day": "",
+        "display_date": "350 Ma - 200 Ma"
+      },
+      "text": {
+        "headline": "The Supercontinent Pangea",
+        "text": ""
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-3800000000",
+        "month": "",
+        "day": "",
+        "display_date": "3.8 Ga - 1.8 Ga"
+      },
+      "text": {
+        "headline": "Single-celled life and the Great Oxidation Event",
+        "text": "The oldest known fossilized lifeforms to date are the 3.77 billion year old filamentous bacteria found in the Nuvvaugittuq Greenstone Belt, Quebec. This was an extremely slow process taking over 2 billion years for oxygen levels to approach modern concentrations. "
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/ediacaransea.jpg",
+        "credit": "Photo by Ryan Somma",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-565000000",
+        "month": "",
+        "day": "",
+        "display_date": "565 Ma"
+      },
+      "text": {
+        "headline": "Multi-cellular Lifeforms: The Ediacaran Fauna",
+        "text": "The first multicellular lifeforms are an enigmatic group known as the Ediacaran Fauna after the Ediacara Hills of Australia. These organism were soft-bodied and displayed a broad variety of morphologies. Some were frond-shaped and anchored to the seafloor, resembling modern feather-pen corals, while others were disc-shaped or worm-like. Many of the Ediacarans may be the predecessors to the more familiar phyla of the Phanerozoic."
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-443000000",
+        "month": "",
+        "day": "",
+        "display_date": "The Devonian"
+      },
+      "text": {
+        "headline": "The Age of the Fishes",
+        "text": ""
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-420000000",
+        "month": "",
+        "day": "",
+        "display_date": "420 Ma"
+      },
+      "text": {
+        "headline": "Plants Invade the Land",
+        "text": ""
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-400000000",
+        "month": "",
+        "day": "",
+        "display_date": "400  Ma"
+      },
+      "text": {
+        "headline": "First Insects",
+        "text": ""
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-360000000",
+        "month": "",
+        "day": "",
+        "display_date": "The Carboniferous"
+      },
+      "text": {
+        "headline": "The Age of the Amphibians",
+        "text": ""
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-245000000",
+        "month": "",
+        "day": "",
+        "display_date": "The Mesozoic"
+      },
+      "text": {
+        "headline": "The Age of Reptiles",
+        "text": ""
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-66000000",
+        "month": "",
+        "day": "",
+        "display_date": "66 Ma"
+      },
+      "text": {
+        "headline": "K-T Mass Extinction",
+        "text": "The K-T (Cretaceous-Triassic) extinction is possibly the most famous mass extinction in history, culminating in the loss of all dinosaur species. The extinction was caused by impact of a meteorite at the Yucatan Peninsula."
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-251000000",
+        "month": "",
+        "day": "",
+        "display_date": "251 Ma"
+      },
+      "text": {
+        "headline": "The Great Dying",
+        "text": "The End Permian Mass Extinction is also known as the Great Dying when up to 96% of all marine species were lost. This is the greatest mass extinction in geologic history ans was likely caused by massive amounts of volcanism in Siberia."
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-66000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Age of Mammals",
+        "text": "With the extinction of many of the large reptile species including dinosaurs, small mammals become the dominant group on land."
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-350000",
+        "month": "",
+        "day": "",
+        "display_date": "350,000"
+      },
+      "text": {
+        "headline": "Humans Arrive on the Scene",
+        "text": ""
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Map77a LtO Hirnantian_445/jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-443000000",
+        "month": "",
+        "day": "",
+        "display_date": "443 Ma"
+      },
+      "text": {
+        "headline": "The End Ordovician Ice Age and Extinction",
+        "text": "By the end of the Ordovician, ice covered most of Gondwana. The End Ordovician extinction culminated in the loss of  85% of all marine species and was likely caused by glaciation at the southern pole."
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-201000000",
+        "month": "",
+        "day": "",
+        "display_date": "201 Ma"
+      },
+      "text": {
+        "headline": "End Triassic Mass Extinction",
+        "text": ""
+      },
+      "group": "Evolution",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1300000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The Grenville Orogeny",
+        "text": ""
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-400000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The Appalachian - Variscan Orogenies",
+        "text": ""
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-550000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Pan African Orogeny",
+        "text": "Formation of Gondwana"
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-65000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Alpine Orogeny",
+        "text": ""
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-200000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Andean - Cordilleran Orogenies",
+        "text": ""
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-30000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Himalayan Orogeny",
+        "text": ""
+      },
+      "group": "Tectonics",
+      "background": {
+        "color": "#333333"
+      }
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "text": {
+      "headline": "Earth History",
+      "text": ""
+    },
+    "group": ""
+  }
+}

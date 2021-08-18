@@ -1,0 +1,307 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/embryonic.jpg",
+        "credit": "",
+        "caption": "Block diagram showing an embryonic rift basin. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "1",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Embryonic Rift Basins",
+        "text": "Continental extention often begins where mantle plumes are heating continental crust from beneath. This heat causes the crust to dome upwards and split, often along three linear arms of a \u00e2\u20ac\u02dctriple junction\u00e2\u20ac\u2122. Each arm is a rift basin where slivers of crust subside along normal faults.  Examples include the East African Rift, Midland Valley of Scotland, the Basin and Range of western USA."
+      },
+      "group": "Embryonic Rift Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1JG6qt7nn4mGm6TOGsmypcxVrBcuwekSP\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "Navigable map with satellite imagery of a portion of the East African Rift Valley. Note that north is upwards. The camera icon represents the location for the panoramic image on the next slide. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "2",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The East African Rift",
+        "text": "The East African Rift is a classic example of an embryonic rift basin. Numerous faults trending approximately NE-SW are visible, underlying the circular volcanoes to the south and linear lake basins to the north. The centre of the rift basin is highly volcanic while the margins of the rift basin are elevated because they are being heated from beneath. The map shows the location (marked with a camera symbol) of the panoramic shot of Ol Doinyo Lengai on the next slide. This location is in Tanzania, not far from Olduvai Gorge, the site of the earliest hominid fossils. "
+      },
+      "group": "Embryonic Rift Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1521662278734!6m8!1m7!1sCAoSLEFGMVFpcFB1YmFkbHFXUWhLaHhpMDBCRG81Rm9aa1hrRU4wMFNwa3VDZGxJ!2m2!1d-2.778343446025638!2d35.86835494841!3f110.79098652550822!4f0!5f0.7820865974627469\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+        "credit": "",
+        "caption": "This panoramic is navigable. Red arrow points northwards.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "3",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Volcanoes of the East African Rift",
+        "text": "The peaked cone with it's top in the clouds is an active volcano called Ol Doinyo Lengai which is very unusual because it produces carbonate (rather than silicate) lava. However, Ol Doinyo Lengai is not the only volcano here. The entire sloping landscape is effectively the flank of a much larger volcano to the south. Erosion has gullied the slope, exposing layering from older successive lava flows. "
+      },
+      "group": "Embryonic Rift Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod3b/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "Slide the centre bar to switch between labelled and unlabelled topographic map. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "4",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Afar Triangle",
+        "text": "The Afar Triangle is a triangular depression right in the centre of the Afar triple junction, separating the African, Somali, and Arabian plates. Oceanic crust is being produced at mid oceanic ridges in the Red Sea and the Gulf of Aden, pushing the Arabian Plate northwards.  "
+      },
+      "group": "Embryonic Rift Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/d/embed?mid=18XqplFGFM2wUUKMa-fFEdyDH3ISiC-Vb\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "Navigable map showing satellite imagery of a region in the Afar triangle. Note that north is upwards. The camera icon represents the location for the panoramic image on the next slide. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "5",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Erte Ale",
+        "text": "Crust in the Afar Triangle is so thin that basaltic magma is erupting in great volumes. Because basaltic magma is fairly runny, it creates shield volcanoes, so called because they form broad low-gradient \"shields\". Erte Ale is one such shield volcano in the Afar Triangle. \n<br><br>\nThis map is navigable and shows the location (marked with a camera symbol) of the summit."
+      },
+      "group": "Embryonic Rift Basins"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/erta_ale.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "6",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Lava lakes at Erte Ale",
+        "text": "Persistent lava lakes are extremely rare. Here at Erte Ale, the thinness of the crust has lead to nearly continuous eruption. A lava lake currently occupies the \"caldera\" or crater of the volcano. The oldest lava lake here has existed since 1906. The surface of older lava flows resemble the thin skin of ropey lava on the surface of the active lava lake.  "
+      },
+      "group": "Embryonic Rift Basins"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/juvenile.jpg",
+        "credit": "",
+        "caption": "Block diagram showing a juvenile ocean basin. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "7",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Juvenile Ocean Basins",
+        "text": "As the crust continues to extend, oceanic crust made of basalt may start to be produced in the basin centre, pushing the continents further apart. Basalt is denser than the rocks in the continental crust, and thus oceanic crust tends to sit at a lower elevation. Regions that were elevated during the embryonic stage begin to cool and subside. Waters periodically flood into the narrow basin creating seaways. Examples include the Red Sea, the Gulf of Aden, the Gulf of California."
+      },
+      "group": "Juvenile Ocean Basins"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/redsea.jpg",
+        "credit": "Gravitational data from Cochran et al. 2007",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "8",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Red Sea",
+        "text": "Juvenile ocean basins are elongate narrow features that are often partially or completely disconnected from the open ocean. Sediment that washes off of the steep marginal cliffs becomes trapped and starts to form shelves of sediment along the coastline. If there is no exchange of water with the ocean, these basins are prone to evaporation, leaving thick salt deposits behind. In the accompanying image, gravitational anomalies have been detected in the northern part of the Red Sea. Hard rock is typically denser and thus has a stronger gravitational attractive force than sediments or salt deposits. The resulting image thus shows the shape of the \u00e2\u20ac\u02dcbedrock\u00e2\u20ac\u2122 or \u00e2\u20ac\u02dcbasement\u00e2\u20ac\u2122  before it was covered by a sedimentary drape. The trapping of sediment within subsided rift valleys eventually results in the broad continental shelves that occur on passive margins worldwide.  "
+      },
+      "group": "Juvenile Ocean Basins"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/mature.jpg",
+        "credit": "",
+        "caption": "Block diagram showing an embryonic rift basin. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "9",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Mature Ocean Basins",
+        "text": "As sea floor spreading continues, oceanic crust continues to be produced at mid oceanic ridges, pushing the continents further apart. The margins of the continents become \u00e2\u20ac\u02dcpassive margins\u00e2\u20ac\u2122 where sediments eroded from the continents accumulate. A good example is the Atlantic Ocean."
+      },
+      "group": "Mature Ocean Basins"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/A55.gif",
+        "credit": "USGS Dynamic Earth",
+        "caption": "Red and green bars represent alternating positive and negative polarities.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "10",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Sea floor spreading",
+        "text": "As basaltic lava erupts at linear fissures along mid oceanic ridges, it pushes a wedge between the continents in a process known as sea floor spreading. As the magma cools, tiny grains of the magnetic mineral magnetite align with Earth\u00e2\u20ac\u2122s magnetic field and are locked into place. The magnetic field of the Earth periodically flips from having a \u00e2\u20ac\u02dcnormal\u00e2\u20ac\u2122 polarity (white) where the magnetic field flows out of the south pole and into the north pole, to a \u00e2\u20ac\u02dcreversed\u00e2\u20ac\u2122 polarity (black) where the field flows out of the north pole and into the south pole. By measuring the polarity of the magnetic field of magnetite crystals in basalt, the symmetrical nature of seafloor spreading can be observed."
+      },
+      "group": "Mature Ocean Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/juxta/mod3/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": " Magnetic Anomalies from EMAG3",
+        "caption": "Slide the centre bar to compare bathymetry of the Atlantic ocean to magnetic anomalies.\\",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "11",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Atlantic Ocean",
+        "text": "In the accompanying image, magnetic sea floor striping made by alternating magnetic polarities can be observed in the North Atlantic Ocean. We can also see offsets of the ridge axis. These offsets are transform faults where oceanic crust slides in opposite directions uneventfully, and are fundamentally a byproduct of stretching ridged crust across a spherical surface.  \n<br><br>\nThe Atlantic Ocean is a classic example of a mature ocean basin. It is still growing through the production of oceanic crust at the Mid Atlantic Ridge which runs like a spine from north to south, mimicking the coastlines of North America, South America, and Africa. Iceland is an island made by the doming of the Mid Atlantic Ridge above a rising mantle plume."
+      },
+      "group": "Mature Ocean Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/d/embed?mid=1Hki366Rmjee__9XpxacK89_37SyLID-q\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "Navigable map with satellite imagery of a Thingvellir National park. Note that north is upwards. The camera icon represents the location for the panoramic image on the next slide. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "12",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Iceland: An exposed mid ocean ridge",
+        "text": "Iceland is a very rare example of a mid ocean ridge above sea level. The prominent north-west lineation visible on this satellite imagery are faults that run along the mid ocean ridge. "
+      },
+      "group": "Mature Ocean Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1521663677778!6m8!1m7!1siLHqjZe7NfzO5qN2Yq7gNw!2m2!1d64.25914537559785!2d-21.12342526490022!3f227.24728804575855!4f0.2405302398368292!5f0.7820865974627469\" width=\"600\" height=\"100%\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+        "credit": "",
+        "caption": "This panoramic is navigable. Red arrow points northwards.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "13",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Thingvellir",
+        "text": "Thingvellir was the site of Iceland\u00e2\u20ac\u2122s parliament from 930 AD until 1798. At Thingvellir, a person can walk through the cracks of a mid ocean ridge. Look around. The rocks on the walls of the fissures are rows upon rows of of basalt lava flows. "
+      },
+      "group": "Mature Ocean Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/videos/HydrothermalVent.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "NOAA",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "14",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Hydrothermal Vents of Explorer Ridge",
+        "text": "The images above illustrate the phenomenon of hydrothermal circulation at submerged mid oceanic ridges. Seawater filters down into the crust through faults in the seafloor where it is heated and expelled back up to the surface. On the right, the multibeam imagery of the Explorer Ridge, located off the coast of British Columbia demonstrates the linear topography of submerged mid oceanic ridges. On the left, hydrothermal vents expel scalding water full of nutrients that support a thriving community of deep water extremophile organisms. \n<br><br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/sm2k_explorerridge.jpg\" style=\"max-height: 300px;\">"
+      },
+      "group": "Mature Ocean Basins"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/cesium/mod3_seafloor.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": " Explore the age of the Earth\u00e2\u20ac\u2122s oceanic and continental lithosphere. The isochrons (lines of equal age) on continental crust on this globe are labelled in giga-annum (Ga) or billions of years while oceanic crust is labelled in mega-annum (Ma) or millions of years. Click on the \u00e2\u20ac\u02dc?\u00e2\u20ac\u2122 for navigation instructions and the home button to return to the original view.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "15",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Age of the Ocean Floor",
+        "text": "Ocean floor basalt is pushed away from the mid ocean ridge as it ages. Some mid ocean ridges produce oceanic crust very quickly (fast-spreading ridges) while others produce new oceanic crust more slowly (slow-spreading ridges). We can use the rates of spreading to reconstruct when various plate tectonic events, such as the opening of a new ocean basin, occurred. Oceanic crust becomes heavier and denser at it ages, and eventually begins to sink into the mantle and is destroyed in a process called subduction.   \n<br><br>\nThe continents are generally much older than the oceans and grow when crustal material that is too dense to be subducted is scraped onto their margins. This process is known as obduction or accretion. Continents therefore tend to be oldest in their interiors and get younger towards the margins. \n<br><br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/globescale.jpg\" style=\"max-height: 300px;\">"
+      },
+      "group": "Mature Ocean Basins"
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/divergencearrows2.jpg",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "text": {
+      "headline": "Divergent Boundaries",
+      "text": ""
+    },
+    "group": ""
+  }
+}

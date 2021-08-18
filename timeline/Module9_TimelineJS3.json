@@ -1,0 +1,228 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/india.jpg",
+        "credit": "Drawn using Global Multi-Resolution Topography Image Version 3.4",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-20000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Slow Global Cooling",
+        "text": "There is a strong link between tectonics and long-term climate change throughout Earth's history. The present long-term cooling trend started about 20 million years when the continent of India collided with Eurasia, forming the Himalayan Mountains. This massive reconfiguration of the Earth's surface changed the way heat was distributed by circulation both in the atmosphere and in the oceans. Atmospheric levels of carbon dioxide, a greenhouse gas, were also lowered as result of enhanced weathering processes during sediment production. Glaciation of Antarctica began shortly after, but the Earth did not cool sufficiently for ice sheets to grow in North America until the Pleistocene Epoch, 2.1 million years ago. The accompanying figure illustrates the collision of India with Asia and the development of large submarine sediment deposits from erosion of the Himalayas."
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/currents.jpg",
+        "credit": "Modified from \"Plate tectonic maps and Continental drift animations by C. R. Scotese,\n PALEOMAP Project (www.scotese.com)\"",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-3500000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Changing Oceans",
+        "text": "Ocean currents are responsible for distributing huge amounts of heat away from the equators and towards the poles and changes to global ocean circulation can cause significant climatic upset. As the continents continued to drift away from each other over the Cenozoic following the breakup of Pangea 200 million years ago, the oceans were reconfigured. As Australia and South America drifted away from Antarctica, the Antarctic Circum-polar Current formed which isolated the Antarctic from southwards heat transfer triggering severe polar cooling. The closure of the Isthmus of Panama triggered the start of the Gulf Stream which redirects warm equatorial water northwards to the north Atlantic. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/glacialrivers.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-2580000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Pre-glacial North America",
+        "text": "Before the start of Pleistocene glaciations in North America, the landscape looked very different. A long period of weathering had rotted the surface rocks and the area now referred to as the Canadian Shield may have buried by a deep layer of soil. Continental river systems largely drained away from the Rocky Mountains into Hudsons Bay through the Bell River. In southern Ontario, a waterway called the Laurentian Channel connected Georgian Bay directly to Lake Ontario. Over the next 2 million years, the layer of rotted Precambrian rock that once mantled the Canadian Shield was removed and thousands of lakes carved out. Rivers were rerouted to drain through all five Great Lakes and out the Gulf of St. Lawrence while the link that once connected the Georgian Bay to Lake Ontario was cut off by sediment."
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/d18O.jpg",
+        "credit": "Orbital Cycle images from NASA\u00e2\u20ac\u2122s Earth Observatory",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-2100000",
+        "month": "",
+        "day": "",
+        "display_date": "2.1 million years ago"
+      },
+      "text": {
+        "headline": "Start of High-Frequency Pleistocene Glaciations in North America",
+        "text": "Over the course of about 2 million years, North America was glaciated over 50 times. These high frequency cycles of glaciation were controlled by slight variations in the distance and orientation of the Earth with respect to the Sun, called Milankovitch Cycles after Serbian mathematician Milutin Milankovitch. These cycles influence the amount of 'insolation' or 'incoming solar radiation' that reach Earth's surface and also the way insolation is distributed across the Earth's surface. Three orbital cycles control the timing and frequency of glaciation through solar forcing: eccentricity, obliquity, and tilt. Each glaciation destroys most of the land-based evidence for the preceding glaciation, but the evidence for numerous glacial epochs is preserved in the deep ocean oxygen isotopic record held in shells of micro-organisms called foraminifera. Explore the accompanying diagram to discover the types of orbital cycles that control the timing of Pleistocene glaciation and how the deep sea sediment record can tell us about the extent of glaciation on land. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Sangamon.svg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-135000",
+        "month": "",
+        "day": "",
+        "display_date": "135,000 - 80,000"
+      },
+      "text": {
+        "headline": "Sangamon Interglacial",
+        "text": "Glacial periods are separated by warm interglacial periods. The last interglacial period is called the Sangamon interglacial and occurred between about 135,000 years ago and 75,000 years ago. During this time, the climate in southern Ontario was only about 2 degrees celsius warmer than today, but sported a thriving boreal ecosystem with deciduous forest, wetland, and large mammals like deer, bison, bear, mammoth, moose, and a giant beaver. The Sangamon Interglacial Period was followed by the Wisconsin Glacial Period."
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe width=\"100%\" height=\"768px\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_9/LGM/\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "Deglaciation of North America; Dyke, A S; Moore, A; Robertson, L. Geological Survey of Canada, Open File 1574, 2003",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-18000",
+        "month": "",
+        "day": "",
+        "display_date": "18,000"
+      },
+      "text": {
+        "headline": "Last Glacial Maximum",
+        "text": "The growth of the Laurentide Ice Sheet during the Wisconsin Glaciation was a slow process, only reaching its maximum extent about 18,000 years ago. During the Last Glacial Maximum (LGM), ice reached over 3 kilometres in thickness at central dome-like regions, and thinned to less than a kilometre near the edges for a total volume of 34 million cubic kilometres.  Sea level was lowered by 120 m worldwide because so much ice was locked up on land. Meanwhile, the added weight of the Laurentide Ice Sheet caused the crust to become isostatically depressed by over 100 m with the deepest depression happening under areas with the thickest ice."
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/18k_1k.gif",
+        "credit": "Deglaciation of North America; Dyke, A S; Moore, A; Robertson, L. Geological Survey of Canada, Open File 1574, 2003",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-18000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Deglaciation of North America",
+        "text": "The deglaciation of North America progressed rapidly by melting of the ice sheet at it's margins. Much of this meltwater was discharged through Hudson Strait and the Gulf of Saint Lawrence. Water forming in the interior of the continent was often blocked from reaching a coastal outlet by the ice sheet itself and was unable to drain southwards because of glacioisostatic depression caused by the weight of the ice sheet. Large glacial lakes thus formed nestled up against the ice margin."
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/lobes.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-13000",
+        "month": "",
+        "day": "",
+        "display_date": "13,000"
+      },
+      "text": {
+        "headline": "Ice Lobes of Ontario and the Oak Ridges Moraine",
+        "text": "Some 13,300 years ago, ice had retreated from the Toronto area, but this reprieve was short lived. Only 300 years later, the edge of the Laurentide Ice Sheet collapsed sending fast-flowing streams of ice into Southern Ontario in two distinct lobes: the Simcoe Lobe and the Ontario Lobe. The Oak Ridges Moraine of Southern Ontario formed as a thick wedge of sediment trapped between these lobes. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/holocenegreenland.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-12000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The Holocene",
+        "text": "We are currently in an interglacial period called the Holocene. The annual mean temperature now is about 8 degrees celsius warmer than during the Wisconsin Glaciation. One of the highest resolution records of the climate during the Holocene can be found by looking at ice cores from the Greenland and Antarctic Ice Sheets. In general, the Holocene is much more stable than the Wisconsin Glacial Period before it, yet distinct short-term climate cycles of cooling and warming have continue to operate. Events like the Younger Dryas, 8,200 year event, and Little Ice Age caused glaciers worldwide to readvance for short periods of time. At other times, the climate was unusually warm, causing changes in weather patterns and retreat of ice sheets worldwide. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Rebound.png",
+        "credit": "Henton et al. 2006, Crustal motion and deformation monitoring of the Canadian landmass, Geomatica 60(2):173-191",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-18000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Post-glacial Rebound",
+        "text": "The land has been slowly and continually correcting the glacioisostatic depression caused by the weight of the ice sheet, and in some parts of the continent is rebounding (rising) at a rate of as much as 19 mm per year. Places that were once submerged have been lifted up and shorelines have been forced to build outwards at astonishing rates to keep up with this motion. Beaches formed at the waters edge thousands of years ago are raised up by this processes to sit as stranded ridges tens of meters above the modern-day lake or sea level.  The rate of isostatic rebound slows with time. Today, the most rapid rebound is found where glacial ice persisted the longest: in the Hudson Bay region. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe width=\"100%\" height=\"768px\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_9/glaciallandforms/\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "0",
+        "month": "",
+        "day": "",
+        "display_date": "Present"
+      },
+      "text": {
+        "headline": "A Fossilized Glacial Landscape",
+        "text": "Today, glacial deposits from the Wisconsin Glaciation are found across North America. Explore this block model of a glaciated landscape to understand the origins and morphology of glacial landforms."
+      },
+      "group": ""
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "text": {
+      "headline": "A Glacial History of North America",
+      "text": ""
+    },
+    "group": "",
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/glacialbackground.jpg"
+    }
+  }
+}

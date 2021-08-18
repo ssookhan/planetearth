@@ -1,0 +1,166 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_6/Laurentia1/\" width=\"20\" height=\"20\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-3180000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Formation of Arctica",
+        "text": "Arctica is the core of North America and was formed between 2.5 billion years ago and 1.9 billion years ago when several older Archean microcontinents were welded together at orogens, or mountain belts. Each microcontinent, or 'terrane' consists of an assortment of rocks, some as old as 3.18 billion years. Tradionally, these terranes were mapped as 'geologic provinces' and this term is often still used today. The formation of Arctica was a long drawn out affair involving multiple continent-continent collisions of individual terranes, culminating in the joining of the Superior province to the other terrans at the Trans-Hudson Orogen. The Superior Province, for example, consists of a number of sub-provinces that largely originated as volcanic arcs that were joined together by sedimentary basins that were deformed by orogenies."
+      },
+      "group": "",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_6/Laurentia2/\" width=\"20\" height=\"20\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1800000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Formation of Nena",
+        "text": "About 1.8 billion years ago, several more terranes were welded to Arctica during the formation of a new supercontinent called Nena (an acronym for northern Europe and North America). This event is called the Penokean Orogeny and in Ontario is largely represented by the Southern Province and the Penokean Orogen. The Southern Province consists of the 2.5 to 2.2 billion year old sedimentary rocks of the Huronian Supergroup which record deposition along the margin of the Superior Province of Arctica."
+      },
+      "group": "",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_6/Laurentia3/\" width=\"20\" height=\"20\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1100000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Breakup of Nena",
+        "text": "For a short while between 1.1 billion and 1.0 billion years ago, it seemed as though Nena would split down the middle. This even is recorded in the Mid Continent Rift, which is a 2000 km long and 20 km deep buried chasm filled with intrusive, volcanic, and sedimentary rocks of the Keweenan Supergroup. Oddly, at the around the same time that Nena was undergoing extention at the Mid Continent Rift, it was also undergoing compression around it's margins due to the formation of the supercontinent Rodinia. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_6/Laurentia4/\" width=\"20\" height=\"20\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1300000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Formation of Rodinia",
+        "text": "Rodinia (from the Russian for \"motherland\") began forming about 1.3 billion years when the Grenville Terrane was accreted against Nena, forming the Grenville Mountains. This particular episode of mountain building was one of the greatest that world has ever seen with mountain belts that could rival the Himalayas found on virtually all continents. The Grenville Terrane itself consists of two main parts: the Central Metisedimentary Belt (CMB), and the Central Gneiss Belt (CGB). The CMB is predominantly composed of a number of slivers of metamorphosed sedimentary and volcanic rocks which were thrust upon the rocks within the CGB, which were burried at depths of up to 25-30 km. "
+      },
+      "group": "",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_6/Laurentia5/\" width=\"20\" height=\"20\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-700000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Breakup of Rodinia and start of the Cover Sequence",
+        "text": "Gradually, the Grenville Mountains were worn down to create a gently rolling surface with little topography, and Rodinia began to break apart and Laurentia drifted towards an equatorial latitude. Sea levels at the time were very high, and the newly formed Iapetus Ocean easily flooded much of the low-lying surface of Laurentia. The resulting sedimentary deposits are often referred to as the Paleozoic Cover Sequence or Laurentian Platform which accumulated on a long-lived passive margin covered by warm shallow seas full of life."
+      },
+      "group": "",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_6/Laurentia6/\" width=\"20\" height=\"20\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-480000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Formation of Pangea",
+        "text": "The closure of the Iapetus Ocean and formation of the supercontinent Pangea was heralded in North America by a number of orogenies (Taconic, Acadian, Salinic, Alleghanian) caused by the accretion of terrains against the eastern margin of Laurentia. The Appalachian Mountains are the remnants of these orogenies and resulted in the further addition of continental crust to Laurentia. Throughout this time, some sedimentary rocks continued to be deposited in the central parts of the continent, but high topography caused by uplift in the Ontario area largely prevented any rocks from accumulating. In Ontario, the period from 350 million years to about 135 thousand years ago is known as 'the big gap' because so little rock record is preserved."
+      },
+      "group": "",
+      "background": {
+        "color": "#333333"
+      }
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_6/Laurentia7/\" width=\"20\" height=\"20\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-200000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The breakup of Pangea and the Cordilleran Orogeny",
+        "text": "Pangea began to break up about 200 million years ago by splittling along the modern day Atlantic coast. A number of 'failed rifts' or aulocogens propogated into the interior of the continent as grabens. The opening of the Atlantic Ocean began pushing North America westwards where it collided with several microcontinents or terrains on the west coast in the protracted Cordilleran Orogeny. Glaciation at the end of the Cenozoic caused substantial erosion of northern Laurentia, removing the \"cover sequence\" from in the physiographic region now known as the Canadian Shield."
+      },
+      "group": ""
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "text": {
+      "headline": "A Brief Geologic History of North America",
+      "text": ""
+    },
+    "group": "",
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/content/M6laurentiatimeline.jpg"
+    }
+  }
+}

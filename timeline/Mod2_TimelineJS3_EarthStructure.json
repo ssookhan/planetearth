@@ -1,0 +1,307 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_2/Earthstructure/index.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "Hover over the layers in order to discover more information.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "1",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Chemical and Mechanical Layers of the Earth",
+        "text": "The Earth is differentiated into layers based both on its mechanical properties (liquid vs. solid vs. plastic) and its chemical or compositional properties. The Earth's \"crust\" is defined based on its composition and refers to the relatively silica-rich low-density rocks that form the thin outer rind of the Earth. There are two types of crust: oceanic crust and continental crust with slightly different compositions and densities. The crust, together with the rigid uppermost layer of the mantle makes up the \"lithosphere\"."
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/PG_02_13F.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "2",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Crust and the Lithosphere",
+        "text": "The Earth's \"Crust\" refers to the relatively silica-rich low-density rocks that form the thin outer rind of the Earth. The Earth's \"crust\" is defined based on its composition and refers to the relatively silica-rich low-density rocks that form the thin outer rind of the Earth. There are two types of crust: oceanic crust and continental crust with slightly different compositions and densities. The crust, together with the rigid uppermost layer of the mantle makes up the \"lithosphere\"."
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/doinggeology.jpg",
+        "credit": "",
+        "caption": "Geology students near Banff, British Columbia",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "3",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Investigating the crust: Geology",
+        "text": "Geology is primarily concerned with studying rocks exposed at or near the surface. Some geologists work in the field and travel all over the world in order to describe and map rocks. Others work in the laboratory performing experimental work or in the office creating models and maps. Geologists often deal with practical matters like finding natural resources (petroleum, natural gas, groundwater and metals), and to predicting natural hazards (earthquakes, volcanic eruptions etc.). Despite modern technology, we still know very little about the Earth and Geologists are forever trying to learn more about the subsurface. Drilling into the Earth's crust can provide geologists with samples, but even the deepest drilling project on Earth, the Kola Superdeep Borehole, only extended 12.3 km into the crust, a tiny fraction of Earth's ~6300 km radius. "
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca//gallery/mod2_album/Pics/GPS.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "4",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Investigating the crust: Geodesy",
+        "text": "Geodesy (or geodetics) is the science of location. The Earth isn't actually a sphere, but a slightly irregular ellipsoid that bulges out at the equator. Figuring out where a given feature is on that irregular ellipsoid (or \"geoid\") is important because the Earth's surface is constantly changing. Nowadays, satellite-based tracking system are extremely popular. Most of us have used the Global Positioning System (GPS) for example in our cars and phones to get around, but it can also be used to track very small movements of tectonic plates. GPS receivers calculate their position from the time it takes for a signal to be transmitted from three satellites of known position to the receiver."
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/PG_04_Box4.02_02F.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "5",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Investigating the crust: Geophysics",
+        "text": "Geologists are often interested in what lies beneath the Earth's surface, but it is very difficult to directly sample rocks from great depths. Geophysics is a branch of geology that uses a wide variety of physical methods such as seismic, gravitational, and magnetic properties to discover more about the subsurface. Seismic reflection surveys, for example, are a technique where a pulse of energy (like a sound or an explosion) created on the surface is reflected and refracted back to a set of receivers. Energy travels at different speeds through different types of materials, thus the speed at which waves are returned can create an image of the subsurface. "
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/gallery/mod2_album/Pics/Geoids_sm.jpg",
+        "credit": "NASA's Gravity Recovery and Climate Experiment (GRACE)",
+        "caption": "A gravimetric map of the Earth. Red = stronger gravitational attraction than average. Blue = weaker gravitational attraction than average.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "6",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Investigating the crust: Gravimetry",
+        "text": "Gravimetry is the measurement of the strength of the gravitational field and uses an instrument called a gravimeter. The strength of the gravitational field varies by about +/- 0.5% due to heterogeneities below Earth\u00e2\u20ac\u2122s surface. Most gravimeters are effectively a weight on a spring, and they can be mounted on vehicles, aircrafts, and ships. Gravitational anomalies can be used to determine if a region is in isostatic equilibrium, to indicate unusually dense or light regions underground, and to quantify atmospheric mass variations, tides, groundwater level variations, and soil moisture variations."
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/gallery/mod2_album/Pics/Earth_heat_flow.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "7",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Investigating the crust: Heat Flow",
+        "text": "Heat flow is the energy lost from one medium to another. The temperature gradient with depth, or \u00e2\u20ac\u02dcgeotherm\u00e2\u20ac\u2122, can be measured directly near the Earth\u00e2\u20ac\u2122s surface in deep mines or boreholes. The normal geothermal gradient is about 25 degrees Celsius per kilometer near the surface. Continental crust tends to insulate the interior of the Earth, preventing heat in the core and mantle from reaching the surface, but heat is also produced in the continental crust by radioactive minerals releasing energy. Oceanic crust is primarily heated from the mantle below. The heat flow from Earth\u00e2\u20ac\u2122s interior to the surface through young oceanic crust ultimately drives many deep Earth processes (see figure, Davies and Davies, 2010)."
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/PG_04_20F.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "8",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Investigating the crust: Geomagnetism",
+        "text": "Geomagnetism is the study of Earth's magnetic field and uses a magnetometer to assess the strength and direction of anomalies in the magnetic field. Anomalies result from changes in the concentration of magnetic minerals buried deep underground. Because the magnetic field changes over time, geologists can also use fossilized magnetism to figure out where continents were located in the past. "
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/cesium/mod2_plateboundaries.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "Plate boundaries: USGS; Hot spot locations: Whittaker et al. 2013",
+        "caption": "Explore the globe above to discover the major tectonic plates on planet Earth and how they interact with each other. Clicking the arrows, plate boundaries, or plate names will reveal more information. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "9",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Tectonic Plates",
+        "text": "The lithosphere is broken into about a dozen tectonic plates that slide over the plastic asthenosphere below and interact at plate boundaries. The motion of one lithospheric plate relative to another is called relative plate motion. At divergent boundaries, the plates are pulling away from each other, forcing new plate material to be created to fill that gap. At transform boundaries, plates slide past each other with no addition or destruction of either plate. At convergent margins, two plates collide, either resulting in the destruction of the denser plate at a subduction zone, or the crumpling of the two plates into an orogeny (\u00e2\u20ac\u0153mountain belt\u00e2\u20ac\ufffd). Tectonic plates also have an absolute plate motion, which is the motion of a plate relative to a stationary point. Stationary mantle plumes for example help us to track absolute plate motion because they leave behind chains of volcanic islands as the lithospheric plate above slides past. Some chains visible on the seafloor were created by mantle plumes that no longer exist.           \n\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/plateboundarylegend.jpg\" style=\"max-height: 300px;\">"
+      },
+      "group": "The Crust"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/b14.png\n",
+        "credit": "",
+        "caption": "This rock is called peridotite and is made up of the mineral olivine. Many minerals in the mantle are black or green in colour, so the mantle itself is probably fairly green. ",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "10",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Mantle",
+        "text": "The Earth's mantle is made of ferromagnesian silicate minerals, and is therefore more rich in iron and magnesium than crustal rocks, but still contains silica, unlike the metallic core. We call these rocks \"ultramafic\" (compared to mafic rocks in the crust) because they are so rich in magnesium and iron (Fe). It makes up 67% or Earth's mass, and 84% of Earth's volume. The mantle is solid rock, but it convects over very long time scales, giving rise to a number of important phenomenon at the surface of the Earth. "
+      },
+      "group": "The Mantle"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/videos/MantleConvection.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "11",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Mantle Convection ",
+        "text": "Though the mantle is solid rock, over very long time scales rock flows in large convection cells that bring heat from the interior to the surface. Hot rock close to the core tends to rise, while cold rock near the surface tends to sink. Mantle subduction is hugely important to plate tectonics. During subduction for example, cold slabs of lithosphere descend into the mantle, dragging relatively cool upper mantle downwards. This process displaces hot lower mantle rocks which can rise to the surface and cause volcanism either at mid ocean ridges, or within-plates. "
+      },
+      "group": "The Mantle"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/03_widman.jpg",
+        "credit": "",
+        "caption": "Distinctive crystals of Fe and Ni-rich minerals in an iron meteorite.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "12",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Core",
+        "text": "The Earth's core is largely composed of Nickel and Iron metals. It has two layers: the solid inner core and liquid outer core. Though the core is only about 15% of the Earth's volume, it holds about 33% of the Earth's mass. Although it is impossible to sample the core, geologists think that the composition is similar to metallic meteorites that fall on Earth's surface, which could be the cores of other worlds.  "
+      },
+      "group": "The Core"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/gallery/mod2_album/Pics/SeismicWaves.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "13",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Investigating the Interior: Seismology (I)",
+        "text": "Seismology is the study of earthquakes and seismic waves. Seismograms record vibrations from the waves generated during earthquakes that travel along Earth\u00e2\u20ac\u2122s surface (surface waves) and also waves that travel through the Earth\u00e2\u20ac\u2122s (body waves). Seismologists can use seismograms generated from both natural and artificial earthquakes to learn about Earth\u00e2\u20ac\u2122s interior. Two types of body waves are used: P waves (primary waves) which are compressional like sound waves, and S waves (secondary waves) which have transverse motion. P waves travel faster than S waves, and can travel through liquids and solids while S waves can only move through solid rock. "
+      },
+      "group": "The Core"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/shadowzones.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "14",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Investigating the Interior: Seismology (II)",
+        "text": "P waves travel faster than S waves, and can travel through liquids and solids while S waves can only move through solid rock. By looking at patterns of seismic refraction, scientists were able to determine that the outer core is liquid and the inner core is solid."
+      },
+      "group": "The Core"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/gallery/mod2_album/Pics/Geodynamo.gif",
+        "credit": "Gary A. Glatzmaier",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "15",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Earth's Magnetic Field",
+        "text": "The Earth's magnetic field is a geodynamo generated by convection of molten iron and nickel in the fluid outer core. Grains of magnetite in lava flows on Earth's surface often align with the magnetic field before solidifying, locking in the record of changes in the strength, directionality and polarity of the magnetic field. This property can be used to determine how continents have shifted over time. "
+      },
+      "group": "The Core"
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/earth20110309-full.jpg\n",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "text": {
+      "headline": "Earth's Structure",
+      "text": "The Earth formed from the coalescence of interstellar dust and asteroids about 4.6 billion years ago. As the Earth cooled, heavy elements tended to collect towards the centre, while lighter elements rose. Over time, this process created layers with different chemical compositions and mechanical properties.  "
+    },
+    "group": ""
+  }
+}

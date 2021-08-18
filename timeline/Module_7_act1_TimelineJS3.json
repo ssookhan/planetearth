@@ -1,0 +1,115 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_7/Stage1/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-3180000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Superior Province and the Kenoran Orogeny",
+        "text": "The Superior Province was formed during the Archean Era when sub-provinces collided to form ribbons of alternating granite-greenstone belts and metasedimentary belts. The term \"province\" is a traditional term used to refer to terranes, or blocks of continental or oceanic crust that have joined with others to become larger continents. Granite-greenstone belts probably originated as volcanic arcs (similar to Japan) and were joined together by sedimentary basins now represented by the metasedimentary belts. The oldest rocks in Ontario are 3.25 billion years old can be found in the Winnipeg River Sub-province. In the accompanying figure find the Wawa and Abitibi Terranes. Collision of these terranes with the Wabigoon Province (at that point on the edge of the Superior Craton), squeezed together the sediments of the Quetico Subprovince during the 2.7 billion year old Kenoran Orogeny. The Kenoran Orogeny was the last major tectonic event that impacted the Superior Province and demonstrates the importance of \"the terrane concept\" in building continents. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe width=\"100%\" height=\"768px\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_7/Stage2/\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-2500000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The Southern Province and the Penokean Orogeny",
+        "text": "Sediments of the Huronian Supergroup were deposited between 2.5 to 2.2 billion years ago along the margin of the Superior Province of Arctica in what is now called the Southern Province. The Sudbury Basin was formed 1.85 billion years ago when a large meteorite impacted the Sudbury Region. About 1.8 billion years ago, several more terranes were welded to Arctica during the formation of a new supercontinent called Nena (an acronym for northern Europe and North America). This event is called the Penokean Orogeny and it deformed many of the sediments of the Huronian Supergroup into a number of folds, now raised as the hills of the Lacloche Range."
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe width=\"100%\" height=\"768px\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_7/Stage3/\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1100000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The Mid Continent Rift",
+        "text": "For a short while between 1.1 billion and 1.0 billion years ago, it seemed as though Nena would split down the middle. This event is recorded in the Mid Continent Rift, which is a 2000 km long and 20 km deep buried chasm filled with intrusive, volcanic, and sedimentary rocks of the Keweenawan Supergroup. Both Lake Superior and Lake Nipigon occupy a trough that may have been caused by subsidence relating to this extension. These troughs form a \"triple junction\" where the crust is actually trying to separate in three directions at once. In the accompanying diagram, note the shape of exposed Mid Continent Rift in relation Lakes Nipigon and Superior. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe width=\"100%\" height=\"768px\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_7/Stage4/\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1300000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The Grenville Orogeny",
+        "text": "The Grenville Province records the formation of the supercontinent Rodinia by continent-continent collision. The Grenville Province consists of two sections: the Central Metasedimentary Belt (CMB), and the Central Gneiss Belt (CGB). The CMB is less metamorphosed than the CGB because the CMB was thrust upon, and buried, the CGB to depths of 25-30 km causing high grade metamorphism, deformation, and intrusion of plutons. This thrust zone over which the CMB was pushed is called the Central Metasedimentary Belt Boundary Zone. Together, the Central Gneiss Belt and Central Metasedimentary Belt were thrust upon the older rocks of the Southern and Superior Provinces at the Grenville Front Tectonic Zone (GFTZ). In the accompanying diagram, find each of the following: the CGB, the CMB, the GFTZ, and the CMBBZ. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe width=\"100%\" height=\"768px\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_7/Stage5/\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-550000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Covering and exposure of the Canadian Shield",
+        "text": "Following the Grenville Orogeny, Ontario experienced a long period of erosion during which the mighty Grenville Mountains were worn down to the bones. Following the breakup of Rodinia, warm shallow seas flooded the continent, covering all of Ontario with layers of sedimentary \"cover strata\". However, when Pangea formed about 350 million years ago, all of Ontario was too central for any more sedimentary rocks to accumulate and when glaciation began about 2 million years ago, much of the Paleozoic Cover Strata were removed by glacial erosion. Erosion of the Paleozoic Cover Strata exposed the physiographic region now referred to as the \"Canadian Shield\", which is made of much older Precambrian rocks.  "
+      },
+      "group": ""
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "text": {
+      "headline": "The Canadian Shield of Ontario",
+      "text": ""
+    },
+    "group": "",
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/mod7act1background.jpg"
+    }
+  }
+}

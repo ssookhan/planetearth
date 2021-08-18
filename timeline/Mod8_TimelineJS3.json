@@ -1,0 +1,115 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe width=\"100%\" height=\"768px\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_8/PaleozoicCover/\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-1000000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The Great Unconformity",
+        "text": "Following the Grenville Orogeny, the supercontinent of Rodinia experienced a long period of erosion during which the mighty Grenville Mountains were worn down by rivers and other weathering processes to a flat surface called a \"peneplain\". Locally, this low-relief knobbly surface is known as the Cashel Peneplain after Cashel Township in east-central Ontario, but it can be traced across the Laurentian Craton as the \"Great Unconformity\". An unconformity is a gap in the geologic record during which nothing has been preserved. Virtually all geologic processes operating between the formation of the Grenville Mountains about 1.1 billion years ago and the covering of the Laurentian Craton by shallow seas about 500 million years have been erased by erosion. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe width=\"100%\" height=\"768px\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_8/SouthernCover/\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "This figure is interactive.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-550000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Shallow seas flood the continent",
+        "text": "Following the disintegration of the supercontinent Rodinia, global sea level rose significantly. Shallow seas flooded the continents resulting in the deposition of sedimentary layers on top of the Precambrian basement. Over the course of the Paleozoic, sea level rose and fell many times which is recorded by the successive stacking of geological formations as environmental conditions shifted. Explore the accompanying figure to learn about the rock types and environmental conditions responsible for the deposition of strata in southern Ontario."
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/11_02a.jpg",
+        "credit": "Ontario Rocks",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-450000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Taconic Orogeny",
+        "text": "The Iapetus Ocean once separated Laurentia (now North America) from the continent of Gondwana (now Australia, Africa, South America, Antarctica and India). About 440 million years ago, this ocean began to close, resulting in a protracted period of mountain building on the east coast. The first orogeny occurred when the Taconic Arc collided with the margin of Laurentia. Even though the Taconic Mountains were quite distant, their growth is clearly recorded in Ontario by the shale of the Queenston Formation which formed when muddy terrigenous sediment washed down the mountains and smothered the carbonate reefs of the Simcoe Group."
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/11_02b.jpg",
+        "credit": "Ontario Rocks",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-420000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Arches and Basins",
+        "text": "Over time, the surface of the Canadian Shield warped to form areas of subsidence, called basins, and uplift, called arches. Basins were often inundated with deep water and filled with shale while arches where covered by shallow water in which limestone reefs could develop. Southern Ontario occupied a position upon the Algonquin Arch between two sedimentary basins: the Michigan Basin and the Appalachian Basin.  "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1514680620247!6m8!1m7!1sCAoSLEFGMVFpcE9RYzYtWEFIdzhmX1ZHX0dtdVZzT082cV96VzFwTWRsQzhwMTQz!2m2!1d43.1320176!2d-79.0526342!3f134.15507836433997!4f-1.262724832081929!5f0.4000000000000002\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+        "credit": "Google Streetview",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "-350000000",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "The Big Gap",
+        "text": "The final amalgamation of the supercontinent Pangea sutured Laurentia and Gondwana together at the Appalachian Mountains. Ontario occupied a central location right at the heart of Pangea and was therefore sitting too high for sedimentary rocks to accumulate. Instead, much of the Paleozoic cover sequence were lost to erosion which exposed older rocks at surface today. More resistant rocks like dolostone commonly act as a caprock to protect softer rocks underneath, creating ledges or 'escarpments'. The most famous of these is the Niagara Escarpment over which the Niagara River flows, forming Niagara Falls. In the accompanying figure, the Paleozoic stratigraphy has been exposed in the Niagara Gorge, downstream of Niagara falls. The uppermost resistant rocks are the Lockport Dolostone which acts a caprock to protect the softer sandstones and shales underneath.  "
+      },
+      "group": ""
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "text": {
+      "headline": "The Paleozoic Platform",
+      "text": ""
+    },
+    "group": "",
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/content/Mod8act1background.jpg"
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_5/rockcycle/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "1",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Rock Cycle",
+        "text": ""
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_5/igneous/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "2",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Igneous Rocks",
+        "text": ""
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_5/sedimentary/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "3",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Sedimentary Rocks",
+        "text": ""
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_5/metamorphic/\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "4",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Metamorphic Rocks",
+        "text": ""
+      },
+      "group": ""
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": "",
+      "display_date": "_____"
+    },
+    "text": {
+      "headline": "Rocks of the Rock Cycle",
+      "text": "In this set of interactive diagrams, explore the three groups of rocks in the rock cycle and answer the questions on the following slides."
+    },
+    "group": ""
+  }
+}

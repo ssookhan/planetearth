@@ -1,0 +1,174 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Fig21oceanocean.gif",
+        "credit": "USGS Dynamic Earth",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "1",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Oceanic-oceanic convergence",
+        "text": "When two tectonic plates with oceanic crust  converge on each other, The denser of the two plates begins to subduct under the other. The density of a plate is related to its age. As oceanic crust is pushed away from a mid ocean ridge, it cools and thickens, and becomes metamorphosed by circulating hydrothermal fluids, increasing its overall density. As the subducting slab of oceanic crust descends into the mantle, it triggers melting and magma production, resulting in the formation of a volcanic arc in the overriding plate above. \n\nExample: The Mariana Trench and Arc"
+      },
+      "group": "Ocean-Ocean Convergence"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/mariana.jpg",
+        "credit": "NOAA Okeanos Explorer: Mariana Regional Geology by Susan Merle and Mariana Cross Section by Hussong and Fryer, 1981",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "2",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Mariana Trench",
+        "text": "The Mariana Trench is the deepest feature on planet Earth and marks the point where the Pacific and Philippine plates meet. The crust of the Pacific Plate has been travelling for about 170 million years since it was created at the East Pacific Rise, and has been cooling and thickening throughout it\u00e2\u20ac\u2122s journey. The Philippine Plate however, is much smaller and only started forming about 60 million years ago. The older, denser plate begins to descend under the younger plate and into the mantle in a process known as subduction. The rate of the sinking of the Pacific Plate is so great that it actually pulls the Philippine Plate forwards, causing tension and sea floor spreading in behind the volcanic ar (known as the 'back arc'). Above the subduction zone, an arcuate chain of volcanoes (the \u00e2\u20ac\u02dcvolcanic arc\u00e2\u20ac\u2122) scar the seafloor. "
+      },
+      "group": "Ocean-Ocean Convergence"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Fig21oceancont.gif",
+        "credit": "USGS Dynamic Earth",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "3",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Oceanic-continental convergence",
+        "text": "Oceanic crust is significantly less buoyant than continental crust, and when tectonic plates with different types of crust collide, the plate with oceanic crust subducts underneath the plate with continental crust. This is how oceans shrink. The subducting plate triggers melting and magma production as it descends into the mantle, resulting in the formation of magmatic arcs in the continental crust above. Example: Much of the Pacific Ring of Fire, the Cascadia Subduction zone"
+      },
+      "group": "Ocean-Continent Convergence"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Kuril_Benioff_zone.JPG",
+        "credit": "USGS",
+        "caption": "A cross section of the Kuril Islands Subduction zone showing the profile of earthquakes along the upper surface of the subducting slab.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "4",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Benioff Zones",
+        "text": "Subducting slabs in both ocean-ocean convergence zones and ocean-continent convergence zones release seismic energy in the form of earthquakes as they descend into the mantle. By tracking the depth of earthquake foci, a picture of the subducting slab emerges. Below about 700 km,  rocks begin to deform plastically, rather than fracturing or breaking, and therefore tend not to produce earthquakes."
+      },
+      "group": "Ocean-Continent Convergence"
+    },
+    {
+      "media": {
+        "url": " <iframe src=\"https://planetearth.utsc.utoronto.ca/cesium/mod4_earthquakes.html\" width=\"100%\" height=\"100%\" frameborder=\"0\" scrolling=\"no\"></iframe>",
+        "credit": "Earthquake Data: USGS",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "5",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Pacific Ring of Fire",
+        "text": "As the Atlantic Ocean continues to open, the Pacific Plate is increasingly being encroached upon by continental plates on all sides. Subduction of the Pacific Plate creates the Pacific Ring of Fire, which is the region of intense earthquake and volcanic activity.\n\nThis globe shows the locations and magnitudes of all earthquakes during June and July 2017. Earthquakes predominantly occur on plate margins. Divergent and transform margins typically experience relatively shallow earthquakes compared to convergent margins. Subduction zones often have a characteristic pattern of increasing earthquake depth in the direction that the plate is sinking, a phenomenon known as the Benioff Zone. \n\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/convmarginlegend.jpg\" style=\"max-height: 300px;\">"
+      },
+      "group": "Ocean-Continent Convergence"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Fig21contcont.gif",
+        "credit": "USGS Dynamic Earth",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "6",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "Continental-continental convergence",
+        "text": "Continental crust is too buoyant to subduct and thus where two plates with continental crust collide, both plates simply crumple and weld together in large mountain belts called \u00e2\u20ac\u02dcorogenies\u00e2\u20ac\u2122. This process creates the largest mountain ranges on planet Earth. \n\nExamples: The Himalayas, The Alps, The Appalachian Orogen, The Grenville Orogen"
+      },
+      "group": "Continent-Continent Convergence"
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Tectonic_map_Mediterranean_EN.svg.png",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "7",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Closing Mediterranean",
+        "text": "The Mediterranean is the remnant of an ocean basin called the Tethys Ocean which once separated Europe from Africa. Over the last 150 million years, the Mediterranean has been shrinking through the process of subduction. Now, there is very little oceanic crust left, and many pieces of continental crust have started to collide with each other forming an orogenic belt known as the Alpine Orogeny. Some of these smaller continental slivers, also called terranes, are made of andesitic volcanic material that is too buoyant to subduct, while others are made of thick sediment accumulations on the ocean floor. Others still are pieces of much older continental crust which have rifted off of other continents. Opening of the Red Sea continues to cause the African and Arabian Plate to swing northwards and someday the Mediterranean may close entirely. "
+      },
+      "group": "Continent-Continent Convergence"
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1522299412327!6m8!1m7!1s2EH3Z-IzkdWjVe1MSIO10A!2m2!1d45.98194355977174!2d7.690837923026153!3f248.86383542632038!4f18.926749394061147!5f0.7820865974627469\" width=\"100%\" height=\"100%\" frameborder=\"0\" style=\"border:0\" allowfullscreen></iframe>",
+        "credit": "",
+        "caption": "Panoramic image of the Matterhorn.  Red arrow points northwards.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "8",
+        "month": "",
+        "day": "",
+        "display_date": "_____"
+      },
+      "text": {
+        "headline": "The Matterhorn",
+        "text": "In the panoramic image, the Matterhorn of the Alps Range makes the distinct triangular-shaped peak. The greyish-coloured rocks of the Matterhorn are made out of African crust which has been thrusted onto the Eurasian Plate. Many of the reddish-coloured, streaky looking rocks in the foreground are highly deformed ophiolitic rocks, made of a slice of the ocean floor which has also be obducted northwards onto the Eurasian Plate as Italy collided with Europe."
+      },
+      "group": "Continent-Continent Convergence"
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/carcrash.png",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": "",
+      "display_date": "_____"
+    },
+    "text": {
+      "headline": "Convergent Boundaries",
+      "text": "Convergent margins are places where two plates collide."
+    },
+    "group": ""
+  }
+}

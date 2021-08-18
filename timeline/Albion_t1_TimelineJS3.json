@@ -1,0 +1,219 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class=\"embed-container\"><iframe width=\"500\" height=\"400\" frameborder=\"0\" scrolling=\"no\" marginheight=\"0\" marginwidth=\"0\" title=\"Albion Falls VR Map\" src=\"//www.arcgis.com/apps/Embed/index.html?webmap=63a7333b636c4caf9d9403d4f3cf65a3&extent=-79.8204,43.2,-79.8179,43.2014&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=light\"></iframe></div>",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "1",
+        "month": "",
+        "day": "",
+        "display_date": "</>"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Location and Overview Map",
+        "text": "Albion Falls is located along the Niagara Escarpment in the City of Hamilton (Ontario). Similar to the Niagara River (Niagara Gorge), the Red Hill Creek carved its way through the Escarpment rocks for thousands of years and by doing so it formed the Albion Falls waterfall. Note on the accompanying map the location of the sections that we will be investigating. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/S28_450MLaurentia.jpg",
+        "credit": "Paleogeographic Map - After Ron Blakey",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "2",
+        "month": "",
+        "day": "",
+        "display_date": "</>"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "North America during the Paleozoic",
+        "text": "Between about 500 million years ago and 350 million years ago, central North America (Laurentia) was a low-relief surface \nlocated variably at or below sea level. Shallow seas covered the continent and sedimentary rocks were deposited in \nsubhorizontal layers upon the ancient Precambrian basement rocks. This is a fairly calm period with little tectonic activity. \nThe Appalachian Mountains formed during the Taconic mountain building phase (Ordovician) to the east were wearing down and as a \nresult, less sediment was being produced. Sedimentary systems started to deliver increasingly finer sediment to the \nNiagara region, and eventually, the waters cleared up, resulting in the production of limestones in the shallow marine waters. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/perspective_albion.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "3",
+        "month": "",
+        "day": "",
+        "display_date": "</>"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Geology of Southern Ontario",
+        "text": "Only minor deformation processes of the later mountain building phase of the Appalachians affected \nthe Paleozoic sedimentary cover, so that the rocks varying from Cambrian to Devonian in age are still subhorizontal today. The preservation of the depositional layer geometry (see geologic map of Southern\nOntario) limits exposure of the Southern Ontario stratigraphy (rock layers) to the vertical cliffs of the \nNiagara Escarpment or river incisions and related water falls areas (see photos of Escarpment cliffs). \nThese fairly flat-lying stack of sedimentary rocks is also known as the Paleozoic Platform.<br><br><b> Click on the rock formation names in the interactive Stratigraphic Column figure on the next page to find out more about the rocks of the Niagara Escarpment. \n"
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vTV3ZvdbxKGb6jwV2hscEkZ4ytfJTC4WvwhCZ8Jyg50-4z2ml-ztAWat-PeL1P9H5R-Mx2nDyoShrDm/embed?start=false&loop=false&delayms=60000\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "credit": "",
+        "caption": "Please go through the slideshow above to explore the full Paleozoic stratigraphy of the Albion Falls section.",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "4",
+        "month": "",
+        "day": "",
+        "display_date": "</>"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Stratigraphy of Niagara Escarpment",
+        "text": ""
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Stratigraphy.jpg",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "5",
+        "month": "",
+        "day": "",
+        "display_date": "</>"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Information on erodibility and stratigraphic profiles",
+        "text": "Certain rock types erode easier or less easily than others. \nVariation in erodibility of rock types is easily observed in vertical profiles (cliff faces) where rock units are exposed. \nHere we limit our interpretation to sedimentary rocks: \n1. Beds made up of harder rock types such as dolostones are usually less easily eroded and therefore stick out or the vertical cliff. \n2. Beds made up of weaker rock types (e.g. fissile shales) usually are eroded easier and therefore show a retreat of the cliff face or sloping surface due to loose material build up. \n"
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "6",
+        "month": "",
+        "day": "",
+        "display_date": "</>"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Navigation",
+        "text": "<br><br>The virtual field trip for Albion Falls is composed of four 360\u00c2\u00b0 images (locations) and numerous close-up photographs. You can navigate from one location to the next by clicking on the white arrows. When hovering over an arrow a site label will appear. \n<br><br>The field trip begins at the \"Falls View\" location at which you can test navigating by using your mouse (to turn or tilt up/down: click with left mouse button and drag, to zoom in/out: use scroll wheel). \n<br><br>At each location white highlighted \"i\" points of interest will enable you to view either informative text or examine the rock layers more closely by providing you close-up photographs of the rock layers, fossils or sediment structures. \n<br><br>To make sure all \"i\" points of interest are visited at each location, you may want to zoom out a bit and slowly rotate 360 degrees. This will enable you to get a full picture of the geology of Albion Falls.  "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "7",
+        "month": "",
+        "day": "",
+        "display_date": "</>"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Instructions",
+        "text": "<br><br>After this short test, proceed to the first outcrop by turning to the right until you find a white arrow that leads you \"To Gorge Stratigraphy\" (= Part of the North Cliff of Albion Falls). \n<br><br>After reviewing the stratigraphy of Albion Falls, navigate to \"To North Cliff\" and answer all questions for this location in your asignment sheet. Then proceed to \"To Upper Beds\" (to the left). After this, head back to the \"Falls View\" and examine the \"East Cliff\" (lower part) and (upper part). Finally, inspect the rocks right at the bottom of the falls (\"Falls View\" - lower left  of water fall). \n<br><br>To indicate which tasks belong to each location, labels per locations are provided: \n<br><br>A = North Cliff\n<br><br>B = Upper Beds\n<br><br>C = East Cliff - Lower Part\n<br><br>D = East Cliff - Upper Part\n<br><br>E = Bottom of Waterfall. "
+      },
+      "group": ""
+    },
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/Albion.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>",
+        "credit": "",
+        "caption": "",
+        "thumbnail": ""
+      },
+      "start_date": {
+        "year": "8",
+        "month": "",
+        "day": "",
+        "display_date": "</>"
+      },
+      "end_date": {
+        "year": "",
+        "month": "",
+        "day": ""
+      },
+      "text": {
+        "headline": "Virtual Field Trip",
+        "text": ""
+      },
+      "group": ""
+    }
+  ],
+  "title": {
+    "media": {
+      "url": "<iframe width=\"1686\" height=\"739\" src=\"https://www.youtube.com/embed/d6RsW_qoZRU\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>",
+      "credit": "",
+      "caption": "",
+      "thumbnail": ""
+    },
+    "start_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "end_date": {
+      "year": "",
+      "month": "",
+      "day": ""
+    },
+    "text": {
+      "headline": "Albion Falls",
+      "text": "Welcome to Albion Falls! In this virtual field trip, we will explore the geology of the Niagara Escarpment at one of the most popular waterfalls in the City of Hamilton. You will have an opportunity to investigate real sedimentary rocks and support your conclusions using the available geologic evidence. \n<br><br>\n<b> Learning Objectives: </b>\n<br><br>1. Describe and classify basic sedimentary rocks, sedimentary structures and fossils using real-world examples.\n<br><br>2. Draw conclusions about the age, identity, and conditions under which these rocks were deposited. \n<br><br>3. Summarize the main events of environmental change during the Silurian of Southern Ontario.\n<br><br> \n<b> Assignment: </b>\n<br><br> Navigate the following pages and use the given information plus (lab) hand samples to answer the following questions. Additionally, you are requested to keep a field notebook."
+    },
+    "group": ""
+  }
+}
