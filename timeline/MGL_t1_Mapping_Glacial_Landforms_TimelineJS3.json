@@ -1,0 +1,115 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Introduction", 
+        "text": "Glacial landforms, as the legacy of the far reaching Laurentide and Cordilleran Ice Sheets, are an important component of the Canadian landscape today. Our cities and roads are built upon them, much of our groundwater is either pumped out of or travels through them, and they are the source for many construction materials. Mapping glacial landforms can help to inform us about how the ice sheets operated, and in turn, form the basis of powerful predictive models for how modern ice sheets may react in response to climate change. Surprisingly, until quite recent technologic developments, mapping could only be done either for very small areas, or on quite a coarse scale. Initially, landforms were identified and measured primarily through field surveying. Later, they could be manually mapped in remote areas from air photo. Stereoscopic air photo pairs were particularly useful because by looking at two overlapping air photos, a 3-dimensional image of the landscape appears. Such a process is time consuming and very expensive.  With the advent of more sophisticated digital remote sensing techniques, often from satellite, collecting and distributing large datasets has become easier, and the resolution of data is improving all the time.  "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Lidar", 
+        "text": "how it works, type of image achieved"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Geophysics", 
+        "text": "showcase Andrews Data"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Case study: analysing lidar data", 
+        "text": "Shane probably has something here already..."
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/IceExtraBack23.jpg"
+    }, 
+    "text": {
+      "headline": "Mapping Glacial Landforms", 
+      "text": "<b> Learning Objectives: </b>\n<br><br>1.  \n<br><br>2. \n<br><br>3.  Interpret a lidar data set. "
+    }
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/GL_1.html#7/47.602/-87.242\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Lower case prefixes like \"l\", \"m\", \"u\" = lower, middle, upper refer to stratigraphic position within each period. Upper case letters are as follows: W=Archean, X=Middle Proterozoic, Y=Late Proterozoic, C=Cambrian, O=Ordovician, S=Silurian, D=Devonian, P = Pennsylvanian (lower Carboniferous), M= Mississippian (upper Carboniferous). Two uppercase letters indicates a range e.g. OD = Ordovician to Devonian. Lowercase suffixes indicate general lithology. Some common ones are: v=volcanic, s=sedimentary, cb=carbonate, e=evaporite, f=felsic, m=mafic, i=intermediate, d=diabase. To see the full legend, click <a href src= \"https://planetearth.utsc.utoronto.ca/timeline/content/OGL_gmna_Explanation.jpg>here</a)."
+      }, 
+      "group": "Basin Formation", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "-1000000000"
+      }, 
+      "text": {
+        "headline": "The Mid-Continent Rift and Lake Superior", 
+        "text": "Lake Superior occupies the hollowed-out remains of an ancient rift basin that was active around 1.1 billion years ago, known alternatively as the Mid Continent Rift (MCR) or the Keweenan Rift. At this time, the Grenville Orogeny was happening to the east, and tectonic stresses were immense. A mantle plume under North America weakened the crust to form the Great Lakes Tectonic Zone which was essential a giant triple junction stretching over 3000 kilometers. Near what is now the Lake Superior Basin, this newly weakened crust coincided with a pre-existing structural zone known as the Animikie Basin (about 2.5-1.8 billion years old). The Animikie Basin was filled with an older (about 2.5-1.8 billion-year old) sedimentary rocks, which were subsequently faulted, and overlain by sedimentary and volcanic rocks related to MCR rifting. Riverine and glacial erosion exploited the structural weakness and comparably soft lithologies of these rocks to carve out the basin in which Lake Superior currently resides. \n<br><br>\nIn the accompanying map, examine the structural trends and geology surrounding the western edge of Lake Superior. How does the shape of the lake compare with these trends?  \n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/vfs/cascade/ogl_vf1.html\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Virtual Field Trips", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-1000000000"
+      }, 
+      "text": {
+        "headline": "VFT: Rocks of the Lake Superior Basin", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/MCR_Gravity_Map.png", 
+        "credit": "Stein et al., 2014.", 
+        "thumbnail": "", 
+        "caption": "Light grey regions are Grenville inliers."
+      }, 
+      "group": "Geophysics", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-1000000000"
+      }, 
+      "text": {
+        "headline": "Imaging the MCR", 
+        "text": "Gravitational anomalies often reveal deep seated buried structures where rocks have differing thickness or densities. Mafic rocks like basalt have very high gravitational pull (measured in milli-gals, mGal), while sedimentary rocks have very low pull. The linear trend of low-high-low shows a wide sedimentary basin with a heavy dense core of basaltic volcanics.  This gravity map reveals the extent of the Mid Continent Rift (MCR) and other sub-rift systems. Yet, it is only in the Lake Superior Region that we observe a significant topographic expression. Why do you suppose that is (Hint: what happened during the Pleistocene)?  \n<br><br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/OGL_LkSuperiorxsection.jpg\">\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/GL_1.html#7/43.692/-84.902\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Lower case prefixes like \"l\", \"m\", \"u\" = lower, middle, upper refer to stratigraphic position within each period. Upper case letters are as follows: W=Archean, X=Middle Proterozoic, Y=Late Proterozoic, C=Cambrian, O=Ordovician, S=Silurian, D=Devonian, P = Pennsylvanian (lower Carboniferous), M= Mississippian (upper Carboniferous). Two uppercase letters indicates a range e.g. OD = Ordovician to Devonian. Lowercase suffixes indicate general lithology. Some common ones are: v=volcanic, s=sedimentary, cb=carbonate, e=evaporite, f=felsic, m=mafic, i=intermediate, d=diabase. To see the full legend, click <a href src= \"https://planetearth.utsc.utoronto.ca/timeline/content/OGL_gmna_Explanation.jpg>here</a)."
+      }, 
+      "group": "Basin Formation", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "-400000000"
+      }, 
+      "text": {
+        "headline": "The Michigan Basin and Lakes Michigan and Huron", 
+        "text": "Following the turbulence of the Grenville Orogeny which has largely ceased by about 950 million years ago, and several hundred millions of years of denudation, North America returned to a fairly gentle rolling topography. Global sea level rise near the beginning of the Cambrian allowed shallow seaways to cover the Precambrian core of the continent. The Great Lakes region was now in a fairly central location and thus sheltered from tectonic activity going at at the edges of the continent and was covered with fairly simple layer-cake like stratigraphy of sedimentary rocks, each recording shifting depositional environments like beach faces, carbonate reefs, deltas, and evaporitic seas. However, even though the area wasn't directly affected by tectonism, it was still subject to gentle warping in the crust known as dynamic topography. Broad areas of uplift and subsidence occurred in response to convection in the mantle. The Michigan Basin was an area of subsidence. As environments shifted, sediment filled a deepening bowl-like structure that ultimately bended all rock layers towards the centre. The resulting 'bulls-eye' like structure is seen in the accompanying geological map. Some of these rock layers are softer than others. Particularly, Silurian and Devonian layers contain a lot of evapourites and softer limestone muds that were particularly susceptible to erosion. The curvilinear trends of Lake Michigan, Lake Huron, and southern Lake Erie reflect these trends. \n<br><br><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/OGL_michiganbasinxsection.JPG\">\n<br><br><iframe src=\"https://www.youtube.com/embed/2kn_lHf6av0\"></iframe>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/vfs/cascade/ogl_vf2.html\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Virtual Field Trips", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-400000000"
+      }, 
+      "text": {
+        "headline": "VFT: The Michigan Basin", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/GL_1.html#7/42.224/-78.481\"</iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Lower case prefixes like \"l\", \"m\", \"u\" = lower, middle, upper refer to stratigraphic position within each period. Upper case letters are as follows: W=Archean, X=Mesoproterozoic, Y=Neoproterozoic, C=Cambrian, O=Ordovician, S=Silurian, D=Devonian, P = Pennsylvanian (lower Carboniferous), M= Mississippian (upper Carboniferous). Two uppercase letters indicates a range e.g. OD = Ordovician to Devonian. Lowercase suffixes indicate general lithology. Some common ones are: v=volcanic, s=sedimentary, cb=carbonate, e=evaporite, f=felsic, m=mafic, i=intermediate, d=diabase. To see the full legend, click <a href src= \"https://planetearth.utsc.utoronto.ca/timeline/content/OGL_gmna_Explanation.jpg>here</a)."
+      }, 
+      "group": "Basin Formation", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "-150000000"
+      }, 
+      "text": {
+        "headline": "The St. Lawrence Rift and Lakes Erie and Ontario ", 
+        "text": "Lakes Erie and Ontario lie along the structural trend of the St. Lawrence Rift System, but that system itself follows the trend of a variety of earlier structures including Precambrian rift valleys related to the breakup of Rodinia, and the Appalachian foreland basin. Ordovician to Devonian sedimentary rocks of the Paleozoic Platform increase in thickness towards the southeast, and again towards the Michigan Basin, leaving Lakes Erie and Lake Ontario on a thin 'arch' in between, called the Findley-Algonquin Arch. The area was probably buried by a further 2000-3000 m of sedimentary rocks that have since been removed by erosion. The Mesozoic rifting of Pangea opened up the 2200 km-long St. Lawrence Rift System, in some places by reactivating faults which may have been active since Neoproterozoic breakup of the Supercontinent Rodinia. This complex and drawn-out history resulted in weakening of the crust that was exploited by glacial ice, and that persists to this day in the form of seismogenic activity.\n<br><br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/OGL_LakeOntarioxsection.JPG\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OGL_sglzone.jpg", 
+        "credit": "background image with seismic data from <a href=\"https://www.seismescanada.rncan.gc.ca/zones/eastcan-en.php\"> NRC </a>", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Geophysics", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-150000000"
+      }, 
+      "text": {
+        "headline": "The Great Lakes Seismic Zone", 
+        "text": "The deep structure of Lake Ontario and Lake Erie basins remains elusive and difficult to define, however, some specific structures have been identified and the area remains weakly seismogenic as shown in the accompanying figure. The Hamilton-Presqu'ile Fault (HPF) is a linear magnetic anomaly that extends beneath Lake Ontario in an east-northeast direction and traces the contour of greatest depth in the western end of Lake Ontario. \n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/OGL_summaryfigure.jpg\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OGL_mapofbedrockchannels.JPG", 
+        "credit": "Eyles, N., Boyce, J. & Mohajer, A. A. (1993). The Bedrock Surface of the Western\nLake Ontario Region: Evidence of Reactivated Basement Structures?\nG\u00e9ographie physique et Quaternaire, 47 (3), 269\u2013283.\nhttps://doi.org/10.7202/032957ar", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Basin Formation", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-10000000"
+      }, 
+      "text": {
+        "headline": "Pre-glacial Regolith and Fluvial Incision", 
+        "text": "Between the Breakup of Pangea and the Quaternary Glaciations, central North America was subject to a long period of stability. During this time, the landscape was chemically and mechanically weathered, causing a thick <b>regolith</b> to form on the upper crust. Siliciclastic rocks were weathered to saprolite, and carbonate rocks were subjected to dissolution and formation of karst topography. Most of the saprolite however was removed by glaciation. In the Great Lakes Region, a proto-St. Lawrence waterway called the Laurentian River System wound its way through each Great Lakes basin, cutting a series of v-shaped gorges to follow the pre-existing structures and lithological boundaries (i.e. soft rock units). Though the pathway of the Laurentian River System was similar to today's route, a channel called the Laurentian Channel connected the Georgian Bay directly to Lake Ontario. Ultimately, it was glacial scouring that was able to overdeepen the lake basins by exploiting the pre-existing drainage systems. \n<br><br>\nBut how do we know anything about these ancient riverine channels, cut into bedrock? They can be traced by looking at data from thousands of water wells drilled into bedrock, which is how the accompanying map was constructed. We also have means of geophysically detecting the thickness of overburden (glacial sediments) to get an image of the topography of the bedrock surface. Note how the rivers all flow into the Great Lakes.\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/OGL_Preglacialriver.JPG\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OGL_RochesterDrumlins.JPG", 
+        "credit": "Rock drumlins on the floor of the Rochester Basin of Lake Ontario", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Basin Formation", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-18000"
+      }, 
+      "text": {
+        "headline": "The Most Recent Ice Lobes", 
+        "text": "Although it's clear that rivers were traversing the Great Lake basins for millions of years before the start of the glaciations, river systems always try to grade the landscape down towards an equilibrium gradient that ends at sea level. Each of the Great Lakes, with the exception of Lake Erie have their deepest points between 50 m and 200 m below sea level, which could not be done by fluvial incision alone. When high frequency glaciation of the Pleistocene began, the ice sheets exploited preexisting river valleys. Moreover, these valleys, filled with soft, erodible sediment, often focussed and accelerated ice flow, thereby increasing their erosive power. In the Rochester Basin for example, which is the deepest part of Lake Ontario, ice cut down to Grenville Basement to carve rock drumlins on the lake floor. \n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure14A.jpg\">\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure14B.jpg\">"
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OGL_structures.jpg", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OGLBack1.jpg"
+    }, 
+    "text": {
+      "headline": "Origins of the Great Lakes", 
+      "text": "The Great Lakes as we know them today were filled around 12,000 years ago as the last ice receded. However, the basins which they occupy each have a protracted history, some stretching back over a billion years. This is a fundamental theme of geology: the same structures and processes are re-used over and over again. In this module, we will examine what factors lead to the formation of the Great Lakes.<br><br>\n<b> Learning Objectives: </b>\n<br><br>1. Outline the geological events that contributed to the formation of each of the Great Lakes. \n<br><br>2. Describe the factors that lead to enhanced erosion by glacial ice.\n"
+    }
+  }
+}

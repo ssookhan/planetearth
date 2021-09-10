@@ -18,7 +18,7 @@
 
 
 
-body,h2,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
 body, html {
   height: 100%;
   color: #777;
@@ -27,7 +27,7 @@ body, html {
 }
 
 body,p,h1,h3 {color: black;}
-body {font-family: Verdana, sans-serif; margin:0}
+
 
 .grid-item {
   width: 33%;
@@ -71,21 +71,21 @@ body {font-family: Verdana, sans-serif; margin:0}
     <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
       <i class="fa fa-bars"></i>
     </a>
-    <a href="/lab.html" class="w3-bar-item w3-button">HOME</a>
-    <a href="/lab.html#news" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS</a>
-    <a href="/lab.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
-    <a href="/lab.html#people" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> PEOPLE</a>
-    <a href="/lab.html#publications" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> PUBLICATIONS</a>
-    <a href="/lab.html#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-binoculars"></i> RESOURCES</a>
+    <a href="/#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="/news" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS</a>
+    <a href="/#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="/#people" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> PEOPLE</a>
+    <a href="/#publications" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> PUBLICATIONS</a>
+    <a href="/#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-binoculars"></i> RESOURCES</a>
   </div>
 
   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="/lab.html#news" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
-    <a href="/lab.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
-    <a href="/lab.html#people" class="w3-bar-item w3-button" onclick="toggleFunction()">PEOPLE</a>
-    <a href="/lab.html#publications" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
-    <a href="/lab.html#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+    <a href="/news" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
+    <a href="/#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="/#people" class="w3-bar-item w3-button" onclick="toggleFunction()">PEOPLE</a>
+    <a href="/#publications" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
+    <a href="/#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
   </div>
 </div>
 
@@ -109,7 +109,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 <br>
   <button data-name='*' >All Stories</button>
   <button data-name='.glacial' >Glacial Geology</button>
-  <button data-name='.sed' >Sedimentology</button>
+  <button data-name='.ont' >Geology of Ontario</button>
   <button data-name='.campus' >Around the Campus</button>
   <button data-name='.teach' >Teaching Initiatives</button>
   
@@ -122,10 +122,25 @@ body {font-family: Verdana, sans-serif; margin:0}
 
 
 <div class="grid">
+  <div class= 'grid-item rocksandminerals ont'>
+    <a href="victoriaroad.html"><img class="image" src="/news/images/victoriaroad_banner.jpg" style="width:100%;"></a>
+    <h3>Road of Broken Dreams: Victoria Road</h3>
+      <p class="w3-center">by <a href="/#andrew-zajch">Andrew Zajch</a>, 9/3/2021</p>
+    <p>Victoria Road is one of the many colonization roads that dot the southern periphery of the Canadian Shield (Figure 1). These roads demonstrate the will to utilize the wilderness surrounding Georgian Bay for agriculture and settlement.  Unfortunately, the high basement rock and lack of soil across the region made it... <a href="victoriaroad.html"> Read More</a></p>
+  </div>
+
+  <div class= 'grid-item rocksandminerals campus'>
+    <a href="seismic.html"><img class="image" src="/news/images/seismic_banner.jpg" style="width:100%;"></a>
+    <h3>Seismic Surveying in the Valley</h3>
+    <p class="w3-center">by <a href="/#andrew-zajch">Andrew Zajch</a>, 9/3/2021</p>
+    <p>On July 30th members of the lab assisted lab technicians with the testing of seismic surveying equipment in the UTSC valley. This was in preparation for the upcoming course <b>Exploration Geophysics (EESB21H3)</b> offered this upcoming fall semester at UTSC. Seismic surveying is an example of geophysical methods that... <a href="seismic.html"> Read More</a></p>
+  </div>
+
   <div class= 'grid-item rocksandminerals glacial'>
     <a href="odessa.html"><img class="image" src="/news/images/odessa_banner.jpg" style="width:100%;"></a>
     <h3>Getting Groovy with Mega Grooves</h3>
-    <p>So what are mega grooves? They are grooves carved into the bedrock recording the velocity and direction of past ice flows. As ice flows it collects subglacial materials forming an erosive underbelly capable of carving into the bedrock analogous to sandpaper scraping across a surface. The remnants of this process provide valuable... <a href="odessa.html">Read More</a></p></p>
+    <p class="w3-center">by <a href="/#andrew-zajch">Andrew Zajch</a>, 8/31/2021</p>
+    <p>So what are mega grooves? They are grooves carved into the bedrock recording the velocity and direction of past ice flows. As ice flows it collects subglacial materials forming an erosive underbelly capable of carving into the bedrock analogous to sandpaper scraping across a surface. The remnants of this process... <a href="odessa.html">Read More</a></p>
   </div>
 
 
@@ -133,20 +148,18 @@ body {font-family: Verdana, sans-serif; margin:0}
   <div class= 'grid-item rocksandminerals teach'>
     <a href="https://www.utoronto.ca/news/geology-pharmacy-u-t-experts-receive-18-million-advance-virtual-learning"><img class="image" src="/news/images/geo_to_pharm.jpg" style="width:100%;"></a>
     <h3>U of T News: From geology to pharmacy</h3>
-    <p>Long before the COVID-19 pandemic put a halt on travel and field trips, the University of Toronto geologist grappled with how to expose large numbers of students – particularly undergraduates taking introductory courses – to landscapes and environments, past and present, around the world. He ultimately found a solution in... <a href="https://www.utoronto.ca/news/geology-pharmacy-u-t-experts-receive-18-million-advance-virtual-learning">Read More</a></p></p>
+    <p class="w3-center">by <a href="https://www.utoronto.ca/news/authors-reporters/rahul-kalvapalle">Rahul Kalvapalle</a>, 8/9/2021</p>
+    <p>Long before the COVID-19 pandemic put a halt on travel and field trips, the University of Toronto geologist grappled with how to expose large numbers of students – particularly undergraduates taking introductory courses – to landscapes and environments, past and present, around the world. He ultimately found a solution in... <a href="https://www.utoronto.ca/news/geology-pharmacy-u-t-experts-receive-18-million-advance-virtual-learning">Read More</a></p>
   </div>
 
 
 
   <div class= 'grid-item rocksandminerals teach'>
     <a href="https://www.utoronto.ca/news/virtual-field-trips-digital-labs-and-global-colleagues-u-t-students-explore-world-fall"><img class="image" src="/news/images/virtfield.jpg" style="width:100%;"></a>
-    <h3>U of T News: Virtual field trips, digital labs...</h3>
-    <p>Virtual field trips that take geology students from the Bonnechere Caves to Potholes Provincial Park, Niagara Falls and Halfway Log Dump Bay. Digital labs that allow biomedical engineering students to observe their experiments at a nano-level. And partnerships with students in Mexico that explore the impact of COVID-19 on food security... <a href="https://www.utoronto.ca/news/virtual-field-trips-digital-labs-and-global-colleagues-u-t-students-explore-world-fall">Read More</a></p></p>
+    <h3>U of T News: Virtual field trips...</h3>
+    <p class="w3-center">by <a href="https://www.utoronto.ca/news/authors-reporters/geoffrey-vendeville">Geoffrey Vendeville</a>, 7/27/2021</p>
+    <p>Virtual field trips that take geology students from the Bonnechere Caves to Potholes Provincial Park, Niagara Falls and Halfway Log Dump Bay. Digital labs that allow biomedical engineering students to observe their experiments at a nano-level. And partnerships with students in Mexico that explore the impact of COVID-19 on food security... <a href="https://www.utoronto.ca/news/virtual-field-trips-digital-labs-and-global-colleagues-u-t-students-explore-world-fall">Read More</a></p>
   </div>
-
-
-
-
 
 
 

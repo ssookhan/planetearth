@@ -1,0 +1,326 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SrETS4XUPNQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Law of Superposition", 
+        "text": "The Law of Superposition describes how younger rocks are deposited on top of older rocks. This is a simple, intuitive, but useful statement. A more formal statement of the Law of Superposition is that in an undeformed conformable sequence of sedimentary rocks, the oldest strata will be at the bottom of the sequence while the youngest strata will be on top. For the case of deformed rocks, it is important to determine which way is \"up\" in order to determine the direction of \"younging\". \n<br><br> On the next slide, we will take a look at the Paleozoic stratigraphy of Niagara Gorge. This is a gorgeous example of the Law of Superposition: rocks at the top of the succession are younger than  those at the bottom. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/POG_SuperpositionNiagara.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Niagara Gorge", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"1132\" height=\"646\" src=\"https://www.youtube.com/embed/BWOGmk7zd8E\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Law of Original Horizontality", 
+        "text": "The Law of Original Horizontality describes the tendency for sedimentary rocks to be deposited in a flat-lying position because gravity is constantly pulling material towards the centre of the Earth. This rule must be applied with caution, and works best when applied to sedimentary rocks where the depositional setting is moderately understood. It can also be applied (with caution) to some other rock types like lava which tends to pool.  Deviations from horizontal can be a product of the deposition on a slope, but is usually attributed to deformation like folding, faulting, uplift and subsidence. \n<br><br>\nOn the next slide, you will be taken to an outcrop of strata near Desbarats, Ontario. These rocks are no longer in a horizontal position, but by looking for evidence for \"younging\" you will be able to determine in what position the rocks where originally deposited."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/POG_HorizontalityDesbarats.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Desbarat Strata", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"1903\" height=\"768\" src=\"https://www.youtube.com/embed/Oar-eJ7wQvc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Law of Lateral Continuity", 
+        "text": "The principle of Lateral Continuity describes how layers of strata extend once extended laterally in all directions, even if some feature now cuts between them. Such features include erosional structures, dikes, sills, and fault, which themselves can be assumed to be continuous unless otherwise demonstrated. However, please note that although this is a good rule of thumb for simple systems, layers of sediment and geological bodies do not in reality extend indefinitely: they can thicken or thin, or abut against and obstacles. \n<br><br>\nOn the next slide, you will be taken to a roadcut on Highway 6, near Whitefish Falls Ontario where certain geological features can be correlated across the road. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/POG_LateralWhitefish.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Highway 6 Dike", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/EgH41EQAu88\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Unconformities", 
+        "text": "Unconformities are surfaces of erosion that result in 'gaps' in observed time. There are several types of unconfomity to distinguish between contacts between different types of rocks. \n<br><br>\n<b>Nonconformity:</b> Discontinuity between two different rock types such as igneous and sedimentary or metamorphic and sedimentary.\n<br><br>\n<b>Disconformity:</b>Discontinuity between fairly parallel sedimentary layers. This could be caused by either periods of erosion or non-deposition. \n<br><br>\n<b>Angular Unconformity:</b>Discontinuity where the older layers have been tilted and eroded before deposition of the younger layers. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/POG_GreatUnconformity.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "The Great Unconformity at Burleigh Falls", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/POG_fossilstrat.JPG", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Principle of Faunal Succession", 
+        "text": "The Principle of Faunal Succession is the premise that because life has evolved over time, sedimentary rock strata containing fossilized remains preserve the fossils from the time of deposition, and these fossils can be used for correlation over wide horizontal distances. For example if two outcrops have a similar fossil assemblage, then they may be a similar age. Because we know quite a bit about the branches of evolution, it is often possible to date a given fossiliferous outcrop by the assemblage held within. This is the basis for <b>biostratigraphy:</b>  the practise of correlating units by fossil assemblage.  \n<br><br>\nOn the next slide, we will look at an outcrop of fossiliferous limestone from the Port Colborne Quarry in Ontario. In this trip, we will provide you with a simplified guide to what the distribution of fossils throughout geologic time. By comparing this list to the fossils actually found at Port Colborne, you will be able to determine a rough estimate for how old these rocks are. This is a common application of the Principle of Faunal Succession.   \n<br><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_biostrat.JPG\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/POG_FaunalColborne.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "The Port Colborne Quarry", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/POG_inclusionsandintrusions.JPG", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Law of Inclusion and Intrusion", 
+        "text": "The Law of Inclusion describes how in order for one thing to be within, or to be 'included' in another, it must first exist. Conglomerates are the perfect example. Every clast within a conglomerate comes from a pre-existing rock type. Intrusions are the opposite where one body (usually magma, but sediment can also do this) pushes into another, but it's a similar principle. Often, the magma body includes chunks of the host rock.\n<br><br>\nOn the following slide, we visit a roadside outcrop near Kama Bay, Ontario. One rock type has either intruded into or has been included within the other - you decide! "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/POG_InclusionKama.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Kama Bay Roadcut", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Principle of Cross-Cutting Relationships", 
+        "text": "The Principle of Cross-Cutting Relationships says that when two geologic features intersect, the one that cuts across is younger than the one that is interupted. This goes for igneous intrusions like sills, dikes, and plutons, faults, unconformities, metamorphism, and sedimentary strata. \n<br><br>\nOn the next slide, you will have a chance to see an excellent example of a cross cutting relationship from an outcrop on Highway 400 near Perry Sound."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/POG_XcuttingParry.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Grenville Gneisses near Parry Sound", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/POG_reldatingexample.JPG", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "Putting it together: Relative Dating", 
+        "text": "The primary goal of these concepts is to understand the order in which things happen, and therefore, the relationship between different events. This is the application of <b>Relative Dating</b>. We can often make far more progress by simply understanding whether one thing is older or younger than another than by actually finding an <b>absolute</b> or numeric date.\n<br><br> Take this example: Layers A, B, C, D, and E were deposited, presumable in a horizontal orientation. Unit F is a dike. We do not know for sure whether the dike was intruded through units A to E before they were tilted, or after, but both the intrusion and the tilting happened prior to the cutting of the angular unconformity. Units G, H, I, J, K, L were then deposited. Magma M intruded the lower package as a pluton, with dikes shooting up to unit L (and possibly beyond). A second unconformity was cut as a disconformity. Units N and O fill the topography cut on that surface. \n<br><br>\nOn the next slide, there is a virtual outcrop where we can accomplish a similar synthesis. Your task will be to figure out what the order of events were at this site. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/POG_Synthesis.html\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "Virtual synthesis: Order the Events", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "text": {
+      "headline": "Principles of Geology", 
+      "text": "The principles of geology are a set of intuitive rules of thumb that allow us to understand how the rock record relates to geologic time. Determining the order of events, even if we don't know an exact age, is called relative dating. The principles of geology describe how we might know if one event happened before or after another event. Although often referred to as \"rules,\" \"laws,\" or \"principles,\" geology is always an interpretive science and each law may have exceptions. \n<br><br>\n<b> Learning Objectives: </b>\n<br><br>1. Understand each of the basic Principles of Geology.\n<br><br>2. Apply each principle to a real-world example.\n<br><br>3. Use the principles to date the relative order of a sequence of events."
+    }
+  }
+}

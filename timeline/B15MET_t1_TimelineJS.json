@@ -1,0 +1,192 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_MetaIndexMin.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Why does metamorphism occur?", 
+        "text": "<br>All minerals are 'stable' under the specific range of pressure, temperature, and chemical conditions under which they formed. When those conditions change, minerals become unstable and may begin to change or breakdown. The crystal lattice could change shape to become more stable, or elements could be added to or removed from the lattice. This process is called metamorphism.<br><br>\n\nIn the figure on the left, we see the natural range for a number of metamorphic minerals. These 'index' minerals, if found tell us about the degree of metamorphism, or, the temperature and pressure conditions reached. <br><br>We've seen some of these minerals before, like muscovite, and biotite. Garnet is a very important metamorphic mineral:<br><br>\n<img src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/images/aa5.png\">\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_MetaFacies.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Metamorphism Facies and Tectonic Setting", 
+        "text": "A metamorphic 'facies' is a collection of minerals that have formed at a similar pressure and temperature range. Metamorphism tends to occur at different pressure-temperature ranges in different tectonic settings (see figure on the left). 'Pressure' is a function of depth and directed pressure for example due to tectonic plate collision, so high pressure assemblages formed at higher depths and/or plate collision. <br><br><b>Contact metamorphism</b> happens when rocks are heated by the presence of a nearby intrusion (location b in the figure below). Most intrusions happen at convergent boundaries where subducting slabs promote melting and the creation of large magma chambers that migrate upwards into the mid to shallow crust, or even erupting at surface as magma. <br><br>Collisional zones, particularly those between two pieces of continental crust are prone to <b>regional metamorphism</b>, which occurs due to large-scale folding and faulting, and thickening of the crust, bringing shallow rocks to depth. See locations \"a\" and \"e\" in the figure below.<br><br></b>Hydrothermal metamorphism happens anywhere large amounts of fluids circulate through the crust, particularly at s at mid ocean ridges which are highly fractured and heated by thin crust. <br><br>Rocks in oceanic crust subducting into the mantle due to tectonic plate convergence (location c on the figure below) experience the highest pressures of <b>subduction zone metamorphism</b>.<br><br>The diagram on the left shows the different pressure and temperature conditions that rocks undergo during the three main types of metamorphism: <b>Line A: Contact Metamorphism, Line B: Regional Metamorphism</b> and <b>Line C: Subduction Zone Metamorphism</b>.<br> The colored sections of the diagram are labeled with the metamorphic facies for certain pressure/temperature conditions along these three paths. Each section is named after an index mineral or rock type that would only form under these certain conditions (ranges in temperature and/or pressure). \n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_meta_locations.png\">\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Regional Metamorphism", 
+        "text": "Regional metamorphism occurs over a large region, when rocks are buried deep in the crust and/or subjected to a tectonic stress. This is commonly associated with convergent plate boundaries and orogenies. The presence of a stress field is significant, and these rocks are prone to developing more pronounced foliations with increasing stess. For this type of metamorphism, <b> heat </b> and <b> pressure </b> work together. As pressure increases with depth, so too does temperature. Rocks deeper underneath a mountain belt are more metamorphosed than those higher up. As an example, let's look at the Grenville Province in Ontario. Click on the 'Great Gneiss Road' in the adjoining to learn about the  metamorphism that occurred during the Grenville Orogeny:\n<br> <iframe src=\"https://planetrocks.utsc.utoronto.ca/map/#13/45.2426/-79.8160\" width=\"100%\" height=\"500\" style=\"border:0;\" allowfullscreen=\"\"></iframe>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1599924117067!6m8!1m7!1sP1yjQ7VbZvOC0cUZpBJhog!2m2!1d44.95740208289021!2d-77.74975522349534!3f77.08579137442067!4f5.64170236074186!5f1.2365198651201466\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Contact Metamorphism", 
+        "text": "Contact metamorphism is a type of metamorphism that occurs adjacent to intrusive igneous rocks due to temperature increases resulting from hot magma intrusion into the rock. The metamorphosed zone is known as the metamorphic aureole. The grade of metamorphism is influenced by the temperature of the magma and character of the country rock. Contact metamorphism can produce both near-field effects, within a few centimeters, and far-field effects. In this example, dikes have intruded into a marble (which was already metamorphosed by regional metamorphism) to produce alter it a second time. Talc and Actinolite are two minerals that are mined in Ontario, formed from marble which has been metamorphosed through the intrusion of granitic plutons.\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetrocks.utsc.utoronto.ca/map/#15/48.4704/-81.3111\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Hydrothermal Metamorphism", 
+        "text": "Hydrothermal metamorphism occurs when hot, mineral-rich waters interact with the country rock. Most hydrothermal metamorphism takes place at low pressures and relatively low temperature, but it also accompanies other type of metamorphisms.  Examples include in oceanic crust parallel mid ocean ridges, and in areas adjacent to igneous intrustions.  Much of the mineral wealth of Ontario is due in part to hydrothermal metamorphism. The 'greenstone' belts from which we mine most of our gold for example are ancient pieces of oceanic crust which have been subject to hydrothermal metamorphism. In the panorama below, we take you to a roadside outcrop of the Abitibi Belt. This is an ancient sedimentary rock which has been thoroughly metamorphosed by hot hydrothermal fluids until many of the clasts have turned green with alteration. \n<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/debugs/N15_R0010607.html\" height=\"300\" width=\"100%\" style=\"border:0;\" allowfullscreen=\"\"></iframe>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Metamorphic Textures", 
+        "text": "Metamorphic textures  <br>\n<table style=\"width:100%\" border=\"1px\"><tr>\n<th style=\"width:130px\">Texture</th>\n<th style=\"width:80px\">Description</th>\n<th style=\"width:500px\">Example</th></tr><tr><td><b>Foliation</b></td><td>A pervasive planar structure that results from the nearly parallel alignment of minerals and/or compositional and mineralogical layering in the rock. This may result from the flattening of rounded grains in the direction of maximum compressional stress, or the crystallization of tabular minerals within a stress field.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/b2.png\" height=\"300px\" title=\"Foliated rock\"></td></tr><tr><td><b>Non-Foliated</b></td><td>If no particular structural arrangement is present, including no lineations, foliations, or other alignments of mineral grains, it can be said to be non-foliated. Non-foliated metamorphic rocks are often monominerallic.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/b4.png\" height=\"300px\" title=\"Nonfoliated Quartzite\"></td></tr><tr><td><b>Slaty Cleavage</b></td><td>Slaty cleavage developes when micoscopic platy minerals (mostly micas) align in a single direction, allowing the rock to easily break into planes. Slaty cleavage is slate-like.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Met_slatycleav_bedding.jpg\" height=\"300px\" title=\"Slate with slatey cleavage\"></td></tr><tr><td><b>Schistosity</b></td><td>A significant foliation developed by the preferred alignment of platy minerals (mainly biotite and muscovite micas), often giving the rock a distinct sheen. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Met_micaschist_schistosity.jpg\" height=\"300px\" title=\"Schist with good schistosity\"></td></tr><tr><td><b>Gneissic Banding</b></td><td>Loose banding of light and dark-coloured minerals.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MEt_gneiss.jpg\" height=\"300px\" title=\"Gneiss with good gneissic banding\"></td></tr><tr><td><b>Porphyroblastic</b></td><td>Large, well-formed crystals set in a matrix, akin to 'phenocrysts' in an igneous rock. These are typically minerals that form during metamorphism.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15_Meta_slate_porphyroblasts_andalusite.jpg\" height=\"300px\" title=\"Serpentinite with porphyroblasts\"></td></tr></table>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Metamorphic Rocks", 
+        "text": "Metamorphic Rock Types  <br>\n<table style=\"width:100%\" border=\"1px\"><tr>\n<th style=\"width:130px\">Rock Type</th>\n<th style=\"width:60px\">Description</th>\n<th style=\"width:600px\">Example</th></tr><tr><td><b>Hornfels</b></td><td>Hornfels rocks are metamorphic rocks that form under low pressure and low to high temperature conditions which rocks may be subjected to if they encounter a hot magmatic intrusion. For this class we will not discuss this rock type in depth. The metamorphic conditions that apply to these types of rocks would follow Path A of the Metamorphic Facies Diagram (Page 3). </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/b8.png\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Marble</b></td><td>Is a metamorphic rock that is commonly made up of recrystallized calcite (CaCO3) that shows no metamorphic foliation. Marbles form due contact metamorphism of limestones (carbonate rocks) in the surrounding of hot magma intrusions. They can vary in color (e.g. white, green, pink, grey) and also in crystal size from finer crystallized to coarse crystallized. Due to the recrystallization of calcite, marbles are often described as resembling sugar grains. HCl test is positive if the marble is of pure calcite (not Mg-rich dolomite) or features little other impurities. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_marb.jpg\" height=\"300px\" title=\"HOVER TEXT GOES in this column (for fun little tidbits)\"></td></tr><tr><td><b>Quartzite</b></td><td>Quartzites are metamorphosed sandstones and such rocks often occur in zones of contact metamorphism. The heat of a hot intrusion close to the burried sandstone drives the recrystallization of quartz sand grains to quartz crystals. Depending on the source rock composition, quartzites can vary widely in color (white, grey, green, red, black, pink etc.). Similar to quartz minerals and cherts, quartzites are very hard and quite resistant to weathering processes. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_quartzite.jpg\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Slate</b></td><td>Slates are very fine crystallized, low temperature-low pressure metamorphic rocks that form from shales. They feature a slaty cleavage that indicates an influence of directed pressure during regional metamorphism (in a mountain belt close to a convergent plate margin aka. subduction zone). These types of rocks are made up of such fine crystals that one can not see them without a microscope and due to their slaty foliation (also called slaty cleavage) they break into sheets/plates. Due to their plate-lilke cleavage, slates were and are still used for roof shingles. Slates would be part of the Zeolite facies and follow along Path B (regional metamorphism) of the Facies Diagram on Page 3. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_slate.jpg\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Phyllite</b></td><td>Phyllites are fine crystalline metamorphic rocks that follow after slates in the metamorphosis progression while increasing heat and pressure. These rocks have a shiny (silky) luster that occurs due to the tiny mica minerals that started to form. Phyllites featuer a planar foliation type that is called a phyllitic cleavage as the rocks may break into thinner plates or sheets along its foliation, similar to slates. These rocks are often grey to cream-silver in color. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Met_phyllitic_foliation.jpg\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Greenschist</b></td><td>Greenschists form from phyllites that continue to undergo increasing temperature and pressure conditions related to mountain building processes (orogenies) close to a subduction zone (convergent plate boundary). These rocks feature an increasing amount of a shiny green mineral that is called Chlorite (almost looks like a green mica). These rocks show a planar foliation that is outlined by the little but visibly platy chlorite minerals, which is called schistosity. The dark green color of these low grade metamorphic rocks and their schistose foliation give these rocks their name \"Greenschist\". These rocks are the index rock (mineral) for the Greenschist Facies in the Metamorphic Facies Diagram on Page 3 of this module and follow Path B. </td><td style=\"text-align:center\"><img src=\"\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Mica Schist</b></td><td>Mica schists are a continuation of the processes that lead from a shale to a slate and hence to a greenschist. If greenschists undergo further metamorphism under increasing temperate and pressure conditions in an orogen (regional metamorphism related to subduction zones), these green rocks will change to mica schists. Such mica schists feature visible mica minerals (muscovite, biotite or both in one rock) that outline the planar foliation (schistosity) of the rock. The schistosity can be either quite flat (planar) or may seem to be wavy. The wavy (irregular foliation) stems from larger for example garnet minerals (=porphyroblasts) that grow during the metamorphism. If such porphyroblasts occur one can call the rock a \"Garnet-Mica Schist\". These are often the source for garnet minerals, that are used for jewellry making. Similar to chlorite schists, mica schists belong to the Greenschist Facies of the Facies Diagram on Page 3. They are subjected to regional metamorphism conditions that follow Path B. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_micschist.jpg\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Amphibolite / Amphibolite Schist</b></td><td>Amphibolites are intermediate to higher metamorphic grade rocks that form from former mafic igneous rocks. These rocks can be foliated (schistosity) or not, depending if they form in a location where higher pressures cause the amphibole (=hornblende) minerals to align themselves along foliation planes. These rocks are commonly black and often include some minor amount of white plagioclase minerals. Additionally, one may find red granets in Amphibolites or Amphibole Schists. This rock type is the index rock (and index mineral) that indicate Amphibolite Facies conditions of regional metamorphism (Path B) on Page 3. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_amph.jpg\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Gneiss</b></td><td>Gneissic rocks (gneisses) are rocks that form from either mica schists or amphibolites that underwent additional and increasing (high) temperature and pressure conditions. These are rocks that show gneissig banding, a form of planar foliation, that forms due to directed pressure common for the root of a mountain belt (orogen - regional metamorphis - Path B on Page 3 Metamorphic Facies Diagram). Gneissic rocks may reach temperatures that allow parts of these highly metamorphosed and often deformed (folded, sheared) rocks to melt. The gneissic banding results form a recrystallization and segregation of felsic material (e.g. quartz, K-feldspar, Na-rich plagiclase, muscovite) and mafic components (e.g. biotite, amphibole, pyroxenes) into separate light and dark bands. This processes happens due to the high heat and pressure these rocks undergo during regional metamorphic conditions in an orogen. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MEt_gneiss.jpg\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Blueschist (Glaucophane Schist)</b></td><td>With blueschists we are moving away from the regional metamorphism that happens in a mountain belt (root) close to a convergent plate boundary, and move right to the subduction zone rocks themselves. These blue and highly foliated rocks (schistosity) form from former mafic rocks of the now subducted oceanic crust. During the subduction of the heavy oceanic crust (mafic: basalts, gabbros) mafic minerals such as amphibole undergo a metamorphic transition to a blue mineral called \"glaucophane\". This mineral also belongs to the amphibole mineral group, but forms only under the high pressure (lower temperature) conditions of a subduction zone. It is easily identified as a blueschist based on its dark blue color. These rocks undergo pressure/temperature conditions that follow Path C shown in the Metamorphic Facies Diagram on Page 3, that are typical for Subduction Zone Metamorphism. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_blschist.jpg\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Eclogite</b></td><td>The green-red (sometimes include white) color of eclogites helps us to identify the next in line of the metamorphic rocks of a subduction zone. Eclogites form from blueschists if these are subjected to a slight increase of temperature (while moving deeper down into the Earth's mantle) but more importantly increase in pressure. The blue amphibole minearls of the blue schist will release water from their structure and turn into pyroxene minerals. Additionally, these green rocks features usually red/orange garent minerals. Similar to blueschists, eclogites undergo Path C metamorphic conditions (pressure/temperature) shown in the Metamorphic Facies Diagram on Page 3. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MET_eglo.jpg\" height=\"300px\" title=\"\"></td></tr></table>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/003632c644d54bd19d82bf1b3076d278/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>\n    <p style=\"font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;\">\n        <a href=\"https://sketchfab.com/3d-models/biotite-gneiss-sample-91-05-20-2020-003632c644d54bd19d82bf1b3076d278?utm_medium=embed&utm_source=website&utm_campaign=share-popup\" target=\"_blank\" style=\"font-weight: bold; color: #1CAAD9;\">Biotite gneiss sample #91 05-20-2020</a>\n        by <a href=\"https://sketchfab.com/rocksandminerals?utm_medium=embed&utm_source=website&utm_campaign=share-popup\" target=\"_blank\" style=\"font-weight: bold; color: #1CAAD9;\">rocksandminerals</a>\n        on <a href=\"https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup\" target=\"_blank\" style=\"font-weight: bold; color: #1CAAD9;\">Sketchfab</a>\n    </p>\n", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "Example: Identifying a Metamorphic Rock", 
+        "text": "This black and white rock comes from Uxbridge, Massachusetts. It has a very noticeable texture where the black and white parts are organized into planar sheets. I would describe the texture as a planar foliation. Upon closer inspection, the dark minerals are very platey, shiny, and a bit flakey. I can flake off little sheets with my fingernail. The light coloured parts range from opaque white to slightly grey, more translucent mineral with a greasy shine. I deduce that these are most likely quartz and plagioclase feldspar. Given the foliated texture, I would call this a biotite gneiss, and further hypothesize that it is the product of regional metamorphism. I could learn more by examining maps of the region to in-vestigate whether there are geologic trends that would support large-scale tectonic compression. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/\" width=\"100%\" frameBorder=\"0\"></iframe>", 
+        "credit": "Click on 'Metamorphic' to reveal more types of metamorphic rocks. Please note you are not expected to memorize all of these rock types. ", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "9"
+      }, 
+      "text": {
+        "headline": "More Metamorphic Rocks", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_5/metamorphic/\" width=\"100%\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\"></iframe>", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": "Hover over terms to see pictures of rocks"
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "text": {
+      "headline": "Introduction to Metamorphic Rocks", 
+      "text": "Over geologic time, if rocks aren't eroded, they are metamorphosed. Rocks are constantly buried, exposed, reburied, subjected to heat and pressure, get caught up in orogenies, and are filtered through by fluids, each contributing to the metamorphic 'grade'. For this reason, understanding metamorphic processes is critical to determining the history of a rock, and in turn, the geologic processes happening on Earth. When considering metamorphic rocks, one must always try to understand what the 'protolith' or 'parent rock' was, and what type of metamorphism took place. This diagram shows a summary of some of the most common types of metamorphism. Hover over for more details.\n<br><br><b>Learning Objectives:</b>\n<br><br>1) Recall and identify the most important metamorphic index minerals.\n<br><br>2) Identify the main metamorphic rock types. <br><br>3) Differentiate between the metamorphic processes of contact, regional, and hydrothermal metamorphism.<br><br>4) Use this knowledge to reconstruct rock histories."
+    }
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OIA_ArcheanGlacial.jpg", 
+        "credit": "de Wit, M. J., & Furnes, H. (2016). 3.5-Ga hydrothermal fields and diamictites in the Barberton Greenstone Belt\u2014Paleoarchean crust in cold environments. Science advances, 2(2), e1500368. <br>Creative Commons Attribution-Non Commercial license", 
+        "thumbnail": "", 
+        "caption": "Sedimentary features from the lower part of the Etimambeni Formation, an apparent example of Archean glaciation."
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "2.8-2.9 Ga", 
+        "month": "", 
+        "day": "", 
+        "year": "-2900000000"
+      }, 
+      "text": {
+        "headline": "The Archean Kaapvaal Glacio-epoch", 
+        "text": "Little is known about the climate of the Archean, but at least one episode of glaciation is indicated. Usually, the Archean is thought of as a period of warmth because the atmosphere was heavily enriched in greenhouse gases. However, solar luminosity was about 20-30 less intense than it is today. The geologic record of the Archean is incredably sparse and thus evidence for glaciation in the Archean is rare. Limited evidence is present in 2.9 billion year old rocks of the Mozaan Group of South Africa from the margins of the Kaapvaal Craton which at the time was part of the supercontinent Ur. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/vfs/cascade/oia_vf1.html\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "2.4 Ga", 
+        "month": "", 
+        "day": "", 
+        "year": "-2400000000"
+      }, 
+      "text": {
+        "headline": "The Paleoproterozoic Glacio-epoch", 
+        "text": "Paleoproterozoic glaciomarine deposits are preserved along the rifted margins of Kenorland. The most famous of these is the Gowganda Formation of the Huronian Supergroup, found north of Lake Huron. Interpreting such ancient glacial deposits can be tricky, and this virtual field trip tackles some of the complexites in understanding such deposits.  It can be expanded by clicking the icon in the bottom left corner. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Snowball.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "0.75 Ga - 545 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-750000000"
+      }, 
+      "text": {
+        "headline": "The Neoproterozoic Glacio-epochs", 
+        "text": "The severity of glaciation in the Neoproterozoic is one of the mostly hotly contested debates in Earth Sciences today. Deposits of presumed glacial or glaciomarine origin are found on all continents from polar to equatorial paleolatitudes. In particular, evidence for ice at sea level near the equator has led many to believe that the earth was completely encased in ice under the premise that ice at low latitudes must mean ice was also present at high latitudes. This is popularly known as the  \"Snowball Earth Hypothesis\". Under the Snowball Earth Hypothesis, growing glaciers reflect so much sunlight back into space that the surface of the oceans actually freeze. This is called the 'runaway ice-albedo effect' and is an example of a positive feedback.  This state remains for tens of millions of years until sufficienct carbon dioxide and other volcanically-generated greenhouse gases build up in the atmosphere to cause catastrophic melting. \n<br><br>\nMany aspects of this model are contested. Sedimentary deposits are notoriously difficult to date, particular in the Precambrian when no fossils can be used to constrain their age. The model requires that glaciations were effectively synchronous globally, but without high-resolution dating, this can be difficult to prove. There are also questions surrounding what the effects of a global freezing would be on the carbon cycle, and how such evidence would be preserved in the chemostratigraphic record. Much like the so-called \"Huronian\" glaciations of the Paleoproterozoic, the environmental interpretation of Neoproterozoic glacial deposits is questionable. The geological consensus is largely moving away from catastrophic global freezing to a more normal dynamic style of glaciation similar to the Cenozoic. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/430-460-ANIMATION.gif", 
+        "credit": "Scotese,  C. R., 2001.   Atlas of Earth History, Volume 1, Paleogeography,  PALEOMAP Project, Arlington, Texas, 52 pp.", 
+        "thumbnail": "", 
+        "caption": "Paleogeography from 460 million years ago to 430 million years ago."
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "c. 440 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-440000000"
+      }, 
+      "text": {
+        "headline": "The Lower Paleozoic Saharan Glacio-epoch ", 
+        "text": "The Saharan glaciation is the name for the growth of high-latitude ice sheets across northern Africa at the end of the Ordovician. Africa was then part of the supercontinent 'Gondwana' which occupied polar latitudes. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/390-340-ANIMATION.gif", 
+        "credit": "Scotese,  C. R., 2001.   Atlas of Earth History, Volume 1, Paleogeography,  PALEOMAP Project, Arlington, Texas, 52 pp.", 
+        "thumbnail": "", 
+        "caption": "Paleogeography from 390 million years ago to 340 million years ago."
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "c. 374 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-374000000"
+      }, 
+      "text": {
+        "headline": "The Late Devonian Ice Ages", 
+        "text": "Late Devonian glaciation was short lived and therefore not really a unique \"glacio-epoch\". It was centred on northern South America which at the time was at a mid to high paleolatitude. Cooling has been linked to two events of global importance that resulted in the drawdown of carbon dioxide in the atmosphere. The first was the building of the Appalachian Mountains. These mountains rivalled the Himalayas in scale and their uplift undoubtedly was accompanied with increased weathering of feldspar minerals which consumes atmospheric carbon dioxide. The second event was the 'greening' of the continents by land plants. Land plants contributed to the drawdown of carbon dioxide through photosynthesis, and also by increasing the breakdown of silicate rocks. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OIA_strontium.JPG", 
+        "credit": "Scotese,  C. R., 2001. Atlas of Earth History, Volume 1, Paleogeography,  PALEOMAP Project, Arlington, Texas, 52 pp.", 
+        "thumbnail": "", 
+        "caption": "Paleogeography from 340 million years ago to 250 million years ago."
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "c. 350-250 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-350000000"
+      }, 
+      "text": {
+        "headline": "Late Paleozoic Gondwanan Glacio-epoch", 
+        "text": "The Gondwanan glacio-epoch is recorded in South America, southern Africa, India, Australia and Antarctica which at the time were all assembled into the Supercontinent Gondwana. This is a rare example of a glaciation that leaves fossilized terrestrial tills. Ice growth accompanied continental collision and growth of of the Supercontinent Pangea, yet deposits are largely preserved in extensional rift basins. \n<br><br>\nThis chart shows the strontium isotopic record in seawater which is a proxy for the delivery of sediment derived from continental rocks into the ocean. It can be thought of as a measure of mountain building and weathering.  \n<br>\n<img src= \"https://planetearth.utsc.utoronto.ca/timeline/content/340-250-ANIMATION.gif\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/timeline/oia_t2b.html\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "The Cenozoic Glacio-epoch", 
+        "month": "", 
+        "day": "", 
+        "year": "-55000000"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"955\" height=\"637\" src=\"https://www.youtube.com/embed/uLahVJNnoZ4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "Scotese, C.R., 2004. Plate Tectonics and Paleogeography (animation), PALEOMAP Project, University of Texas at Arlington, Arlington, Texas (12:24).", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "200 million years ago", 
+        "month": "", 
+        "day": "", 
+        "year": "-200000000"
+      }, 
+      "text": {
+        "headline": "Pangea starts to Fragment", 
+        "text": "About 200 million years ago, most continents on Earth were gathered in an equatorial super-continent called Pangea. As continents began to split apart, new oceanic crust was formed, pushing the continents away from the equator and each other, and towards the poles. All of the events that would ultimately contribute to global cooling over the Cenozoic are routed in the reorganization of the continents following the breakup of Pangea. \n<br><br>\nThis video shows the breakup of Pangea and subsequent migration of the continents."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OIA_GLIMS.JPG", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2020"
+      }, 
+      "text": {
+        "headline": "Glaciation Today", 
+        "text": "So what is left of the Cenozoic Glacial Epoch today? There are two remaining ice sheets: the Antarctic Ice Sheet, and the Greenland Ice Sheet, and thousands of valley glaciers, ice fields, ice caps etc. all over the world.  The Global Land Ice Measurements from Space (GLIMS) database contains the outlines of over 546,000 glaciers using data from optical satellite instruments. This data can be viewed in an external viewer by clicking <a href=\"http://www.glims.org/maps/glims\">here</a>. \n<br><br>\nThe figure below shows the latitudes and elevations of glaciers that exist today. For each glacier, both the minumum elevation (often at sea level) and maximum elevations are plotted.  Note the relationship between elevation and latitude. \n<br><br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/GSYS_min_max_altitude.JPG\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/leaf/OIA_CausesofGlaciation/\" frameborder=\"0\" width=\"960\" height=\"569\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2020"
+      }, 
+      "text": {
+        "headline": "Summary: Causes of Glacio-epochs", 
+        "text": "This interactive figure summarizes the main factors that have contributed to glaciation throughout Earth's history. <br>\n<br> Try to find the following terms: \n<br><br><b>The Carbon Cycle:  </b>Algal Blooms, Respiration, Carbonate Reefs, Land Plants, Volcanism, Ocean Floor Sediment, Metamorphism, Mid Ocean Ridges, Soil Generation, Photosynthesis, Ocean-Atmosphere Exchange, Carbonate Precipitation, Silicate Weathering, Carbon Burial, Volcanic Degassing, Carbonate Weathering,\n<br><b>External Factors:  </b>The Dim Young Sun, Milankovitch Cycles\n<br><b>Ocean and Atmosphere: </b>  Mountains, Cold Currents, Warm Currents, Prevailing Winds"
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/GlacialSupercontinentCycle.JPG", 
+      "credit": "Eyles, Nick. \"Glacio-epochs and the supercontinent cycle after\u223c 3.0 Ga: tectonic boundary conditions for glaciation.\" Palaeogeography, Palaeoclimatology, Palaeoecology 258, no. 1-2 (2008): 89-129.", 
+      "thumbnail": "", 
+      "caption": "This figure links the major glacio-epochs with the supercontinental cycle. Eyles, Nick. \"Glacio-epochs and the supercontinent cycle after\u223c 3.0 Ga: tectonic boundary conditions for glaciation.\" Palaeogeography, Palaeoclimatology, Palaeoecology 258, no. 1-2 (2008): 89-129."
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/IceExtraBack8.jpg"
+    }, 
+    "text": {
+      "headline": "The Origin of Ice Ages", 
+      "text": "There have been several 'ice ages' over the course of Earth's history. In this module, we will look at this history of glaciation through deep time and try to understand the combination of factors that contribute to the growth of ice sheets. Most glacio-epochs are either associated with continental breakup, continental growth, or the migration of a continent across a pole. In this module, we will look at each of these glacioepochs in turn.<br><br>\n<b> Learning Objectives: </b>\n<br><br>1. Describe the factors that cause glaciation on geologic time scales.\n<br><br>2. Link major geologic events with the 6 glacio-epochs.\n<br><br>3. Outline the major events in the buildup to the Pleistocene glaciations."
+    }
+  }
+}

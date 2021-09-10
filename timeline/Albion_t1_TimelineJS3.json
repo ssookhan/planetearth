@@ -11,12 +11,7 @@
         "year": "1",
         "month": "",
         "day": "",
-        "display_date": "</>"
-      },
-      "end_date": {
-        "year": "",
-        "month": "",
-        "day": ""
+        "display_date": ""
       },
       "text": {
         "headline": "Location and Overview Map",
@@ -37,11 +32,6 @@
         "day": "",
         "display_date": "</>"
       },
-      "end_date": {
-        "year": "",
-        "month": "",
-        "day": ""
-      },
       "text": {
         "headline": "North America during the Paleozoic",
         "text": "Between about 500 million years ago and 350 million years ago, central North America (Laurentia) was a low-relief surface \nlocated variably at or below sea level. Shallow seas covered the continent and sedimentary rocks were deposited in \nsubhorizontal layers upon the ancient Precambrian basement rocks. This is a fairly calm period with little tectonic activity. \nThe Appalachian Mountains formed during the Taconic mountain building phase (Ordovician) to the east were wearing down and as a \nresult, less sediment was being produced. Sedimentary systems started to deliver increasingly finer sediment to the \nNiagara region, and eventually, the waters cleared up, resulting in the production of limestones in the shallow marine waters. "
@@ -60,11 +50,6 @@
         "month": "",
         "day": "",
         "display_date": "</>"
-      },
-      "end_date": {
-        "year": "",
-        "month": "",
-        "day": ""
       },
       "text": {
         "headline": "Geology of Southern Ontario",
@@ -85,11 +70,6 @@
         "day": "",
         "display_date": "</>"
       },
-      "end_date": {
-        "year": "",
-        "month": "",
-        "day": ""
-      },
       "text": {
         "headline": "Stratigraphy of Niagara Escarpment",
         "text": ""
@@ -108,11 +88,6 @@
         "month": "",
         "day": "",
         "display_date": "</>"
-      },
-      "end_date": {
-        "year": "",
-        "month": "",
-        "day": ""
       },
       "text": {
         "headline": "Information on erodibility and stratigraphic profiles",
@@ -133,11 +108,6 @@
         "day": "",
         "display_date": "</>"
       },
-      "end_date": {
-        "year": "",
-        "month": "",
-        "day": ""
-      },
       "text": {
         "headline": "Navigation",
         "text": "<br><br>The virtual field trip for Albion Falls is composed of four 360\u00c2\u00b0 images (locations) and numerous close-up photographs. You can navigate from one location to the next by clicking on the white arrows. When hovering over an arrow a site label will appear. \n<br><br>The field trip begins at the \"Falls View\" location at which you can test navigating by using your mouse (to turn or tilt up/down: click with left mouse button and drag, to zoom in/out: use scroll wheel). \n<br><br>At each location white highlighted \"i\" points of interest will enable you to view either informative text or examine the rock layers more closely by providing you close-up photographs of the rock layers, fossils or sediment structures. \n<br><br>To make sure all \"i\" points of interest are visited at each location, you may want to zoom out a bit and slowly rotate 360 degrees. This will enable you to get a full picture of the geology of Albion Falls.  "
@@ -156,11 +126,6 @@
         "month": "",
         "day": "",
         "display_date": "</>"
-      },
-      "end_date": {
-        "year": "",
-        "month": "",
-        "day": ""
       },
       "text": {
         "headline": "Instructions",
@@ -181,11 +146,6 @@
         "day": "",
         "display_date": "</>"
       },
-      "end_date": {
-        "year": "",
-        "month": "",
-        "day": ""
-      },
       "text": {
         "headline": "Virtual Field Trip",
         "text": ""
@@ -201,11 +161,6 @@
       "thumbnail": ""
     },
     "start_date": {
-      "year": "",
-      "month": "",
-      "day": ""
-    },
-    "end_date": {
       "year": "",
       "month": "",
       "day": ""

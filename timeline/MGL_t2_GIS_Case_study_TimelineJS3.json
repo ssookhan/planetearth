@@ -1,0 +1,137 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "step 1", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "background": {
+        "color": "#333333"
+      }, 
+      "text": {
+        "headline": "Acquire Data", 
+        "text": "library resources, gov't resources, metadata, resolutions required"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "step 2", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Process data", 
+        "text": "introduction to GIS and it's uses"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "step 3", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Analysis", 
+        "text": "designing analysis to fit a question"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "step 4", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Interpretation or results", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "text": {
+      "headline": "Mapping drumlin fields from lidar data", 
+      "text": "something about Develop question/criteria?"
+    }
+  }
+}

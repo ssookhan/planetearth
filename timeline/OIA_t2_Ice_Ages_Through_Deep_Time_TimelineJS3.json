@@ -1,0 +1,268 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/ACCSchematic_2.jpg", 
+        "credit": "Andrew Thompson \u00a9 2020 CalTech", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "45 Ma - 24 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-24000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "The Drake Passage and the ACC", 
+        "text": "The separation of Antarctica and South America was a prolongued process that resulted in the opening and subsidence (deepening) of the Drake Passage between about 45 Ma to 24 Ma.  By about 24 Ma, it was deep enough to allow the development of an Antarctic Circum-polar Current that still operates today. This had two effects. Firstly, the circulating water inhibits heat in southwardly-migrating currents from reaching Antarctica. Secondly, since the water immediately adjacent Antarctica is very cold, it becomes extra dense and slips into the depths, fueling thermohaline circulation. \n <br><br> The ACC carries an estimated 165-182 million cubic metres of water every second."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OIA_PETM.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "55 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-55000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "The PETM and Eocene Optimum", 
+        "text": "The begininng of the Eocene Epoch was a period of global warmth, far exceeding the warming of today. The Paleocene-Eocene Thermal Maximum (PETM) at 55 Ma was a sudden and short-lived warming event of between 5\u20138 \u00b0C at the boundary between the Paleocene and Eocene Epochs. It was likely related to the release of 5-10,000 gigatons of carbon into the ocean and atmosphere in less than 10,000 years. The Eocene Optimum was a longer period of high temperatures, lasting from about 55 to 52 million years. During this time, carbon dioxide levels were between 1000 and 2000 ppm and temperature between 9-14\u00b0C  higher than today. What followed the Eocene was a long term gradual cooling leading into the Cenozoic Glacio-Epoch."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OIA_North_Atlantic_Circulation.jpg", 
+        "credit": "Circulation patterns in the North Atlantic Ocean. Cold, dense water is shown in blue, flowing south from upper latitudes, while warm, less dense water flows north. Click for large GIF. (Source: Jack Cook for Ocean and Climate Change Institute, Woods Hole Oceanographic Institution", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "70-45 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-45000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "Baffin Bay and the NADWs", 
+        "text": "Sometime around 70 million years ago, Greenland began to break away from North America, opening up Baffin Bay and the Labrador Sea. This had two important concenquences: 1) Greenland was pushed further north, into the Arctic Circle. 2) This new seaway began to act as a factory for production of dense North Atlantic Deep Water (NADW). The formation of ice from waters circulating (and cooling) in polar areas expels salt, making a dense, nutrient-rich water body that sinks into the North Atlantic. This is a fundamental pump for the thermohaline circulation of the worlds oceans. The NADW ultimately makes its way southwards to join with the Antarctic Circumpolar Current (ACC). "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/india.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "20 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-20000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "India Collides with Eurasia", 
+        "text": "The uplift of the Himalayas was one of the most significant events leading to global cooling. By raising this mountain range into the sky, atmospheric circulation patterns were altered. Wet moist air from the Indian Oceans would now run into the obstacle of the mountains, causing heavy seasonal rainfalls known as the South Asian Monsoon. The summer rainfalls caused accelerated weathering and sediment production through the alteration of feldspar minerals to clays, which consumes carbon dioxide.  <br><br>\n<img src= \"https://planetearth.utsc.utoronto.ca/timeline/content/OIA_feldsparWxing.JPG\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OIA_terra_modis_satellite_data_14732646591379265402_744.jpg", 
+        "credit": "NASA Visible Earth: RO: Data are from May 8, 2000 taken from the Terra MODIS satellite", 
+        "thumbnail": "", 
+        "caption": "This image shows the warm (red) waters of The Gulf Stream diverting into the North Atlantic."
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "5 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-5000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "Closure of the Isthmus of Panama", 
+        "text": "About 5 million years ago, convergence between the North American, South American, and Caribbean Plates began to restrict the flow of water between the Pacific and Atlantic Oceans. Waters that once passed through the Central American Seaway began to be deflected towards the north Atlantic. This was the birth of the Gulf Stream which brought warm, salty water into the North Atlantic where it would cool. The formation of sea ice in northern hemispheres increases the density of water further by expelling salt. These dense water sink to the ocean floor as North Atlantic Deep Waters (NADW) thus driving the Ocean Conveyor Belt. \n<br><br>\nIt seems counterintuitive that the transport of heat into high latitudes would contribute to cooling. However, consider that with heat, comes moisture. The warm Gulf Stream brings with it moisture-laden air which can be transported by westerly winds to Eurasia where falls as rain or snow. The influx of freshwater to the Arctic would have facilitated the formation of sea ice, which, combined with glaciation in the Alps, would reflect more sunlight back into space. Water vapour from the Gulf Stream above 60 degrees latitude may get caught in the easterly trade winds which transport moisture towards Arctic Canada.  "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OIA_1_4f9ef537b4.jpg", 
+        "credit": "Leibniz Institute of Marine Sciences (IFM-GEOMAR)", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "5-3 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-4000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "Uplift of Indonesia", 
+        "text": "The reconfiguration of ocean currents by tectonic activity continued when the Indonesian Islands were uplifted between 5 and 3 million years ago. Prior to this, warm equatorial waters flowed quite freely via the Indensian Through-Flow (ITF) current. By creating a barrier, between the Pacific and Indian Ocean, colder north Pacific waters were diverted and the heat transfer from equator to pole was also reduced."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/d18O.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "2 Ma to 12 ka", 
+        "month": "", 
+        "day": "", 
+        "year": "-3000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "High-frequency Pleistocene Glaciations in the Northern Hemisphere", 
+        "text": "A common misconception is that there only 4 'ice ages', refering to northern hemisphere continental-scale glaciations, during the Pleistocene. The isotopic record of deep sea sediments tells us a different story. Whenever ice is locked up on land, global sea levels fall. Ice has a different isotopic ratio than seawater, so when those water molecules are removed to make ice, it also changes the ratios of isotopes left behind in the seawater. Organisms like foraminifera (pictured here) precipitate their shells out of this sea water, and therefore we can look at the isotopic ratios within their shells to determine whether sea levels were high (during warm periods) or low (during cold periods when more water is locked up on land). Deep sea sediment cores through layers upon layers of dead foraminifera show these changes as a nearly continuous record. It is clear from looking at this chart that the frequency of ice ages is far higher than can be determined by looking for sedimentary deposits on land. Count the peaks. How many individual glaciations do you think there have been over the past 2 million years of the Cenozoic Glacio-Epoch? The control on the frequency of these individual glaciations is the Milankovitch Cycle. Subtle changes in Earth's orbital patterns change the amount and distribution of solar radiation, warming and cooling the globe."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/MilankovitchCyclesOrbitandCores.png", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-3000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "Milankovitch Cycles", 
+        "text": "Milankovitch cycles describe the collective effects of changes in the Earth's movements in its orbit on the climate over thousands of years. These orbital cycles are the among the most important controls on the timing of glacial and interglacial cycles within a glacio-epoch. \n<br><br>\n<b>Obliquity</b> is the tilt of Earth's axis.\n<br><b>Eccenticity</b> is the shape the Earth's orbit.\n<br><b>Precession</b> the 'wobble' of the Earth's axis with respect to the sun (see below):\n<br><br>\n<img src= \"https://planetearth.utsc.utoronto.ca/timeline/content/precession.gif\">  "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/obliquity.gif", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "2 Ma to about 1 Ma", 
+        "month": "", 
+        "day": "", 
+        "year": "-2000000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "41,000-Year Cycle", 
+        "text": "For the first half (or so) of the Pleistocene, northern hemisphere glaciations appeared to fluctuate with a frequency of approximately 41,000 years, which corresponds to the the frequency of variations in the <b>obliquity</b> or \u2018tilt\u2019 of the Earth. \n<br><br>\nWhen obliquity increases (i.e. the earth is tilted at a greater angle) there is a greater variation between Winter and Summer insolation and also a greater latitudinal variation in the way that heat hits the surface. The Earth is currently tilted at approximately 23.4\u00b0, so it is half way through its cycle of tilt from 24.5\u00b0 to 22.1\u00b0."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/eccentricity.gif", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "About 900,000 to present", 
+        "month": "", 
+        "day": "", 
+        "year": "-900000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "100,000-Year Cycle", 
+        "text": "During the latter half of the Pleistocene, the climate appears to have been controlled by the cyclical variation in the <b>Eccentricity</b> of the Earth's Orbit on a 100,000-year frequency. \n<br><br>\nThe eccentricity is a measure of the degree to which Earth\u2019s orbit departs from a circular shape. The shape of the orbit affects the distance from the Earth to the Sun over the course of the year. At maximum ellipticity, the variation in solar ratiation over the course of a year is about 23%. \n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"1389\" height=\"687\" src=\"https://www.youtube.com/embed/d7b3BVQIHOA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "120,000 to 12,000", 
+        "month": "", 
+        "day": "", 
+        "year": "-120000"
+      }, 
+      "background": {
+        "color": "#000000"
+      }, 
+      "text": {
+        "headline": "The Wisconsin Laurentide Ice Sheet", 
+        "text": "The growth of the last (Wisconsin) Laurentide Ice Sheet started around 120,000 when moist westerly air encountered the Torngat Mountains and Baffin Mountains. Ice nucleated on the high terrain and gradually thickened and advanced down the slope to ultimately cover an area of 13 million square kilometers."
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/OIA_CenozoicdetailedO18.jpg", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "display_date": "40 Ma to present", 
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "background": {
+      "color": "#000000"
+    }, 
+    "text": {
+      "headline": "The Cenozoic Glacio-Epoch: ", 
+      "text": "Let's focus in on the Cenozoic Glacio-epoch, in which we still live. This figure shows the main events contributing to the long-term cooling trend and growth of the most recent continental-scale ice sheets."
+    }
+  }
+}

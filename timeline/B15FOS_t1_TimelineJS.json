@@ -1,0 +1,193 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Fossilization", 
+        "text": "The style of preservation can be very informative of the environmental and depositional conditions. Some examples of preservational styles are: <br>\n<table style=\"width:100%\" border=\"1px\"><tr>\n<th style=\"width:130px\">Fossilization Type</th>\n<th style=\"width:80px\">Description</th>\n<th style=\"width:500px\">Example</th></tr><tr><td><b>Permineralization:</b></td><td>Also called 'petrification'. Pores fill with minerals like calcite, silica, or pyrite. This requires mineral-rich fluid to move through a porous material. The walls between which the fluid flows may also be preserved as it's original material because they become isolated fromthe degradative effects of oxygen, or may otherwise be replaced or recrystallized. This type of fossilization can preserve very delicate internal structures like wood xylem. Materials like bone, wood, and porous shells may be subject to permineralization.</td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15fos_Permineralization.png\" height=\"300px\" title=\"Close up view of permineralized fossil wood\"></td></tr><tr><td><b>Recrystallization:</b> </td><td>Change in the crystal structure from a less stable mineral to a more stable mineral. The most common example is the recrystallization of aragonite to calite. This process tends to obliterate fine detail.</td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_recryst.jpg\" height=\"300px\" title=\"Coral with recystallized calcite\"></td></tr><tr><td><b>Dissolution and Replacement:</b> </td><td>The structure dissolves and is replaced by an entirely different mineral. </td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15fos_ammonite_dissol_replace.jpg\" height=\"300px\" title=\"Ammonite with replacement\"></td></tr><tr><td><b>Impressions, Molds, and Casts:</b></td><td>These are fossils preserved by greating hollows in the sediment. The fossil itself may have been removed mechanically shortly thereafter, or have dissolved slowly over time. This form of preservation requires a suitable substrate type. An impression in clay for example is likely to make a good mold for sand to fill in as a cast later. Sandstone is tough, so preserves well. The opposite is less true. Impressions in sand are easily destroyed because soft sand isn't very cohesive. If clay were to fill a sand mold, the claystone tends to be too soft for good preservation.</td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15fos_cast.jpg\" height=\"300px\" title=\"A cast of a tree root called Sigillaria\"></td></tr><tr><td><b>Compression and carbonization</b></td><td>All of the elements except for carbon are released by heat and pressure over time, leaving behind a thin carbon film. These fossils are typically burried quickly because otherwise, they would have been subjected to oxidative degradation and consumption.</td><td style=\"text-align:center\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_Impression.jpg\" height=\"300px\" title=\"Fossilized fish of the Green River Formation\"></td></tr></table>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_biostrat.JPG", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Fossil Dating", 
+        "text": "<b> Biostratigraphy: </b> Relative dating is the practice of saying that one thing is older than another, without necessarily specifying an amount. The fossil assemblage can often be used to constrain the age of rocks if we know the range of members of the assemblage. Fish for example evolved in the Devonian, so a rock containing fish fossils must be Devonian or younger. Geologists often rely on <b>index fossils</b> which are easy to date. The detailed work is beyond the scope of this course, but the following chart is a good summary of the range of some of the main fossils groups.  \n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Environmental Data", 
+        "text": "How can we use fossils to understand more about the environment? In addition to identifying fossils, there are other things we might look at: <br><br> <b> Taphonomy:</b> Taphonomy describes the style and conditions of fossilization. It includes things like what type of rock is the fossil held within, the preservational style, and how fragmental the fossils are. Inherent biases in the fossil record must also be considered. Some conditions allow for the preservation of many parts of an ecosystem, while other conditions preferentially destroy some types of fossils. Consider for example whether an organism made out of a calcite shell would be likely to be preserved in seawater with high acidity? \n<br><br> <b> Fossil Assemblages: </b> The collection of fossils present often paints a picture of the ecosystem. The assemblage found in a a dessicated lakebed for example is likely to be quite different from that found on a seabed. \n<br><br> <b> Geochemistry:</b>  Organisms that use elements from the seawater to build their shells or skeletons preserve the composition of the seawater. Examples of things that may be able to be calculated from the shell composition include temperature, salinity, and nutrient content."
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Non-vertebrate Body Fossils", 
+        "text": "<table style=\"width:100%\" border=\"1px\"><tr>\n<th style=\"width:130px\">Fossil Type</th>\n<th style=\"width:80px\">Description</th>\n<th style=\"width:500px\">Example</th></tr><tr><td><b>Porifera</b><br> Phylum Porifera</td><td>The Porifera are sponges, one of the most evolutionarily simple animalian life forms, found throughout the Phanerozoic. They are exclusively aquatic, and almost entirely marine. Sponges can be very delicate because of their porous structure, and tend to break up easily when subjected to wave action. The most common Porifera fossil in Ontario is probably the Stromatoporoid. It has higher preservation potential than most other sponges because it is very dense. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15fos_sponge3.JPG\" height=\"300px\" title=\"Sponge fossil - source unknown\"></td></tr><tr><td><b>The Trilobites</b> <br> Phylum Arthropoda, Class Trilobita</td><td style=\"text-align:center\">Trilobites are an extinct arthropod that were extremely successful throughout the Paleozoic. Trilobites are named after the three longitudinal lobes (tri-lobe) that characterize their body plan. Like many arthropods, trilobites moulted regularly by breaking upen it's exoskeleton in the head region. Most trilobite fossils are therefore only the moulted tail, which stays whole throughout the moulting process. Different forms where adapted to different lifestyles like swimming, crawling, or burrowing. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F1c.jpg\" height=\"300px\" title=\"This trilobite was found in a glacial esker in central Ontario, far from it's original source.\"></td></tr><tr><td><b>The Graptolites</b> <br> Phylum Pterobranchia, Class Graptolithinia</td><td style=\"text-align:center\">Graptolites are a delicate collonial fossil where tiny zooids live on stick-like or hair pin-like structure. This whole colony could often float across the ocean, allowing wide dispersal. They are most often preserved as fine carbonaceous films in fine-grained sediment. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F2a.jpg\" height=\"300px\" title=\"This carbonaceous imprint of a graptolite is preserved in deep-water shale. It like was floating across the sea. From Courtice Beach, Ontario\"></td></tr><tr><td><b>Brachiopods </b><br> Phylum Brachiopoda</td><td style=\"text-align:center\">Brachiopods were hugely successful in the Ordovician, and are thus an important and common fossil in southern Ontario. Unlike pelecypods (bivalves), brachiopods have two shells with different sizes and are thus somewhat assymmetrical when viewed from the side, and they also tend to be less fragile than many pelecypod fossils. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F3a.jpg\" height=\"300px\" title=\"This collection of recrystallized brachiopods comes from Hungy Hollow, Ontario.\"></td></tr><tr><td><b>Gastropods </b> (the snails) <br> Phylum Gastropoda, Class Gastropoda</td><td style=\"text-align:center\">Gastropods are a type of mollusc with a single shell like a snail. Paleozoic marine gastropods were fairly similar to modern gastropods and are easily recognizable by their spiral or conical shell patterns.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F4a.jpg\" height=\"300px\" title=\"These are mostly internal molds and replacedments of gastropods, showing their coiling form. The smaller speciments were found along the beaches of Lake Huron (Kincardine) and the elongated coils were found in the Andes (Argentina).\"></td></tr><tr><td><b>Ammonites</b><br>Phylum Mollusca, Class Cephalopoda, Subclass Ammonoidea</td><td style=\"text-align:center\">Unlike the soft squids and octopuses of today, many ammonite cephalopods in the Paleozoic had hard heavy shells. These shells could be anywhere between 1 mm and 1 m in diameter. They floated due to pressurized chambers within their shells. The line formed where the walls of those chambers intersect with the outer shell are called 'sutures' and they generally became more complex over time. Suture patterns are very diagnostic of the species, and therefore the age of the fossil.  </td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_ammonite_cast.jpg\" height=\"300px\" title=\"A cast of an ammonite found in Southern Germany.\"></td></tr><tr><td><b>Bivalves </b><br>Phylum Mollusca, Class Bivalvia</td><td style=\"text-align:center\">Bivalves have been present in the fossil record throughout the Phanerozoic, but became the most prominent in the Cenozoic. When a bivalve dies, it's two halves often spring open and break apart. This is why we usually only find half of the entire organism. Their shells often have annual growth rings and can be used for reconstructing records of ocean chemistry.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_bivalve_impressions_limestone.jpg\" height=\"300px\" title=\"Bivalve impressions in limestone\"></td></tr><tr><td><b>Crinoids</b><br> Phlylum Echinodermata, Class Crinozoa</td><td style=\"text-align:center\">Crinoids, or 'sea lillies' are a type of echinoderm which is a diverse phylum that includes starfish and sea urchins. Crinoids are delicate organisms with a long stem and arms made out of thousands of circular plates stacked upon each other. Crinoid stems often disarticulate (break up) into isolated cheerio-like plates, sometimes with a star-shaped hold caused by the pentaradial symmetry for which echinoderms are known.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F7a.jpg\" height=\"300px\" title=\"These crinoid stem pieces were found at Hungry Hollows (Arkona, Southern Ontario). \"></td></tr><tr><td><b> Echinozoa </b><br>Phylum Echinodermata</td><td style=\"text-align:center\">Echinozoa is a group of echinoderms that include sea urchins and sea cucumbers. They can be found in all marine sediments of Phanerozoic age. Their skeletons are composed of calcite plates.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_echinozoa2.JPG\" height=\"300px\" title=\"\"></td></tr><tr><td><b> Asterozoa </b><br>Phylum Echinodermata</td><td style=\"text-align:center\">Asterozoa have a penta-radial (five-fold) symmetry like all echinoderms, and have a star-shaped body. This group includes brittle stars and starfish. Their skeletons are composed of calcite plates.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_asterozoa2.JPG\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Rugose Corals</b> <br> Phylum Cnidaria, Class Anthosoa, Order Rugosa</td><td style=\"text-align:center\">Rugose corals are often referred to as 'horn corals' because of their curved conical shape. They are easily recognized by the radiating septa visible when looking at the open end of the coral. Each 'horn' would have only held a single polyp, but it was not unusual for many of these corals to grow in close proximity to each other. Rugosa fossils are common from the Cambrian to the Permian. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F8a.jpg\" height=\"300px\" title=\"This is a cross section of a rugose coral showing the radiating septa from Port Colborne Quarry, Ontario. The two specimens show the typical suger cone shape of rugosa corals. These were found along the beach in Kincardine (Lake Huron, Ontario).\"></td></tr><tr><td><b>Tabulate Corals</b><br> Phylum Cnidaria, Class Anthozoa, Subclass Tabulata</td><td style=\"text-align:center\">Tabulate corals are a common reef-building fossil in Ontario, and is characterised by it's honeycomb-like appearance. Each hexagonal hole would have held a single polyp (similar to an upside-down jellyfish) so that thousands of polyps would live together in a single colonial structure that grows upwards over time. Tabulata only existed from the Ordovician to the the Permian. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F9a.jpg\" height=\"300px\" title=\"The honeycomb-shaped pores in this tabulate coral are each individual living spaces. This sample is from Saint Mary's Quarry near Bowmanville.\"></td></tr><tr><td><b>Bryozoans</b> or 'moss animals' <br> Phylum Bryozoa</td><td style=\"text-align:center\">Bryozoans are colloquially known as 'moss animals' for their soft branching appearance in living specimens. They are a highly collonial animal where thousands of individual 'zooids' live in tiny pores visible on delicate stick-like, fan-like, or mound-like structures.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F12b.jpg\" height=\"300px\" title=\"This fragment of a branching bryozoan nicely shows it's porous nature, from the Port Colborne Quarry, Ontario.\"></td></tr></table>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_Arkona.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Example: The Arkona Assemblage", 
+        "text": "One of the best fossil collecting destinations in Ontario is at Hungry Hollow near Arkona. There, we can find a large variety of amazingly preserved body fossils of animals living in warm, shallow Ordovician seas. <iframe src=\"https://planetrocks.utsc.utoronto.ca/map/#13/43.0953/-81.8396\" width=\"100%\" height =\"500\"></iframe>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Trace Fossils and Stromatolites", 
+        "text": "Trace fossils do not preserve the organism itself, but rather, some aspect of the behaviour of an organism. They allow for unique insights into the nature of the ecosystem and life habits of the organisms in question that would not be possible from body fossils alone. Some types of Trace Fossils are:\n<table style=\"width:100%\" border=\"1px\"><tr>\n<th style=\"width:130px\">Trace Fossil Type</th>\n<th style=\"width:80px\">Description</th>\n<th style=\"width:500px\">Example</th></tr><tr><td><b>Stromatolites</b></td><td>Stromatolites are finely-layered dome-like structures made by the slow growth of cyanobacteria on the seafloor. Another name is a 'microbial mat'. They are very unusual in Paleozoic rocks, because other lifeforms common eat the mats, destroying the delicate structure. However, they are widely prevaent in the Precambrian, and still grow today in areas that are unhospitable to other life forms (e.g. on salt flats).</td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/mod8_foss/FossilPics/F10a.png\" height=\"300px\" title=\"Some of the oldest stromatolites can be found in the Canadian Shield.\"></td></tr><tr><td><b>Trackways</b></td><td>Trackways give us information on anatomy, migration habits, and lifestyles. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15fos_trackways.jpg\" height=\"300px\" title=\"\"></td></tr><tr><td><b>Burrowing Structures</b></td><td>Burrowing trace fossils form where animals have dug into substrate to either live, eat, or escape. Depending on the reason for the burrow, they may be branched, linear, or complex, and sometimes have linings to improve the stucture, or a evidence for methodical backfilling.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Fos_bioturbation.jpg\" height=\"300px\" title=\"\"></td></tr></table>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1599919300712!6m8!1m7!1sS8T-Bqqr9W2xNFgUELpsjw!2m2!1d48.59414338917575!2d-88.7689105550322!3f8.593269423395714!4f-8.660709539766302!5f1.7748769312367139\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Example: The earliest life?", 
+        "text": "When discovered in 1953, microbial remains in the Gunflint Chert were the oldest known evidence for life. Stanley A. Tyler examined stromatolites at the coast near Schrieber Ontario where he noted small rod-shaped and filamentout structures inside the black chert layers. At this roadside outcrop near Pass Lake in the Thunder Bay District, many beautiful examples of small delicate laminae can be found. The strata here have been folded slightly. \n<br> <img src=\"https://planetrocks.utsc.utoronto.ca/map/Photos/allsmall/N193b.jpg\">\n<br>  <iframe src=\"https://planetrocks.utsc.utoronto.ca/map/#14/48.5856/-88.7744\" width=\"100%\" height=\"300\"></iframe>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15Sed_fosLim.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Interpreting Fossils: Example 1", 
+        "text": "This sample was found near Highway 401 near Kingston. It contains a number of marine fossils made of calcium carbonate, including crinoids of different sizes, brachiopods, and bryozoa. All are well preserved, but the larger spindly fossils are broken. The crinoids are dissarticulated, and the delicate branching bryozoans are broken in fragments less than a few centimetres long. Some pieces are quite large, but the matrix material between fossils is quite fine. Virtually everything is laying flat, or nearly so. It looks like the fossils have been transported, but perhaps not very from where they grew. They were not subjected to prolongued tumbling. Given the fossil assemblage, we can deduce that the sample is from the Paleozoic when these species were the most important reef builders. It is likely that the fossils werw part of a shallow-water reef which was subjected to a short-lived storm event which swept the fossils away from the reef to be deposited quickly. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15FosCoal.JPG", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Interpreting Fossils: Example 2", 
+        "text": "This block was found within a siliciclastic succession along the coast of northern New Brunswick. It shows plant stems, about 1 inch in diameter, preserved as carbonaceous films in a sandstone. The plants are not woody. The good preservation of details along the stem indicate it was burried quickly, and was compressed by the overlying sediment. Preservation of a carbonaceous film suggests that it was isolated from degradation by aerobic bacteria. The stems all appear to be in alignment which could mean that they were pushed by some current before deposition. The presence of such well-preserved plant material suggests that these sediments were deposited in water held within a vegetated terrestrial setting such as in a lake or river. The sandstone in which they are hosted is very fine, which suggests that the current was not very strong. "
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "text": {
+      "headline": "Introduction to Fossils", 
+      "text": "Fossils aren't just amongst the most exciting rocks to find, they are also the most informative. They can tell us about the age of the rock, the environment in which they lived and died, and the evolutionary pathways of Earth's history. Becoming a paleontologists takes years of dedicated study, but you might be surprised at what can be learned by having a basic understanding of the most common fossil. In this lab, we will focus on recognizing fossil groups and how we might make useful observations. Most fossils that we see with our eyes are <b>body fossils</b>, which give information about an organisms structure. However, some fossils are either too small to see (<b>microfossils</b>) or are actually the preserved remains of an organisms activity (<b>trace fossils</b>). In this module we will focus on body fossils. \n\n<br><br>\n<b>Learning Objectives:<b><br><br>\n1) Identify common fossil groups.\n<br><br>2) Apply knowledge about index fossils for age dating \n<br><br>3) Understand the conditions under which different fossils might get preserved \n\n"
+    }
+  }
+}

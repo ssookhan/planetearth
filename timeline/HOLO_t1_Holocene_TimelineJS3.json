@@ -1,0 +1,139 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "", 
+        "credit": "data from Alley 2004", 
+        "thumbnail": "https://planetearth.utsc.utoronto.ca/timeline/content/bulletgraph.jpg", 
+        "caption": "GISP2 ice core data"
+      }, 
+      "group": "Events", 
+      "start_date": {
+        "display_date": "18 ka - 11.7 ka", 
+        "month": "", 
+        "day": "", 
+        "year": "-18000"
+      }, 
+      "text": {
+        "headline": "In Transition: From Pleistocene to Holocene", 
+        "text": "Ice cores taken from Greenland in the early 1990's provided some of the first high-resolution measurements of climate change accompanying deglaciation of the Northern Hemisphere. Two research groups operated in Greenland: the Europeans with GRIP, and the Americans with GISP-2, extracting two ice cores within a year of each other and within 30 kilometers of each other, each just over 3 km long and covering the last 100,000 years of earths history. A temperature record was interpreted from oxygen isotopic data and showed that the transition from the Pleistocene to the Holocene was surprisingly fast and accompanied by dramatic swings in temperature. \n<br><br>\n<b>Heinrich (H)</b> events are when rapid deglaciation causes armadas of icebergs to break off the ice sheet, leaving layers of concentrated ice rafted debris (IRD) in deep sea sediment cores in the North Atlantic. The large volume of fresh water entering the oceans during a Heinrich event may alter global thermohaline circulation. \n<br><br>\n<b>Dansgaard\u2013Oeschger (D-O)</b> events are short episodes of rapid warming, typically in a matter of decades, followed by gradual cooling. For example at the end of the Younger Dryas, average annual temperature over Greenland warmed by around 8 \u00b0C over 40 years. \n<br><br>\nThe <b>B\u00f8lling-Aller\u00f8d</b> interstadial was a warm and moist interstadial that occurred during the final stages the Wisconsin glacial period. During this time, global sea level rose by approximately 16 m due to ice melting and thermal expansion. \n<br><br>\nGlacial conditions returned abruptly, but temporarily for about 1300 years during the <b>Younger Dryas</b> stadial period. Though causes are debated, possible culprits include changes to oceanic thermohaline circulation as a result of glacial lake outburst floods, and changes to incoming solar radiation. Cooling was enhanced in the North Atlantic, while the Southern Hemisphere generally warmed slightly. \n\n<iframe src=\"https://planetearth.utsc.utoronto.ca/charts/dynamic/20_ka_Alley_2004.html\" width=\"100%\" height=300px scrolling=\"no\"></iframe>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://docs.google.com/presentation/d/e/2PACX-1vSFBPiBhPc0XtG2XOX6JZpIvyuNwasFQYszOgE835ft7MHf4K5iS88Hl7z9NjRXZHDcFVr8Q2Ro-ShH/embed?start=false&loop=false&delayms=60000\" frameborder=\"0\" allowfullscreen=\"true\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\" width=\"100%\" height=500px scrolling=\"no\" ></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Paleoclimatology", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-10000"
+      }, 
+      "text": {
+        "headline": "Holocene Global Temperature Proxies", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/HOLO_NOAAPaleoclimatologymap.JPG", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "The astonishing amount of paleoclimatic data available for the holocene can be accessed through the above access portal from NOAA."
+      }, 
+      "group": "Paleoclimatology", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-5000"
+      }, 
+      "text": {
+        "headline": "NOAA Global Paleoclimatology Data Map", 
+        "text": "\nA wealth of paleoclimate data has been made available to the public at the National Centers for Environmental Information (NCEI) by NOAA. Take a moment to browse through this comprehensive archive of oceanic, atmospheric, and geophysical data. Try selecting different types of data and think about how these datasets might complement each other, or how they may introduce biases. <br><br> <a href=\"https://gis.ncdc.noaa.gov/maps/ncei/paleo?layers=00001\"><b>Click here to open the NCEI Map Application in a new window</b></a> "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/Glacial_Lake_Agassiz_and_Glacial_Lake_Ojibway,_7,900_BPE.png", 
+        "credit": "Map of Glacial Lake Agassiz and Lake Ojibway ca 7900 YBP", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Events", 
+      "start_date": {
+        "display_date": "8.2 ka", 
+        "month": "", 
+        "day": "", 
+        "year": "-6200"
+      }, 
+      "text": {
+        "headline": "The 8,200 event", 
+        "text": "The 8.2 ka event was an abrupt cold spell lasting about 400 years. It is recorded as a negative excursion in the \u03b418O isotopic record of the Greenland Ice cores. The most likely cause is the drainage of Lake Agassiz - a vast glacial lake created by melting of the Laurentide Ice Sheet. The abrupt influx of a high volume of cold freshwater into the North Atlantic through the Ottawa Valley disrupted thermohaline circulation. <br><br>\n<br><br><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/SLIS_TyrrellSea.gif\" height = \"300px\">\n<br><br> animation data from Dyke et al., 2004 Geological Survey of Canada Open File 157"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/vfs/holo_vf2.html\" allowfullscreen=\"true\"</iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Events", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1070"
+      }, 
+      "text": {
+        "headline": "950-1250: Medieval Warm Period", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/vfs/holo_vf1.html\" allowfullscreen=\"true\"</iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Events", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1500"
+      }, 
+      "text": {
+        "headline": "1300-1850: Little Ice Age", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/charts/dynamic/Marcott_et_al_2013.html\" width=\"100%\" height=300px scrolling=\"no\" </iframe>", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/HoloBack1.jpg"
+    }, 
+    "text": {
+      "headline": "The Holocene", 
+      "text": "The Holocene refers to the past 11,700 years of geological time. It encompasses the period following the deglaciation of continental-scale ice sheets in the northern hemisphere, up to today. In this module, we will look at the major climatic events of the Holocene in order to understand what is the climate \"norm\" for this time period.\n<br><br>\nIn this figure, we see an overview of paleotemperature data from two sources. One curve is oxygen isotope data preserved in the Greenland ice cores, which portrayed the Holocene as a period of relative stability with short-lived anomalies. The second curve is generated from multiple proxies across the globe, and reveals that in addition to short-lived or regional anomalies, \"global\" climate also experienced a long-term cooling trend. Generally, the Holocene can be divided into the early warm \"hypsithermal\" and the later cooler \"neoglacial\".\n<br>\n\n<br><br><b> Learning Objectives: </b>\n<br><br>1.  Summarize the main nature of the Pleistocene-Holocene transition.\n<br><br>2.  Recognize the wide range of climate proxies used to reconstruct Holocene paleotemperatures and their applications.\n<br><br>3.  Evaluate evidence for some of the recent climatic events of the Holocene like the LIA and MWP."
+    }
+  }
+}

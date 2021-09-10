@@ -1,0 +1,120 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qqgfG1DXFjY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Introduction to Glacial Movement", 
+        "text": "This video provides introduces the three mechanisms by which glaciers move, and demonstrates the driving force behind glacial movement. As you watch, pay particular attention to the following: <br>\n<br>Basal sliding \n<br>Internal deformation\n<br>Subglacial deformation\n<br>Glacial flow over sediment\n<br>Glacial flow over bedrock\n<br>Advance\n<br>Retreat\n<br>Mass balance"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://planetearth.utsc.utoronto.ca/diagrams/leaf/GSYS_glacialblock/\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "The Glacial System", 
+        "text": "This interactive figure shows the parts of a glacial system. Hover over the diagram to reveal more information. You should be able to find the following items: <br><br> \n<b> Landforms: </b> Arete, Horn, Recessional Moraine, Terminal Moraine, Lateral Moraine, Truncated Spur, Drumlin, Megaridges, Rock Drumlins, Kame Delta, Proglacial Lake, Glacial Lake, Medial Moraine, Arete, Glaciofluvial Outwash Plain\n<br><br> \n<b> Glacial Features </b> Subglacial Lakes, Subglacial Meltwater Tunnel, Proglacial Sediments, Cirque Glacier, Stagnant Ice, Iceberg, Kame, Moulin, Crevasses, Supraglacial Meltwater, Firn, Kettle Lake\n\n\n\n\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=100% height=100% src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/Atha.html\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Explore the Athabasca Glacier through this virtual reality environment.  If using a smartphone, VR-mode can be accessed by selecting sensor control and cardboard mode under the gear menu."
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Athabasca Glacier: A Virtual Reality Trip", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=100% height=100% src=\"https://planetearth.utsc.utoronto.ca/diagrams/leaf/saskathabasca/\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "Mass balance data from: Ednie, M., Demuth, M.N., and Shepherd, B., 2017. Mass balance of the Athabasca and Saskatchewan sectors of the Columbia Icefield, Alberta for 2015 and 2016; Geological Survey of Canada, Open File 8228, 27 p. https:// doi.org/10.4095/302705", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Mass Balance and Glacial Growth: Athabasca and Saskatchewan Glaciers", 
+        "text": "<b> Mass balance </b> refers to the concept of gain and loss of ice from a glacial system. If a glacier gains mass overall, it grows, but if a glacier loses mass, it retreats. In the accompanying figure, explore the processes that add or remove mass and the terms describing important conceptual features of mass balance. Find the following terms:\n<br>Melting\n<br>Sublimation\n<br>Precipitation\n<br>Mass Balance Stakes\n<br>Equilibrium Line\n<br>Equilibrium Line Altitude\n<br>Ablation Zone\n<br>Accumulation Zone\n<br><br> And examine the mass balance charts for the Athabasca and Saskatchewan glaciers."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=100% height=100% src=\"https://planetearth.utsc.utoronto.ca/vfs/gsys_vf1.html\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Types of Glaciers", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/GsysBack1.jpg"
+    }, 
+    "text": {
+      "headline": "The Glacial System", 
+      "text": "Glaciers exist as dynamic systems in connection to the atmosphere, lithosphere, and hydrosphere. In this module we will explore where different types of glaciers are found on Earth's surface, the parts of a glacier, and how they grow and shrink.\n<br><br>\n<b> Learning Objectives: </b>\n<br><br>1. Describe how glaciers flow through the accumulation and dissipation of mass.  \n<br><br>2. Describe how different parts of the glacial system interact.\n<br><br>3. Differentiate between the types of glaciers that occur on earth today."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure1A.jpg", 
+        "credit": "", 
+        "thumbnail": "Figure", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Figure 1", 
+        "text": "<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure1B.jpg\" style=\"max-height: 600px;\">\n<br><br>\nFigure 1 A) LiDAR-generated images of megascale glacial lineations exposed on the bed of the Juan de Fuca paleo-ice stream (Fig. 3) near Seattle, Washington State and B) on the bed of the Mohawk Ice Stream in New York State (Fig. 4). These bedforms are the characteristic hallmark of fast-flowing ice streams (see also Figs. 22, 23)."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure2.jpg", 
+        "credit": "", 
+        "thumbnail": "Figure", 
+        "caption": "Figure 2. Ice streams within an evolving Laurentide Ice Sheet based on mapped flow paths of megascale glacial lineations. Given the challenges of identifying the geomorphic record of fast flow on hard crystalline rock, this is likely an underestimate of the number of ice streams that were present on the Shield."
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Figure 2", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure3.jpg", 
+        "credit": "", 
+        "thumbnail": "Figure", 
+        "caption": "Figure 3. Ice streams within the Cordilleran Ice Sheet immediately prior to deglaciation."
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Figure 3", 
+        "text": ""
+      }
+    }
+  ]
+}

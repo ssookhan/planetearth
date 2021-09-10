@@ -1,0 +1,22 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": ""
+      }, 
+      "text": {
+        "headline": "Minerals", 
+        "text": "<b>Learning Objectives:</b><br><br>\n1).\n<br><br>2).\n<br><br>3)."
+      }
+    }
+  ]
+}

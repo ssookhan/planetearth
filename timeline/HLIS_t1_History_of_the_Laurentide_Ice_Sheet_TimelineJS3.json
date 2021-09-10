@@ -1,0 +1,213 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.youtube.com/embed/P4gs4tg_vQQ?rel=0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen frameBorder=\"0\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "An animation of global ice volume by the Jet Propulsion Laboratory at Caltech"
+      }, 
+      "group": "Global Ice Volume", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-115000"
+      }, 
+      "text": {
+        "headline": "Modelling Global Ice Volume", 
+        "text": "In general, it is very difficult to recreate timing of growth of an individual ice sheet, even one as large as the Laurentide Ice Sheet, because so much of the evidence is destroyed under advancing ice. However, it is much easier to determine the history of total ice volume on earth, by examining changes in global (or eustatic) sea level. As ice is locked up on land, eustatic sea level lowers, which can be detected all over the world through examining various proxies like microfossil isotopes, coastal geomorphology, reef building chronologies, and more. Approximate ice volumes in a specific region can be modelled by comparing the rates of modern isostatic rebound (which is a property of the weight, and therefore volume of ice over an area), combined with eustatic sea level.\n\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Global Sea Level", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "-115000"
+      }, 
+      "text": {
+        "headline": "Red Sea Data", 
+        "text": "For example, the following chart shows changes in sea level in the Red Sea (in meters). Because the Red Sea is far from any active glaciers, it serves as a useful site for detecting changes in eustatic sea level, which are controlled by global ice volume. Much of the change (but not all) is due to the Laurentide Ice Sheet, which experienced the greatest volume change of any ice sheet. From looking at this curve, we can see that global ice volume followed a sawtooth pattern of slow growth (lower sea level) followed by abrupt warming (rising sea levels). Note that time runs forward from right to left on this graph. In the following slides, refer back to this graph to compare what is happening in North America to the global trend. \n\n<br><br>This graph also serves to introduce to us the concept of <b>Marine Isotope Stages</b> (MIS). Marine Isotope Stages, sometimes also referred to as Oxygen Isotope Stages (OIS) are a convenient chronologic tool for breaking up time based on the isotopic composition of the ocean. This is particularly useful for dating and correlating between deep sea sediment cores. <br><br>\n\n<iframe src=\"https://planetearth.utsc.utoronto.ca/charts/dynamic/RedSea_Level_Grant_2012.html\" style=\"width:100%; height:400px;\"  frameBorder=\"0\"></iframe>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/HLIS_MIS5d.JPG", 
+        "credit": "<a href = \"10.1038/s41467-019-11601-2\">Batchelor et al., 2019</a href><br><br> <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY-4</a href>", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The LIS", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "-109000"
+      }, 
+      "text": {
+        "headline": "The First Ice Sheets", 
+        "text": "Recall that glaciers form where moisture precipitates as ice, and summer temperatures are not hot enough to melt the entirity of the last seasons precipitation. Prevailing winds across most of North America are approximately west to east (the westerlies). They pick up moisture as they flow over water bodies, and precipitate moisture when they are forced upwards against high-standing topography. This principle is called 'orographic precipitation'. Warmer water pumps more moisture into the air than colder water. Examine the accompanying figure and consider how prevailing winds, moisture sources, and topography may have influenced the growth of the first ice domes over Baffin Island and the Torngat Mountains of Labrador. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/HLIS_MIS5c.JPG", 
+        "credit": "<a href = \"10.1038/s41467-019-11601-2\">Batchelor et al., 2019</a href><br><br> <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY-4</a href>", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The LIS", 
+      "start_date": {
+        "display_date": "MIS5c", 
+        "month": "", 
+        "day": "", 
+        "year": "-96000"
+      }, 
+      "text": {
+        "headline": "A Slow Start", 
+        "text": "As those early ice centres grew, they actually moved off of the highlands and into the continental interiors. Though ice would continue to form over Baffin Island and the Torngat Mountains, large ice sheets started to became self-sufficient from the landscape topography. They grew thick enough to acts as barriers on which moisture could precipitate. However, this was a precarious situation. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/HLIS_MIS5b.JPG", 
+        "credit": "<a href = \"10.1038/s41467-019-11601-2\">Batchelor et al., 2019</a href><br><br> <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY-4</a href>", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The LIS", 
+      "start_date": {
+        "display_date": "MIS5b", 
+        "month": "", 
+        "day": "", 
+        "year": "-87000"
+      }, 
+      "text": {
+        "headline": "Pulses", 
+        "text": "A brief warm spell at the transition from MIS5c and 5b was one of several short 'interstadial' periods for the Laurentide Ice Sheet. Global ice volume decreased, but note that ice over northern Asia and Europe increased. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/HLIS_MIS5a.JPG", 
+        "credit": "<a href = \"10.1038/s41467-019-11601-2\">Batchelor et al., 2019</a href><br><br> <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY-4</a href>", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The LIS", 
+      "start_date": {
+        "display_date": "MIS5a", 
+        "month": "", 
+        "day": "", 
+        "year": "-82000"
+      }, 
+      "text": {
+        "headline": "Shifting Centres", 
+        "text": "Centres of ice growth appeared to seesaw between North America and Russia. Though this is counterintuitive, consider that the latitudes of Norway and the Kara region are more akin to the Arctic Islands than they are to the Hudson Bay region. Too far north, and the air might be too dry to hold much moisture. Warming climate, possibly including warmer airmasses or ocean currents, can cause a northward shift of ice, while cooling climate can cause a southwards shift, leaving the north unglaciated.  "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/HLIS_MIS4.JPG", 
+        "credit": "<a href = \"10.1038/s41467-019-11601-2\">Batchelor et al., 2019</a href><br><br> <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY-4</a href>", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The LIS", 
+      "start_date": {
+        "display_date": "MIS4", 
+        "month": "", 
+        "day": "", 
+        "year": "-71000"
+      }, 
+      "text": {
+        "headline": "An Early Maximum", 
+        "text": "During MIS4, ice sheets experienced a great surge southwards, coming very close to the extent reached during the Last Glacial Maximum. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The LIS", 
+      "start_date": {
+        "display_date": "MIS3", 
+        "month": "", 
+        "day": "", 
+        "year": "-58000"
+      }, 
+      "text": {
+        "headline": "A Major Purge and a Slow Regrowth", 
+        "text": "The great surge of MIS4 wouldn't last. By about 40,000 years ago, the large amalgamated ice sheet had receded back into a number of separated ice domes. This time, as it slowly rebuilt, it surpassed it's MIS4 extent.  \n<br><br>\n<table><tr><th><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/HLIS_MIS3_45.JPG\"></th><th><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/HLIS_MIS3_35.JPG\"></th><th><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/HLIS_MIS3_30.JPG\"></th></tr><table><br><a href = \"doi.org/10.1038/s41467-019-11601-2\">Batchelor et al., 2019</a href><br><br> <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC-BY-4</a href>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/eyles_LIS.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The LIS", 
+      "start_date": {
+        "display_date": "MIS2: 21,000 years ago", 
+        "month": "", 
+        "day": "", 
+        "year": "-21000"
+      }, 
+      "text": {
+        "headline": "Last Glacial Maximum", 
+        "text": "By about 21,000 years ago, ice had reached its maximum extent, passing far across the Great Lakes, to a latitude of 37 degrees North (about as far as Indianapolis). "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/18k_1k.gif", 
+        "credit": "Deglaciation of North America; Dyke, A S; Moore, A; Robertson, L. Geological Survey of Canada, Open File 1574, 2003", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The LIS", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "-21000"
+      }, 
+      "text": {
+        "headline": "Deglaciation of the Laurentide Ice Sheet: In Detail", 
+        "text": "The deglaciation of North America progressed rapidly. The soft substrate over which ice flowed at it's margins allowed thin lobes of ice to shoot out from the main ice mass, draining ice volume away from it's centre. Water forming in the interior of the continent was often blocked from reaching a coastal outlet by the ice sheet itself and was unable to drain southwards because of glacioisostatic depression caused by the weight of the ice sheet. Large glacial lakes thus formed nestled up against the ice margin. These lakes accelerated volume loss as the lake-terminating ice was thin and weak, again pulling more mass from the interior. Large outburst floods from Lake Agassiz and other proglacial and subglacial lakes escaped under the ice sheet through Hudsons Bay and the St. Lawrence, affecting ocean currents globally as their cold fresh waters entered the oceans.  The last remnants of ice remained the longest in the same places it initially formed: on Baffin Island in on northern Labrador. "
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "<iframe width=\"1195\" height=\"672\" src=\"https://www.youtube.com/embed/d7b3BVQIHOA\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/HLISBack1.jpg"
+    }, 
+    "text": {
+      "headline": "History of the Laurentide Ice Sheet", 
+      "text": "In this module, we will examine the history of the Laurentide Ice Sheet over the last glacial cycle, known locally as the <b>Wisconsin Glaciation</b>. <br><br>This video illustrates the basic pattern of ice nucleation, growth, and eventual disintegration of the Laurentide Ice Sheet (LIS), but far more accurate images will be presented in the following slides.<br><br>\n<b> Learning Objectives: </b>\n<br><br>1. Outline the main events in the development of the Laurentide Ice Sheet during the Wisconsin Glaciation.\n<br><br>2. Link what you know of glacial processes to the events of the deglaciation of North America."
+    }
+  }
+}

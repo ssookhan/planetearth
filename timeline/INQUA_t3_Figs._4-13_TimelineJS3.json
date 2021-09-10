@@ -1,0 +1,194 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure4.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 4. Paleo-ice streams during deglaciation of the Late Wisconsin Laurentide Ice Sheet (LIS) after deposition of the Valley Heads Moraine (VHM in black) at around 14,400 ybp. 1) Ontario-Erie, 2) Seneca-Cayuga, 3) Genesee, 4) Oneida, 5) Mohawk, 6) Hudson, 7) Tug Hill, 8) Halton and 9) Simcoe. Note the close association of ice streams flowing south to the Finger Lakes from the deepest part of the Ontario Basin (Rochester Basin: 244 m below sea level), indicating a strong topographic control on ice flowing through the St. Lawrence Valley into the Ontario basin."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Figure 4", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure5.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 5. Topography and bathymetry of southern Ontario and northern USA showing the field trip route and stop locations."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Figure 5", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure6.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 6. Simplified surficial geology map of southern Ontario (Ontario Geological Survey, 2010) showing the field trip route (red line), stop locations red circles), and major physiographic features that are discussed in this guide. NYDF: New York Drumlin Field; ORM: Oak Ridges Moraine; PDF: Peterborough Drumlin Field."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Figure 6", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure7.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 7. Principal glacial landforms of southern Ontario and adjacent areas of northern USA, showing the field trip route, stop locations, and major physiographic features discussed in this guide. FA: Frontenac Arch; NYDF[EA1] : New York Drumlin Field; PDF[EA2] : Peterborough Drumlin Field."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Figure 7", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure8.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 8. Simplified bedrock geological map showing un-subdivided Shield to the north and the major lithological changes in the offlapping, gently dipping, Paleozoic strata that young to the southwest. Map is modified from Armstrong and Carter (2010). NYDF: New York Drumlin Field; PDF: Peterborough Drumlin Field."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "Figure 8", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure9.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 9. Generalized drift thickness map of southern Ontario. Note the significant thickening of drift southward from the Shield contact as well as the areas of very thick drift (as much as 250 m) along the Laurentian Valley (LV: Fig. 10) and within interlobate moraines. Areas of exposed bedrock are not coloured. FA: Frontenac Arch."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "9"
+      }, 
+      "text": {
+        "headline": "Figure 9", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure10.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 10. Bedrock topography of Southern Ontario with major physiographic features discussed in this guide (FA: Frontenac Arch; LV: Laurentian Valley; NYDF: New York Drumlin Field). The infill of the latter is shown schematically in Figure 11."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "10"
+      }, 
+      "text": {
+        "headline": "Figure 10", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure11.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 11 . Generalized cross-sectional profiles within the eastern (a-a\u2019), western (b-b\u2019), and central (c-c\u2019) parts of the Laurentian Valley (LV: Fig. 10; dashed red line on location map at right) with northern (d-d\u2019) and southern (e-e\u2019) transects. Note the incision down to Precambrian basement rocks in the north and the significantly lower bedrock elevations in the central part of the valley system. Elevation is in metres above sea level, but topography between borehole locations is generalized and no horizontal scale is implied. Figure 13B shows the stratigraphy that is exposed at the Scarborough Bluffs (Stop 11). def: differentiated; f-m: fine to medium; HT: IRD: m-c: medium to coarse; NT: ORM: Oak Ridges Moraine; PG: vf-f: very fine to fine; vf-m: fine to medium;"
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "11"
+      }, 
+      "text": {
+        "headline": "Figure 11", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure12.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 12. Paleogeographic reconstructions of southern Ontario at various times from the Illinoian glaciation through Sangamon interglacial and various stages of the last glaciation. HIS: Halton Ice Stream; LGM: LIS: Late Wisconsin Laurentide Ice Sheet; OEIS: Ontario-Erie Ice Stream."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "12"
+      }, 
+      "text": {
+        "headline": "Figure 12", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure13.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 13. A) Generalized time-distance diagram for the Laurentian Ice Sheet in Southern Ontario, showing ice extents, past and recent radiocarbon age determinations, and correlations to marine oxygen isotope stages. Generalized stratigraphic columns for the Scarborough Bluffs (centre) and Simcoe County (right) areas are loosely correlated to oxygen isotope stages. B) Stratigraphy of the principal units exposed along the Scarborough Bluffs. Fm: Formation; TL:"
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "13"
+      }, 
+      "text": {
+        "headline": "Figure 13", 
+        "text": ""
+      }
+    }
+  ]
+}

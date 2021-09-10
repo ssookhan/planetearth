@@ -1,0 +1,42 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure14A.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 14. A) Inferred paleoglaciological setting of the field trip area at time of the last glacial maximum.  B) Converging ice streams (SIS: Simcoe Ice Stream and HIS: Halton Ice Stream) during the final retreat of the Laurentide Ice Sheet sometime shortly before 13,000 ybp. The Oak Ridges Moraine was deposited in a narrow glaciolacustrine depocentre trapped between the two ice streams and dammed to the west by the Niagara Escarpment (Fig. 26)."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "14"
+      }, 
+      "text": {
+        "headline": "Figure 14", 
+        "text": "<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure14B.jpg\" style=\"max-height: 600px;\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure15.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 15. Simplified distribution of hard and soft beds below principal ice streams in Southern Ontario. Inset boxes A, B, and C are the locations of the glacially streamlined bedrock surfaces shown in Figures 18, 20, and 21, respectively. The hard bed is offset by numerous faults (Fig. 17). Insets D and E are locations of Figures 22 and 26, which show typical streamlined soft beds with megascale glacial lineations. Note the large expanse of the so-called Dummer Moraine, which is composed of limestone rubble plucked from north-facing escarpments."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "15"
+      }, 
+      "text": {
+        "headline": "Figure 15", 
+        "text": ""
+      }
+    }
+  ]
+}

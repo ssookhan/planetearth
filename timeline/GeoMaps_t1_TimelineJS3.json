@@ -1,0 +1,308 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "explanation_topolines_figure", 
+        "credit": "https://getoutside.ordnancesurvey.co.uk/guides/understanding-map-contour-lines-for-beginners/", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Earth's Surface Relief and Topographic Maps", 
+        "text": "<br><b>Topographic maps are quantitative representations of the relief (elevation differences) of our planet's surface</b>. Such maps are constructed by using lines of equal elevation, also called contour lines. Each line represents a certain elevation.  <br><br>The 3D model of contour lines on the island to the left, shows that steep slopes are indicated by contour lines that are close together and gentle slopes are shown be wider spacing of contour lines. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/pvw5ZM1OKcY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Topographic Map Basics", 
+        "text": "<br><b>Contour lines</b> are lines that connect <b>points (locations) of equal elevation</b>. <br><br>These elevation lines follow a <b>specific line spacing (= contour intervals)</b> that suite the purpose of each map (e.g. contour lines in steps of 20 or 100 metres per line). <br><br>Certain <b>bold contour lines</b> are labeled with the elevation in metres or ft. These are called <b>Index Contours </b>(e.g. 100 m, 200 m, 300 m.., the intervals inbetween will not be labeled)."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/5b438005df814de5be7ffba0aa1b18d4/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Topographic Map Patterns and Geomorphology", 
+        "text": "<br>The pattern of the lines can tell use more about the lay of the land and about geomorphologic features."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jipl7k7c2w8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Topographic Cross Sections of Maps", 
+        "text": "<br>To better visualize the <b>relief (= differences of elevation in an area), topographic cross sections, also called profiles</b>, can be constructed.<br><br>Steps to construct a topographic cross section from a topographic map:<br><br><b>Step 1. </b>Draw a cross section line on the topographic map from Point A to Point B. <br><b>Step 2. </b>Measure the length of the line from A to B in centimetres.<br> <b>Step 3. </b>Find the highest and lowest elevation of contour lines along the cross section line. These will be our lower and upper limits for the constructed cross section.<br><b>Step 4. </b>Draw a cross scection box on a millimetre graph paper. The box will comprise the length of the cross section line on the map along the horizontal X axis and the lowest to highest elevation (in form of marks in steps of e.g. 20 or 50 metres) along the vertical Y-axis. Best pratice is to add a couple of elevation indicators that are e.g. 20 or 50 metres below the lowest and higher then the highest given elevation.<br><b>Step 5. </b>Close the cross section on both ends with the vertical Y-axes and label both accordingly. The Y-axes should also Label the cross section with A and B at the top and at the bot.."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_y5HtLNwkSg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Vertical Exaggeration of Cross Sections ", 
+        "text": "<br><b>Vertical Exaggeration</b> describes to what level elevation along the Y-axis is shown in more detail compared to the length of the horizontal cross section axis (x-axis). <br>Exaggeration is calculated by: Vertical Scale / Horizontal Scale (see video).<br><br> No exaggeration occurs if the vertical scale (Y-axis) is the same as the horizontal scale (map scale) of a profile.  "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/55BNufFfXdc\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Topographic Maps and Cross Sections in Google Earth", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/FbXhooadhZw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "Geologic Measurements: Strike & Dip", 
+        "text": "<br>To create a geologic map and to do geologic analysis, geologist search in the field for <b>rock outcrops at the surface</b>. Once such an outcrop of rock units is found, it is important to determine the orientation of the rock unit.<br><br>Sedimentary rock units lend themselves very well for such measurements as they usually show the contact from one layer to the next quite nicely. The geologist would determine where the bedding planes are located (planar contact from one rock layer to the next) and use a compass to measure its attitude. <br><br> <b>Measurements that are taken are: <br>1. Strike direction and <br>2. Dip angle<br><br>In the video you will see how this is done at a sample outcrop.  </b><br><br><b>NOTE:</b> In Europe a different notation (Clar Notation) is used that records the Dip Direction and the Dip Angle. This is as many geologists in Europe use a different type of compass that provides these two measurements directly. <br><br> Clar Notation: (Dip Direction in 3 digits/Dip Angle in two digits)   e.g. (120\u00b0/35\u00b0)   this equals a Strike of 30\u00b0 from North to East and the Dip Angle is given with 35\u00b0"
+      }
+    }, 
+    {
+      "media": {
+        "url": "Notations.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "9"
+      }, 
+      "text": {
+        "headline": "Notation of Geologic Measurements", 
+        "text": "<br>There are two ways for writing down the values you acquired during your Strike and Dip measurements<br><br> <b>1. Azimuth Notation: </b><br>For this notation you use the round brackets, add the strike direction value first, add a slash and add the dip angle value after and close the round brackets. NOTE: Strike always have to be 3 ditigits. If your measurement is only one or two digits long add zeros in front to fill up to three digits. The dip angle has to be two digits long, hence use a zero in this case too.  <br><br>e.g. Strike: 23\u00b0, dip angle: 5\u00b0   -> Azimuth Notation: (023\u00b0/05\u00b0)   <br><br><b>2. Quadrant Notation:</b><br>For this notation you will have to take a look at the compass. The compass will be split up into two halfs, the upper half (270\u00b0 to 360\u00b0 to 90\u00b0) and a lower half (90\u00b0 to 180\u00b0 to 270\u00b0). <br>If the strike is 23\u00b0, then your value is in the upper half and on the 23\u00b0 to the right side toward East (90\u00b0) in respect to North (0\u00b0). Hence, the first part of the Quadrant Notation is N23\u00b0E<br>For the second part we will use the dip angle of 5\u00b0. Note that Right-Hand-Rule shows us the dip direction (your straight fingers that point down slope) follows always by 90\u00b0 in clockwise direction to the strike direciton (23\u00b0, direction of your right thumb). The dip direction is where we also would measure the dip angle (between horizontal line and the dipping plane). We need this information for the second part of the Quadrant Notation: 23\u00b0 + 90\u00b0 = 113\u00b0 (dip direction). 113\u00b0 points toward East South East direction. <br>The second part of the Quartdant notation is: 5\u00b0ESE</b><br><br> Details are given on the figure to the left."
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "10"
+      }, 
+      "text": {
+        "headline": "Notation - Example", 
+        "text": "NotEx.jpg"
+      }
+    }, 
+    {
+      "media": {
+        "url": "geologic_m_goldcoast.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "11"
+      }, 
+      "text": {
+        "headline": "Geologic Maps ", 
+        "text": "<br>Geologic Maps show the distribution of rock formations on the Earth's surface. <br><br>Areas of similar color / texture represents regions where a particular rock unit of a certain age crops out at the surface. <br><br>While colors typically refer to ages of rocks, textures are often used to symbolize rock types. <br><br>For more information see the sample legend."
+      }
+    }, 
+    {
+      "media": {
+        "url": "Mapsymb.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "12"
+      }, 
+      "text": {
+        "headline": "Geologic Maps & Symbology", 
+        "text": "<br>Besides color-coding, a wide range of symbols are used in geologic maps to indicate unit limits, Strike and Dip of layers, and also geometry of deformation structures (e.g. faults).<br><br> The term<b> dip symbol </b>refers to the symbol used to show the <b>dip direction, strike direction and dip angles of </b> a rock units.<br><br> <b>Solid lines</b> that limit the color-coded areas on a geologic map represent <b>geologic contacts</b>. These are the planes (e.g. bedding planes that equal geologic contacts) where one rock unit ends and the adjacent rock unit starts. <br><b>Stippled lines </b>indicate <b>assumed geologic contacts</b>, for example where vegetation covers expected outcrops of certain rock unit or formation.<br><br><b>Faulted geologic contacts </b>occure where rock units broke appart and were discplaced against each other. Depending on the <b>type of fault</b> various textured lines are used (see legend).<br><br>Additionally, each map has a <b>map scale</b> that provides information of <b>lateral distances</b> between points. This information is important for constructing geologic profiles.<br><br> <b>North arrow and longitude/lattitude information</b> along the maps edges help with orientation in regard to compass directions and location in the general area."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/qdz9DN74ukY\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "13"
+      }, 
+      "text": {
+        "headline": "Geologic Mapping Practices", 
+        "text": "<br>Compiling a geologic map encompasses many stages:<br><br>1. Preliminary literature and data review<br>2. Preliminary Remote Sensing (satellite imager, lidar data, air photography)<br>3. Plan field work by identifying mapping routes, outcrops<br>4. Field Work: Recording lithologies (rock types) and rock formationd outcropping at the surface, take field notes , record GPS points of outcrops, take compass measurements of bedding planes, take samples/photographs/outcrop sketches <br>5. Use Geographical Information Systems to compile the recorded data and to construct a geologic map including a legend<br>6. Construct selected geologic profiles to show subsurface geology"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Vgo8Z63n60g\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "14"
+      }, 
+      "text": {
+        "headline": "Geologic Cross Sections of Maps with Dips Symbols", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/bTtkU2LPyz8\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Principle", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "15"
+      }, 
+      "text": {
+        "headline": "Geologic Cross sections of Maps with Contour Lines", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/56aea59b5cee4def996aaf704dcdedb3/embed?camera=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "VR Experience", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "16"
+      }, 
+      "text": {
+        "headline": "Geology in 3D", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "Geologicmap.jpg", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "display_date": "</>", 
+      "month": "", 
+      "day": "", 
+      "year": "1"
+    }, 
+    "text": {
+      "headline": "Maps and Cross Sections in Geology", 
+      "text": "<br>Maps are one of the most basic, but also most essential tool for geologist. <b>Topographic maps</b> are a representation of the Earth's surface elevation (= topography) and are the basis for the construction of <b> geologic maps</b>. <br><br>Geologic maps are a birds eyes view of geologic rock untis (rock units grouped by age) distribution at the Earth's surface. Geologists gather relevant information by hiking through a mapping area. While mapping, geologists record the GPS cooridantes of the location, rock types, geologic structures, compass measurements of layer geometries and any other relevant characteristics at outcrop location in the field. Furthermore, they take otucrop pictures and draw and annotate sketches that highlight important geologic features.<br><br>\n<br><br>\n<b> Learning Objectives: \n<br><br>1. Read and interpret topographic maps to visualize topography of a given area. \n<br><br>2. Construct topographic cross section based on a given topographic map.\n<br><br>3. Read and interpret geologic maps and legends.<br><br>4. Construct a basic geologic cross section to show the subsurface geology of the chosen area. </b>"
+    }
+  }
+}

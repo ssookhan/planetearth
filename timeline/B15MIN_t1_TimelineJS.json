@@ -1,0 +1,497 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "The Rock Forming Minerals", 
+        "text": "In the following section of this module we will introduce you to the most important rock forming minerals and mineral groups. \n<br><br>\nIn this module, as well as in museum mineral collections, mineral shops, and images online, the samples shown are \"museum quality\". They are far more perfect than what geologists typically encounter in the field. \n<br><br>\nHere we will discuss the following minerals or mineral groups:<br><br><b>Silicate Minerals</b>\n<ol><li>Quartz </li> <li> Plagioclase Feldspars</li> <li> Alkaline Feldspars (also called K-Feldspars) </li> <li> Biotite (Mica Group) </li> <li> Muscovite (Mica Group) </li> <li> Hornblende (also called Amphibole) </li> <li> Pyroxene<br> </li> <li> Olivine </li> </ol>\n<b>Carbonate Minerals</b> \n<ol> <li> Calcite </li> </ol>\n<b>Sulfide Minerals</b>\n <ol><li> Pyrite </li></ol>\n\n\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MINmineral_id_flow_chart.jpg", 
+        "credit": "https://web.ics.purdue.edu/~braile/edumod/pebble/pebbleAM.htm", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "The Toolbox", 
+        "text": "Minerals are made of arrays of chemical elements set into a rigid form called the <b>crystal lattice</b>. The shape and strength of bonds between molecules gives each mineral type a chemical, physical and optical characteristic set of properties that can be used for identification. Although there are many high-tech methods used to identify minerals (x-ray diffraction, chemical assay, thin-section microscopy) these are expensive and time-consuming. Having a good understanding of the basic tools that can be used in the field for immediate identification is an important aspect of many tasks.<br><br>In the following slides, you will find a list of commonly used physical and chemical mineral properties. <br><br>1. Mineral Habit<br>2. Lustre <br>3. Cleavage and Fracturing<br>4. Mineral Color and Transparency<br>5. Streak Color<br>6. Mineral Hardness<br>7. Specific Gravity<br>8. Striation and Color Patterns<br>9. Mineral Reactions<br>10. Other Useful Properties <br><br><b>NOTE: </b> As all minerals vary in chemical composition and crystal lattice characteristics, not all identification tools work similarly well for each mineral. <br>Each mineral has its own set of good diagnostic properties, that may differ from the other minerals you learn about. <br>Therefore, we suggest that you highlight the useful properties per mineral in your summary table. \n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MINMiNERALS_HABIT.jpg", 
+        "credit": "Bush & Tasa, 2011, Laboratory Manula in Physical Geology, 9th edition", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Mineral Habit ", 
+        "text": "Mineral habit describes the general shape of a mineral sample. This figures shows the terminology used for common shapes. Please remember that specimens found in the field rarely show perfect crystal shapes, but this in itself can be diagnostic. <br><br>Some common shapes are:<br>1. cubic (cube)<br>2. needle shaped (acicular, fibrous)<br>3. prismatic (possibly with a pyramid at the end)<br>4. rhombohedral (a squished cube that is now oblique)<br>5. soccer ball shaped (dodecahedron, pyritohedron etc.)<br>6. tabular/platy (shaped like a book or sheet of paper)<br>7. grainy (smaller crystals that look more like grains)<br>8. irregular massive or blocky massive (one bigger piece of mineral that is either not nicely shaped or a regular block)<br><br><b>NOTE: </b> While one or two specific habits may be dominant for a mineral, they can occur in various different shapes (for more information see identification table). "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MINluster_figure.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Lustre", 
+        "text": "Lustre describes how a light is reflected off of a surface, that is, how \"shiny\" a mineral is. Lustre is caused by how light interacts with the surface of a crystal lattice. Some of the most common terms used to describe lustre are: <br><br>1. <b>Metallic:</b> like a metal surface <br><br> versus types of  <b>Non-Metallic</b> Lustres: <br>2. <b>Vitreous:</b> like glass,  or <b>Adamantine:</b> like diamond <br>3. <b>Oily or greasy</b> like  oil in a puddle, <b>pearly </b> and <b>silky </b> shimmering <br>4. <b>dull</b> or <b>earthy</b> lustre: has no real shine"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/eeT068wxsVQ\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "https://uhlibraries.pressbooks.pub/historicalgeologylab/chapter/chapter02-earthmaterials/", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Cleavage and Fracturing - Basics", 
+        "text": "While <b>cleavage</b> describes how a mineral breaks preferentially along its microscopic crystal lattice, <b>fracturing</b> describes breakage unrelated to the crystal structure. <br><br>Cleavage is caused by the strength or weakness of chemical bonds that hold the underlying microscopic crystal lattice together. Weaker bonds in some directions allow the mineral to break apart (cleave) along that plane more easily. <br><br>The degree of <b>cleavage</b> is expressed as follows: \n<br>- very well developed (breakage surfaces are strongly aligned in one or more direction)\n<br>- well developed (there are several noticeable parallel and even breakage surfaces)\n<br>- weakly developed (one can imagine to see some pattern of cleavage, but hard to see).\n<br><br><b>Fracturing:</b><br>The two commonly used terms to describe fracture patterns are<br>1) Irregular fracturing<br>2) Conchoidal fracturing = looks like broken glass\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Cleavage: the relationship between cleavage and mineral shape", 
+        "text": "The angles between cleavage plane sets are important as they influence the general shape of cleaving minerals. <br><br>Here are some examples: <br><br> 1) 3 sets of cleavage directions that are all perpendicular to each other would result in cube-like fragments and mineral shape. <br><br>2) 3 sets of cleavage directions that are all not perpendicular to each other results in a rhombohedral mineral and fragment shape.  <br><br><b>NOTE:</b> For some minerals such as calcite, amphiboles and pyroxenes cleavage set and angle information may be very helpful during description and identification.<br><br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MINcleavage_angles.jpg\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MINGarnetcolors.jpg", 
+        "credit": "https://sedagems.com/blog/gemstone-information/garnet-color/", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Mineral Colour ", 
+        "text": "Colour is an easily described property that in many cases is diagnostic of certain elements within minerals.  \n\n<br><br>However, many minerals that are part of a larger mineral group that include multiple varieties and slight differences in chemical composition may cause a variation in colour. \n\n<br><br>One such example is the mineral garnet. Depending on the chemical composition, garnet can vary in colour from almost beige-grey (spessartine) to orange (spessartine) and red (almandine) to dark green (uvarovite). \n\n<br><br><b>ATTENTION:</b> Take note in your summary table which mineral colors are diagnostic and which are less reliable due to possible color variations.<br><br>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MINtransparency.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "Transparency and Translucency", 
+        "text": "Mineral transparency is the amount of light is transmitted through a mineral.\n<br><br> Three different terms are used to describe mineral transparency:\n<br>1) <b>Transparent:</b> The mineral is totally transparent, means that you can see right through it. Just like window glass.\n<br>2) <b>Translucent: </b> The mineral allows some means that such a mineral lets some light through and you can a rough idea what is behind this mineral. \n<br>3) <b>Opaque:</b> The mineral is solid and permits no light transmission."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ngM-xww9Aps\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "9"
+      }, 
+      "text": {
+        "headline": "Streak", 
+        "text": "Streak color is the color you get when you rub a mineral over a porcelain streak plate. The line (streak) that is produced often has a diagnostic color that may differ from the normal mineral color. <br><br>For example a pyrite mineral is bronze-gold in color, but its streak will be black.<br><br><b>ATTENTION:</b> The streak test is dependent on the hardness of minerals and the streak plate itself. <br><br> For example: A white streak may mean one of two things:<br><br>1. If the mineral ( hardness: 3-4) is softer than the porcelain plate (hardness: 6.5-7), the white streak results from the broken down of the mineral.<br><br>2. If the mineral (hardness: 7-8) is harder than the porcelain plate (hardness: 6.5-7), the white streak results from scratching the streak plate itself. <br><br>      This also would leave a scratch in the streak plate. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xZUgWzRpA-4\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "10"
+      }, 
+      "text": {
+        "headline": "Hardness", 
+        "text": "The hardness of minerals can be tested by using various tools such as your fingernail, a copper penny, a steel nail or knife, a glass plate, a specifically designed mineral scratch kit with picks of different levels of hardness, or by just scratching one mineral with another. <br>Based on such tools the German Mineralogist Friedrich Mohs (1812) developed a hardness scale, the Mohs Hardness Scale, that is still used today. <br><br>Best practice is to give a small range for the hardness of a mineral as it can vary slightly per mineral. <br><br><b>ATTENTION:</b> The result of a mineral hardness test (also called scratch test) can be influenced by weaknesses present in a mineral. Scratching along cleavage planes for one can make a mineral seem less hard than it is, as it is easier to scratch (\"break\") a mineral into tiny pieces (powder) where it cleaves. Hence, you want to test hardness on a couple of crystal faces to make sure you get the correct hardness. \n<img src = \"https://planetearth.utsc.utoronto.ca/timeline/content/B15MINMohs_Scale2.jpg\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MINspecificgrav.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "11"
+      }, 
+      "text": {
+        "headline": "Specific Gravity", 
+        "text": "Specific gravity describes the weight of a mineral of a certain volume in comparison to the weight of water of the same volume. <br><br>During mineral identification you would compare how heavy minerals feel in comparison to each other. <br><br><b>TIP:</b> In a lab or in the field you usually would not use a scale to weigh minerals, but would determine the relative order of minerals based on their specific gravity (feel of weight) from the heaviest to the lightest. To get more information about the specific gravity values per mineral, consult the Mineral Property table at the end of the Lab 1 Guide PDF. <br><br>In general, light colored minerals (even if large) are lighter than dark minerals or minerals with metallic lusters (even if these are small). <br><br>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MINstriation.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Pyrite with striated surface"
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "12"
+      }, 
+      "text": {
+        "headline": "Striation and Color Patterns ", 
+        "text": "Some minerals have specific markings such as striation or growth lines on their crystal faces. <br>Two common examples are plagioclase and pyrite. <br>Others have diagnostic color patterns throughout the mineral. For example, the Alkali-Feldspars (also called K-feldspars) may show an exsolution color pattern that look likes scars or worms."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aJGL8rloatw\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "13"
+      }, 
+      "text": {
+        "headline": "Mineral Reaction with Chemical Substances", 
+        "text": "The most helpful tool to distinguish between carbonates (calcite, dolomite, and aragonite) and almost all other minerals (e.g. Silicates and Sulfides) is to drip 10% Hydrochloric Acid (HCl) on minerals. <br><br><b>Results:</b> <br>If bubbles start to form (fizzes) the mineral is a carbonate.<br>If the HCl liquid just flows off without bubbling (fizzing) one can deduce that this is not a pure carbonate mineral. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/jhKc5MCvcEg\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "14"
+      }, 
+      "text": {
+        "headline": "Other Useful Properties", 
+        "text": "Some minerals show other specific properties that you can test for. Here you will find a short list with some examples.<br><br><b>Magnetism</b><br>A smaller number of dark or metallic minerals may also have magnetic properties due to their iron content. Test by holding a magnet or a steel tool close to it and see if it gets attracted to the mineral. <br>Examples: <br>Magnetite - strong magnetic attraction<br>Quartz - no attraction at all<br><br><b>Taste</b><br>Minerals such as halite have a distinctive, for example salty, taste. <br><br><b>Feel</b><br>Some minerals have diagnostic surface textures. Talc for example feels like touching a bar of soap. <br><br><b> Flexibility</b><br>Many sheet-like minerals or for example native element samples (e.g. gold, copper) may be very flexible and bend when force is applied. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "\n    <iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/d38d66920a3c4c2193f7708fee243663/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>\n", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "15"
+      }, 
+      "text": {
+        "headline": "Quartz", 
+        "text": "Quartz can occur in many colors and forms. <br><br>Habit: <br>Very common quartz samples are either massive irregularly shaped blocks or nicely shaped 6-sided prisms with a pyramid on on end. <br><br>Color & Transparency:<br>In regards of color and transparency, a perfect prismatic quartz crystal are often translucent to completely transparent, but more common are opaque (milky) white or grey massive pieces of quartz. <br>Other quartz varieties are for example purple (Amethyst) or dark grey (Smokey Quartz).<br><br>Quartz does not show any cleavage but breaks by fracturing what produced either irregular or conchoidal fracture planes. <br><br><b>Interesting Fact:</b> The chemical formula for quartz is SiO2 and has the same composition as basic glass of which it is also a major production ingredient.\n<br><br>\n<img src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/images/u1c.png\"><br>\nQuartz crystals with red surface staining. Most quartz is transparent-greyish. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "\n    <iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/3228022fb91541eba74fb750600837a2/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>\n  \n", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "16"
+      }, 
+      "text": {
+        "headline": "Plagioclase Feldspar", 
+        "text": "The plagioclase mineral we will look at in this course is Albite. It is commonly white or light grey and light reflection may help to recognize physical grooves (striations) on its crystal faces. <br>Larger (massive) hand samples are often blocky due to two often well developed cleavage plane sets that are perpendicular to each other.<br><br><b>NOTE:</b> The color of the Plagioclase 3D model on the left has a orange/pink tinsh due to the background color or it could have had some reddish weathering product on it when it was photographed.\n<br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/C36_plagtwins.png\"\nSurface markings on plagioclase feldspar under a hand lense."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/bdc6c48fef5742da85b2d5293d7a40b4/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "17"
+      }, 
+      "text": {
+        "headline": "Alkali (K-) Feldspar", 
+        "text": "Alkali (K-) Feldspars are often pink and may show a scar-like exsolution color pattern. As you can see in the 3D model on the left k-feldspar samples are often elongate blocky due to their two cleavage plane directions that are almost perpendicular to each other. <br><br><b>Interesting Fact:</b> Some Alkali feldspars are called Amazonite due to turquoise color. \n<img src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/images/u7d.png\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/938eb730c5ff4e42b838f7620e8dff20/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "18"
+      }, 
+      "text": {
+        "headline": "Biotite", 
+        "text": "Biotite is a dark colored mica mineral that seems opaque if thicker and is transparent when a very thin sheet. In hand sample a biotites oily lustre would be easily recognizable. <br>Biotites vary in shape from thicker plates to thin sheets or flakes. The minerals habit is caused by the microscopic crystal structure with very weak chemical bonds in one direction. Due to these weak bonds, sheets of the mineral can easily be peeled of. Another property that is easily tested for is this minerals hardness. Biotites, similar to all other micas, have a very low hardness and are usually easily scratched by a fingernail. <br><br>Mineral Occurrence:<br> In all rock types. Is the mineral that makes a schist shiny. <br><br><b>Interesting Fact:</b> Due to its physical characteristics (high heat resistance, softness) this mineral was and is still used as a heat resistant glass substitution and lubricant. Because of its oily and shimmery lustre it is also used in blush. \n<br>\n<img src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/images/v7b.png\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/8588fb59d0f2492cb8dc3fd7e423a88f/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "19"
+      }, 
+      "text": {
+        "headline": "Muscovite", 
+        "text": "Muscovite is a light color variety of the mica mineral group. As biotite, muscovite is transparent when very thin and opaque but creamy color when thicker.This minerals lustre is usually described as silky or pearly. <br>As all mica minerals muscovite cleaves easily into thinner sheets, when pried apart with a fingernail. also, due to its low hardness (2.5-3), muscovite is easily scratched with a fingernail. <br>\n<img src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/images/v5.png\">\n'museum-quality' specimen of muscovite. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/ccfbf84fe3de4f3995a7362b6e10955b/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "20"
+      }, 
+      "text": {
+        "headline": "Amphibole", 
+        "text": "The terms Amphibole and Hornblende are interchangeable for this mineral group. Here we discuss the commonly opaque black hornblende variety. The 3D model shows a few almost perfectly shaped amphibole crystals (elongated prisms of a 6-sided diamond shape) that are grown on a pink alkali feldspar. However, we often find hornblends with an oblique massive shape. The obliqueness of the sample is caused by the two sets of cleavage planes that are oriented in 124 and a 56 degree angles to each other. <br>The model shows also that often one can see striation (physical grooves) on the crystal faces. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/fa3da145bf6b4aaf8a1ef76e5b260e39/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "21"
+      }, 
+      "text": {
+        "headline": "Pyroxene", 
+        "text": "Pyroxenes are another group of minerals and therefore can also vary in its characteristics (e.g. color: beige, green, black). Here you see a perfect sample of a pyroxene that is greyish in color. Note the perfect mineral shape (short prism) that when seen from the top has an 8-sided shape. Like a rectangle with cut off corners. And as with all other minerals, also pyroxenes often are found in a massive blocky form.The blocky shape of larger samples results from two sets  of cleavage planes that are perpendicular to each other. <br><br> <b>Occurrence in rocks:</b> <br> Pyroxenes are found in mafic rocks and are most most abundant in Earth's mantle. Pyroxenes also make up various metamorphic rocks such as for example Eclogites (rock made up of green pyroxene with a red garnet mineral). \n<br><img src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/images/w6b.png\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/a937bc527dc74688a50d6763e7ac0a69/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "22"
+      }, 
+      "text": {
+        "headline": "Olivine", 
+        "text": "Olivine (gem quality mineral: Peridote) is a translucent green mineral for which the color is the most diagnostic feature. These minerals are often small so that virtually all samples are actually aggregates of tiny grainy crystals. The 3D model on the left shows one such aggregate of olivine crystals within that was found in a basalt.<br><br><b>Occurrence in rocks:</b> <br> Olivine is one of the main minerals in igneous rocks that are high in iron (Fe) and magnesium (Mg). Olivine for example occurs in volcanic mafic rocks such as basalts or in plutonic igneous rocks such as gabbros (mafic) and peridotites (ultramafic).  \n<img src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/images/aa1.png\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/4025af8a94c049c78e59820d9141d116/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "23"
+      }, 
+      "text": {
+        "headline": "Calcite", 
+        "text": "Calcite is the most often occuring carbonate minerals. As other minerals it can also quite a lot in color, from colorless (transparent) and opaque white to yellow, red and even green and blue. If you encounter a colorless transparent hand sample you can also test for light refraction properties. Calcite shows strong refraction what means that if you place a calcite crystal on a piece of paper with a line you will see the line double through the crystal.<br> If one finds a large calcite crystal that precipitated form liquid it usually forms rhombohedral shapes as the white example in this 3D model. In transparency the minerals may vary from completely transparent to opaque.The distinct rhombohedral shape of calcite samples results from the three sets of cleavage planes that bisect each other on angles of about 120 and 60 degrees. If one drips HCl on such a mineral it starts to strongly fizz (CO2 freed from crystal lattice) at this location, what implies the chemical composition is Calcium Carbonate (CaCO3) <br><br><br><b>Occurence of Calcite:</b> Calcite is a very important rock forming minerals as it is one of the minerals organisms precipitate to build shells (clam or snail shells) or structures (coral reefs) that then are preserved in form of fossils or lithified to limestone. Calcite is also one constituent of some igneous (e.g. carbonatite) and metamorphic rocks (e.g. marble). <br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15MINcalcite_1.jpg\">\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/037142ad5c874b07baad0bb39fe72fbe/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Rock Forming Minerals", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "24"
+      }, 
+      "text": {
+        "headline": "Pyrite", 
+        "text": "Pyrite is one of the most common sulfide minerals and shows a golden colour and metallic lustre. Another great diagnostic propherty for this mineral is its greenish/brown to black streak. Pyrites are usually found in cubic, pyritohedral (soccer-ball) or massive shape. As in the 3D model shown here these minerals often form aggregates. On crystal faces you may see growth lines and evidence of uneven or conchoidal fracturing, as pyrites do not feature good cleavage.  <br><br><b> Fun fact:</b> Pyrites are also called \"fool's gold\". One can easily distinguish between pyrite and gold, as gold does not form nice crystals such as this and is has a very low hardness (2.5 - 3) compared to pyrite (6 - 6.5). <br>\n<img src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/images/f23.png\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/gallery/minerals/\" width=\"100%\" frameborder=\"0px\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Interested in seeing more minerals? Explore here! Please note, you are not expected to know these minerals."
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "25"
+      }, 
+      "text": {
+        "headline": "Interested in seeing more?", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15MINrock_forming_minerals.jpg", 
+      "credit": "GeologyCafe", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "text": {
+      "headline": "Introduction to the Rock-Forming Minerals", 
+      "text": "What is a mineral?  A mineral is a naturally occurring, inorganic solid that has a defined chemical composition of specific elements set in a prescribed crystal structure. They are the building blocks of rocks. There are thousands of different minerals, but only a few dozen that are common in the Earth's crust. In this module, we will focus on field identification of rock-forming minerals. \n<br><br>\n<b>Learning Objectives:</b><br><br>\n1)  Learn the tools used to identify minerals\n<br><br>2) Recognize the main rock forming minerals\n<br><br>3) Use mineral properties toolbox to identify mineral samples<br><br>4) Rationalize why some properties may be more reliable than others "
+    }
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_2.html#3/60.41/-89.74\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Map Feature", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Physiography and Geology of North America", 
+        "text": "North America (excluding Mexico) can be broken into 4 geological domains, each of which influenced flow of the Laurentide Ice Sheet. They are:\n<br><br><b>The Canadian Shield:</b> The Canadian Shield is a broadly domed region where the most ancient core of North America comes to the surface. Rocks here are generally 'crystalline' igneous and metamorphic rocks which formed deep underground by repeating plate tectonic cycles and are brought to the surface by million of years of erosion. Although the Shield is generally low-relief, geologic structures like joints, faults, and folds create 'roughness' and may have been locally important for directing ice flow and subglacial drainage.  Between the low overall slope gradients, lack of sediment cover, deep jointing creating surface roughness, ice flow over the Shield was probably largely sluggish. \n<br><br><b>The Paleozoic Platform: </b> The 'Paleozoic' is the geologic era during which life proliferated after about 550 milliion years ago. Globally high sea levels meant that much of North America was inundated with warm, shallow water. Layers upon layers of sediment blanketed the continent and built up to make a stable platform of flat-lying sedimentary rock. Fast ice flow across this geologic region was facilitated by the contrasting erodability of the soft sedimentary rock compared to the crystalline bedrock of the Canadian Shield. \n<br><br><b>The Appalachians: </b> The Appalachian Mountains are the deeply eroded remnants of the collision between the supercontinent Gondwana and North America to make the new supercontinent Pangea, about 400 million years ago. This involved the closure of the Iapetus Ocean and thickening of the crust of eastern North America by folding and faulting. Even though the Appalachians have been undergoing erosion for several hundreds of millions of years, they remain a significantly more elevated than the Canadian Shield and Paleozoic Platform, and thus present an obstacle to ice flow. \n<br><br><b>The Cordillera: </b> As the Atlantic Ocean opened, it pushed North America westwards over the Pacific tectonic plate, causing collision of the western margin of the continent with a number of smaller landmasses, giving rise to the Rocky Mountains. The Cordillera holds the thickened, folded, and thrusted rocks from these collisions as well as numerous volcanic rocks formed at the plate margin. The Laurentide Ice sheet was prevented from expanding westwards first by the gentle rise in elevation flanking the belt, and then by the dramatic topography of the Cordillera itself which is so high that it nucleated a separate ice sheet called the Cordilleran Ice Sheet.  \n\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_3.html\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Hard Beds, Mixed Beds, and Soft Beds", 
+        "text": "One of the most important consequences of geology is that it controls the nature of the bed over which the LIS flowed. Prior to the first glaciation, the Canadian Shield was covered by a thick mantle of sediment, but over the course many glacial cycles, the Shield was stripped bare while thick sediment generally accumulated over the Paleozoic Platform. Ice flowing over bare rock or a \"hard bed\" often behaves differently than ice flowing over a mantle of sediment (a \"soft bed\") and therefore each glaciation preps the landscape for the subsequent glaciation. This map shows the thickness of the sediment cover as it is today as a result of the Wisconsin Laurentide Ice Sheet and earlier glaciations. \n<br><br><b>Hard beds</b>, labelled in the accompanied map as \"rock\", are mostly found on the Canadian Shield and where the edges of sedimentary layers of the Paleozoic Platform comes to surface. We call rock exposed at surface \"bedrock\". Ice can either be frozen to bedrock (cold-based) or lubricated by water (warm-based). If frozen, then ice largely moves only by internal deformation, which is a very slow process and does not produce very much sediment. If lubricated by water, than ice can also move by basal slippage, which is much faster (like going down a water slide). If this is the case, the bedrock is commonly shaped into elongated features like grooves and rock drumlins by debris carried at the base of the ice sheet. Ice speed over hard beds may be accelerated due to fast ice flow either upstream or downstream. \n<br><br>\n<b>Mixed beds</b>, labelled in the accompanied map as \"veneer\", occur where there is a thin veneer of patchy sediment overlying bedrock. While the sediment lubricates ice flow, bedrock highs may act as obstacles to ice flow and undergo glacial shaping (e.g. Craig and Tails). Mixed beds are most common where there is pre-existing topography, or in the transition zone from hard bed to soft bed. \n<br><br>\n<b>Soft beds</b>, labelled in the accompanied map as \"blanket\", are made of a thick blanket of sediment deposited either prior to or during glaciation. Sediments include older glacial till,  glaciofluvial and glaciolacustrine sediments, alluvial sediments (deposited by water flowing over land), or soils. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#3/66.23/-96.28\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Map Feature", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Ice Thickness", 
+        "text": "Ice thickness is another control on ice flow. There are two major 'domes' or 'divides' from which ice flow generally radiates: The Keewatin Ice Dome, and the Quebec-Labrador Ice Dome. A third, more gentle zone, lays over Baffin Island. Try to identify evidence for these ice domes (shown below) in the accompanying map.\n\n<br><br><iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_9/LGM/\" height=\"500\" width=\"800\" allowfullscreen></iframe>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#4/66.23/-96.28\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Map Feature", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Subglacial Drainage Systems", 
+        "text": "Now, turn off everything except Eskers, Tunnel Valleys, Physiography, and Esri World Imagery. Compare the distribution of each of these landforms to the physiographic domains. \n<br><br> \nA <b>tunnel valley</b> is a large, long, U-shaped valley originally cut under the an ice sheet, usually near the terminus. They are typically <20 km long and between 0.5 to 3 km wide. There have traditionally been two explanations for the formation of tunnel valleys: (1) outburst formation by rapid drainage of sub- and/or supraglacially stored meltwater; and (2) gradual formation by headward sapping in low pressure subglacial channels. \n<br><br>\nAn <b>esker</b> is a winding ridge of stratified sand and gravel formed by sediment clogging up meltwater tunnels in ice sheets. These typically form during late-stage glaciation (11.5 ka to 7 ka) when lots of water needs to be discharged from the ice sheet in a hurry. \n<br><br>\nClosely related to eskers and tunnel valleys are subglacial meltwater channels carved into sediment (like tunnel valleys) by  pressurized meltwaters (like eskers). These are smaller features that have not been well-mapped.\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://arcg.is/e58GS\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "The Hog's Back Esker", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#4/66.23/-96.28\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Map Feature", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Ice Flow", 
+        "text": "Now let's look at where ice flows and where ice stops flowing by selecting Ice Streams, Drumlins, and Moraines. Note that if you click on the brown areas on the map, different type of moraines are labelled. \n<br><br> <b>Drumlins</b> are the \"spedometer\" of ice flow. The shape of drumlins can indicate whether ice was moving quickly or slowly.  \nElongate drumlins form under fast-flowing ice while rounder drumlins form under slow-flowing ice. This map doesn't show the shape of drumlins very well, but we can still see the directions of drumlin axes and relate them to the positions of ice streams. The location of ice streams is mapped from a variety of distinctive bedforms including elongate drumlin ridges, megascale glacial lineations, mega-grooves on bedrock and streamlined rock drumlins. The timing of ice streaming is not well constrained and many of the mapped ice streams are diachronous. Over time, ice stream flow sets can migrate, change direction, and cross cut each other, so it's important to realize that these ice streams were not necessarily active at the same time.\n<br><br>\nFlowing ice is constantly pushing sediment towards the edges of the ice sheet. The position, shape, and volume of moraines can tell us about the history and flow conditions of ice, particularly at the periphery of the ice sheet. \n<br><br><b>Terminal or End Moraines</b> collect at the edge of the ice sheet during maximum extent. There were effectively two periods of maximum extent for the Laurentide Ice Sheet during the Wisconsin: one at about 21 ka (the LGM: Last Glacial Maximum) when the LIS was at maximum volume, and another at about 18 ka when accelerated melting caused ice streams to discharge rapidly. Examine the relationship between moraines and ice streams.  Remember that fast-flowing ice moves far more sediment than slowly-flowing ice. \n<br><br><b>Recessional Moraines</b> form during minor readvances during an overall retreating phase. They are only preserved if subsequent readvances are more minor, so they tell us about the rhythm and nature of deglaciation.\n<br><br><b>Stagnation or Hummocky Moraines</b> are areas of thick sediment which have been disrupted by melting ice. They tend to have hummocky terrain with numerous kettleholes.\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#6/43.676/-90.527\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "The Southern Lobes", 
+        "text": "Last Glacial Maxima, when the LIS reached it's maximum volume was around 21,000 years ago. At this time, the ice margin took the form of a number of amalgamated lobes. However, as ice began to thin, something odd happened. There was a re-advance around 14,000 years ago of fast-moving ice streams that rapidly drained ice from the interior of the LIS. These streams descended southwards in a number of lobate features, each pushing vast quantities of sediment into terminal moraines. \n<br><br>Try to find each of the: James Lobe, Des Moines Lobe, Superior Lobe, Green Bay Lobe, Michigan Lobe, Saginaw Lobe, Huron-Erie Lobe. The Ontario Lobe is not labelled on this diagram, but occupies the Lake Ontario Basin. \n<br><br> <img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/18k_1k.gif\">\n<br><br> animation data from Dyke et al., 2004 Geological Survey of Canada Open File 157"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#12/64.0528/-100.7996\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "The Dubawnt Ice Stream", 
+        "text": "In this view, we can examine the Dubawnt Ice Stream more closely. Turn off Eskers and Tunnel Valleys for now. The Dubawnt Ice Stream is a rare example of a soft-bedded ice stream underlain by Canadian Shield geology. This is because it is a late-stage ice stream that flowed for only a few hundred years just prior to the 8.2 ka breaking up of ice over Hudsons Bay.  It represents a short-lived re-advance of ice over thick piles of glaciofluvial outwash that rest on the Canadian Shield.  Even from satellite, the presence of Mega-Scale Glacial Lineations (MSGLs) can be easily followed from one end of the ice stream to the other.  Follow the ice stream from the onset zone to the terminal moraine at the end. Although only a handful of drumlins are mapped in the data presented here, there are actually over 40,000 MSGLs."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#13/51.0684/-112.4467\" allowfullscreen></iframe>", 
+        "credit": "Eyles, Nicholas, J. I. Boyce, and R. W. Barendregt. \"Hummocky moraine; sedimentary record of stagnant Laurentide Ice Sheet lobes resting on soft beds; reply.\" Sedimentary Geology 129 (1999): 169-171.", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Hummocky Moraine", 
+        "text": "A broad swath of hummocky moraine covers the western interior plains. In this area, ice encountered the broad rise leading into the foothills of the Rocky Mountains and became stagnant. Blocks of ice became detached from the ice front and sunk into the soft thick tills below. When we examine this area up close, we can see thousands of kettle lakes. Ice continued to flow in topographic lobes - the record of which is drumlinization. \n<br><br>\nYou may want turn the 'Moraines' layer on and off a few times to see the landforms in satellite."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#4/60.89/-82.31\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Map Feature", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Marine-terminating Ice", 
+        "text": "Let's now turn examine the distribution of glaciomarine deposits. Note that this map focusses on deposits that occur on land today, and may not fully show all glaciomarine deposits that have been submerged by water.\n\n<br><br><b>Glaciomarine deposits</b> collect where the LIS terminated into a marine environment. Most occur in pre-existing basins like the the St Lawrence Valley, the Hudson's Bay Lowlands and on the Maritime Shelf. <br><br>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#6/53.606/-89.066\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Tyrrell Sea", 
+        "text": "The Tyrrell Sea, named after Canadian geologist Joseph Tyrrell, formed 8,000 years ago in the isostatically depressed embayment of the Hudson's Bay Lowland as the Laurentide Ice Sheet disintegrated into the Labrador and Keewatin lobes. At the time, the weight of the ice had isostatically depressed the surface as much as 270-280 m below its current level, pushing the shoreline some 100 to 250 km farther inland than at present. The dissapearance of ice from the area happened catastrophically quicky, following the drainage of Glacial Lakes Objibway and Agassiz.  The new ice front curved around the coastline of Hudson Bay, discharging submarine outwash fans at a tidewater ice front. Large volumes of marine silt and clay were deposited more distally. These sediments are poorly-drained and are the primary reason that the Hudson Bay Lowlands today are essentially a giant swamp.\n<br><br><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/SLIS_TyrrellSea.gif\">\n<br><br> animation data from Dyke et al., 2004 Geological Survey of Canada Open File 157"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#7/45.710/-73.537\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Examples", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "The Champlain Sea", 
+        "text": "The Champlain Sea, or Mer de Champlain, was a short-lived glacioomarine sea that occupied the Ottawa Valley at the end of the last ice age. It was created as a result of of glacio-isostatic depression. Even after the ice sheet receeded from the Ottawa Valley, about 13,000 years ago, the land remained below sea level, allowing marine waters to flood the area. However, the seaway remained in contact with the ice sheet, which discharged waters rich in ground up glacial clays sometimes known as rock flour. These clays are prone to failure and are responsible for numerous landslides in the region."
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#3/66.23/-96.28\" allowfullscreen></iframe>", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": ""
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "background": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/IceExtraBack5.jpg"
+    }, 
+    "text": {
+      "headline": "Structure of the Laurentide Ice Sheet", 
+      "text": "During the Last Glacial Maximum (LGM) about 21000 years ago, the Laurentide Ice Sheet covered an area of about 13 million square kilometers and contained an estimated 26.5 million cubic kilometers of ice. But what do we know about the structure of the ice sheet? Today, we can look at the Antarctic Ice Sheet and see regions of thicker and thinner ice, faster and slower-flowing ice, and ice that terminates on land and at sea. For the Laurentide Ice Sheet, we can no longer see the ice directly, so we must rely on looking at the fossilized landscape formed by the base of the ice sheet to determine what the structure may have been. \n<br><br>\nFor this module, we will primarily be using the following map. Take a moment to familiarize yourself with the data. Each layer can be clicked on and off using the menu on the top right. You may also open this map in a new window by clicking <a href=\"https://planetearth.utsc.utoronto.ca/qmaps/SLIS_1.html#4/62.67/-93.69\" target=\"_blank\">here</a>.\n<br><br><b> Learning Objectives: </b>\n<br><br>1. Explain how the geologic substrate both influences ice movement, and is shaped by ice movement.\n<br><br>2. Understand how we can infer the structure of the LIS from bedforms.\n<br><br>3. Identify factors contributing to the structure of the LIS."
+    }
+  }
+}

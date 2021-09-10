@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title>Planet Earth Online</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/sitePictures/N36a.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/sitePictures/E45a.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/sitePictures/N20a.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="#modules" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> MODULES</a>
+    <a href="#team" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> THE TEAM</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#modules" class="w3-bar-item w3-button" onclick="toggleFunction()">MODULES</a>
+    <a href="#team" class="w3-bar-item w3-button" onclick="toggleFunction()">THE TEAM</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PLANET EARTH <span class="w3-hide-small">ONLINE</span></span>
+  </div>
+    <div class="w3-display-topright w3-padding-16 w3-container w3-hide-small" style= "opacity: 0.8;">
+      <a href="http://www.utsc.utoronto.ca" title = "UTSC Home" target="_blank"> 
+        <img src= "UTSC_rev_optimized.svg" alt= "UTSC Homepage">
+      </a> 
+    </div>
+    <div class="w3-display-topright w3-padding-32 w3-container w3-hide-large w3-hide-medium" style= "opacity: 0.8;">
+      <br>
+      <a href="http://www.utsc.utoronto.ca" title = "UTSC Home" target="_blank"> 
+        <img src= "UTSC_rev_optimized.svg" alt= "UTSC Homepage">
+      </a> 
+    </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT THE PROJECT</h3>
+   <div class="w3-row-padding">
+      <div class="w3-half">
+    <p>In 10 fully online modules, students review the history and workings of the planet, the geological and environmental history of Ontario, and show how the economic and social development of the province reflects its broader environmental setting and history. Each module features the following content enrichment strategies:</p>
+    <ul style="list-style-type:disc">
+      <li>Illustration of key foundation concepts, processes and phenomena through an assortment of instructional videos, interactive diagrams, and animations</li>
+      <li>Exercises involving the hands-on use of spatial and temporal technologies, data analysis, and virtual field trips (VFT’s)</li>
+      <li>Case studies and examples from across Ontario</li>
+      <li>Animations and documentary film footage</li>
+      <li>Media components based on rock and mineral collections</li>
+    </ul>
+    </div>
+    <div class="w3-half">
+      <div class="slideshow-container">
+<br>
+<div class="mySlides fade">
+  <img src="/sitePictures/C4a.jpg" style="width:100%" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/sitePictures/N43a.jpg" style="width:100%" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/sitePictures/C58b.jpg" style="width:100%" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/sitePictures/N120d.jpg" style="width:100%" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/sitePictures/S135b.jpg" style="width:100%" >
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+
+  </div>
+      </div>
+      <p>This project was funded by <a href="https://www.ecampusontario.ca/" target="_blank">eCampusOntario</a>. eCampusOntario is a not-for-profit centre of excellence and global leader in the evolution of teaching and learning through technology.</p>
+  <p class="w3-large w3-center w3-padding-16">Copyright:</p>
+    <div class= "w3-center">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+      <br /><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>
+    </div>
+    </div>
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">MODULES</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="modules">
+  <button onclick="accFunction('planetearthmods')" class="w3-button w3-block w3-black w3-left-align">Introduction to Planet Earth</button>
+
+<div id="planetearthmods" class="w3-hide w3-show">
+
+
+  <p>Each learning module consists of a number of interactive activities and multiple choice-based assessments. Modules are distributed as SCORM files that can be imported into your Learning Management System of choice. Instructor guides are available which outline the topics covered and installation procedure. Select from the ten available modules below:</p> 
+<ul id="rig">
+    <li>
+        <a class="rig-cell" href="/mod1.html">
+            <img class="rig-img" src="/siteThumbs/N21a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 1 - Plate Tectonic Paradigm</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod2.html">
+            <img class="rig-img" src="/siteThumbs/E54a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 2 - How Earth Works</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod3.html">
+            <img class="rig-img" src="/siteThumbs/N130a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 3 - Divergent Boundaries</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod4.html">
+            <img class="rig-img" src="/siteThumbs/mtranier.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 4 - Convergent Boundaries</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod5.html">
+            <img class="rig-img" src="/siteThumbs/W10b.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 5 - Earth Materials</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod6.html">
+            <img class="rig-img" src="/siteThumbs/C35a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 6 - Mineral Resources</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod7.html">
+            <img class="rig-img" src="/siteThumbs/N43a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 7 - Canadian Shield</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod8.html">
+            <img class="rig-img" src="/siteThumbs/S46a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 8 - Paleozoic</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod9.html">
+            <img class="rig-img" src="/siteThumbs/C138a.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 9 - Pleistocene Glaciation</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/mod10.html">
+            <img class="rig-img" src="/siteThumbs/S64b.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 10 - Anthropocene</span>
+        </a>
+    </li>
+</ul>
+</div>
+<br>
+<button onclick="accFunction('glacialmods')" class="w3-button w3-block w3-black w3-left-align">Topics in Glacial Geology</button>
+
+<div id="glacialmods" class="w3-hide w3-show">
+<br>
+<ul id="rig">
+    <li>
+        <a class="rig-cell" href="/vfs/cascade/INQUA.html" target="_blank">
+            <img class="rig-img" src="/modthumbs/INQUAThumbs.JPG">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Subglacial Bedforms in Southern Ontario</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/timeline/holo_t1b.html" target="_blank">
+            <img class="rig-img" src="/modthumbs/HOLOThumbs.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">The Holocene</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/timeline/gsys_t1b.html" target="_blank">
+            <img class="rig-img" src="/modthumbs/GSYSThumbs.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">The Glacial System</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/timeline/oia_t1b.html" target="_blank">
+            <img class="rig-img" src="/modthumbs/OIA.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Origin of the Ice Ages</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/timeline/gl_t1b.html" target="_blank">
+            <img class="rig-img" src="/modthumbs/GLThumb.JPG">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Great Lake Water Levels</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/timeline/slis_t1b.html" target="_blank">
+            <img class="rig-img" src="/modthumbs/SLISThumbs.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Structure of the Laurentide Ice Sheet</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="/timeline/ogl_t1b.html" target="_blank">
+            <img class="rig-img" src="/modthumbs/OGL.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Origins of the Great Lakes</span>
+        </a>
+    </li>
+</ul>
+</div>
+</div>
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">THE TEAM</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="team">
+  <h3 class="w3-center">ABOUT US</h3>
+  <!-- The Team -->
+  <div class="w3-row-padding w3-grayscale">
+    <div class="w3-col l3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h4><a href="https://www.utsc.utoronto.ca/physsci/nicholas-eyles" target="_blank">Dr. Nick Eyles</a></h4>
+          <p class="w3-opacity">Project Lead</p>
+          <p>A prolific university researcher able to draw on many decades of geological work around the globe, and an award-winning author of popular science books. He was the host of CBC's The Nature of Things documentary series <a href="https://curio.ca/en/collection/geologic-journey-i-1335/" target="_blank">Geologic Journey</a> parts I and II.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h4><a href="https://www.researchgate.net/profile/Kirsten_Kennedy3" target="_blank">Dr. Kirsten Kennedy</a></h4>
+          <p class="w3-opacity">Subject Matter Expert</p>
+          <p>A researcher at the University of Toronto with experience both
+in the classroom and in environmental fieldwork. She has assisted on numerous environmental science courses, including field camps in Ontario, Nova Scotia, the American Southwest, and Iceland.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h4><a href="https://www.linkedin.com/in/shane-sookhan-521265146" target="_blank">Shane Sookhan</a></h4>
+          <p class="w3-opacity">Software Developer</p>
+          <p>A researcher at the University of Toronto where he is developing a variety of spatial
+analytical techniques and animations to depict environmental changes across various timescales in Ontario. He is a co-founder of the <a href="https://planetrocks.utsc.utoronto.ca/" target="_blank">Planet Rocks</a> website and <a href="https://play.google.com/store/apps/details?id=lets.rock.ontario&hl=en" target="_blank">Android app</a> with Dr. Nick Eyles and <a href="https://ca.linkedin.com/in/richard-gao-a38a773a" target="_blank">Dick Gao</a>.</p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 w3-margin-bottom">
+      <div class="w3-light-grey">
+        <div class="w3-container">
+          <h4><a href="https://www.utsc.utoronto.ca/physsci/jim-maclellan" target="_blank">Dr. James MacLellan</a></h4>
+          <p class="w3-opacity">Team Coordinator</p>
+          <p>Program Director for the Environmental Studies Program
+at UTSC. He has more than two decades of experience as a decision analyst in environmental management; he also founded the New Brunswick Climate Change Research Collaborative.</p><br>
+        </div>
+      </div>
+    </div>
+    <p>The project team has also received extensive support from the University of Toronto's Director of Online Learning Strategies, <a href="http://onlinelearning.utoronto.ca/laurie-harrison/">Laurie Harrison</a>, and Online Learning Coordinator, <a href="http://teaching.utoronto.ca/about-ctsi/contact/online-learning-coordinator/">Will Heikoop</a>.</p>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+<script>
+//slideshow
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function accFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>

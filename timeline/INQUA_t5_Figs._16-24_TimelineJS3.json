@@ -1,0 +1,175 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure16.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 16. Highly simplified landsystem model for the hard and soft beds of the Ontario-Erie Ice Stream that developed on crystalline strata of the Canadian Shield and offlapping Paleozoics. Not shown are eskers or bedrock channels that carried meltwaters across the hard bed."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "16"
+      }, 
+      "text": {
+        "headline": "Figure 16", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure17A.jpg ", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 17. A) Faulted Paleozoic strata across hard bed resulting from the propagation of Proterozoic structures, such as terrane boundaries, likely due to distal field stresses associated with the Appalachian orogenies and the building of Pangea. B) Structure of the Canadian Shield showing terrane boundaries exposed to the north and buried sub-Paleozoic boundaries to south. Note the prominent Central Metasedimentary Belt Boundary Zone (CMBBZ), which is seismogenic. Bedrock structure controls the location of major bedrock valleys cut into Paleozoics now filled with thick sediment, and which also guided subglacial meltwater flows across the hard bed (Fig. 10)."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "17"
+      }, 
+      "text": {
+        "headline": "Figure 17", 
+        "text": "<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure17B.jpg\" style=\"max-height: 600px;\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure18A.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 18. A) Megagrooved and drumlinized limestone surfaces north and west of Kingston (area A on Fig. 15) with locations of Stops 1, 4 (Fig. 19A) and 5 (Fig. 19B). Canadian Shield occurs to north. B) Megagrooved limestone surface near Stop 5 (Fig. 19B)."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "18"
+      }, 
+      "text": {
+        "headline": "Figure 18", 
+        "text": "<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure18B.jpg\" style=\"max-height: 600px;\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure19A.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "19"
+      }, 
+      "text": {
+        "headline": "Figure 19", 
+        "text": "<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure19B.jpg\" style=\"max-height: 600px;\">  \n\n<br>\n\n Figure 19. A) Image from Google Earth showing the megagrooved limestone surface and associated glacially sculpted escarpments in an area of Highway 6 near Odessa. Highway 6 cuts across grooves (Stop 4). B) Google Earth image of the megagrooved limestone surface at the east end of Shane Street, Odessa (Stop 5)."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure20.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 20. Floor of Lake Ontario between Ontario and New York State with prominent glacially sculpted escarpments (B: Fig. 15)."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "20"
+      }, 
+      "text": {
+        "headline": "Figure 20", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure21.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 21. LiDAR-generated topographic surface of the Paleozoic Potsdam Sandstone at the eastern end of Lake Ontario with rock-cut drumlins and megascale glacial lineations recording subglacial erosion below the Ontario-Erie Ice Stream (C: Fig. 15). The glacially sculpted bedrock surfaces in New York State were first identified by Gilbert (1899)."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "21"
+      }, 
+      "text": {
+        "headline": "Figure 21", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure22A.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "22"
+      }, 
+      "text": {
+        "headline": "Figure 22", 
+        "text": "<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure22B.jpg\" style=\"max-height: 600px;\"> \n\n<br>\n<font size=\"-2\"> Figure 22. A) Topography of Peterborough Drumlin Field just east of Peterborough with sites 22A to 22D mentioned in the text. Higher standing drumlinized \u2018uplands\u2019 west of Trent River are cored by antecedent sediment. East of the river, the overall topography is much reduced and residual outliers of the upland surface show consistent downglacier changes from large drumlins into \u2018channeled drumlins\u2019 to megascale glacial lineations (MSGLs) that record erosional lowering of bed. The same overall downglacier bedform evolution is shown by the beds of ice streams in New York State (Fig. 23) and suggests headward propagation of fast flow and accompanying erosion of the drumlinized bed into MSGLs (Fig. 24). B) Suggested evolution of MSGLs from a large drumlin uplands (DU) as a result of progressive bed lowering and smoothing to produce a low-drag surface, which enables fast flow. </font> "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure23.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 23. Portion of the bed of the Cayuga Ice Stream (Fig. 4) in upper New York State showing transitions from drumlins through \u2018dissected drumlins\u2019 to megascale glacial lineations, which can also be seen in Peterborough (Fig. 22)."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "23"
+      }, 
+      "text": {
+        "headline": "Figure 23", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure24.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "24"
+      }, 
+      "text": {
+        "headline": "Figure 24", 
+        "text": "Figure 24. Hypothetical model showing the \u2018retrograde dissection\u2019 of a drumlinized bed to form megascale glacial lineations (MSGLs) to reduce basal shear and facilitate upglacier propagation of fast flow from the glacier margin, giving rise to a downglacier geomorphic continuum from high-standing, little-modified drumlin bedforms in areas of thicker antecedent sediment to intermediate forms (\u2018channeled drumlins\u2019), to the final stage of MSGLs in areas of thin drift cover (or rock). In this model drumlins and MSGLs form a bedform continuum that is controlled by changing ice velocity."
+      }
+    }
+  ]
+}

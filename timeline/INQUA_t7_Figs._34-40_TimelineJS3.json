@@ -1,0 +1,137 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure34.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 34. A) High-resolution CHIRP sub-bottom profile of the eastern part of Kempenfelt Bay in Lake Simcoe (see Fig. 33 for location) showing multiple valley infill units, including an anticlinal feature interpreted as an esker that overlies a drumlinized valley floor. B) High-resolution S-wave seismic reflection survey profile from the Cookstown Valley showing the drumlinized floor of the valley. OFM: Oak Ridges Moraine."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "34"
+      }, 
+      "text": {
+        "headline": "Figure 34", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure35.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 35. Generalized stratigraphic cross-section through the Oak Ridges Moraine and the so-called \u2018South Slope\u2019 that comprise the megalineated bed of the Halton Ice Stream (Figs. 26-31). This area is rapidly being developed and groundwaters are being severely impacted by urban contaminants, especially road salt."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "35"
+      }, 
+      "text": {
+        "headline": "Figure 35", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure36.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 36. Lake stages during deglaciation and the early Holocene; low lake levels persisted until after 7,000 ybp during the Hypsithermal."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "36"
+      }, 
+      "text": {
+        "headline": "Figure 36", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure37.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 37. Generalized stratigraphic cross-section through the Niagara Peninsula (after Ontario Geological Survey and University of Toronto)."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "37"
+      }, 
+      "text": {
+        "headline": "Figure 37", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure38.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 38. Geology of the Niagara area with successive positions of the Niagara Falls during the last 12,000 years."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "38"
+      }, 
+      "text": {
+        "headline": "Figure 38", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure39.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 39. Niagara Gorge showing the location of the buried pre-Wisconsin St. David\u2019s Gorge. Part of the Upper Great Gorge, south of the Whirlpool, may result from the re-excavation of the buried gorge."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "39"
+      }, 
+      "text": {
+        "headline": "Figure 39", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/INQUA_Figure40.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": "Figure 40. Retreat of Niagara Falls arising from undercutting of the Lockport Dolostone cap rock."
+      }, 
+      "group": "Figure", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "40"
+      }, 
+      "text": {
+        "headline": "Figure 40", 
+        "text": ""
+      }
+    }
+  ]
+}

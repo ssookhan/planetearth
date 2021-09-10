@@ -1,0 +1,172 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/aCnAF1Opt8M\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Magma and Igneous Rock Formation", 
+        "text": "For any type of igneous rocks to form, magma needs to be formed first. <br><br>1. <b>Magma</b> is the liquid that is created when rocks of the <b>Earth's mantle or crust are melted</b>. More precisely magma is the term used for molten rock (1200 - 600 C in temperature) when it resides<b> within the Earth's mantle or crust</b>.<br><br>The melt is in general less dense compared to its solid form (and surrounding) and therefore starts to rise toward the Earth's surface until it reaches a depth level where rock and liquid densities are similar or the magma finds no passageway to rise any further. <br><br>2. Magma may get trapped and accumulate to form a large magma chamber. The magma in the chambers will cool very slowly over thousands of years. When all magma is solidified (crystallized) it forms a so called  plutonic intrusion that is made up of intrusive igneous rocks such as granites. <br><br>3. If the magma can rise all the way to the surface it will then be called <b>Lava </b>. As this lava liquid flows out of a crack at the Earth's surface or gets violently expelled from a volcano, it cools very quickly in seconds to minutes. The rocks formed from the fast cooling of lava are called extrusive or volcanic rocks.    "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Most Common Igneous Rocks", 
+        "text": "<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15IGN_Slide3_mostcommon.jpg\" alt=\"the most common igneous minerals\">"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Igneous Textures", 
+        "text": "Rock textures, the variation in mineral crystal size distribution within a rock, enable us on the one hand to classify and identify igneous rock, but also to infer cooling history and rock formation processes. <br>\n<table style=\"width:100%\" border=\"1px\"><tr>\n<th style=\"width:130px\">Texture</th>\n<th style=\"width:80px\">Description</th>\n<th style=\"width:500px\">Example</th></tr><tr><td><b>Aphanitic</b></td><td>Crystals are too small to be distinguished with a handlense, but the texture is not glassy. Minerals are present, but extremely small. This indicates that the magma was quite hot, but cooled suddenly. True aphanitic rocks are fairly rare, as most magmas precipitate at least a few minerals before cooling, and are thus porphyritic.  Basalt is the most common rock that sometimes shows an aphanitic texture.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/a2.png\" width=\"500px\" title=\"\"></td></tr><tr><td><b>Porphyritic</b></td><td>There are at least two different sizes crystals, most commonly, a population of well-formed, euhedral crystals in an aphanitic 'matrix' or 'groundmass'. This texture indicates that there were two phases of cooling: early cooling allowed crystals higher up in Bowen's Reaction series to begin forming within the magma chamber, followe by a rapid stage of cooling quickly freezing the remaining magma. </td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/a17.png\" width=\"500px\" title=\"\"></td></tr><tr><td><b>Crystalline</b> or <b> Phaneritic </b></td><td>Crystals are large, easily visible, and interlocking. This indicates that rock cooled slowly, most likely, underground. Crystals may still have different sizes depending on the cooling history and composition of the magma chamber.</td><td><img src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/a4.png\" width=\"500px\" title=\"\"></td></tr></table>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_5/igneous/\" border=\"0\" frameBorder=\"0\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Composition of Igneous Rocks", 
+        "text": "Igneous rocks can be classified by the proportion of different minerals held within. Of most importance is the percentage of silica within the magma before it cools. This, along with temperature, influences what minerals crystallize. <br><br>In the left panel you can slide your mouse arrow slowly over the compositional diagram of the most common igneous rock types.  \n<br><br> It's particularly important to recognize whether a rock is felsic (light coloured), intermediate, or mafic (dark-coloured). Ultramafic rocks are quite rare. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ApLp7GMDOE0\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Bowen Reaction Series - Sequence of Mineral Crystallization in Igneous Rocks", 
+        "text": "The Bowen Reaction Series illustrates the sequence in which minerals start to crystallize in cooling magma or lava depending on the initial liquid composition and temperature. Keep in mind that while minerals crystallize from the liquid of a certain initial composition, they use up ions and hence change the composition of the still liquid magma. The chemical composition of the magma therefore changes continuously until it is completely crystallized. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/cbfd155579224ae79f53dcf1c19bc6d2/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "The Process: Naming an igneous rock", 
+        "text": "This sample has a coarsely crystalline texture, which shows that it is an intrusive igneous rock. The largest minerals are rectangular in cross section and salmon-pink in colour. These look like potassium feldspar. There are also some opaque white minerals (plagioclase), transparent grey minerals with a greasy luster (quartz), and small very shiny black minerals (biotite).  All minerals are distributed fairly evenly and there is no sense of any banding. Given the mineral composition and texture, the most appropriate name for this rock would be granite. Granite is a felsic, intrusive igneous rock formed when silica-rich magma has the opportunity to cool slowly within the Earth's crust, for example in a magma chamber."
+      }
+    }, 
+    {
+      "media": {
+        "url": "    <iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/1c8f8c45d88742c9bf84b2d282b7aa19/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>\n    <p style=\"font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;\">\n        <a href=\"https://sketchfab.com/3d-models/porphyritic-basalt-1c8f8c45d88742c9bf84b2d282b7aa19?utm_medium=embed&utm_source=website&utm_campaign=share-popup\" target=\"_blank\" style=\"font-weight: bold; color: #1CAAD9;\">Porphyritic Basalt</a>\n        by <a href=\"https://sketchfab.com/andersundell?utm_medium=embed&utm_source=website&utm_campaign=share-popup\" target=\"_blank\" style=\"font-weight: bold; color: #1CAAD9;\">andersundell</a>\n        on <a href=\"https://sketchfab.com?utm_medium=embed&utm_source=website&utm_campaign=share-popup\" target=\"_blank\" style=\"font-weight: bold; color: #1CAAD9;\">Sketchfab</a>\n    </p>\n", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "The Process: Naming an igneous rock", 
+        "text": "This rock was found on the Columbia Plateau in north western United States. It has an overall dark black-grey colour with little flecks of greyish white. Upon closer inspection, the flecks of white have a clear shape to them. They look like elongate prisms, with a rectangular or slightly rhombic in  cross section.  It is most like plagioclase feldspar. It is difficult to make out distinct crystals in the black part of the rock. It may be an aphanitic 'groundmass' made out of crystals too small to discern. The overall texture of the rock is porphyritic because of the two distinct sizes of crystallization. It is likely an extrusive igneous rock where some crystals formed while in magma form, but the magma erupted and cooled quickly. Given the dark colour and the prominence of plagioclase, this rock should be called a porphyritic basalt. The Columbia Plateau is known for housing a 'Large Igneous Province' of flood basalt, so this would make sense. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/\" width=\"100%\" frameBorder=\"0\"></iframe>", 
+        "credit": "Click on 'Igneous' to reveal more types of igneous rocks. Please note you are not expected to memorize all of these rock types. ", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "The Toolbox", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "More Igneous Rocks", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15IGN_Magmaformation.jpg", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": "Summary"
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "text": {
+      "headline": "Introduction to Igneous Rocks", 
+      "text": "The word \"igneous\" stems from the latin word \"ignis\" which means \"fire\", and describes rocks that form by cooling of molten lava or magma (born from fire). <br><br> Preserved cooled down magma chambers deep in the Earth's crust and volcanoes at the Earth's surface are two examples of geologic features that are made up of such igneous rocks.  <br><br><b>Learning Objectives:</b>\n<br><br>1) Recall and use new terminology appropriately\n<br><br>2) Recall the most important igneous rock types <br><br>3) Describe and identify igneous minerals and rocks by using their physical properties<br><br>4) Link textures with igneous processes<br><br> 5) Infer other properties and formation processes of igneous rocks based on give data and imagery "
+    }
+  }
+}

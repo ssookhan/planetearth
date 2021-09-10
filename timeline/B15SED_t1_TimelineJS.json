@@ -1,0 +1,364 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15Sed_SedRFormation.png", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "How are sedimentary rocks formed?", 
+        "text": "The figure on the left shows a summary of the processes that lead to the formation of the various types of sedimentary rocks. <br><br><b> Step 1:</b> Chemical, physical and biological weathering of existing rocks at the surface<br><b>Step 2:</b> Erosion of fragments or dissolved ions by water, wind or ice (or moved by gravitational forces e.g. falling of a cliff).<br><b> Step 3:</b> Active transport of the materials until it is ..<br><b> Step 4:</b> Deposited in a certain environment or ions precipitate to form little crystals by precipitation from the liquid (e.g. sea water), or ions that are build in shells or structures of organisms. <br><b> Step 5:</b> Lithification (formation of a rock) of sediments to clastic sedimentary rocks, of crystals formed by precipitation from liquids to form chemical sedimentary rocks, of shell fragments to form bioclastic sedimentary rocks, or any hybrid version of these. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/SuNfbEDMOQs\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Clastic Sedimentary Rocks", 
+        "text": "Clastic sedimentary rocks are rocks that form from the lithification (compaction and/or cementation) of formerly loose rock fragments (clasts) as shown in the animation. The word clasts (loose fragment or particle) stems from the greek word \"klastos\" which means \"broken\". \n<br><br>Typically, we describe clastic sedimentary rocks based on their <b> grain size</b>, <b>composition</b> and <b>angularity</b>. Together, these three traits tell us about the conditions of deposition. \n<br><br> You should be able to recognize <b>mudstone, sandstone, conglomerate, and breccia </b> and describe variations within. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15Sed_clasticrockclass.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Classification of Clastic Sedimentary Rocks by Grain Size & Texture", 
+        "text": "The classification of clastic sedimentary rocks is purely based on grain sizes of sediment fragments and their rounding or angularity. The figure on the left shows the various clastic sedimentary rocks types by grain size. Grain size is an important characteristic because it tells us how much energy was required to move the grains. In general, larger grains (or 'clasts') take more energy to move than smaller clasts. So, conglomerates typically form where there are strong currents, like in rivers, while mudstones form where currents are very weak, like in still water. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Siltstone vs. Sandstone", 
+        "text": "Differentiating between conglomerate and sandstone is fairly easy: if clasts are larger than about 2 mm, it is a conglomerate. However, differentiating between a siltstone (belongs to mudstones, coarser endmember) and sandstone is slightly harder. A good rule of thumb is that if you can see fragments with a hand lense, it is a sandstone, if there are no clear visible fragments, it is likely a mudstone. <br> Compare these two photos, which show the texture very close up, as it might be seen with a hand lense: <br>\n<img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15SED_sstMic.png\" width=\"50%\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15SED_siltstonemic.png\" width=\"50%\">\n"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15Sed_ClastText.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Texture of Clastic Sedimentary Rocks", 
+        "text": "The texture of a clastic sedimentary rock describes the properties of the fragments within and includes: \n<br><br>1. The <b>grain size</b> (range of how big are the fragments)<br>2. The <b>sorting</b> which describes the distribution of grain sizes of the rock (e.g. all one size or two distinctive sizes: one big one small)<br>3. the <b>shape</b> of the of the fragments (e.g. elongate, spherical, blocky..)<br>4. The <b>rounding</b> of the fragments (are the corners of the initially angular fragments now rounded)<br><br> As clastic sedimentary rocks form from erosion, transport, deposition and lithification of loose fragments, the texture of such rocks can tell us a lot about the length/intensity of the transport of the fragments as well as the material strength of the fragments. This is summarized in the term <b>Maturity of Clastic Sediments</b> which includes the aforementioned textural properties.<br><br>Here are two examples: <br>1. A <b>immature</b> clastic sediment is in general made up of large angular fragments of irregular shape. Also, they tend to be badly sorted, what means that many different grain sizes are found in one sediment. This means that such a rock was formed very close to the source of its fragments (transport was short) and therefore the fragments were not be rounded and sorted much. <br><br>2. A <b>mature</b> clastic sediment is in general made up of well rounded fragments that underwent much sorting.  Therefore, the grain sizes within the sediment are usually quite similar (small range in size) and the corners of the initial angular fragments were rounded of during transport. This means that such sediments were transported for a longer time and farther distance away from the source. <br><br><b>NOTE:</b> However, one has to keep the type of fragment material in mind, as some materials (fragment rock types) may be broken down faster during transport than others. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Breccia and Conglomerates", 
+        "text": "These are two outcrops from northern New Brunswick. In one, shards of peach-coloured rhyolite appear in a dark grey matrix. There are no other rock types present. This rock would be called a breccia, and is likely derived from the immediate surroundings. In the other, clasts are rounded, polymictic, and sandstone fills in the 'matrix' around the pebbles. This would be called a conglomerate, and is more typical of gravels deposited in a river. <br>\n<div> <img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Seds_Breccia.JPG\" width=\"50%\"><img src=\"https://planetearth.utsc.utoronto.ca/timeline/content/B15Sed_conglomerate.jpg\" width=\"50%\"></div>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15seds_CompSedRocks.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Composition of Clastic Sedimentary Rocks", 
+        "text": "The composition of clastic sedimentary rocks describes what the material the individual fragments are made up of, which can give us hints on the source location of the rock fragments. <br><br>We can discriminate between <br><b>1. Monomict sedimentary rocks</b> (only one type of fragment material - assumption: all fragments from the same source location/rock or may have travelled very far that only this type of material was preserved)<br>and <br><b>2. Polymict sedimentary rocks</b> (multiple different fragment materials, assumption: multiple different rock layers weathered and eroded or transport was short as all types of materials were preserved, even the materials that are easily broken down). <br><br>Common materials are quartz (e.g. quartz sand), feldspars, clay minerals, fragments of larger rocks (e.g. granite, limestone, quartzite...).<br><br><b>NOTE:</b> We always have to keep in mind that the strength of fragment materials is an important factor that influences our sense of sediment maturity and conclusions on formation processes. Some fragment rock types may be easily further dissolved or broken down during transport so they may vanish completely in the shortest time. Therefore, our conclusions in regards to source location of the final sedimentary rock have to include thoughts on what may have been dissolved/broken down along the way."
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15Sed_ComSedStructures.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Common Sedimentary Structures of Clastic Sedimentary Rocks", 
+        "text": "<br>The figures on the left show commonly found <b> bedding </b> (= layering, top figure) and <b>sediment structure types </b> (bottom figure). Bedding types and sediment structures are essential to every sedimentologic investigation, as they reveal information of <b>erosional, transport and depositional processes and conditions that prevailed before, during and after rock formation</b>. <br><br><b>Bedding or layering </b>describes <b>planar fabrics </b>that is cause by sediment deposition (e.g. in a river, lake or ocean) due to grain/fragment/shell settling from water or air (e.g. desert). Such layering can occur in all types of sedimentary rocks, clastic, chemical and biochemical/bioclastic sedimentary rocks as either clasts, tiny precipitated crystals or shells settle. <br><br>The layering is <b>visible due to variations in clast sizes, sediment color and composition of individual layers</b>. Based on differences in composition/grain size also a physical break (gap, breaking apart = parting) between the layers may be observed. <br><br>Bedding is classified into different types based on the <b>thickness of the individual recognizable layers</b>. These range from fine lamination (layer thickness: millimeters) to medium beds (layers/beds: 10-30 cm thick) to massive bedding, where individual beds range from meters to tens of meters in thickness.<br><br> The lower figure shows some examples of the most common <b>sediment structures</b> that form due to depositional or erosional processes during sediment formation and lithification.<br><br> <b>Planer bedding </b> refers to any planar fabric as shown in the figure above.<br><br> <b>Cross bedding</b> is a water or air current (= flow) driven sediment structure that is indicated by sloping layers that are cut off at the top by the next bed. <br><br> <b>Ripple marks </b>are similar to mini-dunes and are often seen at the top of a cross bedded layer, hence are also caused by wind or water transport.<br><br>Imbrication is often seen where unidirectional (one direction e.g. cobble beaches, rivers) water flow happens, as clasts or fragments align themselves (fall over like dominos) based on the current (=flow) direction. <br><br><b>Graded bedding or also called grading</b>, is caused by a constant loss of flow energy of the transport medium (e.g. water or wind) that causes heavier particles to settle first and the smallest particles later. Grading may also be classified as <b>\"fining upward\"</b>. <br><br><b>Cut & Fill or scour marks</b> are erosional sedimentary structures. These may form when a not solidified sediment layer encounters renewed water flow for example. This flow of a small stream may cut into the sediment and fill this little channel with its own sediment. Scour marks form when turbulent water erodes into the sediment surface. These are also later filled with younger sediment, hence the erosional structure will be preserved."
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://www.google.com/maps/embed?pb=!4v1599831895423!6m8!1m7!1sL3n-7XRGeHBo7kLao7Wpdg!2m2!1d43.24499803547194!2d-79.86083687110403!3f191.7119984656505!4f17.097066995362326!5f0.7820865974627469\" width=\"600\" height=\"450\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Example: Jolley Cut", 
+        "text": "Layering is a key part of recognizing that the rocks in an outcrop are sedimentary as opposed to igneous or metamorphic. Here, at the Jolley Cut in Hamilton, we can see <b> beds </b> of sandstone and mudstone (and some limestone). Finer grained sedimentary rocks tend to be more recessive and weather into the cliff, while coarser-grained sandstones and mudstones, as well as limestone, stick out of the cliff. In some places, you can also see examples of cross-bedding where the beds are slightly tilted and truncated at the top. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/uog2juH6IqI\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Chemical Sedimentary Rocks", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://planetearth.utsc.utoronto.ca/timeline/content/B15Sed_ChemSedTypes.jpg", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "Types of Chemical Sedimentary Rocks", 
+        "text": "Chemical sedimentary rocks form abiogenically, usually from precipitation of elements out of solution. \nThe most common pure chemical rocks that form rock layers or nodules include: <br><br><b>1. Silicate based chemical rocks:</b> Chert, Flint, Agate, Jasper (all the same material of SiO2, microcrystalline - crystals almost invisible even with microscope) <br><br><b>2. Evaporite chemical rocks:</b> e.g. rock salt (NaCl - Halite, fine to coarser crystals - visible), <br><br><b>3. Chemically precipitated carbonate rocks</b> (e.g. inorganic limestone, microcrystalline - very fine, only visible with microscope) <br><br> As with all other sedimentary rocks, chemical sedimentary rocks structures or textures that can be informative, including layering due to differences in crystal size, color, and composition. Their properties largely reflect their mineralogy, e.g. jasper has the properties of quartz (hardness of 7, no fizzing with HCl, conchoidal (glass-like) fracturing) while inorganic limestone has the properties of calcite (hardness of 3, reacts with HCl)"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/m4irAvomF9g\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>", 
+        "credit": "http://www.4college.co.uk", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "9"
+      }, 
+      "text": {
+        "headline": "Formation of Biochemical Sedimentary Rocks", 
+        "text": "Biochemical sedimentary rocks precipitate due to the life habits of organisms. \n<br><b>Some important types are :</b><br>\n<br><b>Limestone - </b> Carbonate-shelled organisms like bivalves, gastropods, and corals.\n<br><b>Chalk - </b> Carbonate-shelled microfossils (coccolithophores)\n<br><b>Chert - </b> Silica-shelled organisms like diatoms (note that chert can be either chemical or biochemical)\n<br><b>Coal - </b> Carbon-rich woody plants"
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/leaf/panoramas/debugs/C46_R0010883.html\" frameborder=\"0\" style=\"border:0;\" ></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "9"
+      }, 
+      "text": {
+        "headline": "Example: Warsaw Caves", 
+        "text": "Look around: all of these rocks are a type of carbonate rock called limestone.  The bluish-grey colour and large-blocky way of breaking is a good indicator. If we look at the wall of rock in from of us, we can see all sorts of horizontal markings which have been carved out. These are probable bedding planes with more fragile minerals that have been weathered more deeply than the limestone. Though limestone is classically known to host large caves made from the dissolution of carbonate ions in water, the Warsaw caves formed along large fractures which have been only moderately hollowed out. We are currently standing inside of one of those fractures. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/17a6607bcd3246a2a171ed08222f4cad/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "10"
+      }, 
+      "text": {
+        "headline": "Example: Interpreting a Sedimentary Rock", 
+        "text": "Investigate the sedimentary rock on the left. <br><br>The sample is about 7 cm long, 5 cm high and 5 cm wide. <br><br>One aspect that leads us to the conclusion that this may be a sedimentary rock is the fine layering that would not be see in igneous rocks. As the sample is rather dull (not shiny) and no crystals are readily visible we can assume that this is rock is NOT crystalline, but rather grain (fragment) based and hence a clastic sedimentary rock. <br><br>Based on the hand sample size and how smooth or rough the surface texture is we can draw conclusions on the grain size. We can see some texture but no readily visible grains (larger than a few millimeters), therefore we may say this is a rather a fine grained clastic rock. This would include fine sandstones, siltstones. We can exclude shales as these would be so fine that the surface texture would be smooth and possibly a bit shiny (the shiny on the 3D model is artificial). <br><br>As the sample is not very large (7 x 5 cm) the layering is also rather fine (2-5 mm width of layers). Based on what we learned earlier in this online module, such layering type of sedimentary rocks would be called \"Lamination\". <br><br>We could describe this rock as a finely laminated siltstone or fine sandstone of brown color. Rocks such as these are formed (deposited by grain settling) under calm conditions e.g. ocean or lake a bit of the beach where the waves do not disturb the sediment much. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/08fc07bd72ed44f3a1beb2d0e53c762c/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "11"
+      }, 
+      "text": {
+        "headline": "Example: Interpreting a Sedimentary Rock", 
+        "text": "Investigate the sedimentary rock on the left and consider the following questions:<br><br>1. Does the rock show grains/fragments (rather dull - earthy color), crystals (more sparkly) or fossils / fossil fragments? This will help you to determine of this is a clastic, chemical or bio-clastic / bio-chemical sedimentary rock.<br><br>2. Do you see any surface texture? Is the surface rather smooth or rough? This will help you to narrow down the grain size in case it is a clastic rock (e.g. conglomerate = large round fragments vs. sandstone = visible grainy texture vs. siltstone = slightly grainy texture vs. shale = smooth) <br><br>3. Do you see layers or any type of pattern on the sample? HINT: In this case you see layering that is cut off by other layers. This is a good indicator for cross bedding and hence for how this rock was formed. Cross bedding either forms in moving water (e.g. in e.g. in shallow water moved by waves) or moving air (e.g. sand ripples to dunes). "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/3901eaede9e04bcb876fe4be0ecf0138/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "12"
+      }, 
+      "text": {
+        "headline": "Example: Interpreting a Sedimentary Rock", 
+        "text": "Investigate the sedimentary rock on the left and consider the following questions:<br><br>1. Does the rock show grains/fragments (rather dull - earthy color), crystals (more sparkly) or fossils / fossil fragments? This will help you to determine of this is a clastic, chemical or bio-clastic / bio-chemical sedimentary rock.<br><br>2. Do you see any surface texture? Is the surface rather smooth or rough? This will help you to narrow down the grain size in case it is a clastic rock (e.g. conglomerate = large round fragments vs. sandstone = visible grainy texture vs. siltstone = slightly grainy texture vs. shale = smooth) <br><br>3. Do you see layers or any type of pattern on the sample? "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe title=\"A 3D model\" width=\"640\" height=\"480\" src=\"https://sketchfab.com/models/1b3bae02c00448c6b3a3ebf91c5137c7/embed?autostart=1&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1\" frameborder=\"0\" allow=\"autoplay; fullscreen; vr\" mozallowfullscreen=\"true\" webkitallowfullscreen=\"true\"></iframe>", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Example", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "13"
+      }, 
+      "text": {
+        "headline": "Example: Interpreting a Sedimentary Rock", 
+        "text": "Investigate the sedimentary rock on the left and consider the following questions:<br> This rock is really hard (hardness: 7), has very sharp edges and breaks conchoidally, it shows no grains or crystals and it would NOT fizz with HCl. <br><br>1. Does the rock show grains/fragments (rather dull - earthy color), crystals (more sparkly), fossils / fossil fragments, or is it completely smooth ? This will help you to determine of this is a clastic, chemical or bio-clastic / bio-chemical sedimentary rock.<br><br>2. Do you see any surface texture? Is the surface rather smooth or rough? This will help you to narrow down the grain size in case it is a clastic rock (e.g. conglomerate = large round fragments vs. sandstone = visible grainy texture vs. siltstone = slightly grainy texture vs. shale = smooth) <br><br>3. Do you see layers or any type of pattern on the sample? "
+      }
+    }, 
+    {
+      "media": {
+        "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/gallery/rocks/\" width=\"100%\" frameBorder=\"0\" style=\"border:0;\" ></iframe>", 
+        "credit": "Click on 'Sedimentary' to reveal more types of Sedimentary rocks. Please note you are not expected to memorize all of these rock types. ", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "Toolbox", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "14"
+      }, 
+      "text": {
+        "headline": "More Sedimentary Rocks", 
+        "text": ""
+      }
+    }
+  ], 
+  "title": {
+    "media": {
+      "url": "<iframe src=\"https://planetearth.utsc.utoronto.ca/diagrams/mod_5/sedimentary/\" width=\"100%\" frameborder=\"0px\"></iframe>", 
+      "credit": "", 
+      "thumbnail": "", 
+      "caption": "Summary of the main types of sedimentary rocks. Hover over to reveal more"
+    }, 
+    "group": "", 
+    "start_date": {
+      "month": "", 
+      "day": "", 
+      "year": ""
+    }, 
+    "text": {
+      "headline": "Introduction to Sedimentary Rocks", 
+      "text": "Sedimentary rocks are rocks formed either from formerly loose materials (= sediments) that are deposited or dissolved ions that precipitate from a liquid during purely chemical or biochemical processes. Both types are then turned into solid rocks in a process that is called lithification. <br><br> The physical properties (e.g. texture, composition, sediment structures) of sedimentary rocks help us to draw conclusions about the processes and environments active on Earth's surface while these rocks were formed. Therefore, a proper investigation, description and identification of sedimentary rock is essential to help us to decipher Earth's past. Sedimentary rocks loosely fall into three categories: <br><br>1. <b>Clastic rocks</b> formed by the cementation of loose particles of sediment (clasts) <br>2. <b>Chemical sedimentary rocks </b> formed by the precipitation (crystallization) of minerals from ions in a liquid (e.g. sea water) either due to chemical conditions like temperature, pressure, or concentration  and <br>3. <b>Biogenic sedimentary rocks</b> formed by biologically-mediated precipitation of minerals from a liquid (e.g. a clam shell).\n<br><br><b>Learning Objectives:</b>\n<br><br>1) Recall and use appropriate terminology\n<br><br>2) Recall the most important sedimentary rocks and sedimentary structures\n<br><br>3) Use sedimentary rock properties to describe and identify the most common sedimentary rocks and sediment structures <br><br>4) Use provided evidence and rock properties to draw conclusions on rock formation processes and depositional environments"
+    }
+  }
+}

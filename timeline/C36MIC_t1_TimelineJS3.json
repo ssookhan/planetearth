@@ -1,0 +1,473 @@
+{
+  "events": [
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "1"
+      }, 
+      "text": {
+        "headline": "Polarizing Light Microscopy, the Use of a Petrographic Microscope and Optical Characteristics of Minerals", 
+        "text": "<br><br><b>What will you learn from this Online Module:</b><br><br>\n1) What  Polarizing Light Microscopy stands for\n<br><br>2) Basics in physics that enables us to see optical characteristics of minerals by using polarized light\n<br><br>3) How to use a Polarizing Light or so called Petrographic Microscope <br><br> 4) Optical characteristics of most important rock-forming minerals "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "2"
+      }, 
+      "text": {
+        "headline": "Section 1: Basics of Optics", 
+        "text": "<br><br><b>Learning Objectives:</b><br><br><br>1) Summarize and explain what a light wave is and how it propagates <br><br>2) Summarize and explain what visible light is"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "3"
+      }, 
+      "text": {
+        "headline": "Basics of Optics - Electromagnetic Waves ", 
+        "text": "<br><br>To fully comprehend how polarizing light microscopy and analsysis of minerals and rocks with a petrographic microscope work, we have to understand what light is, how it propagates and how it interacts with various types of media (e.g. minerals), hence we have to review the basics of Optics. <br><br><br> Light rays are electromagnetic waves of a certain wave length, amplitude and frequency, that travels to our eyes from a light source (e.g. sun, light bulb). <br><br> Below you see a figure that shows the spectrum of electromagnetic wave length and the respective terminology. <br><br> The visible light that the human eye sees is just a small portion of the electromagnetive wave spectrum, which ranges between purple light of 390 nm (nanometers) and red light of 720 nm.  "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "4"
+      }, 
+      "text": {
+        "headline": "Basics of Optics - Light Wave Propagation", 
+        "text": "<br><br>The wave-like propagation of light waves can be conceptualized as a vibration plane that is created by the propagation direction and light wave direction that are perpendicular to each other, as shown below. <br><br><br> Light that is emitted from a light source is not made up of a single but multiple light waves, all randomly virbrating in different planes (see virbration planes in grey, orange and red). <br><br><b> This is called unpolarized light. </b>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "5"
+      }, 
+      "text": {
+        "headline": "Basics of Optics - Light's Interaction with a Medium", 
+        "text": "<br><br>When light waves (rays) encounter a change of media (e.g. from air to mineral to air) various processes happen depending on the types of media. <br><br> 1. Light gets <b>reflected</b> along the interface between two types of media 1 and 2 <br><br> 2. Light can be more or less <b>absorbed</b> by the mineral (medium 2)<br><br>3. Light gets <b>transmitted</b> throught the mineral (medium 2). When it gets transmitted but undergoes a <b>change in light ray path</b>. This is called <b>refraction (bending)</b> of light. Additionally, the incoming light ray may get <b>split up and may undergo a change in velocity and vibration direction</b>, depending on the mineral's internal structure (e.g. cubic = isotropic vs. orthorhombic = anisotropic). This process is called <b>double refraction</b>.<br><br> The following slides will discuss all options. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "6"
+      }, 
+      "text": {
+        "headline": "Basics of Optics - Light Wave Frequency & Reflection of Light", 
+        "text": "<br><br> This figure shows the angle of light reflection when light rays traveling in medium 1 encounter the surface to medium 2. The reflection angle is equal to the angle of incident in relation to a plane (stippled line) that is perpendicular to the interface between medium 1 and 2. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "7"
+      }, 
+      "text": {
+        "headline": "Basics of Optics - Absorbtion of Light", 
+        "text": "<br><br>How much light will be absorbed by a mineral upon light entering it, depends on its underlying chemical structur and the wavelength of incoming light.  <br><br>In polarzing light microscopy two types of minerals are discussed based on how they absorb light<br><br><b>1. Non-opaque Minerals: Light is transmitted through these minerals</b>. The portion of light (wavelength) that gets absorbed give these minerals their color. <br><br><b>2. Opaque Minerals: All light is absorbed and no light is transmitted through the mineral</b>. These minerals always are black! For further analysis a different type of microscope, using reflected light, is needed.<br><br>In the image below you will see opaque minerals (black), colorless minerals (no light absorbed) and colored minerals, that absorbed certain wavelengths of light. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "8"
+      }, 
+      "text": {
+        "headline": "Basics of Optics - Light Wave Frequency & Refraction of Light", 
+        "text": "<br><br>How light waves are refracted (bent) or reflected when they encounter a new medim depends on the light waves frequence (function of light wave speed and wave length) and the density of the media the light waves travel through. <br><br> The figure below shows at what angle portions of the incoming light ray (from top) gets reflected and refracted (bent) when encountering the medium in the lower half of the figure. <br><br>1. The light ray <b>refracts toward the interface</b> between both media, when the light ray travels from a more <b>dense medium (ray travels slower)</b> to a medium that is <b>less dense (ray travels now faster)</b>. <br><br>2. The light ray <b>refrects away from the interface</b> between both media, when the light ray travels from a <b>less dense medium (ray travels faster)</b> and enters a <b>more dense medium (ray travels now slower)</b>. <br><br>The behaviour of the light ray can also be expressed in form of the so called <b> Refraction Index (n or RI)</b>. <br><br> The <b>RI (or n) of a dense mineral or medium is high (slow light ray)</b>, while the <b>RI (or n) of a less dense mineral or medium is low (fast light ray)</b>. This index is a comparison of the velocity of light in a mineral to the velocity of light in air. For the calculation of the Refraction Index (n or RI) of a mineral see the formula below. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "9"
+      }, 
+      "text": {
+        "headline": "Basics of Optics - Refrection Index (RI, n) & Density of Common Minerals ", 
+        "text": "<br><br> This table gives you some examples that shows the relationship between density and RI (n). Mineral with higher density have a higher RI. <br><br> Note: Relection of light at the surface of a mineral increases with increasing mineral density and RI. Hence minerals with higher RI tend to have a semi-metallic to metallic luster, compared to minerals with lower RI that have a rather vitreous luster. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "10"
+      }, 
+      "text": {
+        "headline": "Section 2: Polarizing Light Microscopy ", 
+        "text": "<br><br>In this section you will learn more about what tools are used in Polarizing Light Microscopy and what optical mineral properties are used when describing and identifying mineral and rocks in thinsections with a petrographic microscope. <b>Learning Objectives:</b><br><br>\n1) Summarize and explain what a thinsection is. <br><br>2) Apply correct terminology to the parts of the petrographic microscope\n<br><br>3) Choose the correct filters to manipulate light in order to observe different properties\n<br><br>4) Recognize and correct common problems in a thin section. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "11"
+      }, 
+      "text": {
+        "headline": "Thin Sections  ", 
+        "text": "<br><br>Thin sections are very thin slices (0.03 mm or 30 microns = nm) of rocks (multiple minerals next to each other) or single minerals that are glued with epoxy onto a thin glass slide. <br><br>To create a thin section, rock is cut with a saw into a small rectanuglar piece (size 2.5 x 4.5 x 3cm), that is glued onto the glass slide. Then the rock is slowly cut and polished down to the 0.03 mm thickness. To protect the polished rock slice, a thin cover slip is glued on top. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "12"
+      }, 
+      "text": {
+        "headline": "Parts of the Polarizing Light Microscope", 
+        "text": "<br><br>To analyze (describe and identify) the minerals found in a rock thin sections one needs a polarizing light microscope, also called petrographic or pol microscope. <br><br>The image below shows an image of a Motic (310 BA) polariziong light microscope. Different brands of petrographic microscopes may look slightly different, but the basic functionalities are always the same. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://www.youtube.com/watch?v=VpbAZpWSugw", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "13"
+      }, 
+      "text": {
+        "headline": "Parts and Funictionalities of the Motic 310 BA Polarizing Light Microscope", 
+        "text": "<br><br>The video here will show you how to handle and set up a microscope in the lab and what functionalities and parts there are to a Motic 310 BA polarizing light micrscope."
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "14"
+      }, 
+      "text": {
+        "headline": "Plane Polarized Light", 
+        "text": "<br><br>To get <b>Plane Polarized Light</b> unpolarizied light, which is composed of light waves vibrating in various direction (vibration planes), exits the light source and gets filtered (polarized) by the lower polarizer of a polarizing light microscope. "
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://www.youtube.com/watch?v=VN3Mb0xqghg&feature=youtu.be", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "15"
+      }, 
+      "text": {
+        "headline": "Polarizing Light", 
+        "text": "<br><br>"
+      }
+    }, 
+    {
+      "media": {
+        "url": "https://www.youtube.com/watch?v=DaQghkwQBxo&feature=youtu.be", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "16"
+      }, 
+      "text": {
+        "headline": "Thin Section Measuring and Troubleshooting", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "17"
+      }, 
+      "text": {
+        "headline": "The Analyser: PPL vs. XPL", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "18"
+      }, 
+      "text": {
+        "headline": "Interference Colours", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "display_date": "</>", 
+        "month": "", 
+        "day": "", 
+        "year": "19"
+      }, 
+      "text": {
+        "headline": "Relief", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "20"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "21"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "22"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "23"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "24"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }, 
+    {
+      "media": {
+        "url": "", 
+        "credit": "", 
+        "thumbnail": "", 
+        "caption": ""
+      }, 
+      "group": "", 
+      "start_date": {
+        "month": "", 
+        "day": "", 
+        "year": "25"
+      }, 
+      "text": {
+        "headline": "", 
+        "text": ""
+      }
+    }
+  ]
+}
