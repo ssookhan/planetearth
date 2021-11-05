@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>Planet Earth Lab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<style>
+
+* {box-sizing: border-box;}
+
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+body,p,h1,h3 {color: black;}
+
+
+.bg1 {
+  background: url(images/geospatialbanner.jpg)no-repeat center;
+  background-size: cover;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+</style>
+
+
+
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<section id="top">
+
+<div class="w3-top">
+  <div class="w3-bar w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="/news" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS</a>
+    <a href="/#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="/#people" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> PEOPLE</a>
+    <a href="/#publications" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> PUBLICATIONS</a>
+    <a href="/#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-binoculars"></i> RESOURCES</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="/news" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
+    <a href="/#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="/#people" class="w3-bar-item w3-button" onclick="toggleFunction()">PEOPLE</a>
+    <a href="/#publications" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
+    <a href="/#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+  </div>
+</div>
+
+</section>
+
+<div class="bg1">
+<br>
+<br>
+<br>
+
+
+<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">The drone has landed!</span>
+<br>
+<br>
+<br>
+
+</div>
+  <h4 class="w3-left w3-padding">Published 11/05/2021</h4>
+  <h4 class="w3-right w3-padding">by <a href="/#nick-eyles"> Dr.Nick Eyles</a></h4>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+
+
+  <p> Thanks to a substantial grant from the University of Toronto and the Department of Physical and Environmental Sciences to Professors Adam Martin and Nick Eyles, we are pleased to announce the arrival of a new drone system for eco and geo spatial mapping and analysis. The EXPERT (EXPloring Environments in Real Time) Initiative is based on a DJI Matrice 300 RTK quadcopter drone, equipped with a GVI LiAir V 3-D LIDAR mapping system, and a MicaSense Altum multispectral sensor for terrain and ecological mapping. This now providesa cutting-edge ability to map large areas with a vertical resolution of ~5 cm and to now link physical substrates, such as changing geological conditions, with the natural and agricultural ecosystems that they support (such as forests and tree covers), including those in the built environment. This creates new opportunities for interdisciplinary research and training, and to begin modelling environmental change, such as vegetative responses to climate change etc., and modification of natural landscapes as urban areas expand. Details of the underlying land surface and its geology are also revealed in stunning detail. 
+</p>
+  <img class="image" src="/news/images/lidar_2021_11_05_1.jpg" style="width:100%;">
+  <p class="w3-serif"><i>The basics of LiDAR surveying. Copyright El-Pro-Cus</i></p>
+  <br>
+  <img class="image" src="/news/images/lidar_2021_11_05_2.jpg" style="width:100%;">
+  <p class="w3-serif"><i>Copyright Innova8.ag</i></p>
+
+  <h4> So how does it work?</h4>
+  <p> LiDAR (which stands for laser imaging, detection and ranging) is a remote sensing tool which works by aiming laser beams at a target and measuring the time it takes for individual laser beams to reflect off the target and  return to the sensor. Any handyman with a laser tape measure will know the basic idea. The method produces enormous volumes of data and requires complex processing to order it and reconstruct the nature of the surface(s) that are being profiled. It’s a complex procedure because the ground surface is never clear of trees and other vegetation, water and, increasingly, roads and buildings. An advantage of using LiDAR is that it employs near-infrared wavelengths which  pass through tree canopies and vegetation while sending returning pulses back to the sensor as the light interacts with the vegetation and individual leaves. Combining the series of returning signals that have been reflected at different distances gives us the ability to image the topography and ecology simultaneously in far more detail than the best available air photograph or satellite image. Drones now make the technology accessible. </p>
+  <p><i><a href=https://planetearth.utsc.utoronto.ca/news/odessa.html>Check out recent work the lab has conducted using drones!</a></i></p>
+  <p>Repeated surveys identify seasonal changes, extreme weather events, or the effects of longer term, climate change. LiDAR is used to prospect for archaeological sites now covered by soil or vegetation, to identify how crops perform during the growing season, and identify the structure, density and health of forests. LiDAR can be used to map the floors of seas and lakes. In the built environment it is essential to mapping buildings and roads allowing autonomous vehicles to ‘see’ their surroundings, and is now an crucial tool, when used in conjunction with other sensors, in construction and engineering. Our principal interest in the lab is mapping Canada’s glacial landscapes inherited from past Ice Ages, assessing the impact of climate warming on buried ice (permafrost) in the north, and mapping bedrock structures such as faults. You can learn more about Ontario's past glacial landscapes through the lab's virtual field trips on <i><a href= https://planetrocks.utsc.utoronto.ca/trips/m9_vf1.html>glacial processes</a></i> or <i><a href= https://planetrocks.utsc.utoronto.ca/trips/INQUA.html>subglacial bedforms</a></i>.</p>
+   <img class="image" src="/news/images/lidar_2021_11_05_3.jpg" style="width:100%;">
+  <p class="w3-serif"><i>The structure and health of a forest revealed by LiDAR: Copyright David Herries: Interpine Innovation. </i></p>
+  <p> Interested in glacial landscapes? Check out Prof. Eyles' <i><a href=https://planetearth.utsc.utoronto.ca/news/Drumlins_2021_09_20.html> recent post</a></i> concerning drumlins!</p>
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+// window.onscroll = function() {myFunction()};
+// function myFunction() {
+//     var navbar = document.getElementById("myNavbar");
+//     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+//         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+//     } else {
+//         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+//     }
+// }
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+} 
+</script>
+
+</body>
+</html>

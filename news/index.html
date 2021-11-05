@@ -33,7 +33,6 @@ body,p,h1,h3 {color: black;}
   width: 33%;
   padding: 30px;
   margin: 2px;
-  color: white;
 }
 
 /* Responsive columns */
@@ -55,6 +54,24 @@ body,p,h1,h3 {color: black;}
 
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
+
+.title {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}
+
+.text {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
 </style>
 
 
@@ -112,6 +129,7 @@ body,p,h1,h3 {color: black;}
   <button data-name='.ont' >Geology of Ontario</button>
   <button data-name='.campus' >Around the Campus</button>
   <button data-name='.teach' >Teaching Initiatives</button>
+  <button data-name='.geospatial' >Geospatial Analysis</button>
   
 </div>
 </div>
@@ -124,58 +142,72 @@ body,p,h1,h3 {color: black;}
 
 <div class="grid">
 
+  <div class= 'grid-item rocksandminerals geospatial'>
+    <a href="lidar_2021_11_05.html"><img class="image" src="/news/images/lidar_2021_11_05_thumbnail.jpg" style="width:100%;"></a>
+    <h3 class="title">The drone has landed!</h3>
+      <p class="w3-center">by <a href="/#nick-eyles">Nick Eyles</a>, 11/05/2021</p>
+    <span class="text">Thanks to a substantial grant from the University of Toronto and the Department of Physical and Environmental Sciences to Professors Adam Martin and Nick Eyles, we are pleased to announce the arrival of a new drone system for eco and geo spatial mapping and analysis. The EXPERT (EXPloring Environments in Real Time) Initiative is based on a DJI Matrice 300 RTK quadcopter drone, equipped with a GVI LiAir V 3-D LIDAR mapping system, and a MicaSense Altum multispectral sensor for terrain and ecological mapping. This now providesa cutting-edge ability to map large areas with a vertical resolution of ~5 cm and to now link physical substrates, such as changing geological conditions, with the natural and agricultural ecosystems that they support (such as forests and tree covers), including those in the built environment. This creates new opportunities for interdisciplinary research and training, and to begin modelling environmental change, such as vegetative responses to climate change etc., and modification of natural landscapes as urban areas expand. Details of the underlying land surface and its geology are also revealed in stunning detail.  </span><a href="lidar_2021_11_05.html">Read More</a>
+  </div>
+
+  <div class= 'grid-item rocksandminerals ont'>
+    <a href="Cheltenham_2021_10_13.html"><img class="image" src="/news/images/Chetlaham_2021_10_13_1_thumb2.jpg" style="width:100%;"></a>
+    <h3 class="title">A Glimpse of Mauritius in Ontario</h3>
+      <p class="w3-center">by <a href="/#andrew-zajch">Andrew Zajch</a>, 11/05/2021</p>
+    <span class="text">The Cheltenham Badlands exhibit an exposed area of Queenston Shale. This formation was created as the Taconic Mountains, which covered Ontario roughly 440 million years ago, were eroded and their sediments were subsequently deposited into coastal plains.  The intriguing red color is due to oxidation of the iron within the shale which suggests that the sediments were originally deposited in shallow oxygen rich seas.</span><a href="Cheltenham_2021_10_13.html">Read More</a>
+  </div>
+
   <div class= 'grid-item rocksandminerals campus'>
     <a href="UGResearch_2021_09_20.html"><img class="image" src="/news/images/UGResearch_Banner_2021_09_20_2.jpg" style="width:100%;"></a>
-    <h3>Undegraduate Research Experience</h3>
+    <h3 class="title">Undegraduate Research Experience</h3>
       <p class="w3-center">by <a href="/#andrew-zajch">Andrew Zajch</a>, 10/21/2021</p>
-    <p>Undergraduate students are often curious about research when they enter University. I can recall my time as an undergraduate research student back in 2012 when I joined the Planet Earth Lab,I had no idea what to expect! My task was to assist with ongoing work on glacial lake bottom sediments across Ontario. This included managing past... <a href="UGResearch_2021_09_20.html"> Read More</a></p>
+    <span class="text">Undergraduate students are often curious about research when they enter University. I can recall my time as an undergraduate research student back in 2012 when I joined the Planet Earth Lab,I had no idea what to expect! My task was to assist with ongoing work on glacial lake bottom sediments across Ontario. This included managing past...</span><a href="UGResearch_2021_09_20.html">Read More</a>
   </div>
 
 
   <div class= 'grid-item rocksandminerals glacial'>
-    <a href="Drumlins_2021_09_20.html"><img class="image" src="/news/images/Glacial_general_banner2.jpg" style="width:100%;"></a>
-    <h3>The enigma of drumlins</h3>
-      <p class="w3-center">by <a href="/#nick-eyles">Nick Eyles</a>, 10/21/2021</p>
-    <p>The word ‘drumlin’ is an old Irish word describing an elliptical tear-shaped glacial hill left behind by the melt of large ice sheets during past Ice Ages. Every geology student will come across them sooner or later, the iconic glacial landform present in densely-packed ‘swarms’ in those areas buried by Ice Age ice sheets. A drumlin’s long axis records the... <a href="Drumlins_2021_09_20.html"> Read More</a></p>
+    <a href="Drumlins_2021_09_20.html"><img class="image" src="/news/images/drumlins_2021_09_20_thumbnail.jpg" style="width:100%;"></a>
+    <h3 class="title">The enigma of drumlins</h3>
+      <p class="w3-center">by <a href="/#nick-eyles">Nick Eyles</a>, 9/30/2021</p>
+    <span class="text">The word ‘drumlin’ is an old Irish word describing an elliptical tear-shaped glacial hill left behind by the melt of large ice sheets during past Ice Ages. Every geology student will come across them sooner or later, the iconic glacial landform present in densely-packed ‘swarms’ in those areas buried by Ice Age ice sheets. A drumlin’s long axis records the... </span><a href="Drumlins_2021_09_20.html">Read More</a>
   </div>
 
   <div class= 'grid-item rocksandminerals ont'>
     <a href="victoriaroad.html"><img class="image" src="/news/images/victoriaroad_banner.jpg" style="width:100%;"></a>
-    <h3>Road of Broken Dreams: Victoria Road</h3>
+    <h3 class="title">Road of Broken Dreams: Victoria Road</h3>
       <p class="w3-center">by <a href="/#andrew-zajch">Andrew Zajch</a>, 9/3/2021</p>
-    <p>Victoria Road is one of the many colonization roads that dot the southern periphery of the Canadian Shield (Figure 1). These roads demonstrate the will to utilize the wilderness surrounding Georgian Bay for agriculture and settlement.  Unfortunately, the high basement rock and lack of soil across the region made it... <a href="victoriaroad.html"> Read More</a></p>
+    <span class="text">Victoria Road is one of the many colonization roads that dot the southern periphery of the Canadian Shield. These roads demonstrate the will to utilize the wilderness surrounding Georgian Bay for agriculture and settlement.  Unfortunately, the high basement rock and lack of soil across the region made it... </span><a href="victoriaroad.html">Read More</a>
   </div>
 
   <div class= 'grid-item rocksandminerals campus'>
     <a href="seismic.html"><img class="image" src="/news/images/seismic_banner.jpg" style="width:100%;"></a>
-    <h3>Seismic Surveying in the Valley</h3>
+    <h3 class="title">Seismic Surveying in the Valley</h3>
     <p class="w3-center">by <a href="/#andrew-zajch">Andrew Zajch</a>, 9/3/2021</p>
-    <p>On July 30th members of the lab assisted lab technicians with the testing of seismic surveying equipment in the UTSC valley. This was in preparation for the upcoming course <b>Exploration Geophysics (EESB21H3)</b> offered this upcoming fall semester at UTSC. Seismic surveying is an example of geophysical methods that... <a href="seismic.html"> Read More</a></p>
+    <span class="text">On July 30th members of the lab assisted lab technicians with the testing of seismic surveying equipment in the UTSC valley. This was in preparation for the upcoming course <b>Exploration Geophysics (EESB21H3)</b> offered this upcoming fall semester at UTSC. Seismic surveying is an example of geophysical methods that... </span><a href="seismic.html">Read More</a>
   </div>
 
   <div class= 'grid-item rocksandminerals glacial'>
     <a href="odessa.html"><img class="image" src="/news/images/odessa_banner.jpg" style="width:100%;"></a>
-    <h3>Getting Groovy with Mega Grooves</h3>
+    <h3 class="title">Getting Groovy with Mega Grooves</h3>
     <p class="w3-center">by <a href="/#andrew-zajch">Andrew Zajch</a>, 8/31/2021</p>
-    <p>So what are mega grooves? They are grooves carved into the bedrock recording the velocity and direction of past ice flows. As ice flows it collects subglacial materials forming an erosive underbelly capable of carving into the bedrock analogous to sandpaper scraping across a surface. The remnants of this process... <a href="odessa.html">Read More</a></p>
+    <span class="text">So what are mega grooves? They are grooves carved into the bedrock recording the velocity and direction of past ice flows. As ice flows it collects subglacial materials forming an erosive underbelly capable of carving into the bedrock analogous to sandpaper scraping across a surface. The remnants of this process... </span><a href="odessa.html">Read More</a>
   </div>
 
 
 
   <div class= 'grid-item rocksandminerals teach'>
     <a href="https://www.utoronto.ca/news/geology-pharmacy-u-t-experts-receive-18-million-advance-virtual-learning"><img class="image" src="/news/images/geo_to_pharm.jpg" style="width:100%;"></a>
-    <h3>U of T News: From geology to pharmacy</h3>
+    <h3 class="title">U of T News: From geology to pharmacy</h3>
     <p class="w3-center">by <a href="https://www.utoronto.ca/news/authors-reporters/rahul-kalvapalle">Rahul Kalvapalle</a>, 8/9/2021</p>
-    <p>Long before the COVID-19 pandemic put a halt on travel and field trips, the University of Toronto geologist grappled with how to expose large numbers of students – particularly undergraduates taking introductory courses – to landscapes and environments, past and present, around the world. He ultimately found a solution in... <a href="https://www.utoronto.ca/news/geology-pharmacy-u-t-experts-receive-18-million-advance-virtual-learning">Read More</a></p>
+    <span class="text">Long before the COVID-19 pandemic put a halt on travel and field trips, the University of Toronto geologist grappled with how to expose large numbers of students – particularly undergraduates taking introductory courses – to landscapes and environments, past and present, around the world. He ultimately found a solution in... </span><a href="https://www.utoronto.ca/news/geology-pharmacy-u-t-experts-receive-18-million-advance-virtual-learning">Read More</a>
   </div>
 
 
 
   <div class= 'grid-item rocksandminerals teach'>
     <a href="https://www.utoronto.ca/news/virtual-field-trips-digital-labs-and-global-colleagues-u-t-students-explore-world-fall"><img class="image" src="/news/images/virtfield.jpg" style="width:100%;"></a>
-    <h3>U of T News: Virtual field trips...</h3>
+    <h3 class="title">U of T News: Virtual field trips...</h3>
     <p class="w3-center">by <a href="https://www.utoronto.ca/news/authors-reporters/geoffrey-vendeville">Geoffrey Vendeville</a>, 7/27/2021</p>
-    <p>Virtual field trips that take geology students from the Bonnechere Caves to Potholes Provincial Park, Niagara Falls and Halfway Log Dump Bay. Digital labs that allow biomedical engineering students to observe their experiments at a nano-level. And partnerships with students in Mexico that explore the impact of COVID-19 on food security... <a href="https://www.utoronto.ca/news/virtual-field-trips-digital-labs-and-global-colleagues-u-t-students-explore-world-fall">Read More</a></p>
+    <span class="text">Virtual field trips that take geology students from the Bonnechere Caves to Potholes Provincial Park, Niagara Falls and Halfway Log Dump Bay. Digital labs that allow biomedical engineering students to observe their experiments at a nano-level. And partnerships with students in Mexico that explore the impact of COVID-19 on food security... </span><a href="https://www.utoronto.ca/news/virtual-field-trips-digital-labs-and-global-colleagues-u-t-students-explore-world-fall">Read More</a>
   </div>
 
 
@@ -208,29 +240,8 @@ body,p,h1,h3 {color: black;}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 <script src="isotope.pkgd.min.js"></script>
+<script src='http://imagesloaded.desandro.com/imagesloaded.pkgd.js'></script>
 
-<script>
-var $grid = $('.grid').isotope({
-  itemSelector: '.grid-item',
-  layoutMode: 'masonry',
-  getSortData: {
-    name: function (element) {
-      return $(element).text();
-    }
-  }
-});
-
-
-
-$('.filter button').on("click", function () {
-  var value = $(this).attr('data-name');
-    $grid.isotope({
-      filter: value
-    });
-  $('.filter button').removeClass('active');
-  $(this).addClass('active');
-})
-</script>
 
 
 <script>
@@ -264,5 +275,28 @@ function toggleFunction() {
 } 
 </script>
 
+<script>
+
+/*=============Code for Masonry Gallery ==============*/
+    var grid = document.querySelector('.grid');
+    var jQuerygrid = jQuery('.grid').isotope({
+        itemSelector: '.grid-item'
+    }); 
+    var iso = jQuerygrid.data('isotope');
+    jQuerygrid.isotope( 'reveal', iso.items );
+
+    imagesLoaded(grid, function(){
+        iso.layout();
+    });
+
+$('.filter button').on("click", function () {
+  var value = $(this).attr('data-name');
+    jQuerygrid.isotope({
+      filter: value
+    });
+  $('.filter button').removeClass('active');
+  $(this).addClass('active');
+})
+</script>
 </body>
 </html>
