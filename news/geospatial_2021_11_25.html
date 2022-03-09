@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>Planet Earth Lab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<style>
+
+* {box-sizing: border-box;}
+
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+body,p,h1,h3 {color: black;}
+
+
+.bg1 {
+  background: url(news/images/banner_computing.jpg)no-repeat center;
+  background-size: cover;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+</style>
+
+
+
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<section id="top">
+
+<div class="w3-top">
+  <div class="w3-bar w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="/news" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS</a>
+    <a href="/#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="/#people" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> PEOPLE</a>
+    <a href="/#publications" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> PUBLICATIONS</a>
+    <a href="/#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-binoculars"></i> RESOURCES</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="/news" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
+    <a href="/#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="/#people" class="w3-bar-item w3-button" onclick="toggleFunction()">PEOPLE</a>
+    <a href="/#publications" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
+    <a href="/#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+  </div>
+</div>
+
+</section>
+<div class="bg1">
+<br>
+<br>
+<br>
+
+
+<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">The Planet Earth Lab gets geospatial! An interview with PhD Candidate Shane Sookhan</span>
+<br>
+<br>
+<br>
+
+</div>
+  <h4 class="w3-left w3-padding">Published 11/26/2021</h4>
+  <h4 class="w3-right w3-padding">by <a href="/#andrew-zajch">Andrew Zajch</a></h4>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <p>It is often said a craftsman is only as good as their tools. Similarly, researchers are often constrained by available approaches and technologies. Cognizant of this, the Planet Earth Lab is looking to harness new technology to enhance their capabilities, particularly their geospatial tools which are fundamental to their analytical approaches and visualizations of regional dynamics.</p> 
+  <p> The acquisition of a <i><a href=https://planetearth.utsc.utoronto.ca/news/lidar_2021_11_05.html>new state-of-the-art drone equipped with a LiDAR system</a></i>  will undoubtedly push the capacities of the lab by giving them the ability to gather high resolution data for remote and specific sites through targeted surveys. The incorporation of high-resolution LiDAR data will not only improve data sets for further analysis but also allow for new approaches that leverage their enhanced resolution. In <i><a href=https://planetearth.utsc.utoronto.ca/news/gac_shane_2021_11_11.html>Shane Sookhan’s recent GAC-MAC talk</a></i> he emphasizes that the new methodologies are possible in part to the advent of higher resolution data. In another example, the lab has been working to improve visualizations, and the possible perspectives, of landforms using 3D visualization techniques. An example of this approach being used to reconstruct the Oak Ridges Moraine (ORM) can be viewed <i><a href=https://planetearth.utsc.utoronto.ca/news/ORM_2021_09_20.html>here</a></i>.  To get a better understanding of how the lab is leveraging new technology to conduct research I decided to sit down with  Shane to discuss how the lab is developing its geospatial capabilities.</p>
+
+  <h4>A sit down with Shane</h4>
+
+  <p><i><b> Andrew (A):  Hi there Shane, can you tell the readers a bit about your research?</b></i></p>
+  <p> Shane(S): Canada has a rich glaciological history due to multiple glaciations. A lot of work is being done to reconstruct these events and their past environments by learning about the movements and dynamics of ice sheets. This has practical applications for mineral exploration and ground ice modelling in the north for example.  I focus on paleo-ice stream reconstructions, figuring out the thickness and movement of ice sheets in time using landforms that were left behind. These landforms are indicative of ice flow direction, velocity, and the general health of the ice sheet.  This work is being driven by improvements to geospatial technology, mainly the availability of high resolution imagery, to help map the landforms. </p>
+  <br>
+  <p><i><b> A: You alluded to it but what is the role of geospatial approaches and technology specifically in your research?</b></i></p>
+  <p>S: A lot of what we do is to understand modern ice sheets, which are shrinking, to understand what they will look like. A lot of the processes that occurring are dictated by what is happening underneath the ice sheet. Conventional approaches can’t solve this problem. We are leveraging high resolution imagery, LiDAR for example, to classify and understand the processes happening below past ice streams to help inform the dynamics underway for current ice sheets.</p>
+  <br>
+  <p><i><b> A: With the the acquisition of the new drone with LiDAR the lab now will be able to collect high resolution datasets themselves, how does this enhance your research? Are there questions you can now answer that you previously couldn't?</b></i></p>
+  <p>S:Previously, low resolution datasets allowed us to map larger and higher standing landforms, such as drumlins, which form when ice is moving at a steady pace. The data could not however resolve Mega Scale Glacial Lineations (MSGLs) which are much smaller in size. High resolution data, such as the kind we will be able to capture with the drone, will help us see a larger range of features which describe not only steady flows but also faster flowing ice as well which were under-represented in low resolution datasets. This will allow us to truly capture the smaller scale features indicative of fast flowing ice.</p>
+  <br>
+  <p><i><b> A: Are there any practical challenges for users looking to use high resolution LiDAR datasets?</b></i></p>
+  <p>S:The first challenge is the large volumes of data and the associated large computational requirement. Secondly, the analytical techniques used to analyze the data also need to be optimized as conventional or manual tools may not be compatible, or underutilize, the nature of the high resolution data. Specifically, we have found that automation is critically important to work through these large volumes of data to ensure analysis is consistent and the approaches remain feasible.</p>
+  <br>
+  <p><i><b> A:Are you looking to employ any other new technologies going forward?</b></i></p>
+  <p>S:The most significant new development in the lab has been the adoption of machine learning based analysis techniques using neural networks object detection and classification. These are transforming our ability to map huge amount of high resolution LiDAR data which will enhance our lab’s capabilities in the future.</p>
+  <br>
+  <p><i><b>A: What boundaries are you and the lab looking to push in future research?</b></i></p>
+  <p>S:The main thing is to take the application of machine learning techniques to other fields of environmental research and other disciplines, such as engineering, to work towards physically modelling the processes happening under the ice. This would transition our work from describing what is happening to how the processes work!</p>
+  <br>
+   <p><i><b>A: Any final thoughts?</b></i></p>
+  <p>S:Stay tuned to the lab blog to keep up to date on most recent news and work being done by the lab!</p>
+
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+// window.onscroll = function() {myFunction()};
+// function myFunction() {
+//     var navbar = document.getElementById("myNavbar");
+//     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+//         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+//     } else {
+//         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+//     }
+// }
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+} 
+</script>
+
+</body>
+</html>

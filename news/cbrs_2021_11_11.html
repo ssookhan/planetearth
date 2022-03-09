@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<title>Planet Earth Lab</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+<style>
+
+* {box-sizing: border-box;}
+
+
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+  scroll-behavior: smooth;
+}
+
+body,p,h1,h3 {color: black;}
+
+
+.bg1 {
+  background: url(news/images/cbrs_banner.jpg)no-repeat center;
+  background-size: cover;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+</style>
+
+
+
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<section id="top">
+
+<div class="w3-top">
+  <div class="w3-bar w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="/news" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS</a>
+    <a href="/#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="/#people" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> PEOPLE</a>
+    <a href="/#publications" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-book"></i> PUBLICATIONS</a>
+    <a href="/#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-binoculars"></i> RESOURCES</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="/news" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS</a>
+    <a href="/#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="/#people" class="w3-bar-item w3-button" onclick="toggleFunction()">PEOPLE</a>
+    <a href="/#publications" class="w3-bar-item w3-button" onclick="toggleFunction()">PUBLICATIONS</a>
+    <a href="/#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+  </div>
+</div>
+
+</section>
+
+<div class="bg1">
+<br>
+<br>
+<br>
+
+<span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide">From the ground up: An overview of the CBRS workflow </span>
+<br>
+<br>
+<br>
+
+</div>
+  <h4 class="w3-left w3-padding">Published 11/22/2021</h4>
+  <h4 class="w3-right w3-padding">by <a href="/#andrew-zajch">Andrew Zajch</a></h4>
+
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <p>Geographic Information System (GIS) methodologies are an essential tool for glacial research looking to understand the spatial distribution and character of landforms.  While manual mapping can typically be done, to optimize the use of large his resolution data sets a more efficient approach is necessary.  To examine large swathes of glacially influenced terrains across North America, the Planet Earth Lab developed an approach to automate the mapping of glacial landforms termed Curvature-Based Relief Separation (or CBRS for short).  This allowed for the transformation of raw digital elevation model (DEM) to polygons representative of possible glacial landforms such as drumlins or MSGLs (Mega Scale Glacial Lineation).  This has led to many new projects and publications striving to understand the evolution of glacial landforms.</p>
+  <p><i>Sounds familiar but forget what a drumlin is? A quick refresher on drumlins can be found in the post <a href=https://planetearth.utsc.utoronto.ca/news/Drumlins_2021_09_20.html>here</a></i></p>
+  <p><i>Check out the recent publication from the Planet Earth Lab showing the results of automated surface mapping <a href=https://www.researchgate.net/publication/352261886_LiDAR-based_quantitative_assessment_of_drumlin_to_mega-scale_glacial_lineation_continuums_and_flow_of_the_paleo_Seneca-Cayuga_paleo-ice_stream>here</a></i></p>
+  <h4>How do we go from raw data to mapped terrains?</h4>
+  <p>The CBRS approach can be broken down into seven distinct steps evolving raw DEM data to mapped polygons that can be evaluated with further analytical tools to extract relevant characteristics.</p>
+  <p>The first step is to acquire digital elevation model (DEM) data for your study area (Figure 1). Already at this step the landforms are visible and can undergo manual mapping, albeit taking more time. Prior to automated CBRS mapping the raw data undergoes smoothing using focal statistics to make a more cohesive and continuous surface for the subsequent analysis (Figure 2).</p>
+  <img class="image" src="/news/images/cbrs_2021_11_11_1.jpg" style="width:100%;">
+  <p class="w3-serif"><i>Figure 1- Raw DEM data</i></p>
+  <img class="image" src="/news/images/cbrs_2021_11_11_2.jpg" style="width:100%;">
+  <p class="w3-serif"><i>Figure 2- Smoothed DEM data after applying focal statistics</i></p>
+  <br>
+  <p>The smoothing of the DEM surface is an essential operation that aids the next step where the calculation of the surface’s curvature is carried out (Figure 3).  Since curvature is a function of slope, the smoothing of the surface in the previous step reduces the incidence of discontinuities which are problematic for slope calculations. Following calculation of the surface’s curvature the breaks in the curvature are traced (Figure 4). Visually the outline of the glacial landforms are already starting to take shape.  To convert these outlines to useable polygons the curvature breaks are interpolated and then subtracted from the DEM (Figure 5) producing a raster that then undergoes fuzzy classification and conversion to polygons (Figure 6).</p>
+  <img class="image" src="/news/images/cbrs_2021_11_11_3.jpg" style="width:100%;">
+  <p class="w3-serif"><i>Figure 3- Output following the calculation of the surface's curvature</i></p>
+  <img class="image" src="/news/images/cbrs_2021_11_11_4.jpg" style="width:100%;">
+  <p class="w3-serif"><i>Figure 4- Lines delineating the break in slope on the curvature surface</i></p>
+   <img class="image" src="/news/images/cbrs_2021_11_11_5.jpg" style="width:100%;">
+  <p class="w3-serif"><i>Figure 5- Interpolating break of slope and subtracting from DEM</i></p>
+  <img class="image" src="/news/images/cbrs_2021_11_11_6.jpg" style="width:100%;">
+  <p class="w3-serif"><i>Figure 6- Features defined following fuzzy classification and raster conversion</i></p>
+  <br>
+  <p>Quality control is conducted manually after polygons are automatically generated. This helps eliminate spurious or erroneous polygons. Afterwards, functions can be applied to the polygons to rapidly tabulate elongation ratios, for example, which are crucial indicators for understanding the genesis of the glacial landforms (Figure 7).</p>
+  <img class="image" src="/news/images/cbrs_2021_11_11_7.jpg" style="width:100%;">
+  <p class="w3-serif"><i>Figure 7- Output following removal of spurious polygons allowing for further analysis such as the calculation of the elongation ratios for each feature</i></p>
+  <br>
+  <h4>So what does this mean?</h4>
+  <p>The means to objectively identify glacial features automatically allows for the mapping of glacial morphotypes over large areas. This has been shown to have a marked impact of the number of features identified. This is particularly the case for features with high elongation ratios, think long and thin, such as MSGLs. For example, in the areas surrounding the Oak Ridges Moraine, using <strong>previous mapping techniques only 1% of landforms were classified as MSGLs while the CBRS methodology revealed they were a lot more common at 20% of landforms. CBRS has therefore shown that it can be a valuable tool to help supplement the weary eyes of researchers investigating past glacial landscapes!</strong></p>
+  <h4>Where can I learn more?</h4>
+  <p><a href=https://planetearth.utsc.utoronto.ca/news/gac_shane_2021_11_11.html>Check out the overview of Shane’s talk on automated classification of glacial morphotypes and ice stream mapping he gave at GAC-MAC 2021.</a></p>
+
+</div>
+
+
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#top" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+// window.onscroll = function() {myFunction()};
+// function myFunction() {
+//     var navbar = document.getElementById("myNavbar");
+//     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+//         navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+//     } else {
+//         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+//     }
+// }
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+} 
+</script>
+
+</body>
+</html>
