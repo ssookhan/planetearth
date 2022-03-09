@@ -1,317 +1,136 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>96_3</title>
+    <title>UTSC96/3</title>
     
     <script src="../scripts/jquery-1.11.3.min.js"></script>
     <link href="../scripts/roundslider.min.css" rel="stylesheet" />
     <script src="../scripts/roundslider.min.js"></script>
-<style>
+    <link href="../scripts/nouislider.min.css" rel="stylesheet" />
+    <script src="../scripts/nouislider.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
+    <link href="../scripts/rotatable.css" rel="stylesheet" /> 
 
-body {
-  background: #0A0E0F;
-}
-
-h3 {
-  color: white;
-  font-size: 20px;
-  font-family: Verdana, sans-serif;
-}
-/* The switch - the box around the slider */
-
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 170px;
-  height: 34px;
-  text-align: center;
-  line-height: 2;
-  z-index: 5
-}
-
-/* Hide default HTML checkbox */
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
-
-/* The slider */
-.analyser {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-  font-size: 15px;
-  font-family: Verdana, sans-serif;
-  font-weight: bold;
-  border-radius: 10px;
-}
-
-
-.analyser:before {
-  position: absolute;
-  content: "OUT";
-  height: 26px;
-  width: 40px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-  border-radius: 8px;
-}
-
-input:checked + .analyser {
-  background-color: #2196F3;
-}
-
-input:focus + .analyser {
-  border: 2px solid rgba(81, 203, 238, 1);
-}
-
-input:checked + .analyser:before {
-  -webkit-transform: translateX(122px);
-  -ms-transform: translateX(122px);
-  transform: translateX(122px);
-  content: "IN"
-}
-
-
-#container {
-  position: absolute;
-  width: 530;
-}
-
-#animation {
-  position: absolute;
-  z-index: 3;
-}
-
-#slider1 {
-  z-index: 4;
-}
-
-#slider1 .rs-tooltip{
-  top: 105%;
-  color: white;
-}
-
-.current-img{
-  width: 500px;
-}
-
-.micpics {
-  margin: 0;
-  padding: 0;
-}
-
-.micpics li{
-  list-style: none;
-}
-
-.micpics li img{
-  width: 500px;
-  position: absolute;
-}
-
-.previous-image{
-  display: none;
-}
-
-.rs-number{
-  font-size: 12px;
-  font-family: Verdana, sans-serif;
-  -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-     -khtml-user-select: none; /* Konqueror HTML */
-       -moz-user-select: none; /* Old versions of Firefox */
-        -ms-user-select: none; /* Internet Explorer/Edge */
-            user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
-}
-
-</style>
 </head>
 
 <body>
 
-<!-- Rectangular switch -->
+<div id="container">
+<h3>Slide 96 point 3</h3>
 <div id="controls">
-  <h3>Slide 96 Point 3</h3>
+
 <label class="switch">
   <input type="checkbox" OnClick="analyserswitch()">
   <span class="analyser">Analyser</span> 
 </label>
+
+
 </div>
 
-<div id="container">
-    <div id="animation">          
-        <ol id= "ppl" class="micpics" style ="display: block; ">
+<section>
+
+    <div id="animation">
+    	<div id="lox" style ="display: block; ">          
+        <ol id= "loppl" class="micpics" style ="display: block; ">
   
 
-<li><img src="ppl/20200615_123657.jpg" class="img0 current-image"></li>
-<li><img src="ppl/20200615_123654.jpg" class="img1 previous-image"></li>
-<li><img src="ppl/20200615_123651.jpg" class="img2 previous-image"></li>
-<li><img src="ppl/20200615_123649.jpg" class="img3 previous-image"></li>
-<li><img src="ppl/20200615_123646.jpg" class="img4 previous-image"></li>
-<li><img src="ppl/20200615_123644.jpg" class="img5 previous-image"></li>
-<li><img src="ppl/20200615_123642.jpg" class="img6 previous-image"></li>
-<li><img src="ppl/20200615_123639.jpg" class="img7 previous-image"></li>
-<li><img src="ppl/20200615_123637.jpg" class="img8 previous-image"></li>
-<li><img src="ppl/20200615_123634.jpg" class="img9 previous-image"></li>
-<li><img src="ppl/20200615_123632.jpg" class="img10 previous-image"></li>
-<li><img src="ppl/20200615_123630.jpg" class="img11 previous-image"></li>
-<li><img src="ppl/20200615_123628.jpg" class="img12 previous-image"></li>
-<li><img src="ppl/20200615_123626.jpg" class="img13 previous-image"></li>
-<li><img src="ppl/20200615_123623.jpg" class="img14 previous-image"></li>
-<li><img src="ppl/20200615_123621.jpg" class="img15 previous-image"></li>
-<li><img src="ppl/20200615_123619.jpg" class="img16 previous-image"></li>
-<li><img src="ppl/20200615_123617.jpg" class="img17 previous-image"></li>
-<li><img src="ppl/20200615_123615.jpg" class="img18 previous-image"></li>
-<li><img src="ppl/20200615_123613.jpg" class="img19 previous-image"></li>
-<li><img src="ppl/20200615_123610.jpg" class="img20 previous-image"></li>
-<li><img src="ppl/20200615_123608.jpg" class="img21 previous-image"></li>
-<li><img src="ppl/20200615_123606.jpg" class="img22 previous-image"></li>
-<li><img src="ppl/20200615_123603.jpg" class="img23 previous-image"></li>
-<li><img src="ppl/20200615_123601.jpg" class="img24 previous-image"></li>
-<li><img src="ppl/20200615_123558.jpg" class="img25 previous-image"></li>
-<li><img src="ppl/20200615_123556.jpg" class="img26 previous-image"></li>
-<li><img src="ppl/20200615_123553.jpg" class="img27 previous-image"></li>
-<li><img src="ppl/20200615_123550.jpg" class="img28 previous-image"></li>
-<li><img src="ppl/20200615_123547.jpg" class="img29 previous-image"></li>
-<li><img src="ppl/20200615_123544.jpg" class="img30 previous-image"></li>
-<li><img src="ppl/20200615_123542.jpg" class="img31 previous-image"></li>
-<li><img src="ppl/20200615_123539.jpg" class="img32 previous-image"></li>
-<li><img src="ppl/20200615_123536.jpg" class="img33 previous-image"></li>
-<li><img src="ppl/20200615_123534.jpg" class="img34 previous-image"></li>
-<li><img src="ppl/20200615_123532.jpg" class="img35 previous-image"></li>
+<li><img src="4x/ppl/00.jpg" class="img0 current-image"></li>
+<li><img src="4x/ppl/01.jpg" class="img1 previous-image"></li>
+<li><img src="4x/ppl/02.jpg" class="img2 previous-image"></li>
+<li><img src="4x/ppl/03.jpg" class="img3 previous-image"></li>
+<li><img src="4x/ppl/04.jpg" class="img4 previous-image"></li>
+<li><img src="4x/ppl/05.jpg" class="img5 previous-image"></li>
+<li><img src="4x/ppl/06.jpg" class="img6 previous-image"></li>
+<li><img src="4x/ppl/07.jpg" class="img7 previous-image"></li>
+<li><img src="4x/ppl/08.jpg" class="img8 previous-image"></li>
+<li><img src="4x/ppl/09.jpg" class="img9 previous-image"></li>
+<li><img src="4x/ppl/10.jpg" class="img10 previous-image"></li>
+<li><img src="4x/ppl/11.jpg" class="img11 previous-image"></li>
+<li><img src="4x/ppl/12.jpg" class="img12 previous-image"></li>
+<li><img src="4x/ppl/13.jpg" class="img13 previous-image"></li>
+<li><img src="4x/ppl/14.jpg" class="img14 previous-image"></li>
+<li><img src="4x/ppl/15.jpg" class="img15 previous-image"></li>
+<li><img src="4x/ppl/16.jpg" class="img16 previous-image"></li>
+<li><img src="4x/ppl/17.jpg" class="img17 previous-image"></li>
+<li><img src="4x/ppl/18.jpg" class="img18 previous-image"></li>
+<li><img src="4x/ppl/19.jpg" class="img19 previous-image"></li>
+<li><img src="4x/ppl/20.jpg" class="img20 previous-image"></li>
+<li><img src="4x/ppl/21.jpg" class="img21 previous-image"></li>
+<li><img src="4x/ppl/22.jpg" class="img22 previous-image"></li>
+<li><img src="4x/ppl/23.jpg" class="img23 previous-image"></li>
+<li><img src="4x/ppl/24.jpg" class="img24 previous-image"></li>
+<li><img src="4x/ppl/25.jpg" class="img25 previous-image"></li>
+<li><img src="4x/ppl/26.jpg" class="img26 previous-image"></li>
+<li><img src="4x/ppl/27.jpg" class="img27 previous-image"></li>
+<li><img src="4x/ppl/28.jpg" class="img28 previous-image"></li>
+<li><img src="4x/ppl/29.jpg" class="img29 previous-image"></li>
+<li><img src="4x/ppl/30.jpg" class="img30 previous-image"></li>
+<li><img src="4x/ppl/31.jpg" class="img31 previous-image"></li>
+<li><img src="4x/ppl/32.jpg" class="img32 previous-image"></li>
+<li><img src="4x/ppl/33.jpg" class="img33 previous-image"></li>
+<li><img src="4x/ppl/34.jpg" class="img34 previous-image"></li>
+<li><img src="4x/ppl/35.jpg" class="img35 previous-image"></li>
+
+
+        </ol>
+        <ol id= "loxpl" class="micpics" style ="display: none; ">
 
 
 
-        </ol></div>
-        <ol id= "xpl" class="micpics" style ="display: none; ">
+<li><img src="4x/xpl/00.jpg" class="img0 current-image"></li>
+<li><img src="4x/xpl/01.jpg" class="img1 current-image"></li>
+<li><img src="4x/xpl/02.jpg" class="img2 current-image"></li>
+<li><img src="4x/xpl/03.jpg" class="img3 current-image"></li>
+<li><img src="4x/xpl/04.jpg" class="img4 current-image"></li>
+<li><img src="4x/xpl/05.jpg" class="img5 current-image"></li>
+<li><img src="4x/xpl/06.jpg" class="img6 current-image"></li>
+<li><img src="4x/xpl/07.jpg" class="img7 current-image"></li>
+<li><img src="4x/xpl/08.jpg" class="img8 current-image"></li>
+<li><img src="4x/xpl/09.jpg" class="img9 current-image"></li>
+<li><img src="4x/xpl/10.jpg" class="img10 current-image"></li>
+<li><img src="4x/xpl/11.jpg" class="img11 current-image"></li>
+<li><img src="4x/xpl/12.jpg" class="img12 current-image"></li>
+<li><img src="4x/xpl/13.jpg" class="img13 current-image"></li>
+<li><img src="4x/xpl/14.jpg" class="img14 current-image"></li>
+<li><img src="4x/xpl/15.jpg" class="img15 current-image"></li>
+<li><img src="4x/xpl/16.jpg" class="img16 current-image"></li>
+<li><img src="4x/xpl/17.jpg" class="img17 current-image"></li>
+<li><img src="4x/xpl/18.jpg" class="img18 current-image"></li>
+<li><img src="4x/xpl/19.jpg" class="img19 current-image"></li>
+<li><img src="4x/xpl/20.jpg" class="img20 current-image"></li>
+<li><img src="4x/xpl/21.jpg" class="img21 current-image"></li>
+<li><img src="4x/xpl/22.jpg" class="img22 current-image"></li>
+<li><img src="4x/xpl/23.jpg" class="img23 current-image"></li>
+<li><img src="4x/xpl/24.jpg" class="img24 current-image"></li>
+<li><img src="4x/xpl/25.jpg" class="img25 current-image"></li>
+<li><img src="4x/xpl/26.jpg" class="img26 current-image"></li>
+<li><img src="4x/xpl/27.jpg" class="img27 current-image"></li>
+<li><img src="4x/xpl/28.jpg" class="img28 current-image"></li>
+<li><img src="4x/xpl/29.jpg" class="img29 current-image"></li>
+<li><img src="4x/xpl/30.jpg" class="img30 current-image"></li>
+<li><img src="4x/xpl/31.jpg" class="img31 current-image"></li>
+<li><img src="4x/xpl/32.jpg" class="img32 current-image"></li>
+<li><img src="4x/xpl/33.jpg" class="img33 current-image"></li>
+<li><img src="4x/xpl/34.jpg" class="img34 current-image"></li>
+<li><img src="4x/xpl/35.jpg" class="img35 current-image"></li>
+        </ol> </div>
 
-<li><img src="xpl/20200615_123845.jpg" class="img0 current-image"></li>
-<li><img src="xpl/20200615_123843.jpg" class="img1 previous-image"></li>
-<li><img src="xpl/20200615_123840.jpg" class="img2 previous-image"></li>
-<li><img src="xpl/20200615_123838.jpg" class="img3 previous-image"></li>
-<li><img src="xpl/20200615_123835.jpg" class="img4 previous-image"></li>
-<li><img src="xpl/20200615_123832.jpg" class="img5 previous-image"></li>
-<li><img src="xpl/20200615_123830.jpg" class="img6 previous-image"></li>
-<li><img src="xpl/20200615_123827.jpg" class="img7 previous-image"></li>
-<li><img src="xpl/20200615_123825.jpg" class="img8 previous-image"></li>
-<li><img src="xpl/20200615_123822.jpg" class="img9 previous-image"></li>
-<li><img src="xpl/20200615_123820.jpg" class="img10 previous-image"></li>
-<li><img src="xpl/20200615_123817.jpg" class="img11 previous-image"></li>
-<li><img src="xpl/20200615_123815.jpg" class="img12 previous-image"></li>
-<li><img src="xpl/20200615_123813.jpg" class="img13 previous-image"></li>
-<li><img src="xpl/20200615_123810.jpg" class="img14 previous-image"></li>
-<li><img src="xpl/20200615_123808.jpg" class="img15 previous-image"></li>
-<li><img src="xpl/20200615_123805.jpg" class="img16 previous-image"></li>
-<li><img src="xpl/20200615_123803.jpg" class="img17 previous-image"></li>
-<li><img src="xpl/20200615_123801.jpg" class="img18 previous-image"></li>
-<li><img src="xpl/20200615_123758.jpg" class="img19 previous-image"></li>
-<li><img src="xpl/20200615_123756.jpg" class="img20 previous-image"></li>
-<li><img src="xpl/20200615_123753.jpg" class="img21 previous-image"></li>
-<li><img src="xpl/20200615_123751.jpg" class="img22 previous-image"></li>
-<li><img src="xpl/20200615_123748.jpg" class="img23 previous-image"></li>
-<li><img src="xpl/20200615_123744.jpg" class="img24 previous-image"></li>
-<li><img src="xpl/20200615_123742.jpg" class="img25 previous-image"></li>
-<li><img src="xpl/20200615_123740.jpg" class="img26 previous-image"></li>
-<li><img src="xpl/20200615_123737.jpg" class="img27 previous-image"></li>
-<li><img src="xpl/20200615_123735.jpg" class="img28 previous-image"></li>
-<li><img src="xpl/20200615_123733.jpg" class="img29 previous-image"></li>
-<li><img src="xpl/20200615_123730.jpg" class="img30 previous-image"></li>
-<li><img src="xpl/20200615_123727.jpg" class="img31 previous-image"></li>
-<li><img src="xpl/20200615_123722.jpg" class="img32 previous-image"></li>
-<li><img src="xpl/20200615_123715.jpg" class="img33 previous-image"></li>
-<li><img src="xpl/20200615_123713.jpg" class="img34 previous-image"></li>
-<li><img src="xpl/20200615_123711.jpg" class="img35 previous-image"></li>
-
-
-
-        </ol></div>
-    
-        <div id= "slider1" style ="display: block;" ></div>
+        
+  	<div id="slider1" style="display: block;" data-overlap="0">
+       
     </div>
 
 
-<script>
+</section>
 
-$.fn.roundSlider.prototype.defaults.create = function() {
-  var o = this.options, BgtickInterval = 10, SmtickInterval = 2;
-  for (var i = o.min; i <= o.max-1; i += BgtickInterval) {
-    var angle = this._valueToAngle(i);
-    var numberTagBg = this._addSeperator(angle, "rs-custom");
-    var number = numberTagBg.children();
-    number.clone().css({
-      "width": o.width/3 + this._border(),
-      "margin-top": this._border(true) / -5
-    }).appendTo(numberTagBg);
-    number.removeClass().addClass("rs-number").html(i);
-  }
-for (var i = o.min; i <= o.max; i += SmtickInterval) {
-    var angle = this._valueToAngle(i);
-    var numberTagSm = this._addSeperator(angle, "rs-custom");
-    var number = numberTagSm.children();
-    number.clone().css({
-      "width": o.width/5 + this._border(),
-      "margin-top": this._border(true) / -5
-    }).appendTo(numberTagSm);
-    ;
-  }
-}
-
-$("#slider1").roundSlider({
-  svgMode: true,
-  borderWidth: 0,
-  sliderType: "default",
-  handleSize: "50,100",
-  width: 40,
-  radius: 250,
-  animation: true,
-  mouseScrollAction: true,
-  startValue: 0,
-  min: 0,
-  max: 360,
-  step: 1,
-  startAngle: 90,
-  update: function (event) {
-    var value = event.value;
-    var imgno = (value/10-value/10%1)%36;
-    var imgno1 = (imgno + 1)%36;
-    var rotation = value/10%1*10;
-    var rotation1 = rotation-10;
-    $(".micpics li img").addClass('previous-image');
-    $(".micpics li .img"+imgno).addClass('current-image').removeClass('previous-image').css({"transform": 'rotate('+rotation+'deg)'}).css({"opacity":1-rotation/10+0.6}).css({"z-index":2});
-    $(".micpics li .img"+imgno1).addClass('current-image').removeClass('previous-image').css({"transform": 'rotate('+rotation1+'deg)'}).css({"opacity":1}).css({"z-index":1});                   
-    },
-
-   tooltipFormat: function (e) {
-      var value  = e.value; 
-      return e.value + " deg";
-    },
-  }) 
-
-function analyserswitch() {
-   var xpl = document.getElementById("xpl"); 
-   var ppl = document.getElementById("ppl");
-
-   xpl.style.display = (
-       xpl.style.display == "none" ? "block" : "none"); 
-   ppl.style.display = (
-       ppl.style.display == "none" ? "block" : "none"); 
-}
-
-</script>
+    <div id="scale" data-lowidth="5000" data-hiwidth="2000">
+    <class id="measure"></class>
+      </div> 
+</div>
 </body>
+<script src="../scripts/rotatable.js"></script> 
+</html>

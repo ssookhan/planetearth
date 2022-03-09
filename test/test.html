@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1"/>
+<script>
+"use strict";
+function myFunction()
+{
+const endpointAuth = 'https://keycloak.prod.agenarisk.com/auth/realms/cloud/protocol/openid-connect/token'
+ 
+let accessToken;
+let refreshToken;
+let accessTokenExpiry = new Date();
+let refreshTokenExpiry = new Date();
+ 
+const credentials = {
+  client_id: 'agenarisk-cloud',
+  username: 'srikanth@prism.institute',
+  password: 'prisminstitute',
+  grant_type: 'password',
+};
+ 
+const reqBodyAccess = Object.entries(credentials).map(([key, value]) => (`${encodeURIComponent(key)}=${encodeURIComponent(value)}`)).join('&');
+ 
+const connection = new XMLHttpRequest();
+connection.onreadystatechange = () => {
+  if (connection.readyState === 4) {
+    if (connection.status === 200) {
+      const response = JSON.parse(connection.response);
+      accessToken = response.access_token;
+      refreshToken = response.refresh_token;
+      const now = new Date();
+      accessTokenExpiry = new Date();
+      accessTokenExpiry.setSeconds(now.getSeconds() + response.expires_in);
+      refreshTokenExpiry = new Date();
+      refreshTokenExpiry.setSeconds(now.getSeconds() + response.refresh_expires_in);
+    }
+  }
+};
+connection.open('POST', endpointAuth);
+connection.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+connection.send(reqBodyAccess);
+
+
+const requestBody = {
+    // Enables synchronous mode
+    // If the result is expected to be calculated within this timeout, it is more efficient this way
+    'sync-wait': true,
+    model: {
+        networks: [
+            {
+                id: 'net',
+                nodes: [
+                    {
+                        id: 'node1'
+                    }
+                ]
+            }
+        ]
+    }
+};
+ 
+const apiUrl = 'https://api.prod.agenarisk.com/public/calculate';
+ 
+sendData(apiUrl, requestBody);
+ 
+function sendData(url, data) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("POST", apiUrl);
+    xhr.setRequestHeader("Content-Type", "text/plain;charset=UTF-8");
+    xhr.setRequestHeader("Authorization", "Bearer " + accessToken); // See section Authentication for details on receiving the access token
+    xhr.onload = function (event) {
+        // event.srcElement.status will be either 202 (Accepted) or 400/503 (Rejected)
+        // 503 generally means some part of the API infrastructure was unavailable, and you could try again a bit later (e.g. after 2-5 min)
+        // If using sync-wait, then status can also be 200 (Finished OK), 202 (Pending/Processing) or 400 (Finished in error)
+         
+        const response = JSON.parse(event.target.response);
+        processResponse(response);
+    };
+    xhr.send(JSON.stringify(requestBody));
+}
+ 
+function poll(url) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", url); // POST is also allowed
+    xhr.setRequestHeader("Authorization", "Bearer " + accessToken); // See section Authentication for details on receiving the access token
+    xhr.onload = function (event) {
+        // event.srcElement.status will be 200 (Finished OK), 202 (Pending/Processing), 400 (Finished in error) or 503 (Database was unavailable, and you should keep trying)
+        const response = JSON.parse(event.target.response);
+        processResponse(response);
+    };
+    xhr.send();
+}
+ 
+function processResponse(json) {
+    if (['success', 'failure', 'rejected'].includes(json.status)) {
+        recordResult(json);
+        return;
+    }
+ 
+    setTimeout(function () {
+        poll(json.pollingUrl);
+    }, 500);
+}
+ 
+function recordResult(json) {
+    console.log(json.results);
+}
+}
+</script>
+</head>
+
+<body>
+<button onclick="myFunction()">Click me</button>
+</body>
+</html>

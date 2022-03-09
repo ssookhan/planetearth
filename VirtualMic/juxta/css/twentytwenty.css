@@ -1,3 +1,11 @@
+/************************************GLOBAL*/
+
+html, body {
+margin: 0 !important;
+padding: 0 !important;
+font-family: Arial, Helvetica, sans-serif;
+}
+
 .twentytwenty-horizontal .twentytwenty-handle:before, .twentytwenty-horizontal .twentytwenty-handle:after, .twentytwenty-vertical .twentytwenty-handle:before, .twentytwenty-vertical .twentytwenty-handle:after {
   content: " ";
   display: block;
@@ -82,12 +90,20 @@
   overflow: hidden;
   position: relative;
   -webkit-user-select: none;
-  -moz-user-select: none; }
+  -moz-user-select: none;
+  -ms-user-select: none; 
+  margin:auto; 
+}
+  
   .twentytwenty-container img {
-    width: 100%;
+    width:auto;
+    max-width: 100%;
+    height:auto;
     position: absolute;
-    top: 0;
-    display: block; }
+    display: block; 
+  }
+
+
   .twentytwenty-container.active .twentytwenty-overlay, .twentytwenty-container.active :hover.twentytwenty-overlay {
     background: rgba(0, 0, 0, 0); }
     .twentytwenty-container.active .twentytwenty-overlay .twentytwenty-before-label,
@@ -128,7 +144,7 @@
   background: rgba(0, 0, 0, 0);
   z-index: 25; }
   .twentytwenty-overlay:hover {
-    background: rgba(0, 0, 0, 0.5); }
+    background: rgba(0, 0, 0, 0.1); }
     .twentytwenty-overlay:hover .twentytwenty-after-label {
       opacity: 1; }
     .twentytwenty-overlay:hover .twentytwenty-before-label {
@@ -203,17 +219,3 @@
   border-top: 6px solid white;
   bottom: 50%;
   margin-bottom: -17px; }
-
-  #expandfull {
-    z-index: 1;
-    width:5%;
-    height: auto;
-    position: absolute;
-    right: 0px;
-    opacity: 0.5;
-    filter: alpha(opacity=50);  /* For IE8 and earlier */
-  }
-  #expandfull:hover {
-    opacity: 1;
-    filter: alpha(opacity=100);  /* For IE8 and earlier */
-  }
