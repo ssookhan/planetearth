@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title>Georgian Bay Aspiring Geopark</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/unesco/aboutpagebanner.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/unesco/parallax/P1140595.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/unesco/parallax/P1190199.jpg");
+    min-height: 400px;
+}
+
+
+.bgimg-4 {
+    background-image: url("/unesco/parallax/P1130535.jpg");
+    min-height: 400px;
+}
+
+.bgimg-5 {
+    background-image: url("/unesco/parallax/IMG_4976.jpg");
+    min-height: 400px;
+}
+
+.bgimg-6 {
+    background-image: url("/unesco/parallax/P1140727.jpg");
+    min-height: 400px;
+}
+
+.bgimg-7 {
+    background-image: url("/unesco/parallax/MVIMG_20191005_142152.jpg");
+    min-height: 400px;
+}
+
+.bgimg-8 {
+    background-image: url("/unesco/parallax/P1090637.jpg");
+    min-height: 400px;
+}
+
+
+
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8 {
+        background-attachment: scroll;
+    }
+}
+
+.nickimage{width:100%;  z-index: -1; }
+.portraitimage{width:100%;}
+
+.bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 0;
+}
+
+.bottom-left-right {
+  position: absolute;
+  bottom: 10px;
+  left: 47px;
+  z-index: 0;
+}
+
+.badge{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+   width:32px;
+}
+
+.bio { padding-left: 32px;}
+
+@media screen and (max-width: 600px) {
+  .nickimage{aspect-ratio: 520 / 293; object-fit: cover; object-position: 20% 10%;}
+  .bio { padding-top: 20px;}
+
+}
+
+
+.portrait { position: relative;}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image:hover {
+  opacity: 0.8;
+}
+
+.lnewstitle {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}
+
+.lnewstext {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+
+.ddbutton{
+    padding: 0;
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+
+.title{
+  display: inline-block;
+}
+
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-animate-top w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/index2.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="/index2.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="/index2.html#people" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> THE TEAM</a>
+    <a href="/news_events.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS & EVENTS</a>
+    <a href="/index2.html#modules" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> RESOURCES</a>
+    <a href="/index2.html#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rocket"></i> EXPLORE ONTARIO</a>
+    <a href="/sponsors.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-money"></i> SPONSORS</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index2.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="index2.html#people" class="w3-bar-item w3-button" onclick="toggleFunction()">THE TEAM</a>
+    <a href="/news_events.html" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS & EVENTS</a>
+    <a href="index2.html#modules" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+    <a href="index2.html#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">EXPLORE</a>
+    <a href="/sponsors.html" class="w3-bar-item w3-button" onclick="toggleFunction()">SPONSORS</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">ABOUT THE PROJECT</span>
+  </div>
+
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+   <div>
+       <h3>What is a UNESCO Geopark?</h3>
+       <p>UNESCO’s Global Geopark program highlights outstanding regions around the planet that illustrate significant chapters in Earth’s history. The scheme was established in 2001, and there are now 169 such parks worldwide and five in Canada, forming a global network.</p>
+   </div>
+   <div>
+       <h3>What do they do?</h3>
+       <p>The purpose is to promote further geological research, to heighten public outreach and literacy in Earth science, showcase different cultural uses of landscapes and geological settings in the course of human history, and to develop ecologically-sustainable geotourism for the benefit of local communities.</p>
+   </div>
+   <div>
+       <h3>What don’t they do?</h3>
+       <p>Geoparks are not conventional parks like National or Provincial parks, or Provincial Nature Reserves or Conservation Reserves that have fixed geographic boundaries or entrance fees and restrictions on activities. A Geopark does not legally preserve any area, but instead, provides a thematic umbrella for showcasing the importance of a region’s geology to the public. By increasing public awareness of the geological significance of an area, they promote conservation efforts of other organizations.</p>
+   </div>
+   <div>
+       <h3>Why Georgian Bay? </h3>
+       <p>Georgian Bay exceeds all the criteria for designation as a UNESCO Global Geopark and would be Canada’s largest (more than 15,000 km2). Its landscapes and culture are unique in Canada and help shaped a distinct national identity after 1867, as the young country slowly learned to embrace its harsh uncompromising heartland; the rugged Canadian Shield which defines the eastern, and northern shores of Georgian Bay. To the west and south, much younger rocks create very different landscapes typical of Southern Ontario, such that Georgian Bay straddles the boundary between two very different worlds and landscapes. The formation and erosion of ancient supercontinents, massive mountain ranges, ancient ice ages and giant rivers, the nature of Earth’s early atmospheres, and the crash of giant meteorites, are too, recorded in the rocks that surround Georgian Bay.</p>
+   </div>
+
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="partone">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity title">World Class</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <span class="w3-center">As the sixth Great Lake, Georgian Bay contains more than 5% of the planet’s freshwater and ranks among its most pristine.</span>
+  <br></br>
+  <span>Wasaga Beach is the largest freshwater beach in the world. </span>
+  <br></br>
+  <span>Georgian Bay contains the world’s largest freshwater archipelago (Thirty Thousand Islands district) and largest freshwater island (Manitoulin). </span>
+  <br></br>
+  <span>Georgian Bay is a unique North American ecosystem because of its rocks and climate. It straddles the cold boreal north represented by the rugged Shield, and the warmer South, forming what ecologists refer to as an ‘ecotone’ that collectively, is more diverse than either. </span>
+  <br></br>
+  <span>For thousands of years, the Bay has been a cultural crossroad that is unique in Canada; the meeting place of two indigenous cultures: the Anishinaabe First Nation to the north on the rugged Shield and the Huron-Petun First Nation to the south. Many sites and landscapes around the Bay are of great spiritual significance.</span>
+  <br></br>
+  <span>There are more than 100 geosites of especial scientific interest that illustrate the varied geology and landscapes of Georgian Bay and their formation over the past 2.5 billion years; more than 50% of the entire history of planet Earth.</span>
+  <br></br>
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min" id="partone">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity title">The Beginnings of Canada</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64">
+  <br></br>
+  <span>Georgian Bay was the first district anywhere in Canada to be studied for its mineral resources by the fledgling Geological Survey of Canada (GSC) established in 1842. Alexander Murray made the first collections of fossils from Georgian Bay in 1843 and these became the basis for subdividing Paleozoic rocks in the rest of Canada. The GSC quickly established the lack of coal in Georgian Bay and Southern Ontario and this was the impetus for Confederation in 1867 to marry Ontario’s manufacturing base with Nova Scotia’s coal resources. Canada’s first copper mines were established in 1846 along the northern shores of Georgian Bay; oil shale was mined near Meaford from 1859-1872. </span>
+  <br></br>
+</div>
+
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min" id="partone">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity title">Georgian Bay Rocks: A Geological Revolution in the Making</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <span class="w3-center">Precambrian rocks that surround the eastern and northern shores of Georgian Bay, a focal point of the new Aspiring UNESCO Georgian Bay Geopark, have long played a prominent role in the history of international geological science. Just prior to the First World War, they would attract international attention which in time, would trigger a revolution in understanding the geological evolution of North America.</span>
+  <br></br>
+  <span>In 1913, A.P. Coleman a well-known Professor Geology at of the University of Toronto wrote: ‘After passing the boundary of the Shield, the northbound traveler is struck by the abrupt change in scenery, rounded hills of gneiss rising irregularly above valleys generally occupied by a lake; this is indeed ‘rocky lake country’ with thousands of rock-rimmed bodies of water, summer playgrounds for the city dweller and tourist.’  These words were written for a field guidebook for the Twelfth International Geological Congress held in Toronto in 1913, which brought 1152 geologists from 46 countries to Ontario; the largest such gathering in the country’s history. In the years leading up to the First World War, the Canadian economy had grown rapidly, largely on the basis of the development of hydroelectric power in Ontario and the rapid growth of the province’s mining industry. Major discoveries had been made by a new generation of geologists putting the spotlight on Canada’s mineral wealth, a major focus of the Toronto meeting.</span>
+  <br></br>
+  <span>The honorary President of the Congress was H.R.H. the Duke of Connaught, the Governor General of Canada and the third son of Queen Victoria. The meeting took place in the second week of August during which more than eighty lectures were given, followed by several trans-continental geological excursions. One of these trips led by Alfred Barlow and Frank Adams, took delegates to see the Precambrian rocks of the Parry Sound district of Georgian Bay then widely held to record the initial formation of Earth’s crust by cooling of the molten outermost part of the planet. Other geologists such as W.H. Collins pointed instead to the presence of ancient sedimentary rocks such as marbles, now much altered by heat and pressure, as evidence that the rocks were of metamorphic origin. Collins’ pioneering use of early float planes and air photographs is a milestone in how geology was done across Canada. One attendee among the many experts drawn to the controversy and the opportunity to see the rocks in question, was the eminent Austrian geologist Eduard Suess of the University of Vienna, who in 1904 in his book The Face of the Earth had given the rocky lake country north of Toronto the name which has stuck, the Canadian Shield. In describing the value of the excursions such as that to Parry Sound, the Geological Survey of Canada’s own historian, Morris Zaslow, wrote that ‘the visitors helped Canadians to understand their own geology better and in return carried away ideas that they could apply at home.’</span>
+  <br></br>
+  <span>The 1913 IGC Congress in Toronto marks a turning point in the science of geology in Canada and internationally. One year earlier in Britain, Arthur Holmes, had just published the ‘Age of the Earth’ in which he used radiometric age-dating to establish that Earth was at least 2 billion years old (now known to 4.56 billion). Just prior in Germany, Alfred Wegener had published his first paper on ‘Continental Drift’, while the American, Frank Taylor had proposed ‘Earth’s Plan,’ an early version of what is today called ‘Plate tectonics’ which was to be elaborated by the Canadian J. Tuzo Wilson of the University of Toronto in 1967 (see below). By 1970, geologists finally established that the ancient rocks of Georgian Bay are indeed of metamorphic origin, resulting from the intense pressures and high temperatures deep below colliding tectonic plates.</span>
+  <br></br>
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-5 w3-display-container w3-opacity-min" id="partone">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity title">The Birthplace of Plate Tectonics</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <span class="w3-center">Rock-dating techniques pioneered in the 1970s by Tom E. Krogh of the University of Toronto, using lead produced by the decay of unstable uranium isotopes trapped inside zircon crystals, spurred investigation of the ancient, rugged rocks surrounding Georgian Bay. Tuzo Wilson had a cottage on Go Home Bay and in 1967 proposed that continents are not fixed but drift, collide and break apart, with oceans opening and closing in a never-ending cycle, now called the Wilson Cycle. The Shield records key phases in the growth of the North American continent during successive Wilson Cycles. North America is now 70 times larger than it was 4.0 billion years ago and the rocks of Georgian Bay show how this happened. The geology of Georgian Bay is an excellent laboratory to showcase the processes of continent building, and the world-famous achievements of Wilson.</span>
+  <br></br>
+  <span>Krogh’s findings allowed precise dating of Georgian Bay’s ancient Shield rocks and validated Tuzo Wilson’s grand ideas of successive supercontinents, and the great age of planet Earth (4.56 billion years).</span>
+  <br></br>
+  <span>The rocks of Georgian Bay record the formation (and breakup) of no less than four supercontinents: Superia at 2.5 billion years ago, Nuna at 1.8, Rodinia at 1.1 billion and Pangea at about 300 million), which is exceptional globally.</span>
+  <br></br>
+  <span>Supercontinents result from violent tectonic collisions. The highly deformed Shield rocks, called gneisses, of the 30,000 Islands District, formed 30 km deep at the base of colliding tectonic plates during the building of Rodinia. Now exposed at surface by erosion they afford geologists a unique window into how continents glide across hotter, softer rocks of the mantle, and collide with other plates.</span>
+  <br></br>
+  <span>The rocks of the La Cloche Range are part of a ‘fold and thrust belt’ similar to today’s Rocky Mountains, formed 1.8 billion years ago during the Penokean Orogeny that built the Nuna supercontinent. They include hard pure white quartzites, which formed as sands on the beds of large rivers in a low oxygen atmosphere.</span>
+  <br></br>
+  <span>The distinctive red granite rocks of the Killarney area were intruded deep underground during the Penokean Orogeny and exposed by erosion.</span>
+  <br></br>
+  <span>A billion years ago, during the lifespan of Rodinia, the Georgian Bay area was part of the high Grenville mountains that formed a range extending from Mexico to Labrador; the world’s longest and tallest mountains, bigger than today’s Himalayas. </span>
+  <br></br>
+  <span>The high Grenville Mountains were eventually worn down to form the iconic rugged topography of the Shield which is referred to by geologists as a peneplain. While much modified by later glaciations, it is one of the oldest surviving landscapes on Earth; parts of it may be as old as 700 million years.</span>
+  <br></br>
+  <span>After the breakup of Rodinia, and the formation of the Canadian Shield peneplain, North America slowly drifted across the equator, collided with ancestral Africa to form the supercontinent Pangea. Warm inland seas flooded the low lying Shield leaving left fossil-rich limestones and ancient tropical reef mounds seen today on the limestone plains of the Bruce Peninsula and Manitoulin Island. Isolated patches of limestone survive on the Shield to the north, as so-called ‘outliers,’ most notably the Limestones Islands near Parry Sound.</span>
+  <br></br>
+</div>
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-6 w3-display-container w3-opacity-min" id="partone">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity title">Ice Age Legacy</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <span class="w3-center">For most for the past two millions years Canada has found been entombed under continental ice sheets more than 3 km thick, much like that of Antarctica and Greenland today. The Bay itself is an arm of Lake Huron and like all the other Great Lake basins, has been carved out by ancient ice sheets. Owen Sound and Parry Sound are deep-water glacially-carved basins.</span>
+  <br></br>
+  <span>During the retreat of the last (Laurentide) ice sheet the waters of the Great Lakes and Georgian Bay were dammed by ice blocking the Ottawa and St. Lawrence rivers creating the ‘Greater Lakes,’ represented by glacial Lake Algonquin in the Georgian Bay basin. Its ancient shoreline lies as much as 30 m above the modern level of Georgian Bay; the camp sites of Georgian Bay’s earliest inhabitants about 11,500 years ago, lay along its shores.</span>
+  <br></br>
+</div>
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-7 w3-display-container w3-opacity-min" id="partone">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity title">11,500 Years of Human Settlement and Culture</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <span class="w3-center">Georgian Bay is one of the longest settled regions in Canada.</span>
+  <br></br>
+  <span>Just as the last great ice sheet was thinning and melting back from Southern Canada, 11,500 years ago, hardy Paleo-Indians migrated into the Georgian Bay area, following migrating caribou. They discovered and mined chert along the base of the Niagara Escarpment near Meaford, and quartzite on Manitoulin Island, to make arrow heads and tools.</span>
+  <br></br>
+  <span>For more than four thousand years, Georgian Bay has been a major trade route between Algonquian and Iroquoian peoples when indigenous migratory Ojibwe-Ottawa hunter-gatherers on the Shield began to trade furs with densely-populated settled Huron (Wendat) communities growing maize on the rich farmland to the south.</span>
+  <br></br>
+  <span>Wyandot legends speak of the god Kitchikewana guarding the Bay’s water, throwing clods of earth to form the 30,000 islands of its eastern shore. His final resting place is commemorated Giant’s Tomb Island.</span>
+  <br></br>
+  <span>Indigenous Ojibwe recount great changes in climate in the Georgian Bay region. The Great Drying of the Spirit Lake relates a period of several thousand years when much of the floor of the Bay was exposed as global climate warmed and lake levels dropped by some 30 m throughout the Great Lakes. This is now known to have been approximately between about 7000-4000 years ago, when the Georgian Bay basin was occupied by the much smaller Lake Stanley, the ancestor of modern-day Georgian Bay. The same legends speak of the lake’s water ‘being ‘like tears,’ a reference to brackish water formed in a warmer drier global climate known as the ‘Hypsithermal.’</span>
+  <br></br>
+  <span>Georgian Bay as we know it today, finally came into existence about 4000 years ago with the onset of a cooler, wetter climate across Canada in response to a world-wide change in climate called the ‘Neoglacial’. Canada’s glaciers in the Rockies and the Arctic expanded at this time.</span>
+  <br></br>
+  <span>Early French explorers such as Samuel Champlain travelled through the area (1615-16) and overwintered, leaving detailed accounts of natural landscapes, wildlife, indigenous cultures and customs, naming the body of water now known as Georgian Bay, ‘La Mer douce’; the sweetwater sea.</span>
+  <br></br>
+  <span>The first European settlement was established at Sainte-Marie among the Hurons near present-day Midland, from 1639-1649 by Jesuit priests.</span>
+  <br></br>
+  <span>The Bay was a major transportation crossroads when French-Canadian voyageurs and the Hudson Bay Company used the French River as a marine highway to explore the continental interior and develop the Fur Trade.</span>
+  <br></br>
+  <span>Georgian Bay was the frontier between opposing American and British naval forces in the War of 1812, with a naval base built by the British at Penetanguishene which later became a stepping off point for Arctic explorers such as Franklin (1825).</span>
+  <br></br>
+  <span>After 1842, The Director of the Geological Survey of Canada, Sir William Edmond Logan, promoted settlement of the Shield around Georgian Bay, and the construction of colonization roads to Parry Sound and other settlements, to encourage European immigration. This was expanded under the Free Grants and Homestead Act of 1868.</span>
+  <br></br>
+  <span>Lakeside communities along the south shore of the Bay, such as Midland, Collingwood and Owen Sound, flourished in the late nineteenth century as railways were completed to the Bay, becoming a major destination for new settlers moving to western Canada by steamship.</span>
+  <br></br>
+  <span>The loss of the steamship Asia in 1882 near the entrance to Parry Sound, was Canada’s worst maritime disaster and inspired the charting of Georgian Bay and the establishment of the Canadian Hydrographic Survey in 1904, a national first which promoted recreational boating.</span>
+  <br></br>
+  <span>Georgian Bay holds a unique place in Canadian culture. The 1890s saw a major change in attitudes to wilderness and the Canadian Shield and after WW1, Georgian Bay became a focus for seasonal visitors and cottagers drawn to its waters, landscapes, and forests, now entrenched in Canadian literature and art, and what it means to be a Canadian.</span>
+  <br></br>
+  <span>Today, Georgian Bay is a nexus of Metis, English, and Indigenous communities, and large numbers of seasonal visitors; a meeting place for different perspectives and stories of its varied and inspiring landscapes, and what the Bay means to so many people. It is a place rich in stories and meaning.</span>
+  <br></br>
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-8 w3-display-container w3-opacity-min" id="partone">
+  <div class="w3-display-middle">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity title">The Future</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <span>A UNESCO Geopark showcasing the rocks, landscapes and cultures of Georgian Bay, supported by a year-round Geopark Interpretation Centre with appropriate research and educational facilities, will accelerate understanding of the Bay’s world class geologic record and stimulate further research.</span>
+  <br></br>
+  <span>Much of the activity of the planned Georgian Bay Geopark will be virtual, using the power of online technology platforms and media to take people world-wide on virtual field trips to places and landscapes they would otherwise never experience, ensuring a light footprint on sensitive pristine environments. </span>
+  <br></br>
+  <span>Georgian Bay Geopark will enhance environmentally sustainable economic activity and geotourism underscoring the importance of ongoing efforts by other organizations to protect and conserve its landscapes, waters, and ecosystems.</span>
+  <br></br>
+  <span>A UNESCO Geopark in Georgian Bay will further dialogue between communities, highlight indigenous cultural values, and promote respectful stewardship of the land.</span>
+  <br></br>
+</div>
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="index2.html#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-left w3-margin-right"></i>Home</a>
+
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+  <a href="index2.html#modules" class="w3-button w3-light-grey"><i class="fa fa-arrow-right w3-margin-right"></i>Modules</a>
+
+</footer>
+ 
+<script>
+//slideshow
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function accFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function accFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title>Planet Earth Online</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/sitePictures/C138a.jpg');
+    min-height: 400px;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-animate-top w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="online/#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="online/#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="online/#modules" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> MODULES</a>
+    <a href="online/#team" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> THE TEAM</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="online/#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="online/#modules" class="w3-bar-item w3-button" onclick="toggleFunction()">MODULES</a>
+    <a href="online/#team" class="w3-bar-item w3-button" onclick="toggleFunction()">THE TEAM</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id='mod1'>
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">Module 9</span>
+    <br>
+    <span class="w3-xlarge w3-text-white w3-wide">Pleistocene Glaciation</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">LEARNING OUTCOMES</h3>
+   <div class="w3-row-padding">
+      <div class="w3-half">
+        <p>Pleistocene glaciations molded and modified the landscape that we see today through repeated growth and decay of large continental ice sheets over the past 2 million years. This module describes the events surrounding the most recent glaciation when Southern Ontario was buried under more than a kilometre of ice.</p>
+    <ul style="list-style-type:disc">
+      <li>Relate land features we see today to the glacial history of Southern Ontario.</li>
+      <li>Describe the economic and industrial importance of glacial deposits.</li>
+    </ul>
+    </div>
+    <div class="w3-half">
+      <div class="slideshow-container">
+<br>
+<div class="mySlides fade">
+  <img src="/sitePictures/C4a.jpg" style="width:100%" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/sitePictures/N43a.jpg" style="width:100%" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/sitePictures/C58b.jpg" style="width:100%" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/sitePictures/N120d.jpg" style="width:100%" >
+</div>
+
+<div class="mySlides fade">
+  <img src="/sitePictures/S135b.jpg" style="width:100%" >
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+  <span class="dot" onclick="currentSlide(4)"></span> 
+  <span class="dot" onclick="currentSlide(5)"></span> 
+</div>
+  </div>
+  <div class="w3-large w3-center w3-padding-16">
+  <p><i class="fa fa-book"></i> <a href="insguides/insguide_9.pdf" target="_blank">Instructor Guide</a></p>
+  <p><i class="fa fa-archive"></i> <a href="mailto:planetearthmodules@gmail.com?subject=Request for Module 9 SCORM" target="_blank">Request SCORM Package</a></p>
+  <p><i class="fa fa-desktop"></i> <a href="demos/mod_9" target="_blank">Live Demo</a></p>
+</div>
+      </div>
+  <p class="w3-large w3-center w3-padding-16">Copyright:</p>
+    <div class= "w3-center">
+      <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+      <br /><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>
+    </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#mod1" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+</footer>
+ 
+<script>
+//slideshow
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

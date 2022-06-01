@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title>Georgian Bay Aspiring Geopark</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/unesco/mod2banner.jpg');
+    min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/unesco/parallax/P1150042.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/unesco/parallax/P1150155.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
+.nickimage{width:100%;  z-index: -1; }
+.portraitimage{width:100%;}
+
+.bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 0;
+}
+
+.bottom-left-right {
+  position: absolute;
+  bottom: 10px;
+  left: 47px;
+  z-index: 0;
+}
+
+.badge{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+   width:32px;
+}
+
+.bio { padding-left: 32px;}
+
+@media screen and (max-width: 600px) {
+  .nickimage{aspect-ratio: 520 / 293; object-fit: cover; object-position: 20% 10%;}
+  .bio { padding-top: 20px;}
+
+}
+
+
+.portrait { position: relative;}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image:hover {
+  opacity: 0.8;
+}
+
+.lnewstitle {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}
+
+.lnewstext {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+
+.ddbutton{
+    padding: 0;
+    border: none;
+    background: none;
+    text-decoration: none;
+}
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-animate-top w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/index.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="#people" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> THE TEAM</a>
+    <a href="/news_events.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS & EVENTS</a>
+    <a href="#modules" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> RESOURCES</a>
+    <a href="#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rocket"></i> EXPLORE ONTARIO</a>
+    <a href="/sponsors.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-money"></i> SPONSORS</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#people" class="w3-bar-item w3-button" onclick="toggleFunction()">THE TEAM</a>
+    <a href="/news_events.html" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS & EVENTS</a>
+    <a href="#modules" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+    <a href="#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">EXPLORE</a>
+    <a href="/sponsors.html" class="w3-bar-item w3-button" onclick="toggleFunction()">SPONSORS</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">GEORGIAN BAY <span class="w3-hide-small">ASPIRING GEOPARK</span></span>
+    <br></br>
+    <span></span>
+  </div>
+
+</div>
+
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h2 class="w3-center">ABOUT THE PROJECT</h2>
+  <br></br>
+   <div>
+       <h3>What is a UNESCO Geopark?</h3>
+       <p>UNESCO’s Global Geopark program highlights outstanding regions around the planet that illustrate significant chapters in Earth’s history. The scheme was established in 2001, and there are now 169 such parks worldwide and five in Canada, forming a global network.</p>
+   </div>
+   <div>
+       <h3>What do they do?</h3>
+       <p>The purpose is to promote further geological research, to heighten public outreach and literacy in Earth science, showcase different cultural uses of landscapes and geological settings in the course of human history, and to develop ecologically-sustainable geotourism for the benefit of local communities.</p>
+   </div>
+   <div>
+       <h3>What don’t they do?</h3>
+       <p>Geoparks are not conventional parks like National or Provincial parks, or Provincial Nature Reserves or Conservation Reserves that have fixed geographic boundaries or entrance fees and restrictions on activities. A Geopark does not legally preserve any area, but instead, provides a thematic umbrella for showcasing the importance of a region’s geology to the public. By increasing public awareness of the geological significance of an area, they promote conservation efforts of other organizations.</p>
+   </div>
+   <div>
+       <h3>Why Georgian Bay? </h3>
+       <p>Georgian Bay exceeds all the criteria for designation as a UNESCO Global Geopark and would be Canada’s largest (more than 15,000 km2). Its landscapes and culture are unique in Canada and help shaped a distinct national identity after 1867, as the young country slowly learned to embrace its harsh uncompromising heartland; the rugged Canadian Shield which defines the eastern, and northern shores of Georgian Bay. To the west and south, much younger rocks create very different landscapes typical of Southern Ontario, such that Georgian Bay straddles the boundary between two very different worlds and landscapes. The formation and erosion of ancient supercontinents, massive mountain ranges, ancient ice ages and giant rivers, the nature of Earth’s early atmospheres, and the crash of giant meteorites, are too, recorded in the rocks that surround Georgian Bay.</p>
+   </div>
+   <br></br>
+   <a href="/aboutpage.html" class="w3-button w3-block w3-black w3-center-align">Read More</a>
+
+</div>
+
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min "id="people">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide w3-padding-large w3-black">THE TEAM</span>
+  </div>
+</div>
+
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" >
+<div id="nick-eyles">
+  <h2>Lorem Ipsunm</h2>
+  <div class="w3-row-padding">
+      <div class="w3-half">
+  <div class="portrait"><img class= "nickimage" src="/unesco/avatar.png">
+    <a class= "bottom-left" href="https://scholar.google.com/citations?user=yw76yhMAAAAJ&hl=en&oi=ao" target="_blank"><img class="badge" src="/content/GS.png"></a>
+    <a class= "bottom-left-right" href="https://www.amazon.ca/s?k=nick+eyles&gclid=CjwKCAiAs92MBhAXEiwAXTi250Rz19d2eTNuOdl50LbBUUXE4uaBMeqU6J-BhunkmPRrtSP-6YDC8BoCQE0QAvD_BwE&hvadid=208405522788&hvdev=c&hvlocphy=1002385&hvnetw=g&hvqmt=e&hvrand=6413706241163808645&hvtargid=kwd-309173268945&hydadcr=2404_9638389&tag=googcana-20&ref=pd_sl_2ibm8ho2df_e" target="_blank"><img class="badge" src="/content/Bookicon.png"></a>
+  </div>
+</div>
+
+      <div class="w3-half">
+  <div class="bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et sagittis nulla. Aliquam in tempor nibh. Nunc rhoncus imperdiet leo, quis laoreet sapien tincidunt nec. Ut rutrum sollicitudin nulla, ut viverra risus. Donec luctus tincidunt felis, sit amet ultricies enim feugiat in. In porta at dolor id vulputate. Integer ac volutpat sem. Sed neque enim, pretium id diam id, commodo dapibus nibh. Fusce blandit sapien vel quam egestas fermentum. Quisque id aliquam nibh. Fusce semper elementum elementum. Ut elementum facilisis arcu iaculis viverra. Nulla ultrices et libero id pellentesque. Aliquam dignissim ante dui, nec consectetur dui imperdiet eget. Curabitur vel aliquet lectus. Cras eget ex aliquam ex lacinia consectetur ac sed augue. Nulla dictum, odio pharetra porta auctor, quam mauris fermentum purus, condimentum elementum arcu nulla at ante. Nunc molestie ultricies nunc non aliquet. Duis efficitur quam erat, ac pulvinar arcu varius quis.</div>
+</div>
+</div>
+</div>
+</div>
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="modules">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide w3-padding-large w3-black">RESOURCES</span>
+  </div>
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" >
+  <button onclick="accFunction('planetearthmods')" class="w3-button w3-block w3-black w3-center-align">Georgian Bay Geopark Educational Resources for Teachers and the Public</button>
+
+<div id="planetearthmods" class="w3-hide w3-show">
+
+    <br></br>
+
+<ul id="rig">
+    <li>
+        <a class="rig-cell" href="mod1.html">
+            <img class="rig-img" src="/unesco/bannericons/mod1banner.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 1: Overview of the Georgian Bay and the Case for Geoconservation</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod2_1.html">
+            <img class="rig-img" src="/unesco/bannericons/mod2banner.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 2: Geology Fundamentals</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod3_1.html">
+            <img class="rig-img" src="/unesco/bannericons/mod3banner.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 3: The Paleoproterozoic Southern Province</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod4_1.html">
+            <img class="rig-img" src="/unesco/bannericons/mod4banner.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 4: Rodinia and the Grenville Province</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod5_1.html">
+            <img class="rig-img" src="/unesco/bannericons/mod5banner.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 5: The Paleozoic Platform</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod6_1.html">
+            <img class="rig-img" src="/unesco/bannericons/mod6banner.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 6: Glacial History of Georgian Bay</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod7_1.html">
+            <img class="rig-img" src="/unesco/bannericons/mod7banner.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 7: The Niagara Escarpment</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" href="mod8_1.html">
+            <img class="rig-img" src="/unesco/bannericons/mod8banner.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Module 8: The Holocene of Georgian Bay</span>
+        </a>
+    </li>
+</ul>
+</div>
+<br>
+
+
+</div>
+
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" >
+  <button onclick="accFunction('vfts')" class="w3-button w3-block w3-black w3-center-align">Georgian Bay Virtual Field Trips</button>
+
+<div id="vfts" class="w3-hide w3-show">
+
+    <br></br>
+
+<ul id="rig">
+    <li>
+        <a class="rig-cell" target = "blank" href="https://planetrocks.utsc.utoronto.ca/trips/Georgian_Bay_Overview.html">
+            <img class="rig-img" src="/unesco/bannericons/vft1.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">The Georgian Bay Overview</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" target = "blank" href="https://planetrocks.utsc.utoronto.ca/trips/Paleozoic_Coast.html">
+            <img class="rig-img" src="/unesco/bannericons/vft2.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">The Paleozoic Coast of Georgian Bay</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" target = "blank" href="https://planetrocks.utsc.utoronto.ca/trips/La_Cloche_Range.html">
+            <img class="rig-img" src="/unesco/bannericons/vft3.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">La Cloche Range</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" target = "blank" href="https://planetrocks.utsc.utoronto.ca/trips/Grenville_Coast.html">
+            <img class="rig-img" src="/unesco/bannericons/vft4.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">The Grenville Coast of Georgian Bay</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" target = "blank" href="https://planetrocks.utsc.utoronto.ca/trips/Glacial_Georgian_Bay.html">
+            <img class="rig-img" src="/unesco/bannericons/vft5.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">Glacial Georgian Bay</span>
+        </a>
+    </li>
+    <li>
+        <a class="rig-cell" target = "blank" href="https://planetrocks.utsc.utoronto.ca/trips/Bruce_Peninsula.html">
+            <img class="rig-img" src="/unesco/bannericons/vft6.jpg">
+            <span class="rig-overlay"></span>
+            <span class="rig-text">The Bruce Peninsula</span>
+        </a>
+    </li>
+</ul>
+</div>
+<br>
+
+
+</div>
+
+<div class="w3-content w3-container w3-padding-64" >
+    <button onclick="accFunction('resources')" class="w3-button w3-block w3-black w3-center-align">Explore Ontario</button>
+
+    <div id="resources" class="w3-hide w3-show">
+
+<!-- Container (About Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="resources">
+       <div class="w3-row-padding">
+          <div class="w3-half w3-padding">
+            <a href="/online" target="_blank"><img class="image" src="/content/PlanetEarthOnline.jpg" alt="Planet Earth Online" style="width:100%;"></a>
+            <p>In 10 fully online modules, students review the history and workings of the planet, the geological and environmental history of Ontario, and show how the economic and social development of the province reflects its broader environmental setting and history.</p>
+        </div>
+        <div class="w3-half w3-padding">
+            <a href="https://planetrocks.utsc.utoronto.ca/" target="_blank"><img class="image" src="/content/PlanetRocks.jpg" alt="Let's Rock Ontario" style="width:100%;"></a>
+            <p>Ontario has one of the best backyards in the world; its rocks and landscapes record a fascinating 3 billion year long geologic history. Let's Rock Ontario is a guide to more than 500 sites from the Canadian Shield of the north to the limestones plains and glaciated lowlands of the south that reveal Ontario’s outdoors, its rocks, fossils and natural attractions.</p>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+<script>
+//slideshow
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function accFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+function accFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+
+</script>
+
+</body>
+</html>

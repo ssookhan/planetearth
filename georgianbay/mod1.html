@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<title>Georgian Bay Aspiring Geopark</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url('/unesco/mod1banner.jpg');
+    min-height: 100%;
+}
+
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+    background-image: url("/unesco/parallax/P1190293.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("/unesco/parallax/P1070344.jpg");
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-4 {
+    background-image: url("/unesco/parallax/IMG_1764.jpg");
+    min-height: 400px;
+}
+
+
+
+
+.bgimg-5 {
+    background-image: url("/unesco/parallax/P1190509.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1 {
+        background-attachment: scroll;
+    }
+}
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        background-attachment: scroll;
+    }
+}
+
+.nickimage{width:100%;  z-index: -1; }
+.portraitimage{width:100%;}
+
+.bottom-left {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  z-index: 0;
+}
+
+.bottom-left-right {
+  position: absolute;
+  bottom: 10px;
+  left: 47px;
+  z-index: 0;
+}
+
+.badge{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
+   width:32px;
+}
+
+.bio { padding-left: 32px;}
+
+@media screen and (max-width: 600px) {
+  .nickimage{aspect-ratio: 520 / 293; object-fit: cover; object-position: 20% 10%;}
+  .bio { padding-top: 20px;}
+
+}
+
+
+.portrait { position: relative;}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.image:hover {
+  opacity: 0.8;
+}
+
+.lnewstitle {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 1; /* number of lines to show */
+           line-clamp: 1; 
+   -webkit-box-orient: vertical;
+}
+
+.lnewstext {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+.previous {
+  position: relative;
+  left: 0px;
+
+}
+
+.next {
+  position: relative;
+  right: 0px;
+}
+
+.title{
+  display: inline-block;
+}
+
+
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-card w3-animate-top w3-white" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="/index2.html" class="w3-bar-item w3-button">HOME</a>
+    <a href="/index2.html#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-globe"></i> ABOUT</a>
+    <a href="/index2.html#people" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-users"></i> THE TEAM</a>
+    <a href="/news_events.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-newspaper-o"></i> NEWS & EVENTS</a>
+    <a href="/index2.html#modules" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> RESOURCES</a>
+    <a href="/index2.html#resources" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-rocket"></i> EXPLORE ONTARIO</a>
+    <a href="/sponsors.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-money"></i> SPONSORS</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="index2.html#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="index2.html#people" class="w3-bar-item w3-button" onclick="toggleFunction()">THE TEAM</a>
+    <a href="/news_events.html" class="w3-bar-item w3-button" onclick="toggleFunction()">NEWS & EVENTS</a>
+    <a href="index2.html#modules" class="w3-bar-item w3-button" onclick="toggleFunction()">RESOURCES</a>
+    <a href="index2.html#resources" class="w3-bar-item w3-button" onclick="toggleFunction()">EXPLORE</a>
+    <a href="/sponsors.html" class="w3-bar-item w3-button" onclick="toggleFunction()">SPONSORS</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id='mod1'>
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide w3-padding-large w3-black">Module 1</span>
+    <br></br>
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity title">Overview of the Georgian Bay and the Case for Geoconservation</span>
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">LEARNING OUTCOMES</h3>
+   <div class="w3-row-padding">
+      <div>
+    <ul style="list-style-type:none">
+      <li>Locate major land features of the Georgian Bay.</li>
+      <li>Describe the basic geological structure of the Bay and how it relates to major physiographic and ecological divisions.</li>
+      <li>Outline why the Georgian Bay is worthy of geoconservation.</li>
+      <br></br>
+      <li>Key terms: geodiversity, geologic provinces, physiology, archipelago, escarpment, Group of Seven, ANSI, Precambrian, crust giga-annum, ecotourism, geoconservation.</li>
+    </ul>
+    </div>
+</div>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min" id="partone">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide w3-center w3-padding-large w3-black">Part One</span>
+  </div>
+</div>
+
+
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">Overview of Georgian Bay</h3>
+  <br></br>
+  <span class="w3-center">In many ways, the Georgian Bay is the playground of southern Ontario. Being only about 2 hours from Toronto at its closest point, it is the perfect place for short weekend getaways, and also longer cottage vacations centered around the exploration of this supernatural landscape. In particular, visitors take part in numerous recreational activities like pleasure crafting, beach-going, canoeing, hiking, camping, RVing, painting, rock-climbing, scuba diving, and skiing. </span>
+  <br></br>
+  <span>The Bay and its surroundings are celebrated for unusual or exceptional land features like the world's longest freshwater beach at Wasaga Beach, and the world's largest freshwater archipelago at the 30,000 islands. UNESCO (United Nations Educational, Scientific, and Cultural Organization) has twice recognized the regions internationally significant ecological communities by creating the Georgian Bay Biosphere Reserve and the Niagara Escarpment Biosphere Reserve. These two biosphere reserves sit on opposite sides of the Bay and reflect the Bay's position straddling the boundary between boreal forest to the north and mixed-wood plains to the south.</span>
+  <br></br>
+  <span>Moreover, the bay sits at the crossroads of cultures and historical events, again by virtue of its diversified natural resources. The region was home to hardy Paleo-Indian and Early Archaic hunter-gatherers following migratory Caribou herds some 11,000 years ago whom quarried tough stones like flint from the Niagara Escarpment, and quartzite from the La Cloche Range.  By 2500 years ago, distinct cultures on each opposing shoreline, with access to different resources from each other, had developed trade relationships exchanging animal pelts for maize. At the time of European contact, these were the Anishinaabeg peoples living as hunter-gatherers on the Shield, and the peoples of the Wendat Confederacy who farmed the deep rich soils along the southern margin of the Bay. During the days of the fur trade, the French River was the portal between the Ottawa River and Saint Lawrence Valley and the open waters of the Great Lakes. Alliances between the French fur traders ('Voyageurs') and the Huron/Wendat and Algonquin people eventually contributed to the so-called 'Beaver Wars' and disastrous conflict with neighbouring Iroquois (supported by the Dutch and English) and dispersal of the Wendat Confederacy. The selection of the Penetanguishene Harbour as an ideal naval base by the British, by virtue of it's deep and protected waters, meant that the Georgian Bay was contested once again during the War of 1812 between the Americans and the British.</span>
+  <br></br>
+  <span>Each of the recreational activities, the 'ecological' regions, and the 'historical' events noted above owe their existence to the underlying Geology of the Georgian Bay. It is the geology that creates the patchwork of landscapes for which the Bay is so appreciated. Yet the natural history of the bay and the events that lead to the creation and shaping of the landscape and its resources remains relatively under-reported. In this module, we will look at the overall geological story of the Georgian Bay, and discuss why this region is worthy of new 'geoconservation' efforts in honour of its geological heritage and diversity.</span>
+  <br></br>
+  <span>Let's start by watching an overview of the Bay's main geological regions. Keep this in mind as we progress through the course. </span>
+  <br></br>
+  <div class="container">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/SC017LJHE3s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min "id="parttwo">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide w3-padding-large w3-black">Part Two</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">Visiting Georgian Bay: Ecotourism</h3>
+  <br></br>
+  <div class="container">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tjWxuTtH44U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min "id="partthree">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide w3-padding-large w3-black">Part Three</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">Geological Diversity and Heritage</h3>
+  <br></br>
+  <div class="container">
+  <iframe class="responsive-iframe" src="https://www.youtube.com/embed/SlNP28N4NBw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-5 w3-display-container w3-opacity-min "id="vft">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide w3-padding-large w3-black title w3-center">Self Guided Learning: Virtual Field Trip</span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64 w3-center">
+  <a href="https://planetrocks.utsc.utoronto.ca/trips/Georgian_Bay_Overview.html" target="blank" class="w3-padding-large w3-black w3-xlarge w3-wide title"> The Georgian Bay Overview<i class="fa fa-space-shuttle"></i></a>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+
+  <a href="index2.html#modules" class="w3-button w3-light-grey"><i class="fa fa-th w3-margin-right"></i>All Modules</a>
+
+  <a href="#mod1" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+
+  <a href="mod2_1.html" class="w3-button w3-light-grey"><i class="fa fa-arrow-right w3-margin-right"></i>Next Module</a>
+
+</footer>
+ 
+<script>
+//slideshow
+var slideIndex = 0;
+showSlides();
+
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
